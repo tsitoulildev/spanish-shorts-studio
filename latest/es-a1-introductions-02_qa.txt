@@ -1,0 +1,15 @@
+es-a1-introductions-02 (mixed): 30.1 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.5 dBFS, silence 14.5 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
+INFO clip hook [en] match 1.00: wanted 'Ask and say where you are from. Three phrases.' heard 'Ask and say where you are from. Three phrases.'
+INFO clip p01_q [en] match 1.00: wanted 'Where are you from?' heard 'Where are you from?'
+INFO clip p01_a [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
+INFO clip p02_q [en] match 1.00: wanted 'I'm from Greece' heard 'I'm from Greece.'
+INFO clip p02_a [es] match 0.92: wanted 'Soy de Grecia.' heard 'Soy Derecia.'
+INFO clip p03_q [en] match 1.00: wanted 'I live in Athens' heard 'I live in Athens.'
+INFO clip p03_a [es] match 0.96: wanted 'Vivo en Atenas.' heard 'Vió en Atenas.'
+INFO clip d01 [es] match 0.86: wanted 'Hola. ¿De dónde sos?' heard 'De la, de donde sos?'
+INFO clip q01_ask [en] match 1.00: wanted 'You live in Athens. What do you say?' heard 'You live in Athens, what do you say?'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
+WARN clip d02 [es] match 0.76: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy Edrecia.  ¡Ios!'
+WARN clip q01_ans [es] match 0.75: wanted 'Vivo en Atenas.' heard '¡Bionatenas!'
+QA: PASS (with warnings)

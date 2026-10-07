@@ -1,0 +1,15 @@
+[es/clear/A] ¿Cómo te llamás?
+[en/fast/A] Introduce yourself. Four phrases.
+[en/fast/A] What is your name?
+[es/clear/A] ¿Cómo te llamás?
+[en/fast/A] My name is Ana
+[es/clear/A] Me llamo Ana.
+[en/fast/A] And you?
+[es/clear/A] ¿Y vos?
+[en/fast/A] Likewise
+[es/clear/A] Igualmente.
+[es/clear/A] Hola. ¿Cómo te llamás?
+[es/clear/B] Me llamo Ana. ¿Y vos?
+[en/fast/A] They say “Mucho gusto.” Your reply?
+[es/clear/A] Igualmente.
+[en/fast/A] Say them out loud. Part two is next.

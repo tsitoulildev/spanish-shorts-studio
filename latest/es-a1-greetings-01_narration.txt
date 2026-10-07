@@ -1,0 +1,15 @@
+[es/clear/A] Buenos días.
+[en/fast/A] Stop saying only “Hola”. Four greetings.
+[en/fast/A] Hello
+[es/clear/A] Hola.
+[en/fast/A] Good morning
+[es/clear/A] Buenos días.
+[en/fast/A] Good afternoon
+[es/clear/A] Buenas tardes.
+[en/fast/A] Good evening / Good night
+[es/clear/A] Buenas noches.
+[es/clear/A] Buenas tardes.
+[es/clear/B] Hola. Buenas tardes.
+[en/fast/A] It is nine at night. What do you say?
+[es/clear/A] Buenas noches.
+[en/fast/A] Say them out loud. Part two is next.

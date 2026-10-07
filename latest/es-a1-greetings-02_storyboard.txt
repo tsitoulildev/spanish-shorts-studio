@@ -1,0 +1,28 @@
+es-a1-greetings-02  |  Spanish Greetings, part 2  |  hook: Meet someone in Spanish. Four phrases.
+
+  0.0s  card 00 cold      es/A: Mucho gusto.
+  1.3s  card 01 hook      en/A: Meet someone in Spanish. Four phrases.
+  4.1s  card 02 phrase_q  en/A: Nice to meet you
+  5.9s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.6s  card 03 phrase_a  es/A: Mucho gusto.
+  7.7s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.5s  card 04 phrase_q  en/A: How are you?
+ 10.9s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 11.6s  card 05 phrase_a  es/A: ¿Cómo estás?
+ 12.7s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 14.5s  card 06 phrase_q  en/A: I'm fine, thank you
+ 16.8s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.5s  card 07 phrase_a  es/A: Estoy bien, gracias.
+ 18.9s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 21.2s  card 08 phrase_q  en/A: See you later
+ 22.7s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 23.4s  card 09 phrase_a  es/A: Hasta luego.
+ 24.4s  card 09 phrase_a  (silent 1.8s: viewer's turn)
+ 26.2s  card 10 dialogue  es/A: Hola. Mucho gusto.
+ 27.9s  card 11 dialogue  es/B: Mucho gusto. ¿Cómo estás?
+ 29.9s  card 12 quiz_q    en/A: “¿Cómo estás?” How do you answer?
+ 32.6s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 34.6s  card 13 quiz_a    es/A: Estoy bien, gracias.
+ 36.5s  card 14 outro     en/A: Say them out loud. Follow for more.
+
+estimated length: 39.6 s (limit 40 s)

@@ -1,0 +1,24 @@
+es-a1-introductions-02  |  Introduce yourself, part 2  |  hook: Ask and say where you are from. Three phrases.
+
+  0.0s  card 00 cold      es/A: ¿De dónde sos?
+  1.8s  card 01 hook      en/A: Ask and say where you are from. Three phrases.
+  5.7s  card 02 phrase_q  en/A: Where are you from?
+  7.6s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  8.3s  card 03 phrase_a  es/A: ¿De dónde sos?
+  9.8s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 12.0s  card 04 phrase_q  en/A: I'm from Greece
+ 13.9s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 14.6s  card 05 phrase_a  es/A: Soy de Grecia.
+ 16.1s  card 05 phrase_a  (silent 2.2s: viewer's turn)
+ 18.3s  card 06 phrase_q  en/A: I live in Athens
+ 20.2s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.9s  card 07 phrase_a  es/A: Vivo en Atenas.
+ 22.4s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 24.6s  card 08 dialogue  es/A: Hola. ¿De dónde sos?
+ 26.7s  card 09 dialogue  es/B: Soy de Grecia. ¿Y vos?
+ 29.2s  card 10 quiz_q    en/A: You live in Athens. What do you say?
+ 32.8s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 34.8s  card 11 quiz_a    es/A: Vivo en Atenas.
+ 36.6s  card 12 outro     en/A: Say them out loud. Follow for more.
+
+estimated length: 39.8 s (limit 40 s)

@@ -1,0 +1,15 @@
+[es/clear/A] Mucho gusto.
+[en/fast/A] Meet someone in Spanish. Four phrases.
+[en/fast/A] Nice to meet you
+[es/clear/A] Mucho gusto.
+[en/fast/A] How are you?
+[es/clear/A] ¿Cómo estás?
+[en/fast/A] I'm fine, thank you
+[es/clear/A] Estoy bien, gracias.
+[en/fast/A] See you later
+[es/clear/A] Hasta luego.
+[es/clear/A] Hola. Mucho gusto.
+[es/clear/B] Mucho gusto. ¿Cómo estás?
+[en/fast/A] “¿Cómo estás?” How do you answer?
+[es/clear/A] Estoy bien, gracias.
+[en/fast/A] Say them out loud. Follow for more.

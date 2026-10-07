@@ -1,0 +1,13 @@
+[es/clear/A] ¿De dónde sos?
+[en/fast/A] Ask and say where you are from. Three phrases.
+[en/fast/A] Where are you from?
+[es/clear/A] ¿De dónde sos?
+[en/fast/A] I'm from Greece
+[es/clear/A] Soy de Grecia.
+[en/fast/A] I live in Athens
+[es/clear/A] Vivo en Atenas.
+[es/clear/A] Hola. ¿De dónde sos?
+[es/clear/B] Soy de Grecia. ¿Y vos?
+[en/fast/A] You live in Athens. What do you say?
+[es/clear/A] Vivo en Atenas.
+[en/fast/A] Say them out loud. Follow for more.
