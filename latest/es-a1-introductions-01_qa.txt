@@ -1,17 +1,17 @@
-es-a1-introductions-01 (mixed): 32.1 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
-INFO clip cold [es] match 0.86: wanted '¿Cómo te llamás?' heard '¿Cómo te da más?'
+es-a1-introductions-01 (mixed): 32.1 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] match 0.93: wanted '¿Cómo te llamás?' heard '¿Cómo te la más?'
 INFO clip hook [en] match 0.98: wanted 'Introduce yourself. Four phrases.' heard 'Introduce yourself for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What is your name?' heard 'What is your name?'
-INFO clip p01_a [es] match 0.93: wanted '¿Cómo te llamás?' heard '¿Cómo te la más?'
+INFO clip p01_a [es] match 0.86: wanted '¿Cómo te llamás?' heard '¿Cómo te da más?'
 INFO clip p02_q [en] match 0.97: wanted 'My name is Ana' heard 'My name is Anna.'
 INFO clip p02_a [es] match 0.92: wanted 'Me llamo Ana.' heard 'Me llamo Hanna.'
 INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'And you?' heard 'And you.'
-INFO clip p03_a [es] too short for a reliable check (match 0.89): wanted '¿Y vos?' heard 'y os.'
+INFO clip p03_a [es] too short for a reliable check (match 0.75): wanted '¿Y vos?' heard 'Yos.'
 INFO clip p04_q [en] too short for a reliable check (match 1.00): wanted 'Likewise' heard 'Likewise'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
-INFO clip d02 [es] match 0.87: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamo Dana, y adios.'
+INFO clip d01 [es] match 0.89: wanted 'Hola. ¿Cómo te llamás?' heard 'Tola, ¿cómo te amas?'
+INFO clip d02 [es] match 0.86: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamó Ana.  ¡Dios!'
 INFO clip q01_ask [en] match 1.00: wanted 'They say “Mucho gusto.” Your reply?' heard 'They say Mucho Gusto, your reply.'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
-WARN clip d01 [es] match 0.79: wanted 'Hola. ¿Cómo te llamás?' heard '¡Telo! ¿Cómo te la más?'
-QA: PASS (with warnings)
+QA: PASS
