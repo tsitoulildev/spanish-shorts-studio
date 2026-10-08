@@ -19,7 +19,7 @@ Goal: the channel runs itself; a human only approves. Nothing here needs a paid 
 4. Run `check` until it prints `CHECK: OK` with no WARN; run `storyboard`, read it, answer the reviewer checklist honestly. Run the unit tests.
 5. Commit only `lessons/<id>.json` and `docs/LANGUAGE_REVIEW.md`; push the branch. The push starts the build in GitHub Actions.
 6. Read the result from the `renders` branch (`git fetch origin renders`): `latest/report.txt`, `latest/<id>_storyboard.txt`, `latest/<id>_cards.png`. Look at the picture. If QA FAILs or the flow is wrong, fix the lesson file and push again (at most 3 rounds), then stop and open an issue "Lesson <id> needs help" with what is wrong.
-7. Open a pull request from `lesson/<id>` to `main`: body = storyboard, the QA lines, the checklist answers, and the paths of the video and card sheet on `renders`. Never merge it. `gh pr create` does not work in these sessions (GraphQL is blocked): write the title, head, base and body to a JSON file and run `gh api repos/OWNER/REPO/pulls --method POST --input file.json`.
+7. Open a pull request from `lesson/<id>` to `main`: body = storyboard, the QA lines, the checklist answers, and the paths of the video and card sheet on `renders`. The writer never merges: the `Auto-merge lessons` workflow does (see below). `gh pr create` does not work in these sessions (GraphQL is blocked): write the title, head, base and body to a JSON file and run `gh api repos/OWNER/REPO/pulls --method POST --input file.json`.
 
 ## Guardrails (hard)
 - The writer touches only `lessons/<id>.json` and `docs/LANGUAGE_REVIEW.md`. Any other changed file means the run is wrong: stop and report.
@@ -27,8 +27,11 @@ Goal: the channel runs itself; a human only approves. Nothing here needs a paid 
 - One lesson per run. No run publishes anything to YouTube.
 - If a gate fails and it cannot be fixed within 3 rounds, an issue is opened. The run never lowers a rule to pass.
 
+## Auto-merge (3 lessons a day without a daily click)
+`.github/workflows/automerge-lessons.yml` runs `scripts/automerge_lesson.sh` when a lesson Build succeeds or a lesson pull request is opened. It merges only when ALL of these hold: branch `lesson/<id>`; the PR changes exactly `lessons/<id>.json` and `docs/LANGUAGE_REVIEW.md`; the Build succeeded on the PR's latest commit; the report for that commit (`reports/<sha>.txt` on `renders`) says within 40 s, `QA: PASS` and no FAIL/WARN/BLOCK. It then starts `publish.yml` for that lesson (a merge by the workflow token does not trigger it by itself). Uploads are PRIVATE. If any condition fails, the PR stays open for a human.
+
 ## What the human does
-Watch the video (linked in the pull request), listen to the Spanish, then merge (approve) or close with a comment (reject). That is the whole job. The merged file is what gets published, manually.
+Make the videos public in YouTube Studio when happy with them. To stop automatic approval, disable the `Auto-merge lessons` workflow (Actions tab); then merge pull requests by hand, which uploads as before.
 
 ## Known limits (said plainly)
 - The QA gate measures sound and picture, not whether the story makes sense; the storyboard, card sheet and checklist exist for that, and the final judge is the human.

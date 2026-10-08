@@ -1,0 +1,48 @@
+name: Auto-merge lessons
+
+# A lesson pull request (branch lesson/<id>, only the lesson file + review log changed) is merged by this workflow once the
+# Build succeeded for its latest commit and the report says: within 40 s, QA PASS, no FAIL/WARN. Merging is the approval that
+# uploads the video to YouTube as PRIVATE; a human makes it public in YouTube Studio.
+# Anything that does not meet every condition is left open for a human (see scripts/automerge_lesson.sh).
+on:
+  workflow_run:
+    workflows: ["Build lessons"]
+    types: [completed]
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+concurrency:
+  group: automerge-lessons
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: >-
+      (github.event_name == 'workflow_run'
+        && github.event.workflow_run.conclusion == 'success'
+        && github.event.workflow_run.event == 'push'
+        && github.event.workflow_run.head_repository.full_name == github.repository
+        && startsWith(github.event.workflow_run.head_branch, 'lesson/'))
+      ||
+      (github.event_name == 'pull_request'
+        && github.event.pull_request.head.repo.full_name == github.repository
+        && startsWith(github.event.pull_request.head.ref, 'lesson/'))
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - name: Check the gates and merge
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.event.workflow_run.head_branch || github.event.pull_request.head.ref }}
+          SHA: ${{ github.event.workflow_run.head_sha || github.event.pull_request.head.sha }}
+        run: bash scripts/automerge_lesson.sh
