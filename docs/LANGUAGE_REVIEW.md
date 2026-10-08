@@ -21,6 +21,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | introductions-01 | ¿Cómo se llama? (usted, in the tip) | correct, polite form for older people |
 | introductions-02 | ¿De dónde sos? | correct voseo ("eres" is the tú form; stress on "sos" is natural) |
 | introductions-02 | Soy de Grecia. / Vivo en Atenas. | correct; "Atenas" is the Spanish name of Athens; de = origin, en = current place, said in the lesson |
+| politeness-01 | Por favor. / Gracias. | correct and universal; "muchas gracias" in the tip is also correct |
+| politeness-01 | De nada. | correct; literally "it is nothing", the standard reply to "Gracias" everywhere |
+| politeness-01 | Perdón. | correct for sorry and excuse me; Argentines also say "Disculpá", not taught |
+| politeness-01 | Hola. Gracias. / De nada. Hasta luego. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
