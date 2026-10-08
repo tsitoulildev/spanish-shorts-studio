@@ -25,6 +25,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | politeness-01 | De nada. | correct; literally "it is nothing", the standard reply to "Gracias" everywhere |
 | politeness-01 | Perdón. | correct for sorry and excuse me; Argentines also say "Disculpá", not taught |
 | politeness-01 | Hola. Gracias. / De nada. Hasta luego. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson |
+| politeness-02 | No entiendo. | correct and universal; the standard way to say you do not follow |
+| politeness-02 | Hablo un poco de español. | correct and natural; "un poco de" is the standard way to say a little |
+| politeness-02 | Más despacio, por favor. | correct and natural everywhere; the ellipsis of the verb is normal in requests |
+| politeness-02 | Perdón. No entiendo. / Más despacio, por favor. (dialogue) | correct; every phrase was met in this or an earlier lesson (Perdón) |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

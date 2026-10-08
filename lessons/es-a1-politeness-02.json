@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-politeness-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Polite survival words, part 2",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "No entiendo.",
+      "translation": "I don't understand.",
+      "pronunciation": "noh ehn-TYEHN-doh",
+      "when": "Say it calmly, with a smile. People will slow down and help."
+    },
+    {
+      "target": "Más despacio, por favor.",
+      "translation": "Slower, please.",
+      "pronunciation": "mahs dehs-PAH-syoh pohr fah-VOHR",
+      "when": "When someone speaks too fast. “Por favor” keeps it polite."
+    },
+    {
+      "target": "Hablo un poco de español.",
+      "translation": "I speak a little Spanish.",
+      "pronunciation": "AH-bloh oon POH-koh deh ehs-pah-NYOHL",
+      "when": "Say it first. People are kinder when they know you are learning."
+    }
+  ],
+  "hook": "Lost in Spanish? Three phrases to save you.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Perdón. No entiendo.",
+      "translation": "Sorry. I don't understand."
+    },
+    {
+      "speaker": "B",
+      "target": "Más despacio, por favor.",
+      "translation": "Slower, please."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You do not follow. What do you say?",
+      "answer": "No entiendo.",
+      "choices": [
+        "No entiendo.",
+        "De nada.",
+        "Gracias."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Numbers next.",
+  "variety_code": "argentine"
+}
