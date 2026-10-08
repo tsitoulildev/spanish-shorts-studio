@@ -1,0 +1,34 @@
+name: Next lesson brief
+
+# Every Monday: open one issue with the ready-to-use brief for the next lesson to write (from data/curriculum.json).
+# A topic spans several parts and is replaced only when all parts exist. No secrets needed (uses the built-in token).
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Create the brief
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          PYTHONPATH=src python -m scriptstudio next > brief.txt
+          cat brief.txt
+          if grep -q "^All topics are written" brief.txt; then title="Curriculum finished: add a new topic"; else
+            title="Write next lesson: $(grep -o 'lessons/[a-z0-9-]*\.json' brief.txt | head -1)"; fi
+          if gh issue list --state open --search "\"$title\" in:title" --json title -q '.[].title' | grep -qxF "$title"; then
+            echo "issue already open: $title"; exit 0; fi
+          gh issue create --title "$title" --body-file brief.txt

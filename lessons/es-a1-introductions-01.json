@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-introductions-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Introduce yourself, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Cómo te llamás?",
+      "translation": "What is your name?",
+      "pronunciation": "KOH-moh teh shah-MAHS",
+      "when": "Friendly, for people your age. Say ¿Cómo se llama? to an older person."
+    },
+    {
+      "target": "Me llamo Ana.",
+      "translation": "My name is Ana.",
+      "pronunciation": "meh SHAH-moh AH-nah",
+      "when": "Swap Ana for your own name."
+    },
+    {
+      "target": "¿Y vos?",
+      "translation": "And you?",
+      "pronunciation": "ee VOHS",
+      "when": "Argentines say vos, not tú."
+    },
+    {
+      "target": "Igualmente.",
+      "translation": "Likewise.",
+      "pronunciation": "ee-gwahl-MEN-teh",
+      "when": "Your answer to “Mucho gusto.”"
+    }
+  ],
+  "hook": "Introduce yourself. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Hola. ¿Cómo te llamás?",
+      "translation": "Hi. What is your name?"
+    },
+    {
+      "speaker": "B",
+      "target": "Me llamo Ana. ¿Y vos?",
+      "translation": "My name is Ana. And you?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "They say “Mucho gusto.” Your reply?",
+      "answer": "Igualmente.",
+      "choices": [
+        "Igualmente.",
+        "¿Y vos?",
+        "Me llamo Ana."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}

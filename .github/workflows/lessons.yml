@@ -1,0 +1,135 @@
+name: Build lessons
+
+# Builds the narrated lesson videos on a GitHub-hosted runner (nothing needs a local machine).
+# Runs when a lesson file is added/changed, or by hand from the Actions tab.
+# The finished video is NOT published to YouTube. It is (1) attached to the run as a downloadable artifact and
+# (2) copied to the `renders` branch of this private repo with a measurements report, so it can be reviewed from git.
+on:
+  workflow_dispatch:
+    inputs:
+      engine:
+        description: "Voice engine: mixed (voices from data/voices.json, Piper + Kokoro), kokoro, or tone (silent timing check)"
+        default: mixed
+        type: choice
+        options: [mixed, kokoro, tone]
+      lessons:
+        description: "Lesson files to build, space separated (empty = all in lessons/)"
+        default: ""
+        type: string
+  push:
+    paths:
+      - "lessons/*.json"
+      - ".github/workflows/lessons.yml"
+      - "scripts/make_lessons_server.sh"
+      - "scripts/setup_server.sh"
+      - "src/**"
+
+concurrency:
+  group: build-lessons   # one build at a time across all branches: runs publish to the same `renders` branch and must not race
+  cancel-in-progress: false   # queue instead: a new push must not kill a run that is still producing results
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    permissions:
+      contents: write   # only to push the `renders` branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ENGINE: ${{ github.event.inputs.engine || 'mixed' }}
+      LESSONS: ${{ github.event.inputs.lessons }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Cache Kokoro voice model
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/scriptstudio
+          key: hf-voices-v2
+
+      - name: Setup (ffmpeg, espeak-ng, fonts, Python packages)
+        env:
+          SKIP_KOKORO: ${{ env.ENGINE == 'tone' && '1' || '0' }}
+          TORCH_CPU: "1"
+        run: bash scripts/setup_server.sh
+
+      - name: Install Whisper for the spoken-audio check, and Piper when the engine uses it
+        if: env.ENGINE != 'tone'
+        run: .venv/bin/python -m pip install --quiet faster-whisper piper-tts
+
+      - name: Build lessons (with automatic quality gate)
+        env:
+          QA_FLAGS: ${{ env.ENGINE != 'tone' && '--transcribe' || '' }}
+        run: bash scripts/make_lessons_server.sh
+
+      - name: Upload videos for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lessons-${{ env.ENGINE }}-${{ github.run_number }}
+          path: |
+            output/lessons/*/lesson_*.mp4
+            output/lessons/*/narration.txt
+            output/lessons/*/storyboard.txt
+            output/lessons/*/cards_sheet.png
+            output/lessons/*/qa_report.txt
+            output/lessons/*/manifest.json
+            logs/*.log
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Publish renders and measurements to the renders branch
+        if: always()
+        run: |
+          set -u
+          shopt -s nullglob
+          videos=(output/lessons/*/lesson_*.mp4)
+          logs=(logs/*.log)
+          if [ ${#videos[@]} -eq 0 ] && [ ${#logs[@]} -eq 0 ]; then echo "nothing to publish"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin renders:renders 2>/dev/null || true
+          if git rev-parse --verify renders >/dev/null 2>&1; then
+            git worktree add /tmp/rw renders
+          else
+            git worktree add --detach /tmp/rw
+            (cd /tmp/rw && git checkout -q --orphan renders && git rm -rqf --ignore-unmatch . )
+          fi
+          mkdir -p /tmp/rw/latest && rm -f /tmp/rw/latest/*
+          report=/tmp/rw/latest/report.txt
+          {
+            echo "run ${GITHUB_RUN_NUMBER}  commit ${GITHUB_SHA}  ref ${GITHUB_REF_NAME}  engine ${ENGINE}"
+            echo "Short limit: 40 s"
+          } > "$report"
+          for v in "${videos[@]}"; do
+            id=$(basename "$(dirname "$v")")
+            cp "$v" "/tmp/rw/latest/${id}_$(basename "$v")"
+            dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$v")
+            lufs=$(ffmpeg -hide_banner -i "$v" -af ebur128 -f null - 2>&1 | grep -E "^\s+I:" | tail -1 | awk '{print $2}')
+            sil=$(ffmpeg -hide_banner -i "$v" -af "silencedetect=n=-40dB:d=0.4" -f null - 2>&1 | grep silence_duration | awk '{s+=$NF} END {printf "%.1f", s}')
+            ok=$(awk -v d="$dur" 'BEGIN{print (d<=40.0)?"within limit":"OVER LIMIT"}')
+            echo "${id}: duration ${dur} s (${ok}), loudness ${lufs} LUFS, silence ${sil} s" >> "$report"
+            cp "$(dirname "$v")/narration.txt" "/tmp/rw/latest/${id}_narration.txt" 2>/dev/null || true
+            cp "$(dirname "$v")/storyboard.txt" "/tmp/rw/latest/${id}_storyboard.txt" 2>/dev/null || true
+            cp "$(dirname "$v")/cards_sheet.png" "/tmp/rw/latest/${id}_cards.png" 2>/dev/null || true
+            if [ -f "$(dirname "$v")/qa_report.txt" ]; then
+              cp "$(dirname "$v")/qa_report.txt" "/tmp/rw/latest/${id}_qa.txt"
+              sed "s/^/    qa: /" "$(dirname "$v")/qa_report.txt" >> "$report"
+            fi
+          done
+          for l in "${logs[@]}"; do cp "$l" /tmp/rw/latest/; done
+          cd /tmp/rw
+          git add -A latest
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -q -m "renders: run ${GITHUB_RUN_NUMBER} (${ENGINE}) from ${GITHUB_SHA::7}"
+          git push origin HEAD:renders

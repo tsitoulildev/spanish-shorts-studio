@@ -1,0 +1,67 @@
+{
+  "id": "es-a1-greetings-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Spanish Greetings, part 2",
+  "phrases": [
+    {
+      "target": "Mucho gusto.",
+      "translation": "Nice to meet you.",
+      "pronunciation": "MOO-choh GOOS-toh",
+      "when": "Right after you meet someone new."
+    },
+    {
+      "target": "¿Cómo estás?",
+      "translation": "How are you?",
+      "note": "Informal, to a friend.",
+      "pronunciation": "KOH-moh ehs-TAHS",
+      "when": "With friends and people your age."
+    },
+    {
+      "target": "Estoy bien, gracias.",
+      "translation": "I'm fine, thank you.",
+      "pronunciation": "ehs-TOY byehn, GRAH-syahs",
+      "when": "Your answer to “How are you?”."
+    },
+    {
+      "target": "Hasta luego.",
+      "translation": "See you later.",
+      "pronunciation": "AHS-tah LWEH-goh",
+      "when": "Leaving, when you expect to meet again."
+    }
+  ],
+  "hook": "Meet someone in Spanish. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Hola. Mucho gusto.",
+      "translation": "Hi. Nice to meet you."
+    },
+    {
+      "speaker": "B",
+      "target": "Mucho gusto. ¿Cómo estás?",
+      "translation": "Nice to meet you. How are you?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "“¿Cómo estás?” How do you answer?",
+      "answer": "Estoy bien, gracias.",
+      "choices": [
+        "Mucho gusto.",
+        "Hasta luego.",
+        "Estoy bien, gracias."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Follow for more.",
+  "cold_open": {
+    "phrase": 1
+  },
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "variety_code": "neutral"
+}

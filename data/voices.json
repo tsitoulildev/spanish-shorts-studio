@@ -1,0 +1,55 @@
+{
+  "note": "Voice pools per engine, language and role (A = main voice, B = dialogue partner). Lessons rotate through the pool so two consecutive lessons never share a voice (when a pool has 2+ entries). Add voices here after listening to the audition samples (workflow 'Voice audition'). Spanish A should be a smooth, sweet female voice. OWNER RULE (2026-10-05): every Spanish voice is female, including the dialogue partner. Add more female voices to rotate; never a male voice for Spanish.",
+  "engines": {
+    "kokoro": {
+      "en": {
+        "A": [
+          "af_heart"
+        ]
+      },
+      "es": {
+        "A": [
+          "ef_dora"
+        ],
+        "B": [
+          "ef_dora"
+        ]
+      }
+    },
+    "mixed": {
+      "en": {
+        "A": [
+          "kokoro:af_heart"
+        ]
+      },
+      "es": {
+        "A": [
+          "piper:es_AR-daniela-high",
+          "piper:es_ES-sharvard-medium@1"
+        ],
+        "B": [
+          "piper:es_AR-daniela-high",
+          "piper:es_ES-sharvard-medium@1"
+        ]
+      }
+    }
+  },
+  "voice_notes": {
+    "piper:es_AR-daniela-high": "Chosen by the owner by ear (2026-10-05). Argentine accent. Licence CC BY-SA 4.0 (credit required). OPEN: model is adapted from a US English lessac base, so commercial use is not clearly cleared; verify before monetised publishing.",
+    "piper:es_ES-sharvard-medium@1": "Owner's 2nd choice by ear (2026-10-05): es_ES-sharvard-medium speaker 1 (the owner chose it as a female voice). Spain accent. Licence CC BY 3.0: credit required, commercial use allowed. May only read lessons whose text is the same in every country (neutral) AND has no letters that Spain pronounces differently (z, ce, ci, ll, y+vowel): 'plain_only'."
+  },
+  "voice_rules": {
+    "piper:es_AR-daniela-high": {
+      "varieties": [
+        "neutral",
+        "argentine"
+      ]
+    },
+    "piper:es_ES-sharvard-medium@1": {
+      "varieties": [
+        "neutral"
+      ],
+      "plain_only": true
+    }
+  }
+}

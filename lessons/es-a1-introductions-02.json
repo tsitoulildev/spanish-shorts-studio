@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-introductions-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Introduce yourself, part 2",
+  "phrases": [
+    {
+      "target": "¿De dónde sos?",
+      "translation": "Where are you from?",
+      "pronunciation": "deh DOHN-deh SOHS",
+      "when": "Friendly, for people your age. Argentines say sos, not eres."
+    },
+    {
+      "target": "Soy de Grecia.",
+      "translation": "I'm from Greece.",
+      "pronunciation": "SOY deh GREH-syah",
+      "when": "Swap Grecia for your own country. \"De\" means where you come from."
+    },
+    {
+      "target": "Vivo en Atenas.",
+      "translation": "I live in Athens.",
+      "pronunciation": "BEE-boh ehn ah-TEH-nahs",
+      "when": "Swap Atenas for your city. \"En\" means where you are now."
+    }
+  ],
+  "hook": "Ask and say where you are from. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Hola. ¿De dónde sos?",
+      "translation": "Hi. Where are you from?"
+    },
+    {
+      "speaker": "B",
+      "target": "Soy de Grecia. ¿Y vos?",
+      "translation": "I'm from Greece. And you?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You live in Athens. What do you say?",
+      "answer": "Vivo en Atenas.",
+      "choices": [
+        "Soy de Grecia.",
+        "Vivo en Atenas.",
+        "Me llamo Ana."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Follow for more.",
+  "cold_open": {
+    "phrase": 1
+  },
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "variety_code": "argentine"
+}

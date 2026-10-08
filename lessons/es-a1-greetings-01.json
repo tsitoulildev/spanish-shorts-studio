@@ -1,0 +1,67 @@
+{
+  "id": "es-a1-greetings-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Spanish Greetings, part 1",
+  "phrases": [
+    {
+      "target": "Hola.",
+      "translation": "Hello.",
+      "note": "Works at any time of day.",
+      "pronunciation": "OH-lah",
+      "when": "Anyone, any time. Your safe default."
+    },
+    {
+      "target": "Buenos días.",
+      "translation": "Good morning.",
+      "pronunciation": "BWEH-nohs DEE-ahs",
+      "when": "From waking up until about noon."
+    },
+    {
+      "target": "Buenas tardes.",
+      "translation": "Good afternoon.",
+      "pronunciation": "BWEH-nahs TAR-dehs",
+      "when": "From noon until the sun goes down."
+    },
+    {
+      "target": "Buenas noches.",
+      "translation": "Good evening / Good night.",
+      "pronunciation": "BWEH-nahs NOH-chehs",
+      "when": "After dark, also when saying goodnight."
+    }
+  ],
+  "hook": "Stop saying only “Hola”. Four greetings.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Buenas tardes.",
+      "translation": "Good afternoon."
+    },
+    {
+      "speaker": "B",
+      "target": "Hola. Buenas tardes.",
+      "translation": "Hi. Good afternoon."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "It is nine at night. What do you say?",
+      "answer": "Buenas noches.",
+      "choices": [
+        "Buenos días.",
+        "Buenas noches.",
+        "Buenas tardes."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "cold_open": {
+    "phrase": 2
+  },
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "variety_code": "neutral"
+}

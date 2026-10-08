@@ -1,0 +1,140 @@
+name: Publish approved lessons
+
+# Approval = merging a lesson into the default branch. This workflow then builds that lesson again (same voices, same QA gate),
+# and uploads it to YouTube. Nothing is uploaded unless every gate passes. Until the three YouTube secrets exist
+# (docs/UPLOAD.md) it does a dry run and only prints what it would send.
+# YouTube forces videos from unverified API projects to private: a human makes the video public in YouTube Studio.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "lessons/*.json"
+  workflow_dispatch:
+    inputs:
+      lesson:
+        description: "Lesson id to (re)publish, e.g. es-a1-introductions-02 (empty = nothing)"
+        default: ""
+        type: string
+      privacy:
+        description: "private (default; the only value YouTube allows for unverified projects), unlisted or public"
+        default: private
+        type: choice
+        options: [private, unlisted, public]
+
+concurrency:
+  group: publish-lessons
+  cancel-in-progress: false
+
+permissions:
+  contents: write        # only to push the `published` branch (the ledger of what was uploaded)
+  pull-requests: read    # to check that a push to main is a merged pull request (the approval)
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      PRIVACY: ${{ github.event.inputs.privacy || vars.YT_PRIVACY || 'private' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Which lessons were just approved?
+        id: which
+        env:
+          INPUT_LESSON: ${{ github.event.inputs.lesson }}
+          BEFORE: ${{ github.event.before }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            case "$INPUT_LESSON" in *[!a-z0-9-]*) echo "bad lesson id"; exit 1;; esac
+            list=""; [ -n "$INPUT_LESSON" ] && list="lessons/${INPUT_LESSON}.json"
+          else
+            # Approval = a merged pull request. A direct push to main is not an approval: nothing is uploaded.
+            prs="$(gh api "repos/${{ github.repository }}/commits/${{ github.sha }}/pulls" --jq 'length')"
+            if [ "${prs:-0}" -ge 1 ]; then
+              list="$(git diff --name-only --diff-filter=AM "$BEFORE" "${{ github.sha }}" -- 'lessons/*.json' | tr '\n' ' ')"
+            else
+              list=""; echo "push to main without a pull request: not an approval, nothing to publish"
+            fi
+          fi
+          echo "lessons=$list" >> "$GITHUB_OUTPUT"
+          echo "lessons to publish: ${list:-none}"
+
+      - uses: actions/setup-python@v5
+        if: steps.which.outputs.lessons != ''
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Cache voice models
+        if: steps.which.outputs.lessons != ''
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/scriptstudio
+          key: hf-voices-v2
+
+      - name: Setup (ffmpeg, espeak-ng, fonts, Python packages)
+        if: steps.which.outputs.lessons != ''
+        env:
+          TORCH_CPU: "1"
+        run: bash scripts/setup_server.sh
+
+      - name: Install Whisper, Piper and requests
+        if: steps.which.outputs.lessons != ''
+        run: .venv/bin/python -m pip install --quiet faster-whisper piper-tts requests
+
+      - name: Build and run the QA gate
+        if: steps.which.outputs.lessons != ''
+        env:
+          ENGINE: mixed
+          LESSONS: ${{ steps.which.outputs.lessons }}
+          QA_FLAGS: --transcribe
+        run: bash scripts/make_lessons_server.sh
+
+      - name: Load the ledger of uploaded lessons
+        if: steps.which.outputs.lessons != ''
+        run: |
+          git fetch origin published:refs/remotes/origin/published 2>/dev/null || true
+          git show origin/published:ledger.json > ledger.json 2>/dev/null || echo '{}' > ledger.json
+          cat ledger.json
+
+      - name: Upload to YouTube (dry run until the secrets exist)
+        if: steps.which.outputs.lessons != ''
+        env:
+          LIST: ${{ steps.which.outputs.lessons }}
+        run: |
+          set -eu
+          for f in $LIST; do
+            id="$(basename "$f" .json)"
+            .venv/bin/python -m scriptstudio upload "output/lessons/$id" --lesson "$f" --engine mixed \
+              --ledger ledger.json --privacy "$PRIVACY" --if-configured
+          done
+
+      - name: Save the ledger
+        if: steps.which.outputs.lessons != ''
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin published:published 2>/dev/null || true
+          if git rev-parse --verify published >/dev/null 2>&1; then
+            git worktree add /tmp/pw published
+          else
+            git worktree add --detach /tmp/pw
+            (cd /tmp/pw && git checkout -q --orphan published && git rm -rqf --ignore-unmatch . )
+          fi
+          cp ledger.json /tmp/pw/ledger.json
+          cd /tmp/pw
+          git add ledger.json
+          if git diff --cached --quiet; then echo "ledger unchanged"; exit 0; fi
+          git commit -q -m "ledger: after run ${GITHUB_RUN_NUMBER}"
+          git push origin HEAD:published
