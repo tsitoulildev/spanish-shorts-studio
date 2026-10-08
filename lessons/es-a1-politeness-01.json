@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-politeness-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Polite survival words, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Por favor.",
+      "translation": "Please.",
+      "pronunciation": "pohr fah-VOHR",
+      "when": "Add it to any request. Polite in every Spanish-speaking country."
+    },
+    {
+      "target": "Gracias.",
+      "translation": "Thank you.",
+      "pronunciation": "GRAH-syahs",
+      "when": "Say it for everything. Add “muchas” to say thank you very much."
+    },
+    {
+      "target": "De nada.",
+      "translation": "You're welcome.",
+      "pronunciation": "deh NAH-dah",
+      "when": "Your answer to “Gracias.” It literally means “it is nothing”."
+    },
+    {
+      "target": "Perdón.",
+      "translation": "Sorry. / Excuse me.",
+      "pronunciation": "pehr-DOHN",
+      "when": "Use it to say sorry, or to get past someone in a crowd."
+    }
+  ],
+  "hook": "Be polite in Spanish. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Hola. Gracias.",
+      "translation": "Hi. Thank you."
+    },
+    {
+      "speaker": "B",
+      "target": "De nada. Hasta luego.",
+      "translation": "You're welcome. See you later."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Someone says “Gracias.” Your reply?",
+      "answer": "De nada.",
+      "choices": [
+        "De nada.",
+        "Por favor.",
+        "Perdón."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "neutral"
+}
