@@ -1,15 +1,15 @@
-es-a1-introductions-02 (mixed): 30.2 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-introductions-02 (mixed): 30.2 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
 INFO clip hook [en] match 1.00: wanted 'Ask and say where you are from. Three phrases.' heard 'Ask and say where you are from. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Where are you from?' heard 'Where are you from?'
-INFO clip p01_a [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
+INFO clip p01_a [es] match 1.00: wanted '¿De dónde sos?' heard '¡De donde sos!'
 INFO clip p02_q [en] match 1.00: wanted 'I'm from Greece' heard 'I'm from Greece.'
-INFO clip p02_a [es] match 0.83: wanted 'Soy de Grecia.' heard 'Soy Edrecia.'
+INFO clip p02_a [es] match 0.83: wanted 'Soy de Grecia.' heard 'Soy Adrecia.'
 INFO clip p03_q [en] match 1.00: wanted 'I live in Athens' heard 'I live in Athens.'
-INFO clip p03_a [es] match 0.81: wanted 'Vivo en Atenas.' heard 'Viva Nathenas.'
-INFO clip d01 [es] match 0.83: wanted 'Hola. ¿De dónde sos?' heard 'de las de donde sos.'
+INFO clip p03_a [es] match 0.89: wanted 'Vivo en Atenas.' heard '¡Dio en Atenas!'
+INFO clip d01 [es] match 0.86: wanted 'Hola. ¿De dónde sos?' heard 'de la ¿De dónde sos?'
 INFO clip q01_ask [en] match 1.00: wanted 'You live in Athens. What do you say?' heard 'You live in Athens, what do you say?'
-INFO clip q01_ans [es] match 0.89: wanted 'Vivo en Atenas.' heard '¡Dio en Atenas!'
+INFO clip q01_ans [es] match 0.96: wanted 'Vivo en Atenas.' heard 'vio en Atenas.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
-WARN clip d02 [es] match 0.76: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy Edrecia.  ¡Ios!'
+WARN clip d02 [es] match 0.79: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy de Derecia.  ¡Dios!'
 QA: PASS (with warnings)
