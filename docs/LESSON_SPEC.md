@@ -27,7 +27,7 @@ A Short is one small story: **promise, then keep it, then prove it**.
 
 ## 4. Time and look
 - Estimated length stays under 40 s (the estimate is cautious: real videos are about 6 s shorter). The build refuses an over-long Short. **[check]**
-- Text stays inside the safe zone (5 % sides, 87 % bottom). **[check: layout BLOCK]**
+- Text stays inside the safe zone (5 % sides, 80 % bottom) and is never smaller than 42 px. **[check: layout BLOCK]**
 - A phrase is never taught in a second lesson by accident. **[check: duplicate WARN]** A deliberate repeat needs `"reuse_ok": true`.
 - The lesson id must exist in `data/curriculum.json` (topic arcs finish before the next topic starts). **[check]**
 
