@@ -1,0 +1,13 @@
+[es/clear/A] Más despacio, por favor.
+[en/fast/A] Lost in Spanish? Three phrases to save you.
+[en/fast/A] I don't understand
+[es/clear/A] No entiendo.
+[en/fast/A] Slower, please
+[es/clear/A] Más despacio, por favor.
+[en/fast/A] I speak a little Spanish
+[es/clear/A] Hablo un poco de español.
+[es/clear/A] Perdón. No entiendo.
+[es/clear/B] Más despacio, por favor.
+[en/fast/A] You do not follow. What do you say?
+[es/clear/A] No entiendo.
+[en/fast/A] Say them out loud. Numbers next.
