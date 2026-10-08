@@ -266,6 +266,24 @@ class QualityRuleTests(unittest.TestCase):
 
 
 class CurriculumTests(unittest.TestCase):
+    def test_every_look_is_dark_enough_for_white_text(self):
+        from scriptstudio.lessons import LOOKS
+        for look in LOOKS:
+            for kind, (top, bottom) in look.items():
+                for rgb in (top, bottom):
+                    luma = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+                    self.assertLess(luma, 90, f"{kind} {rgb} is too light for white text")
+
+    def test_small_text_is_reported_as_a_layout_problem(self):
+        from scriptstudio.lessons import MIN_TEXT, _Canvas
+        c = _Canvas(1080, 1920)
+        c.text("tiny", MIN_TEXT - 4, 400, (255, 255, 255))
+        c.chip("tiny", 100, 600, (255, 200, 60), MIN_TEXT - 4)
+        self.assertEqual(len(c.issues), 2)
+        c2 = _Canvas(1080, 1920)
+        c2.text("fine", MIN_TEXT, 400, (255, 255, 255))
+        self.assertEqual(c2.issues, [])
+
     def test_topic_finishes_before_next_starts(self):
         from scriptstudio.curriculum import load_topics, next_part
         topics = load_topics()

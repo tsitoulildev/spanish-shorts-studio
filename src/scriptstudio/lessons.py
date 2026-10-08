@@ -27,8 +27,9 @@ MAX_SHORT_SECONDS = 40.0  # hard limit for one Short (real audio length, checked
 ESTIMATE_SLACK = 1.15     # estimates run ~10% high; a lesson whose estimate exceeds MAX*SLACK is rejected early
 OUTRO_SECONDS = 2.5
 SAFE_SIDE = 0.05          # share of the width kept free on each side
-SAFE_BOTTOM = 0.87        # nothing below this share of the height (Shorts title and buttons sit there)
+SAFE_BOTTOM = 0.80        # nothing below this share of the height (Shorts title, channel name and buttons sit there)
 SOURCE_CODE = "en"
+MIN_TEXT = 42             # smallest text allowed on a card, in px of a 1080-wide frame (readable on a phone)
 
 THEME = {
     "bg_top": (14, 20, 44), "bg_bottom": (44, 24, 78),
@@ -36,22 +37,28 @@ THEME = {
     "accent": (255, 196, 61), "accent2": (92, 225, 190), "panel": (255, 255, 255, 26), "good": (80, 220, 140),
 }
 # Background changes between card kinds so the picture never feels static (pattern interrupt, no sound needed).
-PALETTES = {
-    "q": ((14, 20, 44), (44, 24, 78)),        # questions / prompts: indigo
-    "a": ((8, 38, 52), (16, 70, 76)),         # answers: teal
-    "talk": ((52, 20, 60), (22, 18, 56)),     # dialogue: magenta-indigo
-    "quiz": ((60, 36, 8), (30, 18, 52)),      # quiz: warm amber-violet
-}
-
-
-# Visual rotation: same dark, readable backgrounds with the colour channels permuted, so consecutive lessons do not look
-# identical. Permuting channels keeps every background dark, so the white text stays readable.
-LOOKS = ((0, 1, 2), (2, 0, 1), (1, 2, 0))
+# Three hand-picked colour families, one per "look"; every background stays dark so the white text stays readable.
+# Consecutive lessons use a different family, so the channel feels varied but never garish.
+LOOKS = (
+    {   # 0: indigo / violet
+        "q": ((16, 24, 66), (58, 26, 104)), "a": ((6, 52, 66), (12, 98, 98)),
+        "talk": ((70, 22, 78), (24, 22, 78)), "quiz": ((78, 40, 8), (40, 20, 76)),
+    },
+    {   # 1: ocean blue / teal
+        "q": ((8, 30, 70), (14, 82, 120)), "a": ((10, 56, 54), (22, 104, 82)),
+        "talk": ((26, 30, 92), (62, 28, 104)), "quiz": ((14, 40, 88), (84, 36, 78)),
+    },
+    {   # 2: plum / wine
+        "q": ((58, 18, 72), (110, 30, 84)), "a": ((12, 52, 76), (30, 70, 116)),
+        "talk": ((86, 24, 64), (40, 20, 84)), "quiz": ((92, 36, 28), (52, 18, 82)),
+    },
+)
+PALETTES = LOOKS[0]
 
 
 def look_colors(rgb: tuple, look: int) -> tuple:
-    order = LOOKS[look % len(LOOKS)]
-    return tuple(rgb[i] for i in order)
+    """Kept for compatibility: the colour of a card kind in a given look is read from LOOKS, not computed."""
+    return tuple(rgb)
 
 
 def look_index(lesson_id: str) -> int:
@@ -226,16 +233,28 @@ class _Canvas:
         import numpy as np
         self.W, self.H, self.s = W, H, min(W, H) / 1080
         self.issues: list[str] = []   # layout problems found while drawing (text outside the safe zone, clipped, too low)
-        t, b = (look_colors(c, look) for c in PALETTES.get(palette, PALETTES["q"]))
+        family = LOOKS[look % len(LOOKS)]
+        t, b = family.get(palette, family["q"])
         ramp = np.linspace(0, 1, H)[:, None, None]
         arr = (np.array(t) * (1 - ramp) + np.array(b) * ramp).astype("uint8")
         arr = np.repeat(arr, W, axis=1)
         self.im = Image.fromarray(arr, "RGB").convert("RGBA")
-        self._glow(int(W * 0.85), int(H * 0.12), int(min(W, H) * 0.55), THEME["accent2"], 40)
-        self._glow(int(W * 0.1), int(H * 0.9), int(min(W, H) * 0.6), THEME["accent"], 28)
+        self._glow(int(W * 0.85), int(H * 0.12), int(min(W, H) * 0.6), THEME["accent2"], 46)
+        self._glow(int(W * 0.1), int(H * 0.92), int(min(W, H) * 0.55), THEME["accent"], 12)
+        self._rings(W, H)
         self.im = self.im.convert("RGB")  # RGB base so translucent panels blend instead of replacing pixels
         self.d = ImageDraw.Draw(self.im, "RGBA")
         self.f = lambda sz, bold=True: _font(FONT_BOLD if bold else FONT_REG, int(sz * self.s))
+
+    def _rings(self, W, H):
+        """Faint concentric rings behind the content: texture and depth instead of a flat gradient."""
+        from PIL import Image, ImageDraw
+        layer = Image.new("RGBA", self.im.size, (0, 0, 0, 0))
+        dl = ImageDraw.Draw(layer)
+        cx, cy = int(W * 0.5), int(H * 0.46)
+        for i, r in enumerate(range(int(W * 0.35), int(W * 1.3), int(W * 0.17))):
+            dl.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(255, 255, 255, 16 - 2 * i if i < 7 else 4), width=max(2, int(4 * self.s)))
+        self.im = Image.alpha_composite(self.im, layer)
 
     def _glow(self, cx, cy, r, color, alpha):
         from PIL import Image, ImageDraw, ImageFilter
@@ -257,6 +276,8 @@ class _Canvas:
         return lines
 
     def text(self, text, size, y, color, bold=True, max_w=None, gap=1.28, x=None, align="center"):
+        if size < MIN_TEXT:
+            self.issues.append(f"'{text}' is set in {size}px, below the {MIN_TEXT}px minimum for a phone screen")
         font = self.f(size, bold)
         max_w = max_w or int(self.W - 2 * 90 * self.s)
         for line in self.wrap(text, font, max_w):
@@ -283,7 +304,9 @@ class _Canvas:
         self.d.rounded_rectangle((x0, y0, x1, y1), radius=int(r * self.s), fill=fill or THEME["panel"],
                                  outline=outline, width=3 if outline else 0)
 
-    def chip(self, text, x, y, color, size=34):
+    def chip(self, text, x, y, color, size=44):
+        if size < MIN_TEXT:
+            self.issues.append(f"chip '{text}' is set in {size}px, below the {MIN_TEXT}px minimum for a phone screen")
         font = self.f(size)
         w = self.d.textlength(text, font=font)
         pad = int(22 * self.s)
@@ -292,6 +315,34 @@ class _Canvas:
                                  fill=(*color, 255))
         self.d.text((x + pad, y + pad // 2 - 2), text, font=font, fill=(20, 20, 36))
         return x + w + 2 * pad
+
+    def chip_center(self, text, y, color, size=44):
+        w = self.d.textlength(text, font=self.f(size)) + 2 * int(22 * self.s)
+        return self.chip(text, int((self.W - w) / 2), y, color, size)
+
+    def badge(self, cx, cy, r, color, glyph):
+        """Round icon badge drawn with shapes only (no image files): 'mic', 'ask' or 'ear'."""
+        d, s = self.d, self.s
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(*color, 255))
+        ink = (20, 20, 36, 255)
+        if glyph == "mic":
+            bw, bh = int(r * 0.42), int(r * 0.7)
+            d.rounded_rectangle((cx - bw, cy - int(r * 0.62), cx + bw, cy + int(r * 0.12)), radius=bw, fill=ink)
+            d.arc((cx - int(r * 0.62), cy - int(r * 0.42), cx + int(r * 0.62), cy + int(r * 0.46)), 0, 180, fill=ink,
+                  width=max(3, int(r * 0.12)))
+            d.line((cx, cy + int(r * 0.46), cx, cy + int(r * 0.68)), fill=ink, width=max(3, int(r * 0.12)))
+            d.line((cx - int(r * 0.3), cy + int(r * 0.68), cx + int(r * 0.3), cy + int(r * 0.68)), fill=ink,
+                   width=max(3, int(r * 0.12)))
+        elif glyph == "ask":
+            f = self.f(int(r * 1.6 / s) if s else int(r * 1.6))
+            w = d.textlength("?", font=f)
+            d.text((cx - w / 2, cy - f.size * 0.58), "?", font=f, fill=ink)
+        else:  # ear / sound waves
+            for k in (1, 2, 3):
+                rr = int(r * (0.28 + 0.2 * k))
+                d.arc((cx - rr - int(r * 0.25), cy - rr, cx + rr - int(r * 0.25), cy + rr), -50, 50, fill=ink,
+                      width=max(3, int(r * 0.11)))
+            d.ellipse((cx - int(r * 0.62), cy - int(r * 0.11), cx - int(r * 0.4), cy + int(r * 0.11)), fill=ink)
 
     def progress(self, i, n):
         m = int(70 * self.s)
@@ -337,8 +388,9 @@ def _draw_card(card: Card, idx: int, total: int, lesson: dict, W: int, H: int) -
         c.text(dat["text"], 56, int(H * 0.34) + int(60 * s), T["ink"], max_w=W - 2 * mx - 80)
     elif k == "phrase_q":
         tag(f"{dat['i']} / {dat['n']}  ·  How do you say…")
-        c.text(dat["phrase"]["translation"], 100, int(H * 0.36), T["ink"])
-        c.chip("Think of it in Spanish", mx, int(H * 0.68), T["accent"], 40)
+        c.badge(W // 2, int(H * 0.29), int(84 * s), T["accent2"], "ask")
+        c.text(dat["phrase"]["translation"], 108, int(H * 0.38), T["ink"])
+        c.chip_center("Think of it in Spanish", int(H * 0.64), T["accent"], 48)
     elif k == "cold":
         p = dat["phrase"]
         tag("Remember this")
@@ -352,47 +404,49 @@ def _draw_card(card: Card, idx: int, total: int, lesson: dict, W: int, H: int) -
     elif k == "phrase_a":
         p = dat["phrase"]
         tag(f"{dat['i']} / {dat['n']}")
-        y = c.text(p["translation"], 52, int(H * 0.18), T["mute"])
+        y = c.text(p["translation"], 58, int(H * 0.19), T["mute"])
         top = max(y + int(30 * s), int(H * 0.26))
-        h = c.height(p["target"], 104, max_w=W - 2 * mx - 80) + int(60 * s)
-        c.panel(mx, top, W - mx, top + h + int(170 * s), outline=(*T["accent"], 200))
-        yy = c.text(p["target"], 104, top + int(40 * s), T["accent"], max_w=W - 2 * mx - 80)
+        h = c.height(p["target"], 112, max_w=W - 2 * mx - 80) + int(60 * s)
+        c.panel(mx, top, W - mx, top + h + int(190 * s), outline=(*T["accent"], 200))
+        yy = c.text(p["target"], 112, top + int(40 * s), T["accent"], max_w=W - 2 * mx - 80)
         if p.get("pronunciation"):
-            c.text(p["pronunciation"], 56, yy + int(10 * s), T["ink"], max_w=W - 2 * mx - 80)
-        y = top + h + int(170 * s) + int(50 * s)
+            c.text(p["pronunciation"], 62, yy + int(10 * s), T["ink"], max_w=W - 2 * mx - 80)
+        y = top + h + int(190 * s) + int(50 * s)
         if p.get("when"):
-            c.chip("Use it", mx, y, T["accent2"], 30)
-            y = c.text(p["when"], 46, y + int(80 * s), T["ink"], bold=False, x=mx, align="left")
-        c.chip("Your turn: say it out loud", mx, min(y + int(60 * s), H - int(260 * s)), T["accent"], 42)
+            c.chip("Use it", mx, y, T["accent2"], 44)
+            y = c.text(p["when"], 52, y + int(88 * s), T["ink"], bold=False, x=mx, align="left")
+        yb = min(y + int(50 * s), int(H * 0.72))
+        c.badge(mx + int(52 * s), yb + int(44 * s), int(52 * s), T["accent"], "mic")
+        c.chip("Your turn: say it out loud", mx + int(120 * s), yb, T["accent"], 46)
     elif k == "dialogue":
         tag("Mini conversation", T["accent"])
-        y = int(H * 0.24)
+        y = int(H * 0.27)
         for j, line in enumerate(dat["lines"]):
             active = j == dat["current"]
             shown = j <= dat["current"]
             left = line["speaker"] == "A"
-            bw = int((W - 2 * mx) * 0.82)
+            bw = int((W - 2 * mx) * 0.9)
             x0 = mx if left else W - mx - bw
-            h = c.height(line["target"], 56, max_w=bw - 70) + c.height(line["translation"], 38, False, max_w=bw - 70) + int(90 * s)
+            h = c.height(line["target"], 66, max_w=bw - 70) + c.height(line["translation"], 44, False, max_w=bw - 70) + int(100 * s)
             if shown:
                 col = (*T["accent"], 255) if left else (*T["accent2"], 255)
                 c.panel(x0, y, x0 + bw, y + h, fill=col if active else (255, 255, 255, 34))
                 ink = (20, 20, 36) if active else T["ink"]
-                yy = c.text(line["target"], 56, y + int(28 * s), ink, max_w=bw - 70, x=x0 + 35, align="left")
-                c.text(line["translation"], 38, yy, ink if active else T["mute"], False, max_w=bw - 70, x=x0 + 35, align="left")
-            y += h + int(36 * s)
+                yy = c.text(line["target"], 66, y + int(30 * s), ink, max_w=bw - 70, x=x0 + 35, align="left")
+                c.text(line["translation"], 44, yy, ink if active else T["mute"], False, max_w=bw - 70, x=x0 + 35, align="left")
+            y += h + int(40 * s)
     elif k in ("quiz_q", "quiz_a"):
         q = dat["q"]
         tag(f"Quick quiz {dat['k']}", T["accent"])
-        y = c.text(q["prompt"], 64, int(H * 0.26), T["ink"])
+        y = c.text(q["prompt"], 68, int(H * 0.2), T["ink"])
         if k == "quiz_q":
-            y += int(60 * s)
+            y += int(50 * s)
             for letter, ch in zip("ABC", q.get("choices") or []):
-                c.panel(mx, y, W - mx, y + int(130 * s), r=30)
-                c.chip(letter, mx + int(24 * s), y + int(26 * s), T["accent"], 40)
-                c.text(ch, 56, y + int(32 * s), T["ink"], x=mx + int(150 * s), align="left")
-                y += int(160 * s)
-            c.text("Think… then listen", 44, min(H - int(220 * s), y + int(40 * s)), T["mute"], False)
+                c.panel(mx, y, W - mx, y + int(150 * s), r=30)
+                c.chip(letter, mx + int(24 * s), y + int(32 * s), T["accent"], 48)
+                c.text(ch, 62, y + int(36 * s), T["ink"], x=mx + int(160 * s), align="left")
+                y += int(180 * s)
+            c.text("Think… then listen", 48, min(int(H * 0.74), y + int(30 * s)), T["mute"], False)
         else:
             c.panel(mx, int(H * 0.44), W - mx, int(H * 0.44) + int(300 * s), outline=(*T["good"], 220))
             yy = c.text(q["answer"], 88, int(H * 0.44) + int(70 * s), T["good"], max_w=W - 2 * mx - 80)
@@ -400,17 +454,17 @@ def _draw_card(card: Card, idx: int, total: int, lesson: dict, W: int, H: int) -
         phr = dat.get("phrases") or []
         if phr:
             tag("Done", T["good"])
-            y = c.text(dat["title"], 88, int(H * 0.17), T["accent"])
-            y += int(40 * s)
+            y = c.text(dat["title"], 88, int(H * 0.15), T["accent"])
+            y += int(30 * s)
             for p in phr:
-                c.panel(mx, y, W - mx, y + int(190 * s), fill=(255, 255, 255, 30), r=30)
-                c.chip("\u2713", mx + int(30 * s), y + int(52 * s), T["good"], 46)
-                yy = c.text(p["target"], 58, y + int(32 * s), T["ink"], max_w=W - 2 * mx - int(230 * s),
+                c.panel(mx, y, W - mx, y + int(200 * s), fill=(255, 255, 255, 30), r=30)
+                c.chip("\u2713", mx + int(30 * s), y + int(58 * s), T["good"], 48)
+                yy = c.text(p["target"], 60, y + int(28 * s), T["ink"], max_w=W - 2 * mx - int(230 * s),
                             x=mx + int(170 * s), align="left")
-                c.text(p["translation"], 38, yy, T["mute"], False, max_w=W - 2 * mx - int(230 * s),
+                c.text(p["translation"], 44, yy, T["mute"], False, max_w=W - 2 * mx - int(230 * s),
                        x=mx + int(170 * s), align="left")
-                y += int(220 * s)
-            c.text(dat["text"], 50, min(y + int(40 * s), int(H * 0.74)), T["ink"], False)
+                y += int(226 * s)
+            c.text(dat["text"], 50, min(y + int(20 * s), int(H * 0.72)), T["ink"], False)
         else:
             yy = c.text(dat["title"], 92, int(H * 0.38), T["accent"])
             c.text(dat["text"], 50, yy + int(50 * s), T["ink"], False)
