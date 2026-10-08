@@ -9,9 +9,9 @@ INFO clip p03_q [en] match 1.00: wanted 'I'm fine, thank you' heard 'I'm fine, t
 INFO clip p03_a [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip p04_q [en] match 1.00: wanted 'See you later' heard 'See you later.'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Hasta luego.' heard 'Hasta luego.'
-INFO clip d01 [es] match 0.85: wanted 'Hola. Mucho gusto.' heard 'de la. Mucho gusto.'
-INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard 'Mucho gusto. ¿Cómo estás?'
+INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard '¡Mucho gusto! ¿Cómo estás?'
 INFO clip q01_ask [en] match 1.00: wanted '“¿Cómo estás?” How do you answer?' heard 'Como estas, how do you answer?'
 INFO clip q01_ans [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
-QA: PASS
+WARN clip d01 [es] match 0.79: wanted 'Hola. Mucho gusto.' heard 'de la. Mucha gusto.'
+QA: PASS (with warnings)

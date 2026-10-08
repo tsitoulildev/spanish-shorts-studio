@@ -1,0 +1,15 @@
+[es/clear/A] Por favor.
+[en/fast/A] Be polite in Spanish. Four phrases.
+[en/fast/A] Please
+[es/clear/A] Por favor.
+[en/fast/A] Thank you
+[es/clear/A] Gracias.
+[en/fast/A] You're welcome
+[es/clear/A] De nada.
+[en/fast/A] Sorry. / Excuse me
+[es/clear/A] Perdón.
+[es/clear/A] Hola. Gracias.
+[es/clear/B] De nada. Hasta luego.
+[en/fast/A] Someone says “Gracias.” Your reply?
+[es/clear/A] De nada.
+[en/fast/A] Say them out loud. Part two is next.
