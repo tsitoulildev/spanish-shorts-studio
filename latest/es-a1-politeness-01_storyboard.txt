@@ -1,0 +1,28 @@
+es-a1-politeness-01  |  Polite survival words, part 1  |  hook: Be polite in Spanish. Four phrases.
+
+  0.0s  card 00 cold      es/A: Por favor.
+  1.3s  card 01 hook      en/A: Be polite in Spanish. Four phrases.
+  4.1s  card 02 phrase_q  en/A: Please
+  5.1s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  5.8s  card 03 phrase_a  es/A: Por favor.
+  6.8s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  8.6s  card 04 phrase_q  en/A: Thank you
+  9.6s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 10.3s  card 05 phrase_a  es/A: Gracias.
+ 11.3s  card 05 phrase_a  (silent 1.4s: viewer's turn)
+ 12.7s  card 06 phrase_q  en/A: You're welcome
+ 14.2s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 14.9s  card 07 phrase_a  es/A: De nada.
+ 15.9s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 17.7s  card 08 phrase_q  en/A: Sorry. / Excuse me
+ 19.2s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 19.9s  card 09 phrase_a  es/A: Perdón.
+ 20.9s  card 09 phrase_a  (silent 1.4s: viewer's turn)
+ 22.3s  card 10 dialogue  es/A: Hola. Gracias.
+ 23.5s  card 11 dialogue  es/B: De nada. Hasta luego.
+ 25.6s  card 12 quiz_q    en/A: Someone says “Gracias.” Your reply?
+ 27.9s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 29.9s  card 13 quiz_a    es/A: De nada.
+ 31.4s  card 14 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 34.9 s (limit 40 s)
