@@ -128,8 +128,11 @@ jobs:
             fi
           done
           for l in "${logs[@]}"; do cp "$l" /tmp/rw/latest/; done
+          # keep one report per built commit (newest 60) so the auto-merge check can find the verdict for a given commit
+          mkdir -p /tmp/rw/reports && cp "$report" "/tmp/rw/reports/${GITHUB_SHA}.txt"
+          (cd /tmp/rw/reports && ls -t | tail -n +61 | xargs -r rm -f)
           cd /tmp/rw
-          git add -A latest
+          git add -A latest reports
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -q -m "renders: run ${GITHUB_RUN_NUMBER} (${ENGINE}) from ${GITHUB_SHA::7}"
           git push origin HEAD:renders
