@@ -1,4 +1,4 @@
-es-a1-greetings-02 (mixed): 33.5 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 16.1 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-greetings-02 (mixed): 33.4 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.3 dBFS, silence 16.3 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
 INFO clip hook [en] match 0.99: wanted 'Meet someone in Spanish. Four phrases.' heard 'Meet someone in Spanish for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Nice to meet you' heard 'Nice to meet you.'
@@ -9,9 +9,9 @@ INFO clip p03_q [en] match 1.00: wanted 'I'm fine, thank you' heard 'I'm fine, t
 INFO clip p03_a [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip p04_q [en] match 1.00: wanted 'See you later' heard 'See you later.'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Hasta luego.' heard 'Hasta luego.'
+INFO clip d01 [es] match 0.88: wanted 'Hola. Mucho gusto.' heard '¡Telá! ¡Mucho gusto!'
 INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard '¡Mucho gusto! ¿Cómo estás?'
 INFO clip q01_ask [en] match 1.00: wanted '“¿Cómo estás?” How do you answer?' heard 'Como estas, how do you answer?'
 INFO clip q01_ans [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
-WARN clip d01 [es] match 0.79: wanted 'Hola. Mucho gusto.' heard 'de la. Mucha gusto.'
-QA: PASS (with warnings)
+QA: PASS

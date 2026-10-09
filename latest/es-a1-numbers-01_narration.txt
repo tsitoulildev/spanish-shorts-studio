@@ -1,0 +1,17 @@
+[es/clear/A] Uno.
+[en/fast/A] Count from one to five in Spanish.
+[en/fast/A] One
+[es/clear/A] Uno.
+[en/fast/A] Two
+[es/clear/A] Dos.
+[en/fast/A] Three
+[es/clear/A] Tres.
+[en/fast/A] Four
+[es/clear/A] Cuatro.
+[en/fast/A] Five
+[es/clear/A] Cinco.
+[es/clear/A] Uno. Dos. Tres.
+[es/clear/B] Cuatro. Cinco.
+[en/fast/A] Which one is four?
+[es/clear/A] Cuatro.
+[en/fast/A] Say them out loud. Six to ten are next.
