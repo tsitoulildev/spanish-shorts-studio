@@ -1,437 +1,437 @@
 {
- "note": "Variety: Argentine Spanish (Rioplatense), voseo (owner, 2026-10-05). Topic arcs. One topic spans several Shorts (parts) and is replaced by the next topic only when every part exists. Seeds are drafts: Claude checks the final Spanish and records it in docs/LANGUAGE_REVIEW.md (no native reviewer, owner decision).",
- "topics": [
-  {
-   "id": "greetings",
-   "title": "Spanish greetings",
-   "level": "A1",
-   "parts": [
+  "note": "Variety: Argentine Spanish (Rioplatense), voseo (owner, 2026-10-05). Topic arcs. One topic spans several Shorts (parts) and is replaced by the next topic only when every part exists. Seeds are drafts: Claude checks the final Spanish and records it in docs/LANGUAGE_REVIEW.md (no native reviewer, owner decision).",
+  "topics": [
     {
-     "n": 1,
-     "angle": "greetings by time of day",
-     "seeds": [
-      "Hola.",
-      "Buenos días.",
-      "Buenas tardes.",
-      "Buenas noches."
-     ]
+      "id": "greetings",
+      "title": "Spanish greetings",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "greetings by time of day",
+          "seeds": [
+            "Hola.",
+            "Buenos días.",
+            "Buenas tardes.",
+            "Buenas noches."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "how are you and goodbye",
+          "seeds": [
+            "¿Cómo estás?",
+            "Estoy bien, gracias.",
+            "Mucho gusto.",
+            "Hasta luego."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "how are you and goodbye",
-     "seeds": [
-      "¿Cómo estás?",
-      "Estoy bien, gracias.",
-      "Mucho gusto.",
-      "Hasta luego."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "introductions",
-   "title": "Introduce yourself",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "your name",
-     "seeds": [
-      "Me llamo Ana.",
-      "¿Cómo te llamás?",
-      "¿Y vos?",
-      "Igualmente."
-     ]
+      "id": "introductions",
+      "title": "Introduce yourself",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "your name",
+          "seeds": [
+            "Me llamo Ana.",
+            "¿Cómo te llamás?",
+            "¿Y vos?",
+            "Igualmente."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "where you are from",
+          "seeds": [
+            "¿De dónde sos?",
+            "Soy de Grecia.",
+            "Vivo en Atenas."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "where you are from",
-     "seeds": [
-      "¿De dónde sos?",
-      "Soy de Grecia.",
-      "Vivo en Atenas."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "politeness",
-   "title": "Polite survival words",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "please and thanks",
-     "seeds": [
-      "Por favor.",
-      "Gracias.",
-      "De nada.",
-      "Perdón."
-     ]
+      "id": "politeness",
+      "title": "Polite survival words",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "please and thanks",
+          "seeds": [
+            "Por favor.",
+            "Gracias.",
+            "De nada.",
+            "Perdón."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "when you are lost for words",
+          "seeds": [
+            "No entiendo.",
+            "¿Puede repetir, por favor?",
+            "Más despacio, por favor.",
+            "¿Cómo se dice…?",
+            "Hablo un poco de español."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "when you are lost for words",
-     "seeds": [
-      "No entiendo.",
-      "¿Puede repetir, por favor?",
-      "Más despacio, por favor.",
-      "¿Cómo se dice…?",
-      "Hablo un poco de español."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "numbers",
-   "title": "Numbers 1 to 10",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "one to five",
-     "seeds": [
-      "Uno.",
-      "Dos.",
-      "Tres.",
-      "Cuatro."
-     ]
+      "id": "cafe",
+      "title": "Order at a café",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "ask for a drink",
+          "seeds": [
+            "Un café, por favor.",
+            "Quisiera un agua.",
+            "Para llevar.",
+            "La cuenta, por favor."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "ask what they have",
+          "seeds": [
+            "¿Qué tienen?",
+            "Quiero esto.",
+            "¿Aceptan tarjeta?",
+            "Está delicioso."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "five to ten",
-     "seeds": [
-      "Cinco.",
-      "Seis.",
-      "Siete.",
-      "Ocho."
-     ]
+      "id": "directions",
+      "title": "Ask for directions",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "where is it",
+          "seeds": [
+            "¿Dónde está el baño?",
+            "¿Dónde está la estación?",
+            "Está cerca.",
+            "Está lejos."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "left, right, straight",
+          "seeds": [
+            "A la izquierda.",
+            "A la derecha.",
+            "Todo derecho.",
+            "Gracias por su ayuda."
+          ]
+        }
+      ]
     },
     {
-     "n": 3,
-     "angle": "nine, ten and prices",
-     "seeds": [
-      "Nueve.",
-      "Diez.",
-      "¿Cuánto cuesta?",
-      "Es muy caro."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "cafe",
-   "title": "Order at a café",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "ask for a drink",
-     "seeds": [
-      "Un café, por favor.",
-      "Quisiera un agua.",
-      "Para llevar.",
-      "La cuenta, por favor."
-     ]
+      "id": "family",
+      "title": "Talk about your family",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "who is in your family",
+          "seeds": [
+            "Tengo una hermana.",
+            "Mi mamá se llama Ana.",
+            "¿Tenés hermanos?",
+            "Somos cuatro."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "friends and partners",
+          "seeds": [
+            "Es mi amigo.",
+            "Es mi novia.",
+            "Tiene veinte años.",
+            "¿Cuántos años tenés?"
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "ask what they have",
-     "seeds": [
-      "¿Qué tienen?",
-      "Quiero esto.",
-      "¿Aceptan tarjeta?",
-      "Está delicioso."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "directions",
-   "title": "Ask for directions",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "where is it",
-     "seeds": [
-      "¿Dónde está el baño?",
-      "¿Dónde está la estación?",
-      "Está cerca.",
-      "Está lejos."
-     ]
+      "id": "time",
+      "title": "Time and days",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "what time is it",
+          "seeds": [
+            "¿Qué hora es?",
+            "Es la una.",
+            "Son las tres.",
+            "A las ocho."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "days of the week",
+          "seeds": [
+            "Hoy es lunes.",
+            "Mañana es martes.",
+            "¿Qué día es hoy?",
+            "El viernes."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "left, right, straight",
-     "seeds": [
-      "A la izquierda.",
-      "A la derecha.",
-      "Todo derecho.",
-      "Gracias por su ayuda."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "family",
-   "title": "Talk about your family",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "who is in your family",
-     "seeds": [
-      "Tengo una hermana.",
-      "Mi mamá se llama Ana.",
-      "¿Tenés hermanos?",
-      "Somos cuatro."
-     ]
+      "id": "weather",
+      "title": "Talk about the weather",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "hot, cold, rain",
+          "seeds": [
+            "¿Cómo está el clima?",
+            "Hace calor.",
+            "Hace frío.",
+            "Está lloviendo."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "friends and partners",
-     "seeds": [
-      "Es mi amigo.",
-      "Es mi novia.",
-      "Tiene veinte años.",
-      "¿Cuántos años tenés?"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "time",
-   "title": "Time and days",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "what time is it",
-     "seeds": [
-      "¿Qué hora es?",
-      "Es la una.",
-      "Son las tres.",
-      "A las ocho."
-     ]
+      "id": "likes",
+      "title": "Say what you like",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "I like it",
+          "seeds": [
+            "Me gusta el mate.",
+            "¿Qué te gusta?",
+            "No me gusta.",
+            "Me encanta."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "food and drinks you like",
+          "seeds": [
+            "Me gusta la pizza.",
+            "¿Qué querés comer?",
+            "Quiero una milanesa.",
+            "Tengo hambre."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "days of the week",
-     "seeds": [
-      "Hoy es lunes.",
-      "Mañana es martes.",
-      "¿Qué día es hoy?",
-      "El viernes."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "weather",
-   "title": "Talk about the weather",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "hot, cold, rain",
-     "seeds": [
-      "¿Cómo está el clima?",
-      "Hace calor.",
-      "Hace frío.",
-      "Está lloviendo."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "likes",
-   "title": "Say what you like",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "I like it",
-     "seeds": [
-      "Me gusta el mate.",
-      "¿Qué te gusta?",
-      "No me gusta.",
-      "Me encanta."
-     ]
+      "id": "shopping",
+      "title": "Shopping",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "ask for a product and its price",
+          "seeds": [
+            "¿Tenés esto?",
+            "¿Cuánto sale?",
+            "¿Tenés algo más barato?",
+            "Lo llevo."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "sizes and colours",
+          "seeds": [
+            "¿Tenés otro color?",
+            "Me queda grande.",
+            "Me queda chico.",
+            "Solo estoy mirando."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "food and drinks you like",
-     "seeds": [
-      "Me gusta la pizza.",
-      "¿Qué querés comer?",
-      "Quiero una milanesa.",
-      "Tengo hambre."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "shopping",
-   "title": "Shopping",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "ask for a product and its price",
-     "seeds": [
-      "¿Tenés esto?",
-      "¿Cuánto sale?",
-      "¿Tenés algo más barato?",
-      "Lo llevo."
-     ]
+      "id": "restaurant",
+      "title": "At a restaurant",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "get a table and the menu",
+          "seeds": [
+            "Una mesa para dos, por favor.",
+            "La carta, por favor.",
+            "¿Qué me recomendás?",
+            "Para mí, esto."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "during and after the meal",
+          "seeds": [
+            "Está rico.",
+            "Un poco más de agua, por favor.",
+            "¿Me traés la cuenta?",
+            "¿Se puede pagar con tarjeta?"
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "sizes and colours",
-     "seeds": [
-      "¿Tenés otro color?",
-      "Me queda grande.",
-      "Me queda chico.",
-      "Solo estoy mirando."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "restaurant",
-   "title": "At a restaurant",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "get a table and the menu",
-     "seeds": [
-      "Una mesa para dos, por favor.",
-      "La carta, por favor.",
-      "¿Qué me recomendás?",
-      "Para mí, esto."
-     ]
+      "id": "transport",
+      "title": "Get around the city",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "bus and subway",
+          "seeds": [
+            "¿Este colectivo va al centro?",
+            "Un boleto, por favor.",
+            "¿Dónde bajo?",
+            "Bajo en la próxima."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "taxi and arriving",
+          "seeds": [
+            "¿Cuánto tarda?",
+            "Pare acá, por favor.",
+            "Estoy perdido.",
+            "¿Me ayudás?"
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "during and after the meal",
-     "seeds": [
-      "Está rico.",
-      "Un poco más de agua, por favor.",
-      "¿Me traés la cuenta?",
-      "¿Se puede pagar con tarjeta?"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "transport",
-   "title": "Get around the city",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "bus and subway",
-     "seeds": [
-      "¿Este colectivo va al centro?",
-      "Un boleto, por favor.",
-      "¿Dónde bajo?",
-      "Bajo en la próxima."
-     ]
+      "id": "daily",
+      "title": "Daily routine in voseo",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "what do you do",
+          "seeds": [
+            "¿Qué hacés?",
+            "Trabajo en una oficina.",
+            "Estudio español.",
+            "¿Dónde vivís?"
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "your day",
+          "seeds": [
+            "Me levanto temprano.",
+            "Almuerzo a las doce.",
+            "Cenamos tarde.",
+            "Me acuesto a las once."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "taxi and arriving",
-     "seeds": [
-      "¿Cuánto tarda?",
-      "Pare acá, por favor.",
-      "Estoy perdido.",
-      "¿Me ayudás?"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "daily",
-   "title": "Daily routine in voseo",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "what do you do",
-     "seeds": [
-      "¿Qué hacés?",
-      "Trabajo en una oficina.",
-      "Estudio español.",
-      "¿Dónde vivís?"
-     ]
+      "id": "social",
+      "title": "Sound Argentine",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "everyday chat",
+          "seeds": [
+            "¿Todo bien?",
+            "Todo bien, ¿y vos?",
+            "Dale.",
+            "Nos vemos."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "react and agree",
+          "seeds": [
+            "¡Qué bueno!",
+            "Re lindo.",
+            "Obvio.",
+            "No hay problema."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "your day",
-     "seeds": [
-      "Me levanto temprano.",
-      "Almuerzo a las doce.",
-      "Cenamos tarde.",
-      "Me acuesto a las once."
-     ]
-    }
-   ]
-  },
-  {
-   "id": "social",
-   "title": "Sound Argentine",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "everyday chat",
-     "seeds": [
-      "¿Todo bien?",
-      "Todo bien, ¿y vos?",
-      "Dale.",
-      "Nos vemos."
-     ]
+      "id": "help",
+      "title": "Ask for help and health",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "ask for help",
+          "seeds": [
+            "Necesito ayuda.",
+            "¿Hay una farmacia cerca?",
+            "Necesito un médico.",
+            "¿Hablás inglés?"
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "say how you feel",
+          "seeds": [
+            "Me siento mal.",
+            "Me duele la cabeza.",
+            "Estoy cansado.",
+            "Ya estoy mejor."
+          ]
+        }
+      ]
     },
     {
-     "n": 2,
-     "angle": "react and agree",
-     "seeds": [
-      "¡Qué bueno!",
-      "Re lindo.",
-      "Obvio.",
-      "No hay problema."
-     ]
+      "id": "numbers",
+      "title": "Numbers 1 to 10",
+      "level": "A1",
+      "parts": [
+        {
+          "n": 1,
+          "angle": "one to five",
+          "seeds": [
+            "Uno.",
+            "Dos.",
+            "Tres.",
+            "Cuatro."
+          ]
+        },
+        {
+          "n": 2,
+          "angle": "five to ten",
+          "seeds": [
+            "Cinco.",
+            "Seis.",
+            "Siete.",
+            "Ocho."
+          ]
+        },
+        {
+          "n": 3,
+          "angle": "nine, ten and prices",
+          "seeds": [
+            "Nueve.",
+            "Diez.",
+            "¿Cuánto cuesta?",
+            "Es muy caro."
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "help",
-   "title": "Ask for help and health",
-   "level": "A1",
-   "parts": [
-    {
-     "n": 1,
-     "angle": "ask for help",
-     "seeds": [
-      "Necesito ayuda.",
-      "¿Hay una farmacia cerca?",
-      "Necesito un médico.",
-      "¿Hablás inglés?"
-     ]
-    },
-    {
-     "n": 2,
-     "angle": "say how you feel",
-     "seeds": [
-      "Me siento mal.",
-      "Me duele la cabeza.",
-      "Estoy cansado.",
-      "Ya estoy mejor."
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }
