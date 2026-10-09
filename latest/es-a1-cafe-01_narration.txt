@@ -1,0 +1,13 @@
+[es/clear/A] Un café, por favor.
+[en/fast/A] Order a coffee in Spanish. Three phrases.
+[en/fast/A] A coffee, please
+[es/clear/A] Un café, por favor.
+[en/fast/A] To take away
+[es/clear/A] Para llevar.
+[en/fast/A] The bill, please
+[es/clear/A] La cuenta, por favor.
+[es/clear/A] Un café, por favor.
+[es/clear/B] Para llevar.
+[en/fast/A] You want to pay. What do you say?
+[es/clear/A] La cuenta, por favor.
+[en/fast/A] Say them out loud. More café phrases are next.
