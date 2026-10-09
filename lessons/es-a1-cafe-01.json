@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-cafe-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Order at a café, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Un café, por favor.",
+      "translation": "A coffee, please.",
+      "pronunciation": "oon kah-FEH pohr fah-VOHR",
+      "when": "Your first order in any café. The stress is on the last syllable: cafÉ."
+    },
+    {
+      "target": "Para llevar.",
+      "translation": "To take away.",
+      "pronunciation": "PAH-rah sheh-VAHR",
+      "when": "Add it when you do not want to sit down. Argentines say “ll” like “sh”."
+    },
+    {
+      "target": "La cuenta, por favor.",
+      "translation": "The bill, please.",
+      "pronunciation": "lah KWEHN-tah pohr fah-VOHR",
+      "when": "When you are ready to pay. You can ask the waiter with a small wave."
+    }
+  ],
+  "hook": "Order a coffee in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Un café, por favor.",
+      "translation": "A coffee, please."
+    },
+    {
+      "speaker": "B",
+      "target": "Para llevar.",
+      "translation": "To take away."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You want to pay. What do you say?",
+      "answer": "La cuenta, por favor.",
+      "choices": [
+        "La cuenta, por favor.",
+        "Para llevar.",
+        "Un café, por favor."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. More café phrases are next.",
+  "variety_code": "neutral"
+}

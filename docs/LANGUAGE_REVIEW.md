@@ -29,6 +29,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | politeness-02 | Hablo un poco de español. | correct and natural; "un poco de" is the standard way to say a little |
 | politeness-02 | Más despacio, por favor. | correct and natural everywhere; the ellipsis of the verb is normal in requests |
 | politeness-02 | Perdón. No entiendo. / Más despacio, por favor. (dialogue) | correct; every phrase was met in this or an earlier lesson (Perdón) |
+| cafe-01 | Un café, por favor. | correct and universal; "un cortado" and "un cafecito" are also heard in Argentina, not taught |
+| cafe-01 | Para llevar. | correct and standard for take-away in Argentina and elsewhere |
+| cafe-01 | La cuenta, por favor. | correct; standard way to ask for the bill in Argentina |
+| cafe-01 | Un café, por favor. / Para llevar. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
