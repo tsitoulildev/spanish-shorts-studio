@@ -29,6 +29,8 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | politeness-02 | Hablo un poco de español. | correct and natural; "un poco de" is the standard way to say a little |
 | politeness-02 | Más despacio, por favor. | correct and natural everywhere; the ellipsis of the verb is normal in requests |
 | politeness-02 | Perdón. No entiendo. / Más despacio, por favor. (dialogue) | correct; every phrase was met in this or an earlier lesson (Perdón) |
+| numbers-01 | Uno. / Dos. / Tres. / Cuatro. / Cinco. | correct and universal; "uno" becomes "un" before a masculine noun (un café), "dos cafés" is correct |
+| numbers-01 | Uno. Dos. Tres. / Cuatro. Cinco. (dialogue) | correct; every number was taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

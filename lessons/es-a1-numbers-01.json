@@ -1,0 +1,72 @@
+{
+  "id": "es-a1-numbers-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Numbers 1 to 10, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Uno.",
+      "translation": "One",
+      "pronunciation": "OO-noh",
+      "when": "Before a noun it shortens: un café, one coffee."
+    },
+    {
+      "target": "Dos.",
+      "translation": "Two",
+      "pronunciation": "dohs",
+      "when": "Short and sharp. Two coffees: dos cafés."
+    },
+    {
+      "target": "Tres.",
+      "translation": "Three",
+      "pronunciation": "trehs",
+      "when": "Tap the r once with your tongue, very lightly."
+    },
+    {
+      "target": "Cuatro.",
+      "translation": "Four",
+      "pronunciation": "KWAH-troh",
+      "when": "Starts like “quick”. Stress the first syllable."
+    },
+    {
+      "target": "Cinco.",
+      "translation": "Five",
+      "pronunciation": "SEEN-koh",
+      "when": "The c is an s sound. The last one for today."
+    }
+  ],
+  "hook": "Count from one to five in Spanish.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Uno. Dos. Tres.",
+      "translation": "One, two, three."
+    },
+    {
+      "speaker": "B",
+      "target": "Cuatro. Cinco.",
+      "translation": "Four, five."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Which one is four?",
+      "answer": "Cuatro.",
+      "choices": [
+        "Tres.",
+        "Cuatro.",
+        "Cinco."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Six to ten are next.",
+  "variety_code": "neutral"
+}
