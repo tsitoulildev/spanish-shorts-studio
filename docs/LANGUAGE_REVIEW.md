@@ -38,6 +38,9 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | cafe-02 | ¿Aceptan tarjeta? | correct and standard; "tarjeta" alone means card, and in a shop it is understood as debit or credit |
 | cafe-02 | Está delicioso. | correct and universal; Argentines also say "Está riquísimo" or "Está rico", named in the tip |
 | cafe-02 | ¿Qué tienen? / Quiero esto. (dialogue) | correct and natural for two friends at the counter; both phrases were taught in this lesson |
+| directions-01 | ¿Dónde está el baño? | correct and universal; "baño" is the everyday word in Argentina ("sanitarios" appears on signs, not taught) |
+| directions-01 | Está cerca. / Está lejos. | correct and universal; "estar" is used for location, as the answer to "¿Dónde está...?" |
+| directions-01 | Perdón. ¿Dónde está el baño? / Está cerca. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson (Perdón) |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
