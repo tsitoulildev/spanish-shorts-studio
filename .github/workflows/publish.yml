@@ -116,7 +116,7 @@ jobs:
           for f in $LIST; do
             id="$(basename "$f" .json)"
             .venv/bin/python -m scriptstudio upload "output/lessons/$id" --lesson "$f" --engine mixed \
-              --ledger ledger.json --privacy "$PRIVACY" --if-configured
+              --ledger ledger.json --privacy "$PRIVACY" --not-synthetic --if-configured
           done
 
       - name: Save the ledger
