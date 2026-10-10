@@ -1,0 +1,28 @@
+es-a1-cafe-02  |  Order at a café, part 2  |  hook: Chat with café staff in Spanish. Four phrases.
+
+  0.0s  card 00 cold      es/A: ¿Qué tienen?
+  1.3s  card 01 hook      en/A: Chat with café staff in Spanish. Four phrases.
+  4.9s  card 02 phrase_q  en/A: What do you have?
+  6.8s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.5s  card 03 phrase_a  es/A: ¿Qué tienen?
+  8.5s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+ 10.3s  card 04 phrase_q  en/A: I want this
+ 11.8s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.5s  card 05 phrase_a  es/A: Quiero esto.
+ 13.5s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 15.3s  card 06 phrase_q  en/A: Do you take cards?
+ 17.2s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.9s  card 07 phrase_a  es/A: ¿Aceptan tarjeta?
+ 18.9s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 20.7s  card 08 phrase_q  en/A: It's delicious
+ 22.2s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 22.9s  card 09 phrase_a  es/A: Está delicioso.
+ 23.9s  card 09 phrase_a  (silent 1.8s: viewer's turn)
+ 25.7s  card 10 dialogue  es/A: ¿Qué tienen?
+ 27.0s  card 11 dialogue  es/B: Quiero esto.
+ 28.2s  card 12 quiz_q    en/A: You have no cash. What do you ask?
+ 31.8s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 33.8s  card 13 quiz_a    es/A: ¿Aceptan tarjeta?
+ 35.2s  card 14 outro     en/A: Say them out loud. Directions are next.
+
+estimated length: 38.4 s (limit 40 s)

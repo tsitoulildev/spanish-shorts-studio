@@ -1,0 +1,15 @@
+[es/clear/A] ¿Qué tienen?
+[en/fast/A] Chat with café staff in Spanish. Four phrases.
+[en/fast/A] What do you have?
+[es/clear/A] ¿Qué tienen?
+[en/fast/A] I want this
+[es/clear/A] Quiero esto.
+[en/fast/A] Do you take cards?
+[es/clear/A] ¿Aceptan tarjeta?
+[en/fast/A] It's delicious
+[es/clear/A] Está delicioso.
+[es/clear/A] ¿Qué tienen?
+[es/clear/B] Quiero esto.
+[en/fast/A] You have no cash. What do you ask?
+[es/clear/A] ¿Aceptan tarjeta?
+[en/fast/A] Say them out loud. Directions are next.
