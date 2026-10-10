@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-directions-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Ask for directions, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Dónde está el baño?",
+      "translation": "Where is the bathroom?",
+      "pronunciation": "DOHN-deh ehs-TAH ehl BAH-nyoh",
+      "when": "Ask it in any café or shop. Say “Perdón” first to be polite."
+    },
+    {
+      "target": "Está cerca.",
+      "translation": "It's close.",
+      "pronunciation": "ehs-TAH SEHR-kah",
+      "when": "This is the answer you hope to hear. It means a short walk."
+    },
+    {
+      "target": "Está lejos.",
+      "translation": "It's far.",
+      "pronunciation": "ehs-TAH LEH-hohs",
+      "when": "The “j” is a breathy “h”. If you hear this, check for a bus."
+    }
+  ],
+  "hook": "Lost in Spanish? Ask where it is. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Perdón. ¿Dónde está el baño?",
+      "translation": "Sorry. Where is the bathroom?"
+    },
+    {
+      "speaker": "B",
+      "target": "Está cerca.",
+      "translation": "It's close."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "It is a long walk. What do you hear?",
+      "answer": "Está lejos.",
+      "choices": [
+        "Está cerca.",
+        "Está lejos.",
+        "Gracias."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "neutral"
+}
