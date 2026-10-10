@@ -1,0 +1,13 @@
+[es/clear/A] ¿Dónde está el baño?
+[en/fast/A] Lost in Spanish? Ask where it is. Three phrases.
+[en/fast/A] Where is the bathroom?
+[es/clear/A] ¿Dónde está el baño?
+[en/fast/A] It's close
+[es/clear/A] Está cerca.
+[en/fast/A] It's far
+[es/clear/A] Está lejos.
+[es/clear/A] Perdón. ¿Dónde está el baño?
+[es/clear/B] Está cerca.
+[en/fast/A] It is a long walk. What do you hear?
+[es/clear/A] Está lejos.
+[en/fast/A] Say them out loud. Part two is next.

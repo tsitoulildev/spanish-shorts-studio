@@ -1,0 +1,24 @@
+es-a1-directions-01  |  Ask for directions, part 1  |  hook: Lost in Spanish? Ask where it is. Three phrases.
+
+  0.0s  card 00 cold      es/A: ¿Dónde está el baño?
+  2.2s  card 01 hook      en/A: Lost in Spanish? Ask where it is. Three phrases.
+  6.2s  card 02 phrase_q  en/A: Where is the bathroom?
+  8.0s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  8.7s  card 03 phrase_a  es/A: ¿Dónde está el baño?
+ 10.6s  card 03 phrase_a  (silent 2.6s: viewer's turn)
+ 13.2s  card 04 phrase_q  en/A: It's close
+ 14.7s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 15.4s  card 05 phrase_a  es/A: Está cerca.
+ 16.4s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 18.2s  card 06 phrase_q  en/A: It's far
+ 19.7s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.4s  card 07 phrase_a  es/A: Está lejos.
+ 21.4s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 23.2s  card 08 dialogue  es/A: Perdón. ¿Dónde está el baño?
+ 25.7s  card 09 dialogue  es/B: Está cerca.
+ 27.0s  card 10 quiz_q    en/A: It is a long walk. What do you hear?
+ 30.9s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 32.9s  card 11 quiz_a    es/A: Está lejos.
+ 34.4s  card 12 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 37.9 s (limit 40 s)
