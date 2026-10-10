@@ -33,6 +33,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | cafe-01 | Para llevar. | correct and standard for take-away in Argentina and elsewhere |
 | cafe-01 | La cuenta, por favor. | correct; standard way to ask for the bill in Argentina |
 | cafe-01 | Un café, por favor. / Para llevar. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| cafe-02 | ¿Qué tienen? | correct and natural; "tienen" (ustedes) is how a customer addresses staff in Argentina and elsewhere |
+| cafe-02 | Quiero esto. | correct and understood everywhere; blunt alone, so the card suggests adding "por favor" |
+| cafe-02 | ¿Aceptan tarjeta? | correct and standard; "tarjeta" alone means card, and in a shop it is understood as debit or credit |
+| cafe-02 | Está delicioso. | correct and universal; Argentines also say "Está riquísimo" or "Está rico", named in the tip |
+| cafe-02 | ¿Qué tienen? / Quiero esto. (dialogue) | correct and natural for two friends at the counter; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
