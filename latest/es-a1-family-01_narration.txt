@@ -7,7 +7,7 @@
 [en/fast/A] There are four of us
 [es/clear/A] Somos cuatro.
 [es/clear/A] ¿Tenés hermanos?
-[es/clear/B] Tengo una hermana.
+[es/clear/B] Tengo una hermana. Somos cuatro.
 [en/fast/A] You have one sister. What do you say?
 [es/clear/A] Tengo una hermana.
 [en/fast/A] Say them out loud. Part two is next.
