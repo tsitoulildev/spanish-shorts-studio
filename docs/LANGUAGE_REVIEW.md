@@ -41,6 +41,9 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | directions-01 | ¿Dónde está el baño? | correct and universal; "baño" is the everyday word in Argentina ("sanitarios" appears on signs, not taught) |
 | directions-01 | Está cerca. / Está lejos. | correct and universal; "estar" is used for location, as the answer to "¿Dónde está...?" |
 | directions-01 | Perdón. ¿Dónde está el baño? / Está cerca. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson (Perdón) |
+| directions-02 | Todo derecho. | correct and common in Argentina ("todo recto" is the Spain form, not taught); the tip warns not to confuse "derecho" (straight) with "derecha" (right) |
+| directions-02 | A la izquierda. / A la derecha. | correct and universal; the "z" of "izquierda" is an "s" sound in Argentina, said in the tip |
+| directions-02 | Perdón. ¿Dónde está el baño? / Todo derecho. A la izquierda. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson (Perdón, ¿Dónde está el baño?) |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

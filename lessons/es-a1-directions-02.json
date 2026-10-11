@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-directions-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Ask for directions, part 2",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Todo derecho.",
+      "translation": "Straight ahead.",
+      "pronunciation": "TOH-doh deh-REH-choh",
+      "when": "Often the first thing you hear. Do not confuse “derecho” (straight) with “derecha” (right)."
+    },
+    {
+      "target": "A la izquierda.",
+      "translation": "To the left.",
+      "pronunciation": "ah lah ees-KYEHR-dah",
+      "when": "Usually comes after “todo derecho”. The “z” sounds like an “s” in Argentina."
+    },
+    {
+      "target": "A la derecha.",
+      "translation": "To the right.",
+      "pronunciation": "ah lah deh-REH-chah",
+      "when": "Same shape as “A la izquierda”. Point with your hand while you listen."
+    }
+  ],
+  "hook": "Understand directions in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Perdón. ¿Dónde está el baño?",
+      "translation": "Sorry. Where is the bathroom?"
+    },
+    {
+      "speaker": "B",
+      "target": "Todo derecho. A la izquierda.",
+      "translation": "Straight ahead. To the left."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The bathroom is on your right. What do you hear?",
+      "answer": "A la derecha.",
+      "choices": [
+        "A la izquierda.",
+        "A la derecha.",
+        "Está lejos."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Family is next.",
+  "variety_code": "neutral"
+}
