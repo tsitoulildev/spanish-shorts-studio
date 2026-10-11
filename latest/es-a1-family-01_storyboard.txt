@@ -1,0 +1,24 @@
+es-a1-family-01  |  Talk about your family, part 1  |  hook: Your family in Spanish. Three phrases.
+
+  0.0s  card 00 cold      es/A: ¿Tenés hermanos?
+  1.3s  card 01 hook      en/A: Your family in Spanish. Three phrases.
+  4.1s  card 02 phrase_q  en/A: Do you have siblings?
+  5.9s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.6s  card 03 phrase_a  es/A: ¿Tenés hermanos?
+  7.7s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.5s  card 04 phrase_q  en/A: I have a sister
+ 11.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.1s  card 05 phrase_a  es/A: Tengo una hermana.
+ 13.5s  card 05 phrase_a  (silent 2.2s: viewer's turn)
+ 15.8s  card 06 phrase_q  en/A: There are four of us
+ 18.1s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 18.8s  card 07 phrase_a  es/A: Somos cuatro.
+ 19.8s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 21.6s  card 08 dialogue  es/A: ¿Tenés hermanos?
+ 22.8s  card 09 dialogue  es/B: Tengo una hermana.
+ 24.5s  card 10 quiz_q    en/A: You have one sister. What do you say?
+ 28.1s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 30.1s  card 11 quiz_a    es/A: Tengo una hermana.
+ 31.9s  card 12 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 35.5 s (limit 40 s)

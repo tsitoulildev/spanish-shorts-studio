@@ -1,0 +1,13 @@
+[es/clear/A] ¿Tenés hermanos?
+[en/fast/A] Your family in Spanish. Three phrases.
+[en/fast/A] Do you have siblings?
+[es/clear/A] ¿Tenés hermanos?
+[en/fast/A] I have a sister
+[es/clear/A] Tengo una hermana.
+[en/fast/A] There are four of us
+[es/clear/A] Somos cuatro.
+[es/clear/A] ¿Tenés hermanos?
+[es/clear/B] Tengo una hermana.
+[en/fast/A] You have one sister. What do you say?
+[es/clear/A] Tengo una hermana.
+[en/fast/A] Say them out loud. Part two is next.
