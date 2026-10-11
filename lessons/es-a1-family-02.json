@@ -7,7 +7,7 @@
   "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
   "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
   "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
-  "topic": "Talk about your family, part 2: friends and age",
+  "topic": "Talk about your family, part 2: friends and partners",
   "cold_open": {
     "phrase": 1
   },
@@ -16,42 +16,42 @@
       "target": "Es mi amigo.",
       "translation": "He is my friend.",
       "pronunciation": "ehs mee ah-MEE-goh",
-      "when": "Introducing a friend. A girl friend is “amiga”. A partner is “mi novia” or “mi novio”."
+      "when": "Introducing a friend. A girl friend is “amiga”."
     },
     {
-      "target": "¿Cuántos años tenés?",
-      "translation": "How old are you?",
-      "pronunciation": "KWAHN-tohs AH-nyohs teh-NEHS",
-      "when": "Say “tenés” to one friend. Spanish “has” years."
+      "target": "Es mi novia.",
+      "translation": "She is my girlfriend.",
+      "pronunciation": "ehs mee NOH-byah",
+      "when": "A boyfriend is “mi novio”. Also means fiancée."
     },
     {
-      "target": "Tengo veinte años.",
-      "translation": "I am twenty years old.",
-      "pronunciation": "TEHN-goh BEIN-teh AH-nyohs",
-      "when": "Always say “años”. For others: “tiene”."
+      "target": "Somos amigos.",
+      "translation": "We are friends.",
+      "pronunciation": "SOH-mohs ah-MEE-gohs",
+      "when": "Say it to make clear you are just friends. “Somos” means “we are”."
     }
   ],
-  "hook": "Introduce a friend and ask their age. Three phrases.",
+  "hook": "Introduce a friend and your partner. Three phrases.",
   "dialogue": [
     {
       "speaker": "A",
-      "target": "¿Cuántos años tenés?",
-      "translation": "How old are you?"
+      "target": "Hola. Es mi novia.",
+      "translation": "Hi. She is my girlfriend."
     },
     {
       "speaker": "B",
-      "target": "Tengo veinte años.",
-      "translation": "I am twenty years old."
+      "target": "Mucho gusto.",
+      "translation": "Nice to meet you."
     }
   ],
   "quiz": [
     {
-      "prompt": "You are twenty. What do you say?",
-      "answer": "Tengo veinte años.",
+      "prompt": "You and Ana are just friends. What do you say?",
+      "answer": "Somos amigos.",
       "choices": [
-        "Es mi amigo.",
-        "Tengo veinte años.",
-        "¿Cuántos años tenés?"
+        "Es mi novia.",
+        "Somos amigos.",
+        "Es mi amigo."
       ]
     }
   ],

@@ -48,10 +48,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | family-01 | Tengo una hermana. | correct and universal; "una" for a sister and "un hermano" for a brother, said in the tip |
 | family-01 | Somos cuatro. | correct and universal; "somos" (ser) is the normal way to give the size of a group, yourself included |
 | family-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; both phrases were taught in this lesson |
-| family-02 | Es mi amigo. | correct and universal; "amiga" for a female friend and "mi novia" / "mi novio" for a partner (correct, universal), said in the tip |
-| family-02 | ¿Cuántos años tenés? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); Spanish uses "tener" for age, said in the tip |
-| family-02 | Tengo veinte años. | correct and universal; "años" is required, and "tiene" for another person is named in the tip |
-| family-02 | ¿Cuántos años tenés? / Tengo veinte años. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| family-02 | Es mi amigo. | correct and universal; "amiga" for a female friend, said in the tip |
+| family-02 | Es mi novia. | correct and universal; "novia" is girlfriend (also fiancée), "novio" for a boyfriend, said in the tip |
+| family-02 | Somos amigos. | correct and universal; "somos" (ser) is "we are", as taught in family-01 ("Somos cuatro") |
+| family-02 | Hola. Es mi novia. / Mucho gusto. (dialogue) | correct and natural; every phrase was taught in this or an earlier lesson (Hola, Mucho gusto) |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
