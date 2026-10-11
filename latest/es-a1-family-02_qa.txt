@@ -1,0 +1,15 @@
+es-a1-family-02 (mixed): 30.9 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 14.5 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
+INFO clip hook [en] match 1.00: wanted 'Introduce a friend and ask their age. Three phrases.' heard 'Introduce a friend and ask their age. Three phrases.'
+INFO clip p01_q [en] match 1.00: wanted 'He is my friend' heard 'He is my friend.'
+INFO clip p01_a [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
+INFO clip p02_q [en] match 1.00: wanted 'How old are you?' heard 'How old are you?'
+INFO clip p02_a [es] match 1.00: wanted '¿Cuántos años tenés?' heard '¿Cuántos años tenés?'
+INFO clip d01 [es] match 1.00: wanted '¿Cuántos años tenés?' heard '¿Cuántos años tenés?'
+INFO clip q01_ask [en] match 0.86: wanted 'You are twenty. What do you say?' heard 'You are 20, what do you say?'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Next topic: time.' heard 'Say them out loud next topic time'
+WARN clip p03_q [en] match 0.79: wanted 'I am twenty years old' heard 'I am 20 years old.'
+WARN clip p03_a [es] match 0.73: wanted 'Tengo veinte años.' heard 'Tengo 20 años.'
+WARN clip d02 [es] match 0.67: wanted 'Tengo veinte años.' heard 'Tenmo 20 años.'
+WARN clip q01_ans [es] match 0.67: wanted 'Tengo veinte años.' heard 'Tenmo 20 años.'
+QA: PASS (with warnings)
