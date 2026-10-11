@@ -1,0 +1,13 @@
+[es/clear/A] Todo derecho.
+[en/fast/A] Understand directions in Spanish. Three phrases.
+[en/fast/A] Straight ahead
+[es/clear/A] Todo derecho.
+[en/fast/A] To the left
+[es/clear/A] A la izquierda.
+[en/fast/A] To the right
+[es/clear/A] A la derecha.
+[es/clear/A] Perdón. ¿Dónde está el baño?
+[es/clear/B] Todo derecho. A la izquierda.
+[en/fast/A] The bathroom is on your right. What do you hear?
+[es/clear/A] A la derecha.
+[en/fast/A] Say them out loud. Family is next.

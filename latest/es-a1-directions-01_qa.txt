@@ -1,4 +1,4 @@
-es-a1-directions-01 (mixed): 29.4 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.3 dBFS, silence 13.9 s (designed about 12.9 s, longest gap 2.8 s), black 0.00 s
+es-a1-directions-01 (mixed): 29.5 s, 1080x1920@30, first sound 0.0 s, -16.2 LUFS, peak -1.4 dBFS, silence 13.9 s (designed about 12.9 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Dónde está el baño?' heard '¿Dónde está el baño?'
 INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Ask where it is. Three phrases.' heard 'Lost in Spanish, ask where it is. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Where is the bathroom?' heard 'Where is the bathroom?'

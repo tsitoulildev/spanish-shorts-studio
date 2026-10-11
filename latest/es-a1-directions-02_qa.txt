@@ -1,0 +1,15 @@
+es-a1-directions-02 (mixed): 30.0 s, 1080x1920@30, first sound 0.0 s, -16.3 LUFS, peak -1.4 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
+INFO clip hook [en] match 1.00: wanted 'Understand directions in Spanish. Three phrases.' heard 'Understand directions in Spanish. Three phrases.'
+INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Straight ahead' heard 'Straight ahead.'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
+INFO clip p02_q [en] match 1.00: wanted 'To the left' heard 'To the left.'
+INFO clip p02_a [es] match 1.00: wanted 'A la izquierda.' heard 'a la izquierda.'
+INFO clip p03_q [en] match 1.00: wanted 'To the right' heard 'to the right.'
+INFO clip p03_a [es] match 1.00: wanted 'A la derecha.' heard 'a la derecha.'
+INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Dónde está el baño?' heard 'Perdón, ¿dónde está el baño?'
+INFO clip d02 [es] match 1.00: wanted 'Todo derecho. A la izquierda.' heard 'Todo derecho.  A la izquierda.'
+INFO clip q01_ask [en] match 1.00: wanted 'The bathroom is on your right. What do you hear?' heard 'The bathroom is on your right. What do you hear?'
+INFO clip q01_ans [es] match 1.00: wanted 'A la derecha.' heard 'a la derecha.'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Family is next.' heard 'Say them out loud. Family is next.'
+QA: PASS

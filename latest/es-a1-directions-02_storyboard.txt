@@ -1,0 +1,24 @@
+es-a1-directions-02  |  Ask for directions, part 2  |  hook: Understand directions in Spanish. Three phrases.
+
+  0.0s  card 00 cold      es/A: Todo derecho.
+  1.3s  card 01 hook      en/A: Understand directions in Spanish. Three phrases.
+  4.1s  card 02 phrase_q  en/A: Straight ahead
+  5.1s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  5.8s  card 03 phrase_a  es/A: Todo derecho.
+  6.8s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  8.6s  card 04 phrase_q  en/A: To the left
+ 10.1s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 10.8s  card 05 phrase_a  es/A: A la izquierda.
+ 12.3s  card 05 phrase_a  (silent 2.2s: viewer's turn)
+ 14.5s  card 06 phrase_q  en/A: To the right
+ 16.0s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 16.7s  card 07 phrase_a  es/A: A la derecha.
+ 18.1s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 20.4s  card 08 dialogue  es/A: Perdón. ¿Dónde está el baño?
+ 22.9s  card 09 dialogue  es/B: Todo derecho. A la izquierda.
+ 25.4s  card 10 quiz_q    en/A: The bathroom is on your right. What do you hear?
+ 29.8s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 31.8s  card 11 quiz_a    es/A: A la derecha.
+ 33.6s  card 12 outro     en/A: Say them out loud. Family is next.
+
+estimated length: 36.8 s (limit 40 s)
