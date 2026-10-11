@@ -47,7 +47,7 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | family-01 | ¿Tenés hermanos? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); "hermanos" covers brothers or brothers and sisters, said in the tip |
 | family-01 | Tengo una hermana. | correct and universal; "una" for a sister and "un hermano" for a brother, said in the tip |
 | family-01 | Somos cuatro. | correct and universal; "somos" (ser) is the normal way to give the size of a group, yourself included |
-| family-01 | ¿Tenés hermanos? / Tengo una hermana. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| family-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
