@@ -44,6 +44,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | directions-02 | Todo derecho. | correct and common in Argentina ("todo recto" is the Spain form, not taught); the tip warns not to confuse "derecho" (straight) with "derecha" (right) |
 | directions-02 | A la izquierda. / A la derecha. | correct and universal; the "z" of "izquierda" is an "s" sound in Argentina, said in the tip |
 | directions-02 | Perdón. ¿Dónde está el baño? / Todo derecho. A la izquierda. (dialogue) | correct and natural; every phrase was met in this or an earlier lesson (Perdón, ¿Dónde está el baño?) |
+| family-01 | ¿Tenés hermanos? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); "hermanos" covers brothers or brothers and sisters, said in the tip |
+| family-01 | Tengo una hermana. | correct and universal; "una" for a sister and "un hermano" for a brother, said in the tip |
+| family-01 | Somos cuatro. | correct and universal; "somos" (ser) is the normal way to give the size of a group, yourself included |
+| family-01 | ¿Tenés hermanos? / Tengo una hermana. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

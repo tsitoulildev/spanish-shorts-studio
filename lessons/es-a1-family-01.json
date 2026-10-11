@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-family-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Talk about your family, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Tenés hermanos?",
+      "translation": "Do you have siblings?",
+      "pronunciation": "teh-NEHS ehr-MAH-nohs",
+      "when": "Argentines say “tenés” to one friend. “Hermanos” means brothers, or brothers and sisters together."
+    },
+    {
+      "target": "Tengo una hermana.",
+      "translation": "I have a sister.",
+      "pronunciation": "TEHN-goh OO-nah ehr-MAH-nah",
+      "when": "Brother is “un hermano”. Use “una” for a sister, “un” for a brother."
+    },
+    {
+      "target": "Somos cuatro.",
+      "translation": "There are four of us.",
+      "pronunciation": "SOH-mohs KWAH-troh",
+      "when": "Say how many people are in your family, counting yourself."
+    }
+  ],
+  "hook": "Your family in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Tenés hermanos?",
+      "translation": "Do you have siblings?"
+    },
+    {
+      "speaker": "B",
+      "target": "Tengo una hermana.",
+      "translation": "I have a sister."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You have one sister. What do you say?",
+      "answer": "Tengo una hermana.",
+      "choices": [
+        "Somos cuatro.",
+        "Tengo una hermana.",
+        "¿Tenés hermanos?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}
