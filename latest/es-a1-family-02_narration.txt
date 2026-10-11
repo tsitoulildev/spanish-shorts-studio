@@ -1,13 +1,13 @@
 [es/clear/A] Es mi amigo.
-[en/fast/A] Introduce a friend and ask their age. Three phrases.
+[en/fast/A] Introduce a friend and your partner. Three phrases.
 [en/fast/A] He is my friend
 [es/clear/A] Es mi amigo.
-[en/fast/A] How old are you?
-[es/clear/A] ¿Cuántos años tenés?
-[en/fast/A] I am twenty years old
-[es/clear/A] Tengo veinte años.
-[es/clear/A] ¿Cuántos años tenés?
-[es/clear/B] Tengo veinte años.
-[en/fast/A] You are twenty. What do you say?
-[es/clear/A] Tengo veinte años.
+[en/fast/A] She is my girlfriend
+[es/clear/A] Es mi novia.
+[en/fast/A] We are friends
+[es/clear/A] Somos amigos.
+[es/clear/A] Hola. Es mi novia.
+[es/clear/B] Mucho gusto.
+[en/fast/A] You and Ana are just friends. What do you say?
+[es/clear/A] Somos amigos.
 [en/fast/A] Say them out loud. Next topic: time.
