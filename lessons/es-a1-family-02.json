@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-family-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Talk about your family, part 2: friends and age",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Es mi amigo.",
+      "translation": "He is my friend.",
+      "pronunciation": "ehs mee ah-MEE-goh",
+      "when": "Introducing a friend. A girl friend is “amiga”. A partner is “mi novia” or “mi novio”."
+    },
+    {
+      "target": "¿Cuántos años tenés?",
+      "translation": "How old are you?",
+      "pronunciation": "KWAHN-tohs AH-nyohs teh-NEHS",
+      "when": "Say “tenés” to one friend. Spanish “has” years."
+    },
+    {
+      "target": "Tengo veinte años.",
+      "translation": "I am twenty years old.",
+      "pronunciation": "TEHN-goh BEIN-teh AH-nyohs",
+      "when": "Always say “años”. For others: “tiene”."
+    }
+  ],
+  "hook": "Introduce a friend and ask their age. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Cuántos años tenés?",
+      "translation": "How old are you?"
+    },
+    {
+      "speaker": "B",
+      "target": "Tengo veinte años.",
+      "translation": "I am twenty years old."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You are twenty. What do you say?",
+      "answer": "Tengo veinte años.",
+      "choices": [
+        "Es mi amigo.",
+        "Tengo veinte años.",
+        "¿Cuántos años tenés?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Next topic: time.",
+  "variety_code": "argentine"
+}
