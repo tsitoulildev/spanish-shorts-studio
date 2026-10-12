@@ -7,57 +7,51 @@
   "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
   "variety": "Argentine Spanish (Rioplatense). These day phrases are the same in Argentina and Mexico.",
   "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
-  "topic": "Time and days, part 2: days of the week",
+  "topic": "Time and days, part 2: days and plans",
   "cold_open": {
     "phrase": 1
   },
   "phrases": [
     {
-      "target": "¿Qué día es hoy?",
-      "translation": "What day is it today?",
-      "pronunciation": "keh DEE-ah ehs oy",
-      "when": "Use it to check the day. Spanish days start with a small letter."
+      "target": "¿Cuándo es la fiesta?",
+      "translation": "When is the party?",
+      "pronunciation": "KWAN-doh ehs lah FYEHS-tah",
+      "when": "“Cuándo” means when. Swap in any plan: la clase, el partido."
     },
     {
-      "target": "Hoy es sábado.",
-      "translation": "Today is Saturday.",
-      "pronunciation": "oy ehs SAH-bah-doh",
-      "when": "Swap in any day: lunes, martes, jueves. Same pattern."
-    },
-    {
-      "target": "Mañana es domingo.",
-      "translation": "Tomorrow is Sunday.",
-      "pronunciation": "mah-NYAH-nah ehs doh-MEEN-goh",
-      "when": "Same pattern with “mañana”. Say the ñ like “ny” in canyon."
+      "target": "Mañana es martes.",
+      "translation": "Tomorrow is Tuesday.",
+      "pronunciation": "mah-NYAH-nah ehs MAR-tehs",
+      "when": "“Mañana” is tomorrow. Say the ñ like “ny” in canyon. Days start with a small letter."
     },
     {
       "target": "El viernes.",
       "translation": "On Friday.",
       "pronunciation": "ehl VYEHR-nehs",
-      "when": "To say when, put “el” before the day. Never “en”."
+      "when": "To say on which day, put “el” before it. Never “en”."
     }
   ],
-  "hook": "Days of the week. Four phrases.",
+  "hook": "Plan a day in Spanish. Three phrases.",
   "dialogue": [
     {
       "speaker": "A",
-      "target": "¿Qué día es hoy?",
-      "translation": "What day is it today?"
+      "target": "¿Cuándo es la fiesta?",
+      "translation": "When is the party?"
     },
     {
       "speaker": "B",
-      "target": "Hoy es sábado.",
-      "translation": "Today is Saturday."
+      "target": "El viernes.",
+      "translation": "On Friday."
     }
   ],
   "quiz": [
     {
-      "prompt": "Today is Saturday. Tomorrow?",
-      "answer": "Mañana es domingo.",
+      "prompt": "The party is on Friday. What do you say?",
+      "answer": "El viernes.",
       "choices": [
-        "Hoy es sábado.",
-        "Mañana es domingo.",
-        "El viernes."
+        "Mañana es martes.",
+        "El viernes.",
+        "¿Cuándo es la fiesta?"
       ]
     }
   ],
