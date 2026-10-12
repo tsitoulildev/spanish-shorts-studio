@@ -52,6 +52,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | time-01 | Es la una. | correct; "una" is singular, so one o'clock alone takes "es la" |
 | time-01 | Son las tres. | correct; from two o'clock on the plural "son las" is used |
 | time-01 | ¿Qué hora es? / Son las tres. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| time-02 | ¿Qué día es hoy? | correct and universal; standard way to ask the weekday ("¿A qué día estamos?" is also heard, not taught); days are written with a small letter, said in the tip |
+| time-02 | Hoy es lunes. | correct and universal; "ser" with the weekday, and the tip says other days follow the same pattern |
+| time-02 | Mañana es martes. | correct and universal; "mañana" as "tomorrow" takes the same pattern; the "ñ" is explained in the tip |
+| time-02 | El viernes. | correct and universal; "el" + weekday means "on Friday" (plural "los viernes" = every Friday, not taught); "en viernes" is wrong, said in the tip |
+| time-02 | ¿Qué día es hoy? / Hoy es lunes. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-time-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense). These day phrases are the same in Argentina and Mexico.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Time and days, part 2: days of the week",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Qué día es hoy?",
+      "translation": "What day is it today?",
+      "pronunciation": "keh DEE-ah ehs oy",
+      "when": "Use it to check the day. Spanish days start with a small letter."
+    },
+    {
+      "target": "Hoy es lunes.",
+      "translation": "Today is Monday.",
+      "pronunciation": "oy ehs LOO-nehs",
+      "when": "Swap in any day: martes, jueves, sábado. Same pattern."
+    },
+    {
+      "target": "Mañana es martes.",
+      "translation": "Tomorrow is Tuesday.",
+      "pronunciation": "mah-NYAH-nah ehs MAR-tehs",
+      "when": "Same pattern with “mañana”. Say the ñ like “ny” in canyon."
+    },
+    {
+      "target": "El viernes.",
+      "translation": "On Friday.",
+      "pronunciation": "ehl VYEHR-nehs",
+      "when": "To say when, put “el” before the day. Never “en”."
+    }
+  ],
+  "hook": "Days of the week. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué día es hoy?",
+      "translation": "What day is it today?"
+    },
+    {
+      "speaker": "B",
+      "target": "Hoy es lunes.",
+      "translation": "Today is Monday."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Today is Monday. Tomorrow?",
+      "answer": "Mañana es martes.",
+      "choices": [
+        "Hoy es lunes.",
+        "Mañana es martes.",
+        "El viernes."
+      ]
+    }
+  ],
+  "outro": "Weather is next.",
+  "variety_code": "neutral"
+}
