@@ -48,6 +48,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | family-01 | Tengo una hermana. | correct and universal; "una" for a sister and "un hermano" for a brother, said in the tip |
 | family-01 | Somos cuatro. | correct and universal; "somos" (ser) is the normal way to give the size of a group, yourself included |
 | family-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| time-01 | ¿Qué hora es? | correct and universal; standard way to ask the time in Argentina and elsewhere ("¿Tenés hora?" is also heard, not taught) |
+| time-01 | Es la una. | correct; "una" is singular, so one o'clock alone takes "es la" |
+| time-01 | Son las tres. | correct; from two o'clock on the plural "son las" is used |
+| time-01 | ¿Qué hora es? / Son las tres. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
