@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-time-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense). These day phrases are the same in Argentina and Mexico.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Time and days, part 2: days and plans",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Cuándo es la fiesta?",
+      "translation": "When is the party?",
+      "pronunciation": "KWAN-doh ehs lah FYEHS-tah",
+      "when": "“Cuándo” means when. Swap in any plan: la clase, el partido."
+    },
+    {
+      "target": "Mañana es martes.",
+      "translation": "Tomorrow is Tuesday.",
+      "pronunciation": "mah-NYAH-nah ehs MAR-tehs",
+      "when": "“Mañana” is tomorrow. Say the ñ like “ny” in canyon. Days start with a small letter."
+    },
+    {
+      "target": "El viernes.",
+      "translation": "On Friday.",
+      "pronunciation": "ehl VYEHR-nehs",
+      "when": "To say on which day, put “el” before it. Never “en”."
+    }
+  ],
+  "hook": "Plan a day in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Cuándo es la fiesta?",
+      "translation": "When is the party?"
+    },
+    {
+      "speaker": "B",
+      "target": "El viernes.",
+      "translation": "On Friday."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "The party is on Friday. What do you say?",
+      "answer": "El viernes.",
+      "choices": [
+        "Mañana es martes.",
+        "El viernes.",
+        "¿Cuándo es la fiesta?"
+      ]
+    }
+  ],
+  "outro": "Weather is next.",
+  "variety_code": "neutral"
+}
