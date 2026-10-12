@@ -1,0 +1,15 @@
+[es/clear/A] ¿Qué tiempo hace?
+[en/fast/A] Talk about the weather. Four phrases.
+[en/fast/A] What's the weather like?
+[es/clear/A] ¿Qué tiempo hace?
+[en/fast/A] It's hot
+[es/clear/A] Hace calor.
+[en/fast/A] It's cold
+[es/clear/A] Hace frío.
+[en/fast/A] It's raining
+[es/clear/A] Está lloviendo.
+[es/clear/A] ¿Qué tiempo hace?
+[es/clear/B] Hace frío.
+[en/fast/A] Rain outside. What do you say?
+[es/clear/A] Está lloviendo.
+[en/fast/A] Say them out loud. Likes are next.
