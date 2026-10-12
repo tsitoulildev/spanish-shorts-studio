@@ -1,15 +1,13 @@
-[es/clear/A] ¿Qué día es hoy?
-[en/fast/A] Days of the week. Four phrases.
-[en/fast/A] What day is it today?
-[es/clear/A] ¿Qué día es hoy?
-[en/fast/A] Today is Saturday
-[es/clear/A] Hoy es sábado.
-[en/fast/A] Tomorrow is Sunday
-[es/clear/A] Mañana es domingo.
+[es/clear/A] ¿Cuándo es la fiesta?
+[en/fast/A] Plan a day in Spanish. Three phrases.
+[en/fast/A] When is the party?
+[es/clear/A] ¿Cuándo es la fiesta?
+[en/fast/A] Tomorrow is Tuesday
+[es/clear/A] Mañana es martes.
 [en/fast/A] On Friday
 [es/clear/A] El viernes.
-[es/clear/A] ¿Qué día es hoy?
-[es/clear/B] Hoy es sábado.
-[en/fast/A] Today is Saturday. Tomorrow?
-[es/clear/A] Mañana es domingo.
+[es/clear/A] ¿Cuándo es la fiesta?
+[es/clear/B] El viernes.
+[en/fast/A] The party is on Friday. What do you say?
+[es/clear/A] El viernes.
 [en/fast/A] Weather is next.

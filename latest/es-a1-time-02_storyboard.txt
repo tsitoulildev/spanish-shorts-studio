@@ -1,28 +1,24 @@
-es-a1-time-02  |  Time and days, part 2: days of the week  |  hook: Days of the week. Four phrases.
+es-a1-time-02  |  Time and days, part 2: days and plans  |  hook: Plan a day in Spanish. Three phrases.
 
-  0.0s  card 00 cold      es/A: ¿Qué día es hoy?
-  2.2s  card 01 hook      en/A: Days of the week. Four phrases.
-  4.9s  card 02 phrase_q  en/A: What day is it today?
+  0.0s  card 00 cold      es/A: ¿Cuándo es la fiesta?
+  2.2s  card 01 hook      en/A: Plan a day in Spanish. Three phrases.
+  5.3s  card 02 phrase_q  en/A: When is the party?
   7.2s  card 02 phrase_q  (silent 0.7s: viewer's turn)
-  7.9s  card 03 phrase_a  es/A: ¿Qué día es hoy?
+  7.9s  card 03 phrase_a  es/A: ¿Cuándo es la fiesta?
   9.8s  card 03 phrase_a  (silent 2.6s: viewer's turn)
- 12.4s  card 04 phrase_q  en/A: Today is Saturday
+ 12.4s  card 04 phrase_q  en/A: Tomorrow is Tuesday
  13.8s  card 04 phrase_q  (silent 0.7s: viewer's turn)
- 14.5s  card 05 phrase_a  es/A: Hoy es sábado.
+ 14.5s  card 05 phrase_a  es/A: Mañana es martes.
  16.0s  card 05 phrase_a  (silent 2.2s: viewer's turn)
- 18.2s  card 06 phrase_q  en/A: Tomorrow is Sunday
- 19.7s  card 06 phrase_q  (silent 0.7s: viewer's turn)
- 20.4s  card 07 phrase_a  es/A: Mañana es domingo.
- 21.9s  card 07 phrase_a  (silent 2.2s: viewer's turn)
- 24.1s  card 08 phrase_q  en/A: On Friday
- 25.2s  card 08 phrase_q  (silent 0.7s: viewer's turn)
- 25.9s  card 09 phrase_a  es/A: El viernes.
- 26.9s  card 09 phrase_a  (silent 1.8s: viewer's turn)
- 28.7s  card 10 dialogue  es/A: ¿Qué día es hoy?
- 30.8s  card 11 dialogue  es/B: Hoy es sábado.
- 32.4s  card 12 quiz_q    en/A: Today is Saturday. Tomorrow?
- 34.3s  card 12 quiz_q    (silent 2.0s: viewer's turn)
- 36.3s  card 13 quiz_a    es/A: Mañana es domingo.
- 38.2s  card 14 outro     en/A: Weather is next.
+ 18.2s  card 06 phrase_q  en/A: On Friday
+ 19.3s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.0s  card 07 phrase_a  es/A: El viernes.
+ 21.0s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 22.8s  card 08 dialogue  es/A: ¿Cuándo es la fiesta?
+ 24.9s  card 09 dialogue  es/B: El viernes.
+ 26.1s  card 10 quiz_q    en/A: The party is on Friday. What do you say?
+ 30.1s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 32.1s  card 11 quiz_a    es/A: El viernes.
+ 33.6s  card 12 outro     en/A: Weather is next.
 
-estimated length: 39.6 s (limit 40 s)
+estimated length: 35.0 s (limit 40 s)
