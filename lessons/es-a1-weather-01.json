@@ -13,10 +13,10 @@
   },
   "phrases": [
     {
-      "target": "¿Qué tiempo hace?",
-      "translation": "What's the weather like?",
-      "pronunciation": "keh TYEHM-poh AH-seh",
-      "when": "Literally “what time makes”. Here “tiempo” means weather, and you ask it about today."
+      "target": "¿Qué tiempo hace hoy?",
+      "translation": "What's the weather like today?",
+      "pronunciation": "keh TYEHM-poh AH-seh oy",
+      "when": "“Tiempo” means weather here and “hoy” means today. Literally “what weather does it make today?”."
     },
     {
       "target": "Hace calor.",
@@ -41,8 +41,8 @@
   "dialogue": [
     {
       "speaker": "A",
-      "target": "¿Qué tiempo hace?",
-      "translation": "What's the weather like?"
+      "target": "¿Qué tiempo hace hoy?",
+      "translation": "What's the weather like today?"
     },
     {
       "speaker": "B",
@@ -52,7 +52,7 @@
   ],
   "quiz": [
     {
-      "prompt": "Rain outside. What do you say?",
+      "prompt": "Rain today. What do you say?",
       "answer": "Está lloviendo.",
       "choices": [
         "Hace calor.",
@@ -61,6 +61,6 @@
       ]
     }
   ],
-  "outro": "Say them out loud. Likes are next.",
+  "outro": "Say them aloud. Likes next.",
   "variety_code": "neutral"
 }
