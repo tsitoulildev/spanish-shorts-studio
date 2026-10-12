@@ -1,0 +1,15 @@
+[es/clear/A] ¿Qué día es hoy?
+[en/fast/A] Days of the week. Four phrases.
+[en/fast/A] What day is it today?
+[es/clear/A] ¿Qué día es hoy?
+[en/fast/A] Today is Monday
+[es/clear/A] Hoy es lunes.
+[en/fast/A] Tomorrow is Tuesday
+[es/clear/A] Mañana es martes.
+[en/fast/A] On Friday
+[es/clear/A] El viernes.
+[es/clear/A] ¿Qué día es hoy?
+[es/clear/B] Hoy es lunes.
+[en/fast/A] Today is Monday. Tomorrow?
+[es/clear/A] Mañana es martes.
+[en/fast/A] Weather is next.
