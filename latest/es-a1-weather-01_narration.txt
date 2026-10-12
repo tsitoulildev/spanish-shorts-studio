@@ -1,6 +1,6 @@
 [es/clear/A] ¿Qué tiempo hace hoy?
 [en/fast/A] Talk about the weather. Four phrases.
-[en/fast/A] What's the weather like today?
+[en/fast/A] How's the weather?
 [es/clear/A] ¿Qué tiempo hace hoy?
 [en/fast/A] It's hot
 [es/clear/A] Hace calor.
