@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-weather-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense). These weather phrases are the same in Argentina and Mexico.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Weather: hot, cold, rain",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Qué tiempo hace?",
+      "translation": "What's the weather like?",
+      "pronunciation": "keh TYEHM-poh AH-seh",
+      "when": "Literally “what time makes”. Here “tiempo” means weather, and you ask it about today."
+    },
+    {
+      "target": "Hace calor.",
+      "translation": "It's hot.",
+      "pronunciation": "AH-seh kah-LOHR",
+      "when": "Spanish says “it makes heat”. Never “es calor”."
+    },
+    {
+      "target": "Hace frío.",
+      "translation": "It's cold.",
+      "pronunciation": "AH-seh FREE-oh",
+      "when": "Same pattern as hot: “hace” + the word. Mind the accent on the í."
+    },
+    {
+      "target": "Está lloviendo.",
+      "translation": "It's raining.",
+      "pronunciation": "ehs-TAH shoh-VYEHN-doh",
+      "when": "For rain happening right now. In Argentina “ll” sounds like “sh”."
+    }
+  ],
+  "hook": "Talk about the weather. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué tiempo hace?",
+      "translation": "What's the weather like?"
+    },
+    {
+      "speaker": "B",
+      "target": "Hace frío.",
+      "translation": "It's cold."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Rain outside. What do you say?",
+      "answer": "Está lloviendo.",
+      "choices": [
+        "Hace calor.",
+        "Está lloviendo.",
+        "Hace frío."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Likes are next.",
+  "variety_code": "neutral"
+}
