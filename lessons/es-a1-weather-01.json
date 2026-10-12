@@ -14,9 +14,9 @@
   "phrases": [
     {
       "target": "¿Qué tiempo hace hoy?",
-      "translation": "What's the weather like today?",
+      "translation": "How's the weather?",
       "pronunciation": "keh TYEHM-poh AH-seh oy",
-      "when": "“Tiempo” means weather here and “hoy” means today. Literally “what weather does it make today?”."
+      "when": "“Tiempo” is weather, “hoy” is today."
     },
     {
       "target": "Hace calor.",
@@ -42,7 +42,7 @@
     {
       "speaker": "A",
       "target": "¿Qué tiempo hace hoy?",
-      "translation": "What's the weather like today?"
+      "translation": "How's the weather?"
     },
     {
       "speaker": "B",
