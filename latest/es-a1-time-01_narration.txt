@@ -1,0 +1,13 @@
+[es/clear/A] ¿Qué hora es?
+[en/fast/A] Tell the time in Spanish. Three phrases.
+[en/fast/A] What time is it?
+[es/clear/A] ¿Qué hora es?
+[en/fast/A] It is one o'clock
+[es/clear/A] Es la una.
+[en/fast/A] It is three o'clock
+[es/clear/A] Son las tres.
+[es/clear/A] ¿Qué hora es?
+[es/clear/B] Son las tres.
+[en/fast/A] It is one o'clock. What do you say?
+[es/clear/A] Es la una.
+[en/fast/A] Days of the week next.

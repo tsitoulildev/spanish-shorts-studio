@@ -6,10 +6,10 @@ INFO clip p01_a [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, 
 INFO clip p02_q [en] match 1.00: wanted 'To take away' heard 'to take away.'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Para llevar.' heard 'para llevar.'
 INFO clip p03_q [en] match 1.00: wanted 'The bill, please' heard 'The bill, please.'
-INFO clip p03_a [es] match 1.00: wanted 'La cuenta, por favor.' heard 'La cuenta, por favor.'
+INFO clip p03_a [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
 INFO clip d01 [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, por favor.'
-INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Para llevar.' heard 'para llevar.'
+INFO clip d02 [es] too short for a reliable check (match 0.64): wanted 'Para llevar.' heard 'para ayudar.'
 INFO clip q01_ask [en] match 1.00: wanted 'You want to pay. What do you say?' heard 'You want to pay, what do you say?'
-INFO clip q01_ans [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
+INFO clip q01_ans [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es, por favor.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. More café phrases are next.' heard 'Say them out loud. More cafe phrases are next.'
 QA: PASS
