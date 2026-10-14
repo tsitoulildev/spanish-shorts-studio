@@ -1,0 +1,24 @@
+es-a1-family-02  |  Talk about your family, part 2: friends and partners  |  hook: Introduce a friend and your partner. Three phrases.
+
+  0.0s  card 00 cold      es/A: Es mi amigo.
+  1.8s  card 01 hook      en/A: Introduce a friend and your partner. Three phrases.
+  5.3s  card 02 phrase_q  en/A: He is my friend
+  7.2s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.9s  card 03 phrase_a  es/A: Es mi amigo.
+  9.4s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 11.6s  card 04 phrase_q  en/A: She is my girlfriend
+ 13.5s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 14.2s  card 05 phrase_a  es/A: Es mi novia.
+ 15.6s  card 05 phrase_a  (silent 2.2s: viewer's turn)
+ 17.9s  card 06 phrase_q  en/A: We are friends
+ 19.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.1s  card 07 phrase_a  es/A: Somos amigos.
+ 21.1s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 22.9s  card 08 dialogue  es/A: Hola. Es mi novia.
+ 25.0s  card 09 dialogue  es/B: Mucho gusto.
+ 26.2s  card 10 quiz_q    en/A: You and Ana are just friends. What do you say?
+ 30.6s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 32.6s  card 11 quiz_a    es/A: Somos amigos.
+ 34.1s  card 12 outro     en/A: Say them out loud. Next topic: time.
+
+estimated length: 37.2 s (limit 40 s)
