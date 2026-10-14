@@ -1,12 +1,12 @@
-run 28  commit a03bc9badd58df03a71f172b155ebc433e2a3337  ref lesson/es-a1-likes-02  engine mixed
+run 29  commit a4fe2a5160290d8ae8fb065dcbbeff3ed81e1369  ref lesson/es-a1-likes-02  engine mixed
 Short limit: 40 s
-es-a1-cafe-01: duration 30.433333 s (within limit), loudness -16.0 LUFS, silence 12.8 s
-    qa: es-a1-cafe-01 (mixed): 30.4 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.5 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+es-a1-cafe-01: duration 30.666667 s (within limit), loudness -16.0 LUFS, silence 12.8 s
+    qa: es-a1-cafe-01 (mixed): 30.7 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.4 dBFS, silence 14.4 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, por favor.'
     qa: INFO clip hook [en] match 1.00: wanted 'Order a coffee in Spanish. Three phrases.' heard 'Order a coffee in Spanish, three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'A coffee, please' heard 'A coffee, please.'
     qa: INFO clip p01_a [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, por favor.'
-    qa: INFO clip p02_q [en] match 1.00: wanted 'To take away' heard 'to take away.'
+    qa: INFO clip p02_q [en] match 1.00: wanted 'To take away' heard 'to take away'
     qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Para llevar.' heard 'para llevar.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'The bill, please' heard 'The bill, please.'
     qa: INFO clip p03_a [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
@@ -16,26 +16,26 @@ es-a1-cafe-01: duration 30.433333 s (within limit), loudness -16.0 LUFS, silence
     qa: INFO clip q01_ans [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. More café phrases are next.' heard 'Say them out loud. More cafe phrases are next.'
     qa: QA: PASS
-es-a1-cafe-02: duration 31.700000 s (within limit), loudness -16.2 LUFS, silence 14.2 s
-    qa: es-a1-cafe-02 (mixed): 31.7 s, 1080x1920@30, first sound 0.0 s, -16.2 LUFS, peak -1.4 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
-    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'
+es-a1-cafe-02: duration 31.833333 s (within limit), loudness -16.3 LUFS, silence 14.2 s
+    qa: es-a1-cafe-02 (mixed): 31.8 s, 1080x1920@30, first sound 0.0 s, -16.3 LUFS, peak -1.4 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
+    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¿Qué tienen?'
     qa: INFO clip hook [en] match 1.00: wanted 'Chat with café staff in Spanish. Four phrases.' heard 'Chat with cafe staff in Spanish. Four phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'What do you have?' heard 'What do you have?'
-    qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¡Qué tienen!'
+    qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¡Que tienen!'
     qa: INFO clip p02_q [en] match 1.00: wanted 'I want this' heard 'I want this.'
     qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Quiero esto.' heard 'Quiero esto.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'Do you take cards?' heard 'Do you take cards?'
     qa: INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted '¿Aceptan tarjeta?' heard 'aceptan tarjeta.'
     qa: INFO clip p04_q [en] match 1.00: wanted 'It's delicious' heard 'It's delicious.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Está delicioso.' heard 'Está delicioso.'
-    qa: INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'
+    qa: INFO clip d01 [es] too short for a reliable check (match 0.59): wanted '¿Qué tienen?' heard '¡Gitínen!'
     qa: INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Quiero esto.' heard 'Quiero esto.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'You have no cash. What do you ask?' heard 'You have no cash, what do you ask?'
-    qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Aceptan tarjeta?' heard 'Aceptan tarjeta.'
+    qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Aceptan tarjeta?' heard 'aceptan tarjeta.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Directions are next.' heard 'Say them out loud. Directions are next.'
     qa: QA: PASS
-es-a1-directions-01: duration 29.433333 s (within limit), loudness -16.3 LUFS, silence 12.0 s
-    qa: es-a1-directions-01 (mixed): 29.4 s, 1080x1920@30, first sound 0.0 s, -16.3 LUFS, peak -1.4 dBFS, silence 13.8 s (designed about 12.9 s, longest gap 2.9 s), black 0.00 s
+es-a1-directions-01: duration 29.374000 s (within limit), loudness -16.2 LUFS, silence 12.0 s
+    qa: es-a1-directions-01 (mixed): 29.4 s, 1080x1920@30, first sound 0.0 s, -16.2 LUFS, peak -1.3 dBFS, silence 14.0 s (designed about 12.9 s, longest gap 2.8 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿Dónde está el baño?' heard '¿Dónde está el baño?'
     qa: INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Ask where it is. Three phrases.' heard 'Lost in Spanish, ask where it is. Three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'Where is the bathroom?' heard 'Where is the bathroom?'
@@ -48,59 +48,59 @@ es-a1-directions-01: duration 29.433333 s (within limit), loudness -16.3 LUFS, s
     qa: INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'It is a long walk. What do you hear?' heard 'It is a long walk. What do you hear?'
     qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Está lejos.' heard 'Está lejos.'
-    qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+    qa: INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
     qa: QA: PASS
-es-a1-directions-02: duration 30.100000 s (within limit), loudness -16.1 LUFS, silence 12.1 s
-    qa: es-a1-directions-02 (mixed): 30.1 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.3 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-directions-02: duration 29.900000 s (within limit), loudness -16.1 LUFS, silence 12.1 s
+    qa: es-a1-directions-02 (mixed): 29.9 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.4 dBFS, silence 14.0 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
     qa: INFO clip hook [en] match 1.00: wanted 'Understand directions in Spanish. Three phrases.' heard 'Understand directions in Spanish. Three phrases.'
     qa: INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Straight ahead' heard 'Straight ahead.'
     qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
     qa: INFO clip p02_q [en] match 1.00: wanted 'To the left' heard 'To the left.'
     qa: INFO clip p02_a [es] match 1.00: wanted 'A la izquierda.' heard 'a la izquierda.'
-    qa: INFO clip p03_q [en] match 1.00: wanted 'To the right' heard 'To the right.'
+    qa: INFO clip p03_q [en] match 1.00: wanted 'To the right' heard 'to the right.'
     qa: INFO clip p03_a [es] match 1.00: wanted 'A la derecha.' heard 'a la derecha.'
     qa: INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Dónde está el baño?' heard 'Perdón, ¿dónde está el baño?'
-    qa: INFO clip d02 [es] match 1.00: wanted 'Todo derecho. A la izquierda.' heard 'Todo derecho, a la izquierda.'
+    qa: INFO clip d02 [es] match 1.00: wanted 'Todo derecho. A la izquierda.' heard 'Todo derecho.  A la izquierda.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'The bathroom is on your right. What do you hear?' heard 'The bathroom is on your right. What do you hear?'
     qa: INFO clip q01_ans [es] match 1.00: wanted 'A la derecha.' heard 'a la derecha.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Family is next.' heard 'Say them out loud. Family is next.'
     qa: QA: PASS
-es-a1-family-01: duration 29.766667 s (within limit), loudness -15.4 LUFS, silence 11.8 s
-    qa: es-a1-family-01 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.5 dBFS, silence 13.7 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
-    qa: INFO clip cold [es] too short for a reliable check (match 0.90): wanted '¿Tenés hermanos?' heard '¡Te les hermanos!'
-    qa: INFO clip hook [en] match 1.00: wanted 'Your family in Spanish. Three phrases.' heard 'Your family in Spanish. Three Phrases.'
+es-a1-family-01: duration 29.566667 s (within limit), loudness -15.5 LUFS, silence 11.7 s
+    qa: es-a1-family-01 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 13.7 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
+    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+    qa: INFO clip hook [en] match 1.00: wanted 'Your family in Spanish. Three phrases.' heard 'Your family in Spanish. Three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'Do you have siblings?' heard 'Do you have siblings?'
-    qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+    qa: INFO clip p01_a [es] too short for a reliable check (match 0.83): wanted '¿Tenés hermanos?' heard '¡Se les hermanos!'
     qa: INFO clip p02_q [en] match 1.00: wanted 'I have a sister' heard 'I have a sister.'
-    qa: INFO clip p02_a [es] match 0.85: wanted 'Tengo una hermana.' heard 'Demó una hermana.'
+    qa: INFO clip p02_a [es] match 1.00: wanted 'Tengo una hermana.' heard 'Tengo una hermana.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'There are four of us' heard 'There are four of us.'
     qa: INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos cuatro.' heard 'Somos cuatro.'
     qa: INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
     qa: INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana, somos cuatro.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'You have one sister. What do you say?' heard 'You have one sister. What do you say?'
-    qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
-    qa: WARN clip q01_ans [es] match 0.62: wanted 'Tengo una hermana.' heard 'de Monármana.'
-    qa: QA: PASS (with warnings)
-es-a1-family-02: duration 29.800000 s (within limit), loudness -15.5 LUFS, silence 12.0 s
-    qa: es-a1-family-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+    qa: INFO clip q01_ans [es] match 0.85: wanted 'Tengo una hermana.' heard '¡Tenlo una semana!'
+    qa: INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
+    qa: QA: PASS
+es-a1-family-02: duration 29.800000 s (within limit), loudness -15.6 LUFS, silence 12.1 s
+    qa: es-a1-family-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
     qa: INFO clip hook [en] match 1.00: wanted 'Introduce a friend and your partner. Three phrases.' heard 'Introduce a friend and your partner. Three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'He is my friend' heard 'He is my friend.'
-    qa: INFO clip p01_a [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
+    qa: INFO clip p01_a [es] match 0.91: wanted 'Es mi amigo.' heard 'Es mi amido.'
     qa: INFO clip p02_q [en] match 1.00: wanted 'She is my girlfriend' heard 'She is my girlfriend.'
     qa: INFO clip p02_a [es] match 1.00: wanted 'Es mi novia.' heard 'Es mi novia.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'We are friends' heard 'We are friends.'
     qa: INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
-    qa: INFO clip d01 [es] match 0.81: wanted 'Hola. Es mi novia.' heard '¡Tada! Es mi novia.'
-    qa: INFO clip d02 [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
+    qa: INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Mucho gusto.' heard '¡Mucho gusto!'
     qa: INFO clip q01_ask [en] match 0.99: wanted 'You and Ana are just friends. What do you say?' heard 'You and Anna are just friends. What do you say?'
     qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Next topic: time.' heard 'Say them out loud, next topic time.'
-    qa: QA: PASS
-es-a1-greetings-01: duration 32.133333 s (within limit), loudness -15.6 LUFS, silence 13.7 s
-    qa: es-a1-greetings-01 (mixed): 32.1 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.3 dBFS, silence 15.6 s (designed about 14.6 s, longest gap 2.2 s), black 0.00 s
-    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Buenos días.' heard '¡Buenos días!'
+    qa: WARN clip d01 [es] match 0.76: wanted 'Hola. Es mi novia.' heard 'Te doy, es mi novia.'
+    qa: QA: PASS (with warnings)
+es-a1-greetings-01: duration 32.310000 s (within limit), loudness -15.6 LUFS, silence 13.7 s
+    qa: es-a1-greetings-01 (mixed): 32.3 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 15.6 s (designed about 14.6 s, longest gap 2.2 s), black 0.00 s
+    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Buenos días.' heard 'Buenos días.'
     qa: INFO clip hook [en] match 0.97: wanted 'Stop saying only “Hola”. Four greetings.' heard 'Stop saying only Ola for greetings'
     qa: INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Hello' heard 'Hello.'
     qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Hola.' heard '¡Hola!'
@@ -111,13 +111,13 @@ es-a1-greetings-01: duration 32.133333 s (within limit), loudness -15.6 LUFS, si
     qa: INFO clip p04_q [en] match 1.00: wanted 'Good evening / Good night' heard 'Good evening, good night.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Buenas noches.' heard 'Buenas noches.'
     qa: INFO clip d01 [es] too short for a reliable check (match 1.00): wanted 'Buenas tardes.' heard 'Buenas tardes.'
-    qa: INFO clip d02 [es] match 0.86: wanted 'Hola. Buenas tardes.' heard 'Trela, buenas tardes.'
-    qa: INFO clip q01_ask [en] match 0.93: wanted 'It is nine at night. What do you say?' heard 'It is 9 at night, what do you say?'
+    qa: INFO clip d02 [es] match 0.84: wanted 'Hola. Buenas tardes.' heard '¡Buenas tardes!'
+    qa: INFO clip q01_ask [en] match 1.00: wanted 'It is nine at night. What do you say?' heard 'It is nine at night, what do you say?'
     qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Buenas noches.' heard 'Buenas noches.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
     qa: QA: PASS
-es-a1-greetings-02: duration 33.578000 s (within limit), loudness -15.6 LUFS, silence 14.7 s
-    qa: es-a1-greetings-02 (mixed): 33.6 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 16.3 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-greetings-02: duration 33.366667 s (within limit), loudness -15.6 LUFS, silence 14.7 s
+    qa: es-a1-greetings-02 (mixed): 33.4 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 16.2 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
     qa: INFO clip hook [en] match 0.99: wanted 'Meet someone in Spanish. Four phrases.' heard 'Meet someone in Spanish for phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'Nice to meet you' heard 'Nice to meet you.'
@@ -126,148 +126,148 @@ es-a1-greetings-02: duration 33.578000 s (within limit), loudness -15.6 LUFS, si
     qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Cómo estás?' heard '¿Cómo estás?'
     qa: INFO clip p03_q [en] match 1.00: wanted 'I'm fine, thank you' heard 'I'm fine, thank you.'
     qa: INFO clip p03_a [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
-    qa: INFO clip p04_q [en] match 1.00: wanted 'See you later' heard 'See you later'
+    qa: INFO clip p04_q [en] match 1.00: wanted 'See you later' heard 'See you later.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Hasta luego.' heard 'Hasta luego.'
-    qa: INFO clip d01 [es] match 0.85: wanted 'Hola. Mucho gusto.' heard 'de la. Mucho gusto.'
-    qa: INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard '¡Mucho gusto! ¿Cómo estás?'
+    qa: INFO clip d01 [es] match 0.85: wanted 'Hola. Mucho gusto.' heard 'Te la, mucho gusto.'
+    qa: INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard 'Mucho gusto. ¿Cómo estás?'
     qa: INFO clip q01_ask [en] match 1.00: wanted '“¿Cómo estás?” How do you answer?' heard 'Como estas, how do you answer?'
-    qa: INFO clip q01_ans [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
+    qa: INFO clip q01_ans [es] match 0.82: wanted 'Estoy bien, gracias.' heard 'Estoy bien, espiracios.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
     qa: QA: PASS
-es-a1-introductions-01: duration 32.319000 s (within limit), loudness -15.7 LUFS, silence 14.7 s
-    qa: es-a1-introductions-01 (mixed): 32.3 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.5 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
-    qa: INFO clip cold [es] match 1.00: wanted '¿Cómo te llamás?' heard '¡Cómo te llamas!'
+es-a1-introductions-01: duration 32.000000 s (within limit), loudness -15.7 LUFS, silence 14.7 s
+    qa: es-a1-introductions-01 (mixed): 32.0 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+    qa: INFO clip cold [es] match 1.00: wanted '¿Cómo te llamás?' heard '¿Cómo te llamás?'
     qa: INFO clip hook [en] match 0.98: wanted 'Introduce yourself. Four phrases.' heard 'Introduce yourself for phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'What is your name?' heard 'What is your name?'
-    qa: INFO clip p01_a [es] match 0.93: wanted '¿Cómo te llamás?' heard '¿Cómo te la más?'
+    qa: INFO clip p01_a [es] match 1.00: wanted '¿Cómo te llamás?' heard '¿Cómo te llamás?'
     qa: INFO clip p02_q [en] match 0.97: wanted 'My name is Ana' heard 'My name is Anna.'
-    qa: INFO clip p02_a [es] match 0.92: wanted 'Me llamo Ana.' heard 'Me llamo Hanna.'
+    qa: INFO clip p02_a [es] match 1.00: wanted 'Me llamo Ana.' heard 'Me llamo Ana.'
     qa: INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'And you?' heard 'And you.'
-    qa: INFO clip p03_a [es] too short for a reliable check (match 0.75): wanted '¿Y vos?' heard 'Yos.'
+    qa: INFO clip p03_a [es] too short for a reliable check (match 0.89): wanted '¿Y vos?' heard 'y os.'
     qa: INFO clip p04_q [en] too short for a reliable check (match 1.00): wanted 'Likewise' heard 'Likewise.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
-    qa: INFO clip d02 [es] match 0.88: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamo Ana.  ¡Ios!'
+    qa: INFO clip d01 [es] match 0.87: wanted 'Hola. ¿Cómo te llamás?' heard 'Tola, ¿cómo te la amas?'
+    qa: INFO clip d02 [es] match 0.83: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamo Dana. ¡Dios!'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'They say “Mucho gusto.” Your reply?' heard 'They say Mucho Gusto, your reply.'
     qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
-    qa: WARN clip d01 [es] match 0.73: wanted 'Hola. ¿Cómo te llamás?' heard 'Perdona, ¿cómo te da más?'
-    qa: QA: PASS (with warnings)
-es-a1-introductions-02: duration 30.362000 s (within limit), loudness -15.7 LUFS, silence 12.6 s
-    qa: es-a1-introductions-02 (mixed): 30.4 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+    qa: QA: PASS
+es-a1-introductions-02: duration 30.066667 s (within limit), loudness -15.7 LUFS, silence 12.6 s
+    qa: es-a1-introductions-02 (mixed): 30.1 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 14.4 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
     qa: INFO clip hook [en] match 1.00: wanted 'Ask and say where you are from. Three phrases.' heard 'Ask and say where you are from. Three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'Where are you from?' heard 'Where are you from?'
-    qa: INFO clip p01_a [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
     qa: INFO clip p02_q [en] match 1.00: wanted 'I'm from Greece' heard 'I'm from Greece.'
-    qa: INFO clip p02_a [es] match 0.83: wanted 'Soy de Grecia.' heard 'Soy Adrecia.'
+    qa: INFO clip p02_a [es] match 0.83: wanted 'Soy de Grecia.' heard 'Soy Aérecia.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'I live in Athens' heard 'I live in Athens.'
-    qa: INFO clip p03_a [es] match 0.86: wanted 'Vivo en Atenas.' heard 'Dios en Atenas.'
-    qa: INFO clip d01 [es] match 0.94: wanted 'Hola. ¿De dónde sos?' heard '¡Lola! ¿De dónde sos?'
+    qa: INFO clip d01 [es] match 0.88: wanted 'Hola. ¿De dónde sos?' heard '¡Tela! ¿De dónde sos?'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'You live in Athens. What do you say?' heard 'You live in Athens, what do you say?'
-    qa: INFO clip q01_ans [es] match 0.96: wanted 'Vivo en Atenas.' heard '¡Vio en Atenas!'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
-    qa: WARN clip d02 [es] match 0.74: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy Edrecia.  ¡Dios!'
+    qa: WARN clip p01_a [es] match 0.67: wanted '¿De dónde sos?' heard 'De dan de sauce.'
+    qa: WARN clip p03_a [es] match 0.62: wanted 'Vivo en Atenas.' heard '¡Buenas Tenas!'
+    qa: WARN clip d02 [es] match 0.76: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy Edrecia.  ¡Ios!'
+    qa: WARN clip q01_ans [es] match 0.75: wanted 'Vivo en Atenas.' heard '¡Bionatenas!'
     qa: QA: PASS (with warnings)
-es-a1-likes-01: duration 27.666667 s (within limit), loudness -15.9 LUFS, silence 12.8 s
-    qa: es-a1-likes-01 (mixed): 27.7 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 14.4 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
+es-a1-likes-01: duration 28.000000 s (within limit), loudness -15.9 LUFS, silence 12.8 s
+    qa: es-a1-likes-01 (mixed): 28.0 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
-    qa: INFO clip hook [en] match 1.00: wanted 'Say what you like in Spanish. Three phrases.' heard 'Say what you like in Spanish. Three phrases.'
+    qa: INFO clip hook [en] match 1.00: wanted 'Say what you like in Spanish. Three phrases.' heard 'Say what you like in Spanish, three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'What do you like?' heard 'What do you like?'
     qa: INFO clip p01_a [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
     qa: INFO clip p02_q [en] match 1.00: wanted 'I like mate' heard 'I like mate.'
-    qa: INFO clip p02_a [es] match 0.87: wanted 'Me gusta el mate.' heard '¡Me gustan, Mate!'
+    qa: INFO clip p02_a [es] match 0.83: wanted 'Me gusta el mate.' heard '¡Me ustan mate!'
     qa: INFO clip p03_q [en] match 1.00: wanted 'I don't like it' heard 'I don't like it.'
-    qa: INFO clip p03_a [es] match 0.80: wanted 'No me gusta.' heard '¡Neme Usta!'
+    qa: INFO clip p03_a [es] match 0.86: wanted 'No me gusta.' heard '¡No me ufta!'
     qa: INFO clip d01 [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
-    qa: INFO clip d02 [es] match 1.00: wanted 'Me gusta el mate.' heard '¡Me gusta el mate!'
+    qa: INFO clip d02 [es] match 0.87: wanted 'Me gusta el mate.' heard '¡Me gustan mate!'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'You don't like it. Say it.' heard 'You don't like it, say it.'
-    qa: INFO clip q01_ans [es] match 0.80: wanted 'No me gusta.' heard '¡Neme usta!'
+    qa: INFO clip q01_ans [es] match 0.80: wanted 'No me gusta.' heard '¡Neme Usta!'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
     qa: QA: PASS
-es-a1-likes-02: duration 29.233333 s (within limit), loudness -15.4 LUFS, silence 12.2 s
-    qa: es-a1-likes-02 (mixed): 29.2 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.1 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-likes-02: duration 29.166667 s (within limit), loudness -15.5 LUFS, silence 12.2 s
+    qa: es-a1-likes-02 (mixed): 29.2 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
     qa: INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish. Three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'I'm hungry' heard 'I'm hungry.'
-    qa: INFO clip p01_a [es] too short for a reliable check (match 0.64): wanted 'Tengo hambre.' heard '¡Tenbo a mi de!'
+    qa: INFO clip p01_a [es] too short for a reliable check (match 0.70): wanted 'Tengo hambre.' heard '¡Ten blámire!'
     qa: INFO clip p02_q [en] match 1.00: wanted 'What do you want to eat?' heard 'What do you want to eat?'
-    qa: INFO clip p02_a [es] match 0.97: wanted '¿Qué querés comer?' heard 'que quieres comer.'
+    qa: INFO clip p02_a [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
     qa: INFO clip p03_q [en] match 1.00: wanted 'I want a breaded cutlet' heard 'I want a breaded cutlet.'
     qa: INFO clip p03_a [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una milanesa.'
     qa: INFO clip d01 [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
     qa: INFO clip d02 [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una milanesa.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'Your stomach is empty. What do you say?' heard 'Your stomach is empty. What do you say?'
-    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.70): wanted 'Tengo hambre.' heard '¡TEMPO AMORÉ!'
+    qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Tengo hambre.' heard '¡Tengo hambre!'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Shopping is next.' heard 'Say them out loud. Shopping is next.'
     qa: QA: PASS
-es-a1-politeness-01: duration 30.311000 s (within limit), loudness -15.8 LUFS, silence 13.3 s
-    qa: es-a1-politeness-01 (mixed): 30.3 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 15.3 s (designed about 14.2 s, longest gap 2.2 s), black 0.00 s
-    qa: INFO clip cold [es] too short for a reliable check (match 0.59): wanted 'Por favor.' heard 'corzador.'
+es-a1-politeness-01: duration 30.124000 s (within limit), loudness -16.0 LUFS, silence 13.3 s
+    qa: es-a1-politeness-01 (mixed): 30.1 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.1 dBFS, silence 15.2 s (designed about 14.2 s, longest gap 2.2 s), black 0.00 s
+    qa: INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Por favor.' heard 'por favor.'
     qa: INFO clip hook [en] match 1.00: wanted 'Be polite in Spanish. Four phrases.' heard 'Be polite in Spanish. Four phrases.'
     qa: INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Please' heard 'Please.'
     qa: INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Por favor.' heard 'Por favor.'
     qa: INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Thank you' heard 'Thank you.'
-    qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Gracias.' heard 'Gracias.'
+    qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Gracias.' heard '¡Gracias!'
     qa: INFO clip p03_q [en] match 1.00: wanted 'You're welcome' heard 'You're welcome.'
-    qa: INFO clip p03_a [es] too short for a reliable check (match 0.73): wanted 'De nada.' heard '¡Dená!'
+    qa: INFO clip p03_a [es] too short for a reliable check (match 0.55): wanted 'De nada.' heard '¡Tená!'
     qa: INFO clip p04_q [en] match 1.00: wanted 'Sorry. / Excuse me' heard 'Sorry, excuse me.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Perdón.' heard 'Perdón.'
-    qa: INFO clip d01 [es] too short for a reliable check (match 0.62): wanted 'Hola. Gracias.' heard 'De verdad, gracias.'
-    qa: INFO clip d02 [es] match 1.00: wanted 'De nada. Hasta luego.' heard 'De nada.  Hasta luego.'
+    qa: INFO clip d01 [es] too short for a reliable check (match 0.69): wanted 'Hola. Gracias.' heard 'Te doy, gracias.'
+    qa: INFO clip d02 [es] match 1.00: wanted 'De nada. Hasta luego.' heard 'De nada, hasta luego.'
     qa: INFO clip q01_ask [en] match 0.95: wanted 'Someone says “Gracias.” Your reply?' heard 'Someone says, Gracious, your reply.'
-    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.57): wanted 'De nada.' heard 'de la E.'
-    qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+    qa: INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'De nada.' heard 'De nada.'
+    qa: INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
     qa: QA: PASS
-es-a1-politeness-02: duration 31.545000 s (within limit), loudness -15.8 LUFS, silence 12.8 s
-    qa: es-a1-politeness-02 (mixed): 31.5 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.2 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
-    qa: INFO clip cold [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
+es-a1-politeness-02: duration 31.789000 s (within limit), loudness -15.8 LUFS, silence 12.8 s
+    qa: es-a1-politeness-02 (mixed): 31.8 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.2 dBFS, silence 14.8 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
+    qa: INFO clip cold [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
     qa: INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Three phrases to save you.' heard 'Lost in Spanish, three phrases to save you.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'I don't understand' heard 'I don't understand.'
-    qa: INFO clip p01_a [es] too short for a reliable check (match 0.56): wanted 'No entiendo.' heard 'loñendo.'
+    qa: INFO clip p01_a [es] too short for a reliable check (match 0.91): wanted 'No entiendo.' heard 'lo entiendo.'
     qa: INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Slower, please' heard 'Slower please.'
-    qa: INFO clip p02_a [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
+    qa: INFO clip p02_a [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'I speak a little Spanish' heard 'I speak a little Spanish.'
-    qa: INFO clip p03_a [es] match 0.86: wanted 'Hablo un poco de español.' heard 'a lo un poco español.'
-    qa: INFO clip d01 [es] match 0.81: wanted 'Perdón. No entiendo.' heard 'Te deón, lo entiendo.'
-    qa: INFO clip d02 [es] match 0.95: wanted 'Más despacio, por favor.' heard 'Más espacios, por favor.'
+    qa: INFO clip p03_a [es] match 0.94: wanted 'Hablo un poco de español.' heard 'a lo un poco de español.'
+    qa: INFO clip d01 [es] match 0.89: wanted 'Perdón. No entiendo.' heard 'Perdón, no entiaríndo.'
+    qa: INFO clip d02 [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'You do not follow. What do you say?' heard 'You do not follow, what do you say?'
-    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.20): wanted 'No entiendo.' heard 'Daniel, no.'
+    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.20): wanted 'No entiendo.' heard '¡Lo añelno!'
     qa: INFO clip outro [en] match 1.00: wanted 'Say them out loud. Numbers next.' heard 'Say them out loud. Numbers next.'
     qa: QA: PASS
-es-a1-time-01: duration 27.700000 s (within limit), loudness -15.1 LUFS, silence 12.4 s
-    qa: es-a1-time-01 (mixed): 27.7 s, 1080x1920@30, first sound 0.0 s, -15.1 LUFS, peak -0.6 dBFS, silence 14.1 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-time-01: duration 27.633333 s (within limit), loudness -15.3 LUFS, silence 12.4 s
+    qa: es-a1-time-01 (mixed): 27.6 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -0.9 dBFS, silence 14.0 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
     qa: INFO clip hook [en] match 1.00: wanted 'Tell the time in Spanish. Three phrases.' heard 'Tell the time in Spanish three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'What time is it?' heard 'What time is it?'
     qa: INFO clip p01_a [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
     qa: INFO clip p02_q [en] match 1.00: wanted 'It is one o'clock' heard 'It is one o'clock.'
-    qa: INFO clip p02_a [es] match 1.00: wanted 'Es la una.' heard 'Es la una.'
+    qa: INFO clip p02_a [es] match 1.00: wanted 'Es la una.' heard 'es la una.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'It is three o'clock' heard 'It is three o'clock.'
-    qa: INFO clip p03_a [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres.'
+    qa: INFO clip p03_a [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres'
     qa: INFO clip d01 [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
     qa: INFO clip d02 [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres.'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'It is one o'clock. What do you say?' heard 'It is one o'clock. What do you say?'
     qa: INFO clip q01_ans [es] match 1.00: wanted 'Es la una.' heard 'Es la una.'
     qa: INFO clip outro [en] match 1.00: wanted 'Days of the week next.' heard 'days of the week next'
     qa: QA: PASS
-es-a1-time-02: duration 28.933333 s (within limit), loudness -15.4 LUFS, silence 12.5 s
-    qa: es-a1-time-02 (mixed): 28.9 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.3 s, longest gap 2.8 s), black 0.00 s
+es-a1-time-02: duration 28.800000 s (within limit), loudness -15.4 LUFS, silence 12.5 s
+    qa: es-a1-time-02 (mixed): 28.8 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.3 s, longest gap 2.8 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
-    qa: INFO clip hook [en] match 1.00: wanted 'Plan a day in Spanish. Three phrases.' heard 'Plan a Day in Spanish. Three Phrases.'
+    qa: INFO clip hook [en] match 1.00: wanted 'Plan a day in Spanish. Three phrases.' heard 'Plan a day in Spanish, three phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'When is the party?' heard 'When is the party?'
     qa: INFO clip p01_a [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
     qa: INFO clip p02_q [en] match 1.00: wanted 'Tomorrow is Tuesday' heard 'Tomorrow is Tuesday.'
     qa: INFO clip p02_a [es] match 1.00: wanted 'Mañana es martes.' heard 'Mañana es martes.'
     qa: INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'On Friday' heard 'On Friday.'
-    qa: INFO clip p03_a [es] too short for a reliable check (match 0.84): wanted 'El viernes.' heard 'y viernes.'
+    qa: INFO clip p03_a [es] too short for a reliable check (match 0.60): wanted 'El viernes.' heard 'y huyernes.'
     qa: INFO clip d01 [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
     qa: INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'El viernes.' heard 'El viernes'
     qa: INFO clip q01_ask [en] match 1.00: wanted 'The party is on Friday. What do you say?' heard 'The party is on Friday. What do you say?'
     qa: INFO clip q01_ans [es] too short for a reliable check (match 0.84): wanted 'El viernes.' heard 'y viernes.'
-    qa: INFO clip outro [en] match 1.00: wanted 'Weather is next.' heard 'Weather is next'
+    qa: INFO clip outro [en] match 1.00: wanted 'Weather is next.' heard 'Weather is next.'
     qa: QA: PASS
-es-a1-weather-01: duration 31.333333 s (within limit), loudness -16.0 LUFS, silence 15.1 s
-    qa: es-a1-weather-01 (mixed): 31.3 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.8 s, longest gap 2.9 s), black 0.00 s
+es-a1-weather-01: duration 31.333333 s (within limit), loudness -15.9 LUFS, silence 15.1 s
+    qa: es-a1-weather-01 (mixed): 31.3 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
     qa: INFO clip cold [es] match 1.00: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo hace hoy?'
     qa: INFO clip hook [en] match 0.99: wanted 'Talk about the weather. Four phrases.' heard 'Talk about the weather for phrases.'
     qa: INFO clip p01_q [en] match 1.00: wanted 'How's the weather?' heard 'How's the weather?'
@@ -275,12 +275,12 @@ es-a1-weather-01: duration 31.333333 s (within limit), loudness -16.0 LUFS, sile
     qa: INFO clip p02_q [en] match 1.00: wanted 'It's hot' heard 'It's hot.'
     qa: INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Hace calor.' heard 'Hace calor.'
     qa: INFO clip p03_q [en] match 1.00: wanted 'It's cold' heard 'It's cold.'
-    qa: INFO clip p03_a [es] too short for a reliable check (match 0.89): wanted 'Hace frío.' heard '¡Hace fido!'
+    qa: INFO clip p03_a [es] too short for a reliable check (match 0.60): wanted 'Hace frío.' heard 'Ya soy frío.'
     qa: INFO clip p04_q [en] match 1.00: wanted 'It's raining' heard 'It's raining.'
     qa: INFO clip p04_a [es] too short for a reliable check (match 0.79): wanted 'Está lloviendo.' heard 'Está sobriendo.'
-    qa: INFO clip d01 [es] match 0.97: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo haces hoy?'
-    qa: INFO clip d02 [es] too short for a reliable check (match 0.95): wanted 'Hace frío.' heard 'Hace frido.'
-    qa: INFO clip q01_ask [en] match 1.00: wanted 'Rain today. What do you say?' heard 'Rain today, what do you say?'
-    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.79): wanted 'Está lloviendo.' heard 'Está sobriendo.'
-    qa: INFO clip outro [en] match 0.98: wanted 'Say them aloud. Likes next.' heard 'Say them aloud, like's next.'
+    qa: INFO clip d01 [es] match 1.00: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo hace hoy?'
+    qa: INFO clip d02 [es] too short for a reliable check (match 0.89): wanted 'Hace frío.' heard '¡Hace fido!'
+    qa: INFO clip q01_ask [en] match 1.00: wanted 'Rain today. What do you say?' heard 'Rain Today, what do you say?'
+    qa: INFO clip q01_ans [es] too short for a reliable check (match 0.86): wanted 'Está lloviendo.' heard 'Estás obviendo.'
+    qa: INFO clip outro [en] match 1.00: wanted 'Say them aloud. Likes next.' heard 'Say them aloud likes next'
     qa: QA: PASS
