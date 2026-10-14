@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-time-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense). These time phrases are the same in Argentina and Mexico.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Time and days, part 1: what time is it",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Qué hora es?",
+      "translation": "What time is it?",
+      "pronunciation": "keh OH-rah ehs",
+      "when": "Ask anyone. The “h” is silent."
+    },
+    {
+      "target": "Es la una.",
+      "translation": "It is one o'clock.",
+      "pronunciation": "ehs lah OO-nah",
+      "when": "Only one o'clock uses “es la”."
+    },
+    {
+      "target": "Son las tres.",
+      "translation": "It is three o'clock.",
+      "pronunciation": "sohn lahs trehs",
+      "when": "From two o'clock up, use “son las”."
+    }
+  ],
+  "hook": "Tell the time in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué hora es?",
+      "translation": "What time is it?"
+    },
+    {
+      "speaker": "B",
+      "target": "Son las tres.",
+      "translation": "It is three o'clock."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "It is one o'clock. What do you say?",
+      "answer": "Es la una.",
+      "choices": [
+        "Es la una.",
+        "Son las tres.",
+        "Hasta luego."
+      ]
+    }
+  ],
+  "outro": "Days of the week next.",
+  "variety_code": "neutral"
+}
