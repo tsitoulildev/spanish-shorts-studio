@@ -64,6 +64,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | weather-01 | Hace calor. / Hace frío. | correct and universal; weather uses "hacer" + noun ("it makes heat"), said in the tips; the accent on "frío" is mentioned |
 | weather-01 | Está lloviendo. | correct and universal; present progressive of "llover" for rain now; Argentine "ll" as "sh" is said in the tip |
 | weather-01 | ¿Qué tiempo hace hoy? / Hace frío. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| likes-01 | ¿Qué te gusta? | correct and universal; "te" is the same with vos and tú, so no voseo verb form is needed; "gustar" works as "pleases", said in the tip |
+| likes-01 | Me gusta el mate. | correct; "mate" is the Argentine (also Uruguayan, Paraguayan) herbal drink, so the lesson is marked argentine; "me gusta el" + singular noun, said in the tip |
+| likes-01 | No me gusta. | correct and universal; "no" goes before "me gusta", said in the tip |
+| likes-01 | ¿Qué te gusta? / Me gusta el mate. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
