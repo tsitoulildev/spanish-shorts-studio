@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-likes-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Say what you like, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Qué te gusta?",
+      "translation": "What do you like?",
+      "pronunciation": "keh teh GOOS-tah",
+      "when": "A friendly question for new friends. “Gusta” means pleases: you ask what pleases them."
+    },
+    {
+      "target": "Me gusta el mate.",
+      "translation": "I like mate.",
+      "pronunciation": "meh GOOS-tah ehl MAH-teh",
+      "when": "Mate is the Argentine herbal drink. Swap in any word after “me gusta el”."
+    },
+    {
+      "target": "No me gusta.",
+      "translation": "I don't like it.",
+      "pronunciation": "noh meh GOOS-tah",
+      "when": "Put “no” in front of “me gusta”. Honest and polite enough between friends."
+    }
+  ],
+  "hook": "Say what you like in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué te gusta?",
+      "translation": "What do you like?"
+    },
+    {
+      "speaker": "B",
+      "target": "Me gusta el mate.",
+      "translation": "I like mate."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You don't like it. Say it.",
+      "answer": "No me gusta.",
+      "choices": [
+        "Me gusta el mate.",
+        "No me gusta.",
+        "¿Qué te gusta?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}
