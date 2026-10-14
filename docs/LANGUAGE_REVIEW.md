@@ -56,6 +56,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | time-02 | Mañana es martes. | correct and universal; "mañana" as "tomorrow" with "ser" and the weekday; the "ñ" is explained in the tip; weekdays are written with a small letter, said in the tip |
 | time-02 | El viernes. | correct and universal; "el" + weekday means "on that day" and is a natural short answer to "¿Cuándo...?" ("en viernes" is wrong, said in the tip) |
 | time-02 | ¿Cuándo es la fiesta? / El viernes. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| weather-01 | ¿Qué tiempo hace hoy? | correct and universal; "tiempo" means weather here, "hace" is the verb hacer and "hoy" (today) is said in the tip; "¿Cómo está el clima?" is also understood in Argentina, not taught |
+| weather-01 | Hace calor. / Hace frío. | correct and universal; weather uses "hacer" + noun ("it makes heat"), said in the tips; the accent on "frío" is mentioned |
+| weather-01 | Está lloviendo. | correct and universal; present progressive of "llover" for rain now; Argentine "ll" as "sh" is said in the tip |
+| weather-01 | ¿Qué tiempo hace hoy? / Hace frío. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
