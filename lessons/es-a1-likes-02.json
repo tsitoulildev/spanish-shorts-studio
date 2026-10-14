@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-likes-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Say what you like, part 2",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "Tengo hambre.",
+      "translation": "I'm hungry.",
+      "pronunciation": "TEHN-goh AHM-breh",
+      "when": "Spanish says “I have hunger”. The “h” is silent, so “hambre” starts with “ah”."
+    },
+    {
+      "target": "¿Qué querés comer?",
+      "translation": "What do you want to eat?",
+      "pronunciation": "keh keh-REHS koh-MEHR",
+      "when": "Argentines say “querés” with vos. Ask it to a friend before you pick a place."
+    },
+    {
+      "target": "Quiero una milanesa.",
+      "translation": "I want a breaded cutlet.",
+      "pronunciation": "KYEH-roh OO-nah mee-lah-NEH-sah",
+      "when": "Milanesa is an Argentine classic. Use “quiero una” for a feminine word, “quiero un” for a masculine one."
+    }
+  ],
+  "hook": "Talk about food in Spanish. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué querés comer?",
+      "translation": "What do you want to eat?"
+    },
+    {
+      "speaker": "B",
+      "target": "Quiero una milanesa.",
+      "translation": "I want a breaded cutlet."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Your stomach is empty. What do you say?",
+      "answer": "Tengo hambre.",
+      "choices": [
+        "No me gusta.",
+        "Tengo hambre.",
+        "¿Qué te gusta?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Shopping is next.",
+  "variety_code": "argentine"
+}

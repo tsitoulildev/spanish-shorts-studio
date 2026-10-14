@@ -68,6 +68,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | likes-01 | Me gusta el mate. | correct; "mate" is the Argentine (also Uruguayan, Paraguayan) herbal drink, so the lesson is marked argentine; "me gusta el" + singular noun, said in the tip |
 | likes-01 | No me gusta. | correct and universal; "no" goes before "me gusta", said in the tip |
 | likes-01 | ¿Qué te gusta? / Me gusta el mate. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| likes-02 | Tengo hambre. | correct and universal; Spanish uses "tener" + noun (I have hunger), said in the tip; the silent "h" is explained |
+| likes-02 | ¿Qué querés comer? | correct voseo ("querés", stress on the last syllable; the tú form is "quieres"); "comer" as infinitive after "querés" is natural |
+| likes-02 | Quiero una milanesa. | correct; "milanesa" (breaded cutlet) is an Argentine staple, so the lesson is marked argentine; "una" for a feminine noun, "un" for a masculine one, said in the tip |
+| likes-02 | ¿Qué querés comer? / Quiero una milanesa. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
