@@ -1,0 +1,13 @@
+[es/clear/A] ¿Qué te gusta?
+[en/fast/A] Say what you like in Spanish. Three phrases.
+[en/fast/A] What do you like?
+[es/clear/A] ¿Qué te gusta?
+[en/fast/A] I like mate
+[es/clear/A] Me gusta el mate.
+[en/fast/A] I don't like it
+[es/clear/A] No me gusta.
+[es/clear/A] ¿Qué te gusta?
+[es/clear/B] Me gusta el mate.
+[en/fast/A] You don't like it. Say it.
+[es/clear/A] No me gusta.
+[en/fast/A] Say them out loud. Part two is next.

@@ -1,0 +1,24 @@
+es-a1-likes-01  |  Say what you like, part 1  |  hook: Say what you like in Spanish. Three phrases.
+
+  0.0s  card 00 cold      es/A: ¿Qué te gusta?
+  1.8s  card 01 hook      en/A: Say what you like in Spanish. Three phrases.
+  5.3s  card 02 phrase_q  en/A: What do you like?
+  7.2s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.9s  card 03 phrase_a  es/A: ¿Qué te gusta?
+  9.4s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 11.6s  card 04 phrase_q  en/A: I like mate
+ 13.1s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 13.8s  card 05 phrase_a  es/A: Me gusta el mate.
+ 15.6s  card 05 phrase_a  (silent 2.6s: viewer's turn)
+ 18.2s  card 06 phrase_q  en/A: I don't like it
+ 20.6s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 21.2s  card 07 phrase_a  es/A: No me gusta.
+ 22.7s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 25.0s  card 08 dialogue  es/A: ¿Qué te gusta?
+ 26.6s  card 09 dialogue  es/B: Me gusta el mate.
+ 28.7s  card 10 quiz_q    en/A: You don't like it. Say it.
+ 31.8s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 33.8s  card 11 quiz_a    es/A: No me gusta.
+ 35.7s  card 12 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 39.3 s (limit 40 s)
