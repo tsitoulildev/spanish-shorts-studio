@@ -1,0 +1,13 @@
+[es/clear/A] ¿Qué querés comer?
+[en/fast/A] Talk about food in Spanish. Three phrases.
+[en/fast/A] I'm hungry
+[es/clear/A] Tengo hambre.
+[en/fast/A] What do you want to eat?
+[es/clear/A] ¿Qué querés comer?
+[en/fast/A] I want a breaded cutlet
+[es/clear/A] Quiero una milanesa.
+[es/clear/A] ¿Qué querés comer?
+[es/clear/B] Quiero una milanesa.
+[en/fast/A] Your stomach is empty. What do you say?
+[es/clear/A] Tengo hambre.
+[en/fast/A] Say them out loud. Shopping is next.

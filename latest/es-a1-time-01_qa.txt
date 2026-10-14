@@ -1,4 +1,4 @@
-es-a1-time-01 (mixed): 27.5 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.5 dBFS, silence 14.0 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-time-01 (mixed): 27.7 s, 1080x1920@30, first sound 0.0 s, -15.1 LUFS, peak -0.6 dBFS, silence 14.1 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip hook [en] match 1.00: wanted 'Tell the time in Spanish. Three phrases.' heard 'Tell the time in Spanish three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What time is it?' heard 'What time is it?'

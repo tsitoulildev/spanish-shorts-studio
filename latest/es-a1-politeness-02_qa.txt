@@ -1,15 +1,15 @@
-es-a1-politeness-02 (mixed): 31.8 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 14.7 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+es-a1-politeness-02 (mixed): 31.5 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.2 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
 INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Three phrases to save you.' heard 'Lost in Spanish, three phrases to save you.'
 INFO clip p01_q [en] match 1.00: wanted 'I don't understand' heard 'I don't understand.'
-INFO clip p01_a [es] too short for a reliable check (match 0.70): wanted 'No entiendo.' heard '¡Lo entiarino!'
-INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Slower, please' heard 'Slower, please.'
-INFO clip p02_a [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
+INFO clip p01_a [es] too short for a reliable check (match 0.56): wanted 'No entiendo.' heard 'loñendo.'
+INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Slower, please' heard 'Slower please.'
+INFO clip p02_a [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
 INFO clip p03_q [en] match 1.00: wanted 'I speak a little Spanish' heard 'I speak a little Spanish.'
-INFO clip p03_a [es] match 0.93: wanted 'Hablo un poco de español.' heard 'al un poco de español.'
-INFO clip d02 [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
+INFO clip p03_a [es] match 0.86: wanted 'Hablo un poco de español.' heard 'a lo un poco español.'
+INFO clip d01 [es] match 0.81: wanted 'Perdón. No entiendo.' heard 'Te deón, lo entiendo.'
+INFO clip d02 [es] match 0.95: wanted 'Más despacio, por favor.' heard 'Más espacios, por favor.'
 INFO clip q01_ask [en] match 1.00: wanted 'You do not follow. What do you say?' heard 'You do not follow, what do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.77): wanted 'No entiendo.' heard 'lo entiendes, ¿no?'
+INFO clip q01_ans [es] too short for a reliable check (match 0.20): wanted 'No entiendo.' heard 'Daniel, no.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Numbers next.' heard 'Say them out loud. Numbers next.'
-WARN clip d01 [es] match 0.37: wanted 'Perdón. No entiendo.' heard 'Te doy, lo deñe al no.'
-QA: PASS (with warnings)
+QA: PASS

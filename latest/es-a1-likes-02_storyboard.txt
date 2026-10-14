@@ -1,0 +1,24 @@
+es-a1-likes-02  |  Say what you like, part 2  |  hook: Talk about food in Spanish. Three phrases.
+
+  0.0s  card 00 cold      es/A: ¿Qué querés comer?
+  1.8s  card 01 hook      en/A: Talk about food in Spanish. Three phrases.
+  4.9s  card 02 phrase_q  en/A: I'm hungry
+  6.4s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.1s  card 03 phrase_a  es/A: Tengo hambre.
+  8.1s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.9s  card 04 phrase_q  en/A: What do you want to eat?
+ 12.6s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 13.3s  card 05 phrase_a  es/A: ¿Qué querés comer?
+ 14.8s  card 05 phrase_a  (silent 2.2s: viewer's turn)
+ 17.0s  card 06 phrase_q  en/A: I want a breaded cutlet
+ 19.3s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.0s  card 07 phrase_a  es/A: Quiero una milanesa.
+ 21.5s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 23.7s  card 08 dialogue  es/A: ¿Qué querés comer?
+ 25.4s  card 09 dialogue  es/B: Quiero una milanesa.
+ 27.1s  card 10 quiz_q    en/A: Your stomach is empty. What do you say?
+ 30.6s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 32.6s  card 11 quiz_a    es/A: Tengo hambre.
+ 34.1s  card 12 outro     en/A: Say them out loud. Shopping is next.
+
+estimated length: 37.2 s (limit 40 s)
