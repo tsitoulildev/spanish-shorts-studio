@@ -82,6 +82,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | shopping-02 | Me queda chico. | correct; "chico" for small is the everyday Argentine usage ("pequeño" is also correct, not taught), said in the tip; same pattern as the previous phrase |
 | shopping-02 | ¿Tenés otro color? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); "otro" = another, "color" is masculine and takes "otro" |
 | shopping-02 | ¿Tenés otro color? / Me queda chico. (dialogue) | correct and natural for two friends with a garment in hand; both phrases were taught in this lesson |
+| restaurant-01 | Mesa para dos. | correct and universal; the short form a guest says at the host stand ("Una mesa para dos" is also heard, not taught); "por favor" is suggested in the tip |
+| restaurant-01 | La carta. | correct and universal; short and polite enough with "por favor" (said in the tip); "carta" is the restaurant menu in Argentina ("menú" is also understood, not taught) |
+| restaurant-01 | ¿Qué me recomendás? | correct voseo ("recomendás", stress on the last syllable; the tú form is "recomiendas"), so the lesson is marked argentine; "me" = to me |
+| restaurant-01 | Para mí, esto. | correct and universal; "mí" takes an accent after a preposition, said in the tip; natural way to order by pointing |
+| restaurant-01 | ¿Qué me recomendás? / Para mí, esto. (dialogue) | correct and natural for two friends choosing from the menu; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

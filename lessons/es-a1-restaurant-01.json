@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-restaurant-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "At a restaurant, part 1",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "Mesa para dos.",
+      "translation": "Table for two.",
+      "pronunciation": "MEH-sah PAH-rah dohs",
+      "when": "Say it at the door. Change “dos” for a bigger group."
+    },
+    {
+      "target": "La carta.",
+      "translation": "The menu.",
+      "pronunciation": "lah KAR-tah",
+      "when": "“Carta” means menu. Add “por favor” to be kind."
+    },
+    {
+      "target": "¿Qué me recomendás?",
+      "translation": "What do you recommend?",
+      "pronunciation": "keh meh reh-koh-mehn-DAHS",
+      "when": "Vos form, stress on the end. Waiters love this."
+    },
+    {
+      "target": "Para mí, esto.",
+      "translation": "For me, this one.",
+      "pronunciation": "PAH-rah mee EHS-toh",
+      "when": "Point at the dish. “Mí” takes an accent."
+    }
+  ],
+  "hook": "Table and menu in Spanish. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué me recomendás?",
+      "translation": "What do you recommend?"
+    },
+    {
+      "speaker": "B",
+      "target": "Para mí, esto.",
+      "translation": "For me, this one."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "At the door?",
+      "answer": "Mesa para dos.",
+      "choices": [
+        "Mesa para dos.",
+        "La carta.",
+        "Para mí, esto."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}
