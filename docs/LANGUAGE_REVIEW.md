@@ -77,6 +77,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | shopping-01 | ¿Tenés algo más barato? | correct voseo; "algo más barato" is the natural way to ask for a cheaper option; polite and not offensive, said in the tip |
 | shopping-01 | Lo llevo. | correct and universal; the standard way to say you buy the item; Argentine "ll" as "sh" is said in the tip |
 | shopping-01 | ¿Tenés esto? / ¿Cuánto sale? (dialogue) | correct and natural for two friends looking at an item; both phrases were taught in this lesson |
+| shopping-02 | Solo estoy mirando. | correct and universal; the standard answer to a shop assistant's offer of help; "solo" has no accent in current spelling; Argentines also say "Estoy mirando nomás", not taught |
+| shopping-02 | Me queda grande. | correct and universal; "quedar" with "me" describes how clothes fit ("it stays big on me"), said in the tip |
+| shopping-02 | Me queda chico. | correct; "chico" for small is the everyday Argentine usage ("pequeño" is also correct, not taught), said in the tip; same pattern as the previous phrase |
+| shopping-02 | ¿Tenés otro color? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); "otro" = another, "color" is masculine and takes "otro" |
+| shopping-02 | ¿Tenés otro color? / Me queda chico. (dialogue) | correct and natural for two friends with a garment in hand; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

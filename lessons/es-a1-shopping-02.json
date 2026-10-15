@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-shopping-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Shopping, part 2",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "Solo estoy mirando.",
+      "translation": "Just looking.",
+      "pronunciation": "SOH-loh ehs-TOY mee-RAHN-doh",
+      "when": "Say it with a smile when staff offer help."
+    },
+    {
+      "target": "Me queda grande.",
+      "translation": "Too big on me.",
+      "pronunciation": "meh KEH-dah GRAHN-deh",
+      "when": "For clothes and shoes. Literally “it stays big”."
+    },
+    {
+      "target": "Me queda chico.",
+      "translation": "Too small on me.",
+      "pronunciation": "meh KEH-dah CHEE-koh",
+      "when": "Argentines say “chico” for small."
+    },
+    {
+      "target": "¿Tenés otro color?",
+      "translation": "Another colour?",
+      "pronunciation": "teh-NEHS OH-troh koh-LOHR",
+      "when": "“Otro” means another. Ask it about colour."
+    }
+  ],
+  "hook": "Shop for clothes in Spanish.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Tenés otro color?",
+      "translation": "Another colour?"
+    },
+    {
+      "speaker": "B",
+      "target": "Me queda chico.",
+      "translation": "Too small on me."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Too small. What do you say?",
+      "answer": "Me queda chico.",
+      "choices": [
+        "Me queda grande.",
+        "Me queda chico.",
+        "Lo llevo."
+      ]
+    }
+  ],
+  "outro": "Say them aloud. Restaurant next.",
+  "variety_code": "argentine"
+}
