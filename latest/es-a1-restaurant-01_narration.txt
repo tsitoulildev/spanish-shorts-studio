@@ -1,0 +1,15 @@
+[es/clear/A] La carta.
+[en/fast/A] Table and menu in Spanish. Four phrases.
+[en/fast/A] Table for two
+[es/clear/A] Mesa para dos.
+[en/fast/A] The menu
+[es/clear/A] La carta.
+[en/fast/A] What do you recommend?
+[es/clear/A] ¿Qué me recomendás?
+[en/fast/A] For me, this one
+[es/clear/A] Para mí, esto.
+[es/clear/A] ¿Qué me recomendás?
+[es/clear/B] Para mí, esto.
+[en/fast/A] At the door?
+[es/clear/A] Mesa para dos.
+[en/fast/A] Say them out loud. Part two is next.

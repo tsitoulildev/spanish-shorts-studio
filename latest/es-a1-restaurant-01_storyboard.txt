@@ -1,0 +1,28 @@
+es-a1-restaurant-01  |  At a restaurant, part 1  |  hook: Table and menu in Spanish. Four phrases.
+
+  0.0s  card 00 cold      es/A: La carta.
+  1.3s  card 01 hook      en/A: Table and menu in Spanish. Four phrases.
+  4.5s  card 02 phrase_q  en/A: Table for two
+  5.9s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.6s  card 03 phrase_a  es/A: Mesa para dos.
+  8.1s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 10.4s  card 04 phrase_q  en/A: The menu
+ 11.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.1s  card 05 phrase_a  es/A: La carta.
+ 13.1s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 14.9s  card 06 phrase_q  en/A: What do you recommend?
+ 16.8s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.5s  card 07 phrase_a  es/A: ¿Qué me recomendás?
+ 19.0s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 21.2s  card 08 phrase_q  en/A: For me, this one
+ 23.1s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 23.8s  card 09 phrase_a  es/A: Para mí, esto.
+ 25.3s  card 09 phrase_a  (silent 2.2s: viewer's turn)
+ 27.5s  card 10 dialogue  es/A: ¿Qué me recomendás?
+ 29.2s  card 11 dialogue  es/B: Para mí, esto.
+ 30.8s  card 12 quiz_q    en/A: At the door?
+ 32.3s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 34.3s  card 13 quiz_a    es/A: Mesa para dos.
+ 36.1s  card 14 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 39.7 s (limit 40 s)
