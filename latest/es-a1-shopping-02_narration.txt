@@ -1,0 +1,15 @@
+[es/clear/A] Me queda grande.
+[en/fast/A] Shop for clothes in Spanish.
+[en/fast/A] Just looking
+[es/clear/A] Solo estoy mirando.
+[en/fast/A] Too big on me
+[es/clear/A] Me queda grande.
+[en/fast/A] Too small on me
+[es/clear/A] Me queda chico.
+[en/fast/A] Another colour?
+[es/clear/A] ¿Tenés otro color?
+[es/clear/A] ¿Tenés otro color?
+[es/clear/B] Me queda chico.
+[en/fast/A] Too small. What do you say?
+[es/clear/A] Me queda chico.
+[en/fast/A] Say them aloud. Restaurant next.

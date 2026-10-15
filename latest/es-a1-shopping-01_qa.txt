@@ -1,17 +1,17 @@
-es-a1-shopping-01 (mixed): 31.4 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 16.6 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
+es-a1-shopping-01 (mixed): 31.4 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.3 dBFS, silence 16.7 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip hook [en] match 0.99: wanted 'Ask the price in Spanish. Four phrases.' heard 'Ask the price in Spanish for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Do you have this?' heard 'Do you have this?'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard '¡Tenés esto!'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard 'Tenés esto.'
 INFO clip p02_q [en] match 1.00: wanted 'How much is it?' heard 'How much is it?'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'Something cheaper?' heard 'Something cheaper.'
-INFO clip p03_a [es] match 0.88: wanted '¿Tenés algo más barato?' heard '¿Tenés algún masarato?'
+INFO clip p03_a [es] match 0.86: wanted '¿Tenés algo más barato?' heard '¿Tenés algún vaso barato?'
 INFO clip p04_q [en] match 1.00: wanted 'I'll take it' heard 'I'll take it.'
 INFO clip p04_a [es] too short for a reliable check (match 0.71): wanted 'Lo llevo.' heard '¡Lo sé vos!'
-INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard '¿Tenés esto?'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard 'Tenés esto.'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip q01_ask [en] match 1.00: wanted 'Buying it. What do you say?' heard 'Buying it, what do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.67): wanted 'Lo llevo.' heard '¡Lo sebo!'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Lo llevo.' heard '¡Lo llevo!'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
