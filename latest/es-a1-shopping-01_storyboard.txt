@@ -1,0 +1,28 @@
+es-a1-shopping-01  |  Shopping, part 1  |  hook: Ask the price in Spanish. Four phrases.
+
+  0.0s  card 00 cold      es/A: ¿Cuánto sale?
+  1.3s  card 01 hook      en/A: Ask the price in Spanish. Four phrases.
+  4.5s  card 02 phrase_q  en/A: Do you have this?
+  6.4s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.1s  card 03 phrase_a  es/A: ¿Tenés esto?
+  8.1s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.9s  card 04 phrase_q  en/A: How much is it?
+ 11.8s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.5s  card 05 phrase_a  es/A: ¿Cuánto sale?
+ 13.5s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 15.3s  card 06 phrase_q  en/A: Something cheaper?
+ 16.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.1s  card 07 phrase_a  es/A: ¿Tenés algo más barato?
+ 18.9s  card 07 phrase_a  (silent 2.6s: viewer's turn)
+ 21.5s  card 08 phrase_q  en/A: I'll take it
+ 23.4s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 24.1s  card 09 phrase_a  es/A: Lo llevo.
+ 25.2s  card 09 phrase_a  (silent 1.8s: viewer's turn)
+ 27.0s  card 10 dialogue  es/A: ¿Tenés esto?
+ 28.2s  card 11 dialogue  es/B: ¿Cuánto sale?
+ 29.4s  card 12 quiz_q    en/A: Buying it. What do you say?
+ 32.2s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 34.2s  card 13 quiz_a    es/A: Lo llevo.
+ 35.6s  card 14 outro     en/A: Say them out loud. Part two is next.
+
+estimated length: 39.2 s (limit 40 s)

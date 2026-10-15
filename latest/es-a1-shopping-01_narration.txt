@@ -1,0 +1,15 @@
+[es/clear/A] ¿Cuánto sale?
+[en/fast/A] Ask the price in Spanish. Four phrases.
+[en/fast/A] Do you have this?
+[es/clear/A] ¿Tenés esto?
+[en/fast/A] How much is it?
+[es/clear/A] ¿Cuánto sale?
+[en/fast/A] Something cheaper?
+[es/clear/A] ¿Tenés algo más barato?
+[en/fast/A] I'll take it
+[es/clear/A] Lo llevo.
+[es/clear/A] ¿Tenés esto?
+[es/clear/B] ¿Cuánto sale?
+[en/fast/A] Buying it. What do you say?
+[es/clear/A] Lo llevo.
+[en/fast/A] Say them out loud. Part two is next.
