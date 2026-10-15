@@ -72,6 +72,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | likes-02 | ¿Qué querés comer? | correct voseo ("querés", stress on the last syllable; the tú form is "quieres"); "comer" as infinitive after "querés" is natural |
 | likes-02 | Quiero una milanesa. | correct; "milanesa" (breaded cutlet) is an Argentine staple, so the lesson is marked argentine; "una" for a feminine noun, "un" for a masculine one, said in the tip |
 | likes-02 | ¿Qué querés comer? / Quiero una milanesa. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| shopping-01 | ¿Tenés esto? | correct voseo ("tenés", stress on the last syllable; the tú form is "tienes"); "esto" is the neutral demonstrative for pointing at a thing, standard in shops |
+| shopping-01 | ¿Cuánto sale? | correct and very common in Argentina for asking a price ("¿Cuánto cuesta?" is also correct and universal, not taught); "salir" as "to cost" is explained in the tip, so the lesson is marked argentine |
+| shopping-01 | ¿Tenés algo más barato? | correct voseo; "algo más barato" is the natural way to ask for a cheaper option; polite and not offensive, said in the tip |
+| shopping-01 | Lo llevo. | correct and universal; the standard way to say you buy the item; Argentine "ll" as "sh" is said in the tip |
+| shopping-01 | ¿Tenés esto? / ¿Cuánto sale? (dialogue) | correct and natural for two friends looking at an item; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

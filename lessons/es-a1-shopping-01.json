@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-shopping-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Shopping, part 1",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "¿Tenés esto?",
+      "translation": "Do you have this?",
+      "pronunciation": "teh-NEHS EHS-toh",
+      "when": "Point at the thing and ask. Argentines say “tenés” to one shop assistant."
+    },
+    {
+      "target": "¿Cuánto sale?",
+      "translation": "How much is it?",
+      "pronunciation": "KWAHN-toh SAH-leh",
+      "when": "Literally “how much does it come out?”. It is the everyday way to ask a price in Argentina."
+    },
+    {
+      "target": "¿Tenés algo más barato?",
+      "translation": "Something cheaper?",
+      "pronunciation": "teh-NEHS AHL-goh mahs bah-RAH-toh",
+      "when": "Polite way to say it is too expensive. Nobody is offended."
+    },
+    {
+      "target": "Lo llevo.",
+      "translation": "I'll take it.",
+      "pronunciation": "loh SHEH-voh",
+      "when": "Say it when you decide to buy. Argentine “ll” sounds like “sh”."
+    }
+  ],
+  "hook": "Ask the price in Spanish. Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Tenés esto?",
+      "translation": "Do you have this?"
+    },
+    {
+      "speaker": "B",
+      "target": "¿Cuánto sale?",
+      "translation": "How much is it?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Buying it. What do you say?",
+      "answer": "Lo llevo.",
+      "choices": [
+        "¿Cuánto sale?",
+        "Lo llevo.",
+        "¿Tenés esto?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}
