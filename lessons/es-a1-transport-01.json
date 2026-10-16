@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-transport-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Get around the city, part 1: bus and subway",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Este colectivo va al centro?",
+      "translation": "Does this bus go downtown?",
+      "pronunciation": "EHS-teh koh-lehk-TEE-voh bah ahl SEHN-troh",
+      "when": "Ask the driver. “Colectivo” is the Argentine word for bus."
+    },
+    {
+      "target": "¿Dónde bajo?",
+      "translation": "Where do I get off?",
+      "pronunciation": "DOHN-deh BAH-hoh",
+      "when": "Ask when you board. “Bajar” means to go down, or get off."
+    },
+    {
+      "target": "Bajás en la próxima.",
+      "translation": "Get off at the next one.",
+      "pronunciation": "bah-HAHS ehn lah PROHK-see-mah",
+      "when": "Listen for it. “Bajás” is the vos form."
+    }
+  ],
+  "hook": "Ride the bus in Spanish.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Perdón. ¿Dónde bajo?",
+      "translation": "Sorry. Where do I get off?"
+    },
+    {
+      "speaker": "B",
+      "target": "Bajás en la próxima.",
+      "translation": "Get off at the next one."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Where do I get off?",
+      "answer": "¿Dónde bajo?",
+      "choices": [
+        "¿Este colectivo va al centro?",
+        "¿Dónde bajo?",
+        "Bajás en la próxima."
+      ]
+    }
+  ],
+  "outro": "Say them aloud. Part two is next.",
+  "variety_code": "argentine"
+}
