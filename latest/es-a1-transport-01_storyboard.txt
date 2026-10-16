@@ -1,0 +1,24 @@
+es-a1-transport-01  |  Get around the city, part 1: bus and subway  |  hook: Ride the bus in Spanish.
+
+  0.0s  card 00 cold      es/A: ¿Este colectivo va al centro?
+  2.6s  card 01 hook      en/A: Ride the bus in Spanish.
+  4.9s  card 02 phrase_q  en/A: Does this bus go downtown?
+  7.2s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.9s  card 03 phrase_a  es/A: ¿Este colectivo va al centro?
+ 10.2s  card 03 phrase_a  (silent 2.6s: viewer's turn)
+ 12.8s  card 04 phrase_q  en/A: Where do I get off?
+ 15.1s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 15.8s  card 05 phrase_a  es/A: ¿Dónde bajo?
+ 16.8s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 18.6s  card 06 phrase_q  en/A: Get off at the next one
+ 21.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 22.1s  card 07 phrase_a  es/A: Bajás en la próxima.
+ 23.9s  card 07 phrase_a  (silent 2.6s: viewer's turn)
+ 26.5s  card 08 dialogue  es/A: Perdón. ¿Dónde bajo?
+ 28.2s  card 09 dialogue  es/B: Bajás en la próxima.
+ 30.3s  card 10 quiz_q    en/A: Where do I get off?
+ 32.6s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 34.6s  card 11 quiz_a    es/A: ¿Dónde bajo?
+ 36.0s  card 12 outro     en/A: Say them aloud. Part two is next.
+
+estimated length: 39.2 s (limit 40 s)

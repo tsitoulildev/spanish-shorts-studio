@@ -1,0 +1,13 @@
+[es/clear/A] ¿Este colectivo va al centro?
+[en/fast/A] Ride the bus in Spanish.
+[en/fast/A] Does this bus go downtown?
+[es/clear/A] ¿Este colectivo va al centro?
+[en/fast/A] Where do I get off?
+[es/clear/A] ¿Dónde bajo?
+[en/fast/A] Get off at the next one
+[es/clear/A] Bajás en la próxima.
+[es/clear/A] Perdón. ¿Dónde bajo?
+[es/clear/B] Bajás en la próxima.
+[en/fast/A] Where do I get off?
+[es/clear/A] ¿Dónde bajo?
+[en/fast/A] Say them aloud. Part two is next.
