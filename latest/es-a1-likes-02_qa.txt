@@ -1,8 +1,8 @@
-es-a1-likes-02 (mixed): 29.0 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 14.0 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-likes-02 (mixed): 29.2 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
-INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish, three phrases.'
+INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'I'm hungry' heard 'I'm hungry.'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Tengo hambre.' heard '¡Tengo hambre!'
+INFO clip p01_a [es] too short for a reliable check (match 0.87): wanted 'Tengo hambre.' heard 'Tengo amore.'
 INFO clip p02_q [en] match 1.00: wanted 'What do you want to eat?' heard 'What do you want to eat?'
 INFO clip p02_a [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip p03_q [en] match 1.00: wanted 'I want a breaded cutlet' heard 'I want a breaded cutlet.'

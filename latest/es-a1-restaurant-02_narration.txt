@@ -1,0 +1,13 @@
+[es/clear/A] ¿Me traés la cuenta?
+[en/fast/A] Enjoy your meal and pay in Spanish.
+[en/fast/A] It's tasty
+[es/clear/A] Está rico.
+[en/fast/A] Can you bring me the bill?
+[es/clear/A] ¿Me traés la cuenta?
+[en/fast/A] Can I pay by card?
+[es/clear/A] ¿Se puede pagar con tarjeta?
+[es/clear/A] ¿Me traés la cuenta?
+[es/clear/B] ¿Se puede pagar con tarjeta?
+[en/fast/A] Pay by card?
+[es/clear/A] ¿Se puede pagar con tarjeta?
+[en/fast/A] Say them out loud. Transport next.
