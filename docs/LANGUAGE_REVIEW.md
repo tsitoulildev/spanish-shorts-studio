@@ -87,6 +87,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | restaurant-01 | ¿Qué me recomendás? | correct voseo ("recomendás", stress on the last syllable; the tú form is "recomiendas"), so the lesson is marked argentine; "me" = to me |
 | restaurant-01 | Para mí, esto. | correct and universal; "mí" takes an accent after a preposition, said in the tip; natural way to order by pointing |
 | restaurant-01 | ¿Qué me recomendás? / Para mí, esto. (dialogue) | correct and natural for two friends choosing from the menu; both phrases were taught in this lesson |
+| restaurant-02 | Está rico. | correct and universal; "rico" for tasty food is everyday usage in Argentina ("delicioso" was taught in cafe-02); used with "estar" for the taste of a dish |
+| restaurant-02 | ¿Me traés la cuenta? | correct voseo ("traés", stress on the last syllable; the tú form is "traes"), so the lesson is marked argentine; "la cuenta" is the bill in Argentina |
+| restaurant-02 | ¿Se puede pagar con tarjeta? | correct and universal; impersonal "se puede" = "is it possible to"; Argentine "j" as a soft "h" is said in the tip |
+| restaurant-02 | ¿Me traés la cuenta? / ¿Se puede pagar con tarjeta? (dialogue) | correct and natural for two diners settling up; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

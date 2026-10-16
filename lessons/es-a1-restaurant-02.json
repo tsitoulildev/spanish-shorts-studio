@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-restaurant-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "At a restaurant, part 2",
+  "cold_open": {
+    "phrase": 2
+  },
+  "phrases": [
+    {
+      "target": "Está rico.",
+      "translation": "It's tasty.",
+      "pronunciation": "ehs-TAH REE-koh",
+      "when": "Only for food. “Rico” means tasty."
+    },
+    {
+      "target": "¿Me traés la cuenta?",
+      "translation": "Can you bring me the bill?",
+      "pronunciation": "meh trah-EHS lah KWEHN-tah",
+      "when": "Vos form, stress on the end."
+    },
+    {
+      "target": "¿Se puede pagar con tarjeta?",
+      "translation": "Can I pay by card?",
+      "pronunciation": "seh PWEH-deh pah-GAHR kohn tar-HEH-tah",
+      "when": "Ask before the bill. “J” sounds like “h”."
+    }
+  ],
+  "hook": "Enjoy your meal and pay in Spanish.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Me traés la cuenta?",
+      "translation": "Can you bring me the bill?"
+    },
+    {
+      "speaker": "B",
+      "target": "¿Se puede pagar con tarjeta?",
+      "translation": "Can I pay by card?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Pay by card?",
+      "answer": "¿Se puede pagar con tarjeta?",
+      "choices": [
+        "¿Se puede pagar con tarjeta?",
+        "¿Me traés la cuenta?",
+        "Está rico."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Transport next.",
+  "variety_code": "argentine"
+}
