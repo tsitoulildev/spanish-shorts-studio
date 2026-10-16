@@ -1,0 +1,28 @@
+es-a1-transport-02  |  Get around the city, part 2: taxi and arriving  |  hook: Lost in the city? Four phrases.
+
+  0.0s  card 00 cold      es/A: Estoy perdida.
+  1.3s  card 01 hook      en/A: Lost in the city? Four phrases.
+  4.1s  card 02 phrase_q  en/A: I'm lost
+  5.5s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.2s  card 03 phrase_a  es/A: Estoy perdida.
+  7.3s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.1s  card 04 phrase_q  en/A: Can you help me?
+ 10.9s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 11.6s  card 05 phrase_a  es/A: ¿Me ayudás?
+ 12.7s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 14.5s  card 06 phrase_q  en/A: How long does it take?
+ 16.8s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.5s  card 07 phrase_a  es/A: ¿Cuánto tarda?
+ 18.5s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 20.3s  card 08 phrase_q  en/A: Stop here, please
+ 21.8s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 22.5s  card 09 phrase_a  es/A: Pare acá, por favor.
+ 24.4s  card 09 phrase_a  (silent 2.6s: viewer's turn)
+ 27.0s  card 10 dialogue  es/A: Estoy perdida. ¿Me ayudás?
+ 29.0s  card 11 dialogue  es/B: Todo derecho.
+ 30.3s  card 12 quiz_q    en/A: Tell the driver to stop.
+ 32.6s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 34.6s  card 13 quiz_a    es/A: Pare acá, por favor.
+ 36.9s  card 14 outro     en/A: Say them aloud. Daily life next.
+
+estimated length: 39.6 s (limit 40 s)

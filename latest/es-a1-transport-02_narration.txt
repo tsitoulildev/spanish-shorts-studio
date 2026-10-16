@@ -1,0 +1,15 @@
+[es/clear/A] Estoy perdida.
+[en/fast/A] Lost in the city? Four phrases.
+[en/fast/A] I'm lost
+[es/clear/A] Estoy perdida.
+[en/fast/A] Can you help me?
+[es/clear/A] ¿Me ayudás?
+[en/fast/A] How long does it take?
+[es/clear/A] ¿Cuánto tarda?
+[en/fast/A] Stop here, please
+[es/clear/A] Pare acá, por favor.
+[es/clear/A] Estoy perdida. ¿Me ayudás?
+[es/clear/B] Todo derecho.
+[en/fast/A] Tell the driver to stop.
+[es/clear/A] Pare acá, por favor.
+[en/fast/A] Say them aloud. Daily life next.

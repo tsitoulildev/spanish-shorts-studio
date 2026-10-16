@@ -1,4 +1,4 @@
-es-a1-likes-01 (mixed): 27.8 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.5 dBFS, silence 14.6 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
+es-a1-likes-01 (mixed): 27.9 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.4 dBFS, silence 14.4 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
 INFO clip hook [en] match 1.00: wanted 'Say what you like in Spanish. Three phrases.' heard 'Say what you like in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What do you like?' heard 'What do you like?'
@@ -6,10 +6,10 @@ INFO clip p01_a [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
 INFO clip p02_q [en] match 1.00: wanted 'I like mate' heard 'I like mate.'
 INFO clip p02_a [es] match 1.00: wanted 'Me gusta el mate.' heard '¡Me gusta el mate!'
 INFO clip p03_q [en] match 1.00: wanted 'I don't like it' heard 'I don't like it.'
-INFO clip p03_a [es] match 0.90: wanted 'No me gusta.' heard 'Nome Usta.'
+INFO clip p03_a [es] match 1.00: wanted 'No me gusta.' heard '¡No me gusta!'
 INFO clip d01 [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
-INFO clip d02 [es] match 0.87: wanted 'Me gusta el mate.' heard '¡Me gustan mate!'
+INFO clip d02 [es] match 1.00: wanted 'Me gusta el mate.' heard 'Me gusta el mate.'
 INFO clip q01_ask [en] match 1.00: wanted 'You don't like it. Say it.' heard 'You don't like it, say it.'
-INFO clip q01_ans [es] match 0.80: wanted 'No me gusta.' heard '¡Neme Usta!'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip q01_ans [es] match 0.90: wanted 'No me gusta.' heard 'Nome Usta.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
