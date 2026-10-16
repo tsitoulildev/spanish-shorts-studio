@@ -95,6 +95,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | transport-01 | ¿Dónde bajo? | correct and universal; "bajar" (to go down) is the standard verb for getting off a bus or train; first-person present for "where do I get off" |
 | transport-01 | Bajás en la próxima. | correct voseo ("bajás", stress on the last syllable; the tú form is "bajas"), so the lesson is marked argentine; "la próxima" = the next stop, with "parada" understood; Argentine "j" as a soft "h" is in the pronunciation hint |
 | transport-01 | Perdón. ¿Dónde bajo? / Bajás en la próxima. (dialogue) | correct and natural for a passenger asking another rider or the driver; Perdón was taught in politeness-01, the other phrases in this lesson |
+| transport-02 | Estoy perdida. | correct and universal; "estar" for a state, "perdida" is the feminine form (a man says "perdido"), said in the tip |
+| transport-02 | ¿Me ayudás? | correct voseo ("ayudás", stress on the last syllable; the tú form is "ayudas"), so the lesson is marked argentine; "ll" and "y" as "sh" is in the pronunciation hint |
+| transport-02 | ¿Cuánto tarda? | correct and universal; "tardar" = to take time, usted/third person form addressed to a driver or staff |
+| transport-02 | Pare acá, por favor. | correct and common in Argentine taxis; "pare" is the usted command (the vos form "Pará" is also heard, not taught), "acá" is the everyday Argentine word for "here" |
+| transport-02 | Estoy perdida. ¿Me ayudás? / Todo derecho. (dialogue) | correct and natural for a lost walker and a passer-by; Todo derecho was taught in directions-02, the rest in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

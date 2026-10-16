@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-transport-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Get around the city, part 2: taxi and arriving",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Estoy perdida.",
+      "translation": "I'm lost.",
+      "pronunciation": "ehs-TOY pehr-DEE-dah",
+      "when": "A woman says “perdida”, a man says “perdido”. Say it first, then ask for help."
+    },
+    {
+      "target": "¿Me ayudás?",
+      "translation": "Can you help me?",
+      "pronunciation": "meh ah-shoo-DAHS",
+      "when": "“Ayudás” is the vos form. Argentines say it to anyone, in shops and on the street."
+    },
+    {
+      "target": "¿Cuánto tarda?",
+      "translation": "How long does it take?",
+      "pronunciation": "KWAHN-toh TAR-dah",
+      "when": "Ask the taxi driver before you go. “Tarda” means it takes time."
+    },
+    {
+      "target": "Pare acá, por favor.",
+      "translation": "Stop here, please.",
+      "pronunciation": "PAH-reh ah-KAH pohr fah-VOHR",
+      "when": "Say it to the driver near your door. “Acá” means here, very Argentine."
+    }
+  ],
+  "hook": "Lost in the city? Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Estoy perdida. ¿Me ayudás?",
+      "translation": "I'm lost. Can you help me?"
+    },
+    {
+      "speaker": "B",
+      "target": "Todo derecho.",
+      "translation": "Straight ahead."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tell the driver to stop.",
+      "answer": "Pare acá, por favor.",
+      "choices": [
+        "¿Cuánto tarda?",
+        "Pare acá, por favor.",
+        "¿Me ayudás?"
+      ]
+    }
+  ],
+  "outro": "Say them aloud. Daily life next.",
+  "variety_code": "argentine"
+}
