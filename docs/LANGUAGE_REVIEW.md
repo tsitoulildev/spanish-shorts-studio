@@ -91,6 +91,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | restaurant-02 | ¿Me traés la cuenta? | correct voseo ("traés", stress on the last syllable; the tú form is "traes"), so the lesson is marked argentine; "la cuenta" is the bill in Argentina |
 | restaurant-02 | ¿Se puede pagar con tarjeta? | correct and universal; impersonal "se puede" = "is it possible to"; Argentine "j" as a soft "h" is said in the tip |
 | restaurant-02 | ¿Me traés la cuenta? / ¿Se puede pagar con tarjeta? (dialogue) | correct and natural for two diners settling up; both phrases were taught in this lesson |
+| transport-01 | ¿Este colectivo va al centro? | correct and natural; "colectivo" is the everyday Argentine word for a city bus ("autobús" or "camión" elsewhere), so the lesson is marked argentine; "ir" for the route and "al" = a + el, said in the tip |
+| transport-01 | ¿Dónde bajo? | correct and universal; "bajar" (to go down) is the standard verb for getting off a bus or train; first-person present for "where do I get off" |
+| transport-01 | Bajás en la próxima. | correct voseo ("bajás", stress on the last syllable; the tú form is "bajas"), so the lesson is marked argentine; "la próxima" = the next stop, with "parada" understood; Argentine "j" as a soft "h" is in the pronunciation hint |
+| transport-01 | Perdón. ¿Dónde bajo? / Bajás en la próxima. (dialogue) | correct and natural for a passenger asking another rider or the driver; Perdón was taught in politeness-01, the other phrases in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
