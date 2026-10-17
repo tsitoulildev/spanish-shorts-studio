@@ -1,0 +1,15 @@
+[es/clear/A] ¿Qué hacés?
+[en/fast/A] What do you do? Four phrases.
+[en/fast/A] What do you do?
+[es/clear/A] ¿Qué hacés?
+[en/fast/A] I work in an office
+[es/clear/A] Trabajo en una oficina.
+[en/fast/A] I study Spanish
+[es/clear/A] Estudio español.
+[en/fast/A] Where do you live?
+[es/clear/A] ¿Dónde vivís?
+[es/clear/A] ¿Qué hacés?
+[es/clear/B] Trabajo en una oficina.
+[en/fast/A] Say that you study Spanish.
+[es/clear/A] Estudio español.
+[en/fast/A] Say them aloud. Part two next.
