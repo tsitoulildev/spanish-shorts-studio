@@ -102,7 +102,7 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | transport-02 | Estoy perdida. ¿Me ayudás? / Todo derecho. (dialogue) | correct and natural for a lost walker and a passer-by; Todo derecho was taught in directions-02, the rest in this lesson |
 | daily-01 | ¿Qué hacés? | correct voseo ("hacés", stress on the last syllable; the tú form is "haces"), so the lesson is marked argentine; in Argentina it asks about your job or what you are up to, as the tip says |
 | daily-01 | Trabajo en una oficina. | correct and universal; "trabajar en" + a workplace, "una oficina" is the standard word for an office |
-| daily-01 | Estudio español. | correct and universal; "estudiar" for school, university or self-study; language names take a small letter, said in the tip; Argentines also say "castellano", not taught |
+| daily-01 | Estudio español. | correct and universal; "estudiar" for school, university or self-study; "español" takes a small letter, said in the tip; Argentines also say "castellano", not taught |
 | daily-01 | ¿Dónde vivís? | correct voseo ("vivís", stress on the last syllable; the tú form is "vives"); the answer pattern "Vivo en..." was taught in introductions-02 |
 | daily-01 | ¿Qué hacés? / Trabajo en una oficina. (dialogue) | correct and natural; both phrases were taught in this lesson |
 
