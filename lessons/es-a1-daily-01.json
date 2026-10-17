@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-daily-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Daily routine, part 1: what do you do",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Qué hacés?",
+      "translation": "What do you do?",
+      "pronunciation": "keh ah-SEHS",
+      "when": "“Hacés” is the vos form. It asks about your job or what you are doing these days; the answer is a short sentence."
+    },
+    {
+      "target": "Trabajo en una oficina.",
+      "translation": "I work in an office.",
+      "pronunciation": "trah-BAH-hoh ehn OO-nah oh-fee-SEE-nah",
+      "when": "“Trabajo” is “I work”. Swap “una oficina” for “un hospital”."
+    },
+    {
+      "target": "Estudio español.",
+      "translation": "I study Spanish.",
+      "pronunciation": "ehs-TOO-dyoh ehs-pah-NYOHL",
+      "when": "Use “estudio” for school or learning on your own. “español” has no capital."
+    },
+    {
+      "target": "¿Dónde vivís?",
+      "translation": "Where do you live?",
+      "pronunciation": "DOHN-deh vee-VEES",
+      "when": "“Vivís” is the vos form, stressed at the end. Answer with “Vivo en...” and your city."
+    }
+  ],
+  "hook": "What do you do? Four phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Qué hacés?",
+      "translation": "What do you do?"
+    },
+    {
+      "speaker": "B",
+      "target": "Trabajo en una oficina.",
+      "translation": "I work in an office."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Say that you study Spanish.",
+      "answer": "Estudio español.",
+      "choices": [
+        "Vivo en Atenas.",
+        "Estudio español.",
+        "¿Dónde vivís?"
+      ]
+    }
+  ],
+  "outro": "Say them aloud. Part two next.",
+  "variety_code": "argentine"
+}
