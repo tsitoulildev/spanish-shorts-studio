@@ -105,6 +105,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | daily-01 | Estudio español. | correct and universal; "estudiar" for school, university or self-study; "español" takes a small letter, said in the tip; Argentines also say "castellano", not taught |
 | daily-01 | ¿Dónde vivís? | correct voseo ("vivís", stress on the last syllable; the tú form is "vives"); the answer pattern "Vivo en..." was taught in introductions-02 |
 | daily-01 | ¿Qué hacés? / Trabajo en una oficina. (dialogue) | correct and natural; both phrases were taught in this lesson |
+| daily-02 | Me levanto temprano. | correct and universal; reflexive "levantarse" (get up), "temprano" early; "tarde" for late, said in the tip |
+| daily-02 | Cenamos tarde. | correct and universal; "cenar" (have dinner), nosotros form; late dinners are normal in Argentina, said in the tip |
+| daily-02 | Me acuesto a las once. | correct and universal; reflexive "acostarse" (go to bed, stem change o-ue); "dormir" (sleep) named in the tip as the verb for sleeping itself |
+| daily-02 | Cenamos tarde. / Me acuesto a las once. (dialogue) | correct and natural for two friends comparing evenings; both phrases were taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

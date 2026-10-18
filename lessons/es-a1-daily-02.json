@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-daily-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Spanish phrases that are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Daily routine, part 2: your day",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Me levanto temprano.",
+      "translation": "I get up early.",
+      "pronunciation": "meh leh-VAHN-toh tehm-PRAH-noh",
+      "when": "Swap “temprano” for “tarde” (late)."
+    },
+    {
+      "target": "Cenamos tarde.",
+      "translation": "We have dinner late.",
+      "pronunciation": "seh-NAH-mohs TAR-deh",
+      "when": "Late dinners are normal in Argentina."
+    },
+    {
+      "target": "Me acuesto a las once.",
+      "translation": "I go to bed at eleven.",
+      "pronunciation": "meh ah-KWEHS-toh ah lahs OHN-seh",
+      "when": "Use “duermo” for sleeping itself."
+    }
+  ],
+  "hook": "Describe your day. Three phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Cenamos tarde.",
+      "translation": "We have dinner late."
+    },
+    {
+      "speaker": "B",
+      "target": "Me acuesto a las once.",
+      "translation": "I go to bed at eleven."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Say that we have dinner late.",
+      "answer": "Cenamos tarde.",
+      "choices": [
+        "Buenas noches.",
+        "Cenamos tarde.",
+        "Me levanto temprano."
+      ]
+    }
+  ],
+  "outro": "Say them aloud. Sound Argentine next.",
+  "variety_code": "neutral"
+}
