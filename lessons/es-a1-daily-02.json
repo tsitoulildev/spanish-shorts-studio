@@ -25,10 +25,10 @@
       "when": "Late dinners are normal in Argentina."
     },
     {
-      "target": "Me acuesto a las once.",
-      "translation": "I go to bed at eleven.",
-      "pronunciation": "meh ah-KWEHS-toh ah lahs OHN-seh",
-      "when": "Use “duermo” for sleeping itself."
+      "target": "Me voy a dormir.",
+      "translation": "I'm going to sleep.",
+      "pronunciation": "meh voy ah dohr-MEER",
+      "when": "Say it when you end the night. Add “Buenas noches.”"
     }
   ],
   "hook": "Describe your day. Three phrases.",
@@ -40,8 +40,8 @@
     },
     {
       "speaker": "B",
-      "target": "Me acuesto a las once.",
-      "translation": "I go to bed at eleven."
+      "target": "Me voy a dormir.",
+      "translation": "I'm going to sleep."
     }
   ],
   "quiz": [
