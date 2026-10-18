@@ -1,17 +1,17 @@
-es-a1-transport-02 (mixed): 32.8 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
+es-a1-transport-02 (mixed): 32.7 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 16.6 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Estoy perdida.' heard 'Estoy perdida.'
-INFO clip hook [en] match 1.00: wanted 'Lost in the city? Four phrases.' heard 'Lost in the City, Four Phrases'
+INFO clip hook [en] match 0.98: wanted 'Lost in the city? Four phrases.' heard 'Lost in the City for Phrases'
 INFO clip p01_q [en] match 1.00: wanted 'I'm lost' heard 'I'm lost.'
-INFO clip p01_a [es] too short for a reliable check (match 0.92): wanted 'Estoy perdida.' heard 'Estoy perdido.'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Estoy perdida.' heard 'Estoy perdida.'
 INFO clip p02_q [en] match 1.00: wanted 'Can you help me?' heard 'Can you help me?'
-INFO clip p02_a [es] too short for a reliable check (match 0.71): wanted '¿Me ayudás?' heard 'y ajudas.'
+INFO clip p02_a [es] too short for a reliable check (match 0.82): wanted '¿Me ayudás?' heard 'y ayudas.'
 INFO clip p03_q [en] match 1.00: wanted 'How long does it take?' heard 'How long does it take?'
 INFO clip p03_a [es] too short for a reliable check (match 0.88): wanted '¿Cuánto tarda?' heard '¿Cuánto estará?'
 INFO clip p04_q [en] match 1.00: wanted 'Stop here, please' heard 'Stop here, please.'
 INFO clip p04_a [es] match 0.94: wanted 'Pare acá, por favor.' heard 'Para acá, por favor.'
-INFO clip d01 [es] match 0.87: wanted 'Estoy perdida. ¿Me ayudás?' heard 'Estoy perdida y ayúdame.'
+INFO clip d01 [es] match 0.93: wanted 'Estoy perdida. ¿Me ayudás?' heard 'Estoy perdida y ayudas.'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
 INFO clip q01_ask [en] match 1.00: wanted 'Tell the driver to stop.' heard 'Tell the driver to stop.'
-INFO clip outro [en] match 1.00: wanted 'Say them aloud. Daily life next.' heard 'Say them aloud daily life next'
-WARN clip q01_ans [es] match 0.79: wanted 'Pare acá, por favor.' heard '¡Alicá, por favor!'
-QA: PASS (with warnings)
+INFO clip q01_ans [es] match 0.91: wanted 'Pare acá, por favor.' heard 'Áreca, por favor.'
+INFO clip outro [en] match 1.00: wanted 'Say them aloud. Daily life next.' heard 'Say them aloud.  Daily Life Next.'
+QA: PASS

@@ -1,24 +1,24 @@
 es-a1-daily-02  |  Daily routine, part 2: your day  |  hook: Describe your day. Three phrases.
 
-  0.0s  card 00 cold      es/A: Me levanto temprano.
-  1.8s  card 01 hook      en/A: Describe your day. Three phrases.
-  4.1s  card 02 phrase_q  en/A: I get up early
-  5.9s  card 02 phrase_q  (silent 0.7s: viewer's turn)
-  6.6s  card 03 phrase_a  es/A: Me levanto temprano.
-  8.1s  card 03 phrase_a  (silent 2.2s: viewer's turn)
- 10.3s  card 04 phrase_q  en/A: We have dinner late
- 12.2s  card 04 phrase_q  (silent 0.7s: viewer's turn)
- 12.9s  card 05 phrase_a  es/A: Cenamos tarde.
- 14.0s  card 05 phrase_a  (silent 1.8s: viewer's turn)
- 15.8s  card 06 phrase_q  en/A: I'm going to sleep
- 18.1s  card 06 phrase_q  (silent 0.7s: viewer's turn)
- 18.8s  card 07 phrase_a  es/A: Me voy a dormir.
- 20.6s  card 07 phrase_a  (silent 2.6s: viewer's turn)
- 23.2s  card 08 dialogue  es/A: Cenamos tarde.
- 24.5s  card 09 dialogue  es/B: Me voy a dormir.
- 26.6s  card 10 quiz_q    en/A: Say that we have dinner late.
+  0.0s  card 00 cold      es/A: Cenamos tarde.
+  1.3s  card 01 hook      en/A: Describe your day. Three phrases.
+  3.6s  card 02 phrase_q  en/A: I get up early
+  5.5s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.2s  card 03 phrase_a  es/A: Me levanto temprano.
+  7.7s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+  9.9s  card 04 phrase_q  en/A: We have dinner late
+ 11.8s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.5s  card 05 phrase_a  es/A: Cenamos tarde.
+ 13.5s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 15.3s  card 06 phrase_q  en/A: I'm going to sleep
+ 17.6s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 18.3s  card 07 phrase_a  es/A: Me voy a dormir.
+ 20.2s  card 07 phrase_a  (silent 2.6s: viewer's turn)
+ 22.8s  card 08 dialogue  es/A: Cenamos tarde.
+ 24.1s  card 09 dialogue  es/B: Me voy a dormir.
+ 26.1s  card 10 quiz_q    en/A: Say that you are going to sleep.
  29.3s  card 10 quiz_q    (silent 2.0s: viewer's turn)
- 31.3s  card 11 quiz_a    es/A: Cenamos tarde.
- 32.7s  card 12 outro     en/A: Say them aloud. Sound Argentine next.
+ 31.3s  card 11 quiz_a    es/A: Me voy a dormir.
+ 33.6s  card 12 outro     en/A: Say them aloud. Sound Argentine next.
 
-estimated length: 35.4 s (limit 40 s)
+estimated length: 36.3 s (limit 40 s)

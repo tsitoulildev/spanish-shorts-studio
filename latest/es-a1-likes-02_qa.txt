@@ -1,15 +1,15 @@
-es-a1-likes-02 (mixed): 29.1 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 13.9 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-likes-02 (mixed): 29.1 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.5 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
-INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish, three phrases.'
+INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'I'm hungry' heard 'I'm hungry.'
-INFO clip p01_a [es] too short for a reliable check (match 0.72): wanted 'Tengo hambre.' heard 'Tenlo a mi re.'
+INFO clip p01_a [es] too short for a reliable check (match 0.72): wanted 'Tengo hambre.' heard '¡Tenlo a mi re!'
 INFO clip p02_q [en] match 1.00: wanted 'What do you want to eat?' heard 'What do you want to eat?'
 INFO clip p02_a [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip p03_q [en] match 1.00: wanted 'I want a breaded cutlet' heard 'I want a breaded cutlet.'
 INFO clip p03_a [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una milanesa.'
-INFO clip d01 [es] match 0.97: wanted '¿Qué querés comer?' heard 'que quieres comer.'
+INFO clip d01 [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip d02 [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una milanesa.'
 INFO clip q01_ask [en] match 1.00: wanted 'Your stomach is empty. What do you say?' heard 'Your stomach is empty. What do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.42): wanted 'Tengo hambre.' heard '¡Denmóanme de!'
+INFO clip q01_ans [es] too short for a reliable check (match 0.72): wanted 'Tengo hambre.' heard '¡Tenbo al mire!'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Shopping is next.' heard 'Say them out loud. Shopping is next.'
 QA: PASS

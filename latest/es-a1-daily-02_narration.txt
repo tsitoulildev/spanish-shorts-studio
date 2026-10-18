@@ -1,4 +1,4 @@
-[es/clear/A] Me levanto temprano.
+[es/clear/A] Cenamos tarde.
 [en/fast/A] Describe your day. Three phrases.
 [en/fast/A] I get up early
 [es/clear/A] Me levanto temprano.
@@ -8,6 +8,6 @@
 [es/clear/A] Me voy a dormir.
 [es/clear/A] Cenamos tarde.
 [es/clear/B] Me voy a dormir.
-[en/fast/A] Say that we have dinner late.
-[es/clear/A] Cenamos tarde.
+[en/fast/A] Say that you are going to sleep.
+[es/clear/A] Me voy a dormir.
 [en/fast/A] Say them aloud. Sound Argentine next.
