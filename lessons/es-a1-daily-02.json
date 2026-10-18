@@ -9,7 +9,7 @@
   "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
   "topic": "Daily routine, part 2: your day",
   "cold_open": {
-    "phrase": 1
+    "phrase": 2
   },
   "phrases": [
     {
@@ -46,11 +46,11 @@
   ],
   "quiz": [
     {
-      "prompt": "Say that we have dinner late.",
-      "answer": "Cenamos tarde.",
+      "prompt": "Say that you are going to sleep.",
+      "answer": "Me voy a dormir.",
       "choices": [
-        "Buenas noches.",
         "Cenamos tarde.",
+        "Me voy a dormir.",
         "Me levanto temprano."
       ]
     }
