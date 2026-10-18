@@ -4,10 +4,10 @@
 [es/clear/A] Me levanto temprano.
 [en/fast/A] We have dinner late
 [es/clear/A] Cenamos tarde.
-[en/fast/A] I go to bed at eleven
-[es/clear/A] Me acuesto a las once.
+[en/fast/A] I'm going to sleep
+[es/clear/A] Me voy a dormir.
 [es/clear/A] Cenamos tarde.
-[es/clear/B] Me acuesto a las once.
+[es/clear/B] Me voy a dormir.
 [en/fast/A] Say that we have dinner late.
 [es/clear/A] Cenamos tarde.
 [en/fast/A] Say them aloud. Sound Argentine next.

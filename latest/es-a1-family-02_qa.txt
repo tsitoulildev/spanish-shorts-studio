@@ -1,14 +1,14 @@
-es-a1-family-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 13.9 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-family-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
 INFO clip hook [en] match 1.00: wanted 'Introduce a friend and your partner. Three phrases.' heard 'Introduce a friend and your partner. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'He is my friend' heard 'He is my friend.'
-INFO clip p01_a [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
+INFO clip p01_a [es] match 1.00: wanted 'Es mi amigo.' heard 'es mi amigo.'
 INFO clip p02_q [en] match 1.00: wanted 'She is my girlfriend' heard 'She is my girlfriend.'
 INFO clip p02_a [es] match 1.00: wanted 'Es mi novia.' heard 'Es mi novia.'
 INFO clip p03_q [en] match 1.00: wanted 'We are friends' heard 'We are friends.'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
-INFO clip d01 [es] match 0.85: wanted 'Hola. Es mi novia.' heard 'Delas, es mi novia.'
-INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Mucho gusto.' heard '¡Mucho gusto!'
+INFO clip d01 [es] match 0.88: wanted 'Hola. Es mi novia.' heard 'Toda, es mi novia.'
+INFO clip d02 [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
 INFO clip q01_ask [en] match 0.99: wanted 'You and Ana are just friends. What do you say?' heard 'You and Anna are just friends. What do you say?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Next topic: time.' heard 'Say them out loud next topic time'
