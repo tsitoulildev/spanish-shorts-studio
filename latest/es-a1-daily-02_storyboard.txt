@@ -1,0 +1,24 @@
+es-a1-daily-02  |  Daily routine, part 2: your day  |  hook: Describe your day. Three phrases.
+
+  0.0s  card 00 cold      es/A: Me levanto temprano.
+  1.8s  card 01 hook      en/A: Describe your day. Three phrases.
+  4.1s  card 02 phrase_q  en/A: I get up early
+  5.9s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  6.6s  card 03 phrase_a  es/A: Me levanto temprano.
+  8.1s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 10.3s  card 04 phrase_q  en/A: We have dinner late
+ 12.2s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.9s  card 05 phrase_a  es/A: Cenamos tarde.
+ 14.0s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 15.8s  card 06 phrase_q  en/A: I go to bed at eleven
+ 18.5s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 19.2s  card 07 phrase_a  es/A: Me acuesto a las once.
+ 21.5s  card 07 phrase_a  (silent 2.6s: viewer's turn)
+ 24.1s  card 08 dialogue  es/A: Cenamos tarde.
+ 25.3s  card 09 dialogue  es/B: Me acuesto a las once.
+ 27.8s  card 10 quiz_q    en/A: Say that we have dinner late.
+ 30.5s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 32.5s  card 11 quiz_a    es/A: Cenamos tarde.
+ 34.0s  card 12 outro     en/A: Say them aloud. Sound Argentine next.
+
+estimated length: 36.7 s (limit 40 s)

@@ -1,0 +1,15 @@
+es-a1-daily-02 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 13.9 s (designed about 13.3 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] match 1.00: wanted 'Me levanto temprano.' heard 'Me levanto temprano.'
+INFO clip hook [en] match 1.00: wanted 'Describe your day. Three phrases.' heard 'Describe your day three phrases.'
+INFO clip p01_q [en] match 1.00: wanted 'I get up early' heard 'I get up early.'
+INFO clip p01_a [es] match 1.00: wanted 'Me levanto temprano.' heard 'Me levanto temprano.'
+INFO clip p02_q [en] match 1.00: wanted 'We have dinner late' heard 'We have dinner late.'
+INFO clip p02_a [es] too short for a reliable check (match 0.89): wanted 'Cenamos tarde.' heard '¡Seníamos tarde!'
+INFO clip p03_q [en] match 1.00: wanted 'I go to bed at eleven' heard 'I go to bed at eleven.'
+INFO clip d01 [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard '¡Senamos tarde!'
+INFO clip q01_ask [en] match 1.00: wanted 'Say that we have dinner late.' heard 'Say that we have dinner late.'
+INFO clip q01_ans [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard 'Senamos tarde.'
+INFO clip outro [en] match 1.00: wanted 'Say them aloud. Sound Argentine next.' heard 'Say them aloud. Sound Argentine next.'
+WARN clip p03_a [es] match 0.76: wanted 'Me acuesto a las once.' heard 'me cuesta las 11.'
+WARN clip d02 [es] match 0.75: wanted 'Me acuesto a las once.' heard 'me cuesta el asonce.'
+QA: PASS (with warnings)
