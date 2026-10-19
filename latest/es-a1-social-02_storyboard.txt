@@ -1,0 +1,30 @@
+es-a1-social-02  |  Sound Argentine, part 2: react and agree  |  hook: React like an Argentine. Four phrases for any chat.
+
+  0.0s  card 00 cold      es/A: ¡Qué bueno!
+  1.3s  card 01 hook      en/A: React like an Argentine. Four phrases for any chat.
+  5.3s  card 02 phrase_q  en/A: How great! / Nice!
+  6.8s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.5s  card 03 phrase_a  es/A: ¡Qué bueno!
+  8.5s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+ 10.3s  card 04 phrase_q  en/A: Really nice
+ 11.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.1s  card 05 phrase_a  es/A: Re lindo.
+ 13.1s  card 05 phrase_a  (silent 1.8s: viewer's turn)
+ 14.9s  card 06 phrase_q  en/A: Of course. / Obviously
+ 16.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 17.1s  card 07 phrase_a  es/A: Obvio.
+ 18.1s  card 07 phrase_a  (silent 1.4s: viewer's turn)
+ 19.5s  card 08 phrase_q  en/A: No problem
+ 20.5s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 21.2s  card 09 phrase_a  es/A: No hay problema.
+ 22.7s  card 09 phrase_a  (silent 2.2s: viewer's turn)
+ 24.9s  card 10 dialogue  es/A: ¿Me ayudás?
+ 26.1s  card 11 dialogue  es/B: Obvio.
+ 27.3s  card 12 dialogue  es/A: Gracias.
+ 28.5s  card 13 dialogue  es/B: No hay problema.
+ 30.2s  card 14 quiz_q    en/A: A friend says “Thanks!” Answer.
+ 32.5s  card 14 quiz_q    (silent 2.0s: viewer's turn)
+ 34.5s  card 15 quiz_a    es/A: No hay problema.
+ 36.4s  card 16 outro     en/A: Say them out loud. Help phrases next.
+
+estimated length: 39.5 s (limit 40 s)

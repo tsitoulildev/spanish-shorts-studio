@@ -1,0 +1,17 @@
+[es/clear/A] ¡Qué bueno!
+[en/fast/A] React like an Argentine. Four phrases for any chat.
+[en/fast/A] How great! / Nice!
+[es/clear/A] ¡Qué bueno!
+[en/fast/A] Really nice
+[es/clear/A] Re lindo.
+[en/fast/A] Of course. / Obviously
+[es/clear/A] Obvio.
+[en/fast/A] No problem
+[es/clear/A] No hay problema.
+[es/clear/A] ¿Me ayudás?
+[es/clear/B] Obvio.
+[es/clear/A] Gracias.
+[es/clear/B] No hay problema.
+[en/fast/A] A friend says “Thanks!” Answer.
+[es/clear/A] No hay problema.
+[en/fast/A] Say them out loud. Help phrases next.
