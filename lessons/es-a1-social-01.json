@@ -1,0 +1,76 @@
+{
+  "id": "es-a1-social-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo (“vos”). Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Sound Argentine, part 1: everyday chat",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¿Todo bien?",
+      "translation": "All good? / How's it going?",
+      "pronunciation": "TOH-doh byehn",
+      "when": "A casual hello between friends. Argentines say it all day, instead of “¿Cómo estás?”."
+    },
+    {
+      "target": "Todo bien, ¿y vos?",
+      "translation": "All good, and you?",
+      "pronunciation": "TOH-doh byehn, ee vohs",
+      "when": "The usual answer. “Vos” is the Argentine “you”, so always send the question back."
+    },
+    {
+      "target": "Dale.",
+      "translation": "Okay. / Sure. / Deal.",
+      "pronunciation": "DAH-leh",
+      "when": "Say it to accept a plan or an offer. You will hear it all day in Argentina."
+    },
+    {
+      "target": "Nos vemos.",
+      "translation": "See you.",
+      "pronunciation": "nohs VEH-mohs",
+      "when": "A friendly goodbye, like “see you around”. You do not need a date."
+    }
+  ],
+  "hook": "Sound Argentine. Four everyday phrases.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Todo bien?",
+      "translation": "All good?"
+    },
+    {
+      "speaker": "B",
+      "target": "Todo bien, ¿y vos?",
+      "translation": "All good, and you?"
+    },
+    {
+      "speaker": "A",
+      "target": "Nos vemos.",
+      "translation": "See you."
+    },
+    {
+      "speaker": "B",
+      "target": "Dale.",
+      "translation": "Okay."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "“Coffee later?” Say yes.",
+      "answer": "Dale.",
+      "choices": [
+        "Dale.",
+        "Perdón.",
+        "Hasta luego."
+      ]
+    }
+  ],
+  "outro": "Part two is next.",
+  "variety_code": "argentine"
+}

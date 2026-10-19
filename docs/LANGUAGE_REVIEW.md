@@ -109,6 +109,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | daily-02 | Cenamos tarde. | correct and universal; "cenar" (have dinner), nosotros form; late dinners are normal in Argentina, said in the tip |
 | daily-02 | Me voy a dormir. | correct and universal; "ir a" + infinitive ("me voy a dormir" = I'm going to sleep / going to bed); the tip says to add "Buenas noches", taught in greetings-01 |
 | daily-02 | Cenamos tarde. / Me voy a dormir. (dialogue) | correct and natural for two friends comparing evenings; both phrases were taught in this lesson |
+| social-01 | ¿Todo bien? | correct and very common in Argentina as a casual greeting between friends; same words work in other countries, so only the series voice matters; “¿Cómo andás?” is also heard, not taught |
+| social-01 | Todo bien, ¿y vos? | correct; “vos” is the Argentine second person (already met in introductions-01 as “¿Y vos?”), so the lesson is marked argentine; the comma before the returned question is normal |
+| social-01 | Dale. | correct and extremely common in Argentina for “okay / sure / deal”; also used in Uruguay and elsewhere; informal, said in the tip |
+| social-01 | Nos vemos. | correct and universal; reflexive “vernos” (to see each other) used as a casual goodbye; “Chau” is the other common Argentine goodbye, not taught here |
+| social-01 | ¿Todo bien? / Todo bien, ¿y vos? / Nos vemos. / Dale. (dialogue) | correct and natural for two friends meeting and parting; every phrase was taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
