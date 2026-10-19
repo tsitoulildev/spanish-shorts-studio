@@ -119,6 +119,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | social-02 | Obvio. | correct and common; short for “obviamente”, informal, a relaxed “of course”; the tip says to keep it for people you know |
 | social-02 | No hay problema. | correct and universal; standard reply to thanks or a small apology; polite with anyone |
 | social-02 | ¿Me ayudás? / Obvio. / Gracias. / No hay problema. (dialogue) | correct and natural for two friends; “¿Me ayudás?” was taught in transport-02, “Gracias” in politeness-01, the other phrases in this lesson |
+| help-01 | Necesito ayuda. | correct and universal; "necesitar" + noun, the standard way to ask for help; Argentine "y" as "sh" is in the pronunciation hint |
+| help-01 | ¿Hablás inglés? | correct voseo ("hablás", stress on the last syllable; the tú form is "hablas"), so the lesson is marked argentine; "inglés" takes an accent and a small letter, the silent "h" is said in the tip |
+| help-01 | ¿Hay una farmacia? | correct and universal; "hay" = there is, "una" because "farmacia" is feminine; "cerca" (nearby) is added in the tip and was taught in directions-01 |
+| help-01 | Perdón. ¿Hay una farmacia? / Está cerca. (dialogue) | correct and natural for a passer-by asking and being answered; Perdón was taught in politeness-01, Está cerca in directions-01, the question in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
