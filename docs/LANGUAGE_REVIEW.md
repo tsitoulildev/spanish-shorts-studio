@@ -114,6 +114,11 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | social-01 | Dale. | correct and extremely common in Argentina for “okay / sure / deal”; also used in Uruguay and elsewhere; informal, said in the tip |
 | social-01 | Nos vemos. | correct and universal; reflexive “vernos” (to see each other) used as a casual goodbye; “Chau” is the other common Argentine goodbye, not taught here |
 | social-01 | ¿Todo bien? / Todo bien, ¿y vos? / Nos vemos. / Dale. (dialogue) | correct and natural for two friends meeting and parting; every phrase was taught in this lesson |
+| social-02 | ¡Qué bueno! | correct and universal; exclamation for good news, with both exclamation marks; very common in Argentina |
+| social-02 | Re lindo. | correct and colloquial; “re” as an intensifier before an adjective is typical of Argentina and the Río de la Plata, so the lesson is marked argentine; “lindo” (nice, pretty) is everyday usage; the tip says this |
+| social-02 | Obvio. | correct and common; short for “obviamente”, informal, a relaxed “of course”; the tip says to keep it for people you know |
+| social-02 | No hay problema. | correct and universal; standard reply to thanks or a small apology; polite with anyone |
+| social-02 | ¿Me ayudás? / Obvio. / Gracias. / No hay problema. (dialogue) | correct and natural for two friends; “¿Me ayudás?” was taught in transport-02, “Gracias” in politeness-01, the other phrases in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

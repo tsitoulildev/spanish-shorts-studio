@@ -1,0 +1,76 @@
+{
+  "id": "es-a1-social-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo (“vos”). Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Sound Argentine, part 2: react and agree",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "¡Qué bueno!",
+      "translation": "How great! / Nice!",
+      "pronunciation": "keh BWEH-noh",
+      "when": "Your reaction to good news. Say it with a smile when a friend shares a plan or a win."
+    },
+    {
+      "target": "Re lindo.",
+      "translation": "Really nice.",
+      "pronunciation": "reh LEEN-doh",
+      "when": "Argentines put “re” before an adjective to mean “really”. Use it for a place, a gift or a photo."
+    },
+    {
+      "target": "Obvio.",
+      "translation": "Of course. / Obviously.",
+      "pronunciation": "OHB-byoh",
+      "when": "A relaxed yes between friends, when something is a given. Keep it for people you know."
+    },
+    {
+      "target": "No hay problema.",
+      "translation": "No problem.",
+      "pronunciation": "noh eye proh-BLEH-mah",
+      "when": "The answer to thanks or a small apology. Calm and polite, with anyone."
+    }
+  ],
+  "hook": "React like an Argentine. Four phrases for any chat.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Me ayudás?",
+      "translation": "Can you help me?"
+    },
+    {
+      "speaker": "B",
+      "target": "Obvio.",
+      "translation": "Of course."
+    },
+    {
+      "speaker": "A",
+      "target": "Gracias.",
+      "translation": "Thanks."
+    },
+    {
+      "speaker": "B",
+      "target": "No hay problema.",
+      "translation": "No problem."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "A friend says “Thanks!” Answer.",
+      "answer": "No hay problema.",
+      "choices": [
+        "No hay problema.",
+        "Nos vemos.",
+        "Perdón."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Help phrases next.",
+  "variety_code": "argentine"
+}
