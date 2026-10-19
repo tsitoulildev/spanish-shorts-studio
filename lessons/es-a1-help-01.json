@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-help-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Ask for help, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Necesito ayuda.",
+      "translation": "I need help.",
+      "pronunciation": "neh-seh-SEE-toh ah-SHOO-dah",
+      "when": "Your first sentence in any problem. Say it clearly and people stop to help."
+    },
+    {
+      "target": "¿Hablás inglés?",
+      "translation": "Do you speak English?",
+      "pronunciation": "ah-BLAHS een-GLEHS",
+      "when": "“Hablás” is the vos form. Ask it before a long explanation. The “h” is silent."
+    },
+    {
+      "target": "¿Hay una farmacia?",
+      "translation": "Is there a pharmacy?",
+      "pronunciation": "eye OO-nah fahr-MAH-syah",
+      "when": "“Hay” means there is. Add “cerca” for nearby. First stop for a cold."
+    }
+  ],
+  "hook": "Need help abroad? Three phrases to ask for it.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Perdón. ¿Hay una farmacia?",
+      "translation": "Excuse me. Is there a pharmacy?"
+    },
+    {
+      "speaker": "B",
+      "target": "Está cerca.",
+      "translation": "It's close."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You need a pharmacy. What do you ask?",
+      "answer": "¿Hay una farmacia?",
+      "choices": [
+        "¿Dónde está el baño?",
+        "¿Hay una farmacia?",
+        "¿Hablás inglés?"
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Part two is next.",
+  "variety_code": "argentine"
+}
