@@ -1,0 +1,17 @@
+[es/clear/A] ¿Todo bien?
+[en/fast/A] Sound Argentine. Four everyday phrases.
+[en/fast/A] All good? / How's it going?
+[es/clear/A] ¿Todo bien?
+[en/fast/A] All good, and you?
+[es/clear/A] Todo bien, ¿y vos?
+[en/fast/A] Okay. / Sure. / Deal
+[es/clear/A] Dale.
+[en/fast/A] See you
+[es/clear/A] Nos vemos.
+[es/clear/A] ¿Todo bien?
+[es/clear/B] Todo bien, ¿y vos?
+[es/clear/A] Nos vemos.
+[es/clear/B] Dale.
+[en/fast/A] “Coffee later?” Say yes.
+[es/clear/A] Dale.
+[en/fast/A] Part two is next.

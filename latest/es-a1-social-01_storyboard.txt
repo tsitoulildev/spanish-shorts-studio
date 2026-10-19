@@ -1,0 +1,30 @@
+es-a1-social-01  |  Sound Argentine, part 1: everyday chat  |  hook: Sound Argentine. Four everyday phrases.
+
+  0.0s  card 00 cold      es/A: ¿Todo bien?
+  1.3s  card 01 hook      en/A: Sound Argentine. Four everyday phrases.
+  3.6s  card 02 phrase_q  en/A: All good? / How's it going?
+  6.4s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.1s  card 03 phrase_a  es/A: ¿Todo bien?
+  8.1s  card 03 phrase_a  (silent 1.8s: viewer's turn)
+  9.9s  card 04 phrase_q  en/A: All good, and you?
+ 11.8s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 12.5s  card 05 phrase_a  es/A: Todo bien, ¿y vos?
+ 14.4s  card 05 phrase_a  (silent 2.6s: viewer's turn)
+ 17.0s  card 06 phrase_q  en/A: Okay. / Sure. / Deal
+ 18.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 19.1s  card 07 phrase_a  es/A: Dale.
+ 20.1s  card 07 phrase_a  (silent 1.4s: viewer's turn)
+ 21.5s  card 08 phrase_q  en/A: See you
+ 22.6s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 23.3s  card 09 phrase_a  es/A: Nos vemos.
+ 24.3s  card 09 phrase_a  (silent 1.8s: viewer's turn)
+ 26.1s  card 10 dialogue  es/A: ¿Todo bien?
+ 27.3s  card 11 dialogue  es/B: Todo bien, ¿y vos?
+ 29.4s  card 12 dialogue  es/A: Nos vemos.
+ 30.7s  card 13 dialogue  es/B: Dale.
+ 31.9s  card 14 quiz_q    en/A: “Coffee later?” Say yes.
+ 33.7s  card 14 quiz_q    (silent 2.0s: viewer's turn)
+ 35.7s  card 15 quiz_a    es/A: Dale.
+ 37.1s  card 16 outro     en/A: Part two is next.
+
+estimated length: 39.0 s (limit 40 s)

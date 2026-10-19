@@ -1,15 +1,15 @@
-es-a1-time-01 (mixed): 27.6 s, 1080x1920@30, first sound 0.0 s, -15.1 LUFS, peak -1.2 dBFS, silence 13.9 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-time-01 (mixed): 27.7 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.0 dBFS, silence 14.0 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip hook [en] match 1.00: wanted 'Tell the time in Spanish. Three phrases.' heard 'Tell the time in Spanish three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What time is it?' heard 'What time is it?'
 INFO clip p01_a [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip p02_q [en] match 1.00: wanted 'It is one o'clock' heard 'It is one o'clock.'
-INFO clip p02_a [es] match 1.00: wanted 'Es la una.' heard 'es la una.'
+INFO clip p02_a [es] match 1.00: wanted 'Es la una.' heard 'Es la una.'
 INFO clip p03_q [en] match 1.00: wanted 'It is three o'clock' heard 'It is three o'clock.'
-INFO clip p03_a [es] match 0.92: wanted 'Son las tres.' heard 'Sol las tres.'
+INFO clip p03_a [es] match 1.00: wanted 'Son las tres.' heard 'son las tres.'
 INFO clip d01 [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip d02 [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres.'
 INFO clip q01_ask [en] match 1.00: wanted 'It is one o'clock. What do you say?' heard 'It is one o'clock. What do you say?'
 INFO clip q01_ans [es] match 1.00: wanted 'Es la una.' heard 'Es la una.'
 INFO clip outro [en] match 1.00: wanted 'Days of the week next.' heard 'days of the week next'
-WARN clip cold [es] match 0.42: wanted '¿Qué hora es?' heard '¡Teo dais!'
-QA: PASS (with warnings)
+QA: PASS
