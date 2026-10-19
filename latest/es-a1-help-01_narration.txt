@@ -1,0 +1,13 @@
+[es/clear/A] Necesito ayuda.
+[en/fast/A] Need help abroad? Three phrases to ask for it.
+[en/fast/A] I need help
+[es/clear/A] Necesito ayuda.
+[en/fast/A] Do you speak English?
+[es/clear/A] ¿Hablás inglés?
+[en/fast/A] Is there a pharmacy?
+[es/clear/A] ¿Hay una farmacia?
+[es/clear/A] Perdón. ¿Hay una farmacia?
+[es/clear/B] Está cerca.
+[en/fast/A] You need a pharmacy. What do you ask?
+[es/clear/A] ¿Hay una farmacia?
+[en/fast/A] Say them out loud. Part two is next.
