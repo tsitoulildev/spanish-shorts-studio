@@ -1,0 +1,28 @@
+es-a1-numbers-02  |  Numbers 1 to 10, part 2  |  hook: Count from five to eight in Spanish. Four words.
+
+  0.0s  card 00 cold      es/A: Cinco.
+  1.3s  card 01 hook      en/A: Count from five to eight in Spanish. Four words.
+  5.3s  card 02 phrase_q  en/A: Five
+  6.3s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.0s  card 03 phrase_a  es/A: Cinco.
+  8.0s  card 03 phrase_a  (silent 1.4s: viewer's turn)
+  9.4s  card 04 phrase_q  en/A: Six
+ 10.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 11.1s  card 05 phrase_a  es/A: Seis.
+ 12.1s  card 05 phrase_a  (silent 1.4s: viewer's turn)
+ 13.5s  card 06 phrase_q  en/A: Seven
+ 14.5s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 15.2s  card 07 phrase_a  es/A: Siete.
+ 16.2s  card 07 phrase_a  (silent 1.4s: viewer's turn)
+ 17.6s  card 08 phrase_q  en/A: Eight
+ 18.6s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 19.3s  card 09 phrase_a  es/A: Ocho.
+ 20.3s  card 09 phrase_a  (silent 1.4s: viewer's turn)
+ 21.7s  card 10 dialogue  es/A: Tres. Cuatro. Cinco.
+ 23.3s  card 11 dialogue  es/B: Seis. Siete. Ocho.
+ 25.0s  card 12 quiz_q    en/A: Which one is seven?
+ 26.9s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 28.9s  card 13 quiz_a    es/A: Siete.
+ 30.3s  card 14 outro     en/A: Say them out loud. Nine and ten are next.
+
+estimated length: 34.3 s (limit 40 s)

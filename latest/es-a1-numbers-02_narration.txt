@@ -1,0 +1,15 @@
+[es/clear/A] Cinco.
+[en/fast/A] Count from five to eight in Spanish. Four words.
+[en/fast/A] Five
+[es/clear/A] Cinco.
+[en/fast/A] Six
+[es/clear/A] Seis.
+[en/fast/A] Seven
+[es/clear/A] Siete.
+[en/fast/A] Eight
+[es/clear/A] Ocho.
+[es/clear/A] Tres. Cuatro. Cinco.
+[es/clear/B] Seis. Siete. Ocho.
+[en/fast/A] Which one is seven?
+[es/clear/A] Siete.
+[en/fast/A] Say them out loud. Nine and ten are next.
