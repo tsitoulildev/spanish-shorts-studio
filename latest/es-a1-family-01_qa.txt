@@ -1,15 +1,15 @@
-es-a1-family-01 (mixed): 29.7 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 13.7 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¿Tenés hermanos?'
+es-a1-family-01 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.5 dBFS, silence 13.7 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.90): wanted '¿Tenés hermanos?' heard '¡Te les hermanos!'
 INFO clip hook [en] match 1.00: wanted 'Your family in Spanish. Three phrases.' heard 'Your family in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Do you have siblings?' heard 'Do you have siblings?'
-INFO clip p01_a [es] too short for a reliable check (match 0.93): wanted '¿Tenés hermanos?' heard '¡Teles hermanos!'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard 'Tenes hermanos.'
 INFO clip p02_q [en] match 1.00: wanted 'I have a sister' heard 'I have a sister.'
 INFO clip p02_a [es] match 1.00: wanted 'Tengo una hermana.' heard 'Tengo una hermana.'
 INFO clip p03_q [en] match 1.00: wanted 'There are four of us' heard 'There are four of us.'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos cuatro.' heard 'Somos cuatro.'
-INFO clip d01 [es] too short for a reliable check (match 0.90): wanted '¿Tenés hermanos?' heard '¡Te les hermanos!'
-INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana, somos cuatro.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana. Somos cuatro.'
 INFO clip q01_ask [en] match 1.00: wanted 'You have one sister. What do you say?' heard 'You have one sister. What do you say?'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
-WARN clip q01_ans [es] match 0.47: wanted 'Tengo una hermana.' heard 'de monedamana.'
-QA: PASS (with warnings)
+INFO clip q01_ans [es] match 0.91: wanted 'Tengo una hermana.' heard 'Temo una hermana.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
+QA: PASS

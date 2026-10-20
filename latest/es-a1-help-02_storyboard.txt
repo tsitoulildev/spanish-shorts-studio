@@ -1,0 +1,24 @@
+es-a1-help-02  |  Say how you feel, part 2  |  hook: Feel sick abroad? Three phrases to say how.
+
+  0.0s  card 00 cold      es/A: Me siento mal.
+  1.8s  card 01 hook      en/A: Feel sick abroad? Three phrases to say how.
+  5.3s  card 02 phrase_q  en/A: I feel bad
+  6.8s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.5s  card 03 phrase_a  es/A: Me siento mal.
+  8.9s  card 03 phrase_a  (silent 2.2s: viewer's turn)
+ 11.2s  card 04 phrase_q  en/A: My head hurts
+ 12.7s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 13.4s  card 05 phrase_a  es/A: Me duele la cabeza.
+ 15.2s  card 05 phrase_a  (silent 2.6s: viewer's turn)
+ 17.8s  card 06 phrase_q  en/A: I'm better now
+ 19.7s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 20.4s  card 07 phrase_a  es/A: Ya estoy mejor.
+ 21.9s  card 07 phrase_a  (silent 2.2s: viewer's turn)
+ 24.1s  card 08 dialogue  es/A: Me duele la cabeza. ¿Hay una farmacia?
+ 27.5s  card 09 dialogue  es/B: Está cerca.
+ 28.7s  card 10 quiz_q    en/A: Your head hurts. What do you say?
+ 31.8s  card 10 quiz_q    (silent 2.0s: viewer's turn)
+ 33.8s  card 11 quiz_a    es/A: Me duele la cabeza.
+ 36.1s  card 12 outro     en/A: Say them out loud. Numbers are next.
+
+estimated length: 39.3 s (limit 40 s)

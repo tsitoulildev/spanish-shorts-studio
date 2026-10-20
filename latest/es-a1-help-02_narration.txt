@@ -1,0 +1,13 @@
+[es/clear/A] Me siento mal.
+[en/fast/A] Feel sick abroad? Three phrases to say how.
+[en/fast/A] I feel bad
+[es/clear/A] Me siento mal.
+[en/fast/A] My head hurts
+[es/clear/A] Me duele la cabeza.
+[en/fast/A] I'm better now
+[es/clear/A] Ya estoy mejor.
+[es/clear/A] Me duele la cabeza. ¿Hay una farmacia?
+[es/clear/B] Está cerca.
+[en/fast/A] Your head hurts. What do you say?
+[es/clear/A] Me duele la cabeza.
+[en/fast/A] Say them out loud. Numbers are next.
