@@ -123,6 +123,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | help-01 | ¿Hablás inglés? | correct voseo ("hablás", stress on the last syllable; the tú form is "hablas"), so the lesson is marked argentine; "inglés" takes an accent and a small letter, the silent "h" is said in the tip |
 | help-01 | ¿Hay una farmacia? | correct and universal; "hay" = there is, "una" because "farmacia" is feminine; "cerca" (nearby) is added in the tip and was taught in directions-01 |
 | help-01 | Perdón. ¿Hay una farmacia? / Está cerca. (dialogue) | correct and natural for a passer-by asking and being answered; Perdón was taught in politeness-01, Está cerca in directions-01, the question in this lesson |
+| help-02 | Me siento mal. | correct and universal; "sentirse" (reflexive) + adverb for how you feel; "Necesito ayuda", taught in help-01, is suggested in the tip |
+| help-02 | Me duele la cabeza. | correct and universal; "doler" works like "gustar" (the body part is the subject), so "duele" is singular; other body parts are mentioned in the tip |
+| help-02 | Ya estoy mejor. | correct and universal; "ya" = already/now, "mejor" = better; Argentine "y" as "sh" and the soft "j" are in the pronunciation hint and the tip |
+| help-02 | Me duele la cabeza. ¿Hay una farmacia? / Está cerca. (dialogue) | correct and natural for someone asking a passer-by; the question was taught in help-01, Está cerca in directions-01, the first sentence in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
