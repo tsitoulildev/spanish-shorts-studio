@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-numbers-01",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Numbers are identical in Argentina and Mexico. The dialogue uses voseo (¿Tenés hermanos?), so the Argentine voice reads it.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Numbers 1 to 10, part 1",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Uno.",
+      "translation": "One.",
+      "pronunciation": "OO-noh",
+      "when": "Before a noun it shortens: un café, one coffee."
+    },
+    {
+      "target": "Dos.",
+      "translation": "Two.",
+      "pronunciation": "dohs",
+      "when": "Add -s to what you count from two up: un café, dos cafés."
+    },
+    {
+      "target": "Tres.",
+      "translation": "Three.",
+      "pronunciation": "trehs",
+      "when": "Tap the r once, very lightly. You heard it in “Son las tres”."
+    },
+    {
+      "target": "Cuatro.",
+      "translation": "Four.",
+      "pronunciation": "KWAH-troh",
+      "when": "Starts like “quad”, stress on the first syllable. Family size: “Somos cuatro”."
+    }
+  ],
+  "hook": "Count from one to four in Spanish. Four words.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Tenés hermanos?",
+      "translation": "Do you have siblings?"
+    },
+    {
+      "speaker": "B",
+      "target": "Tengo una hermana. Somos cuatro.",
+      "translation": "I have a sister. There are four of us."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Which one is two?",
+      "answer": "Dos.",
+      "choices": [
+        "Uno.",
+        "Dos.",
+        "Tres."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Five to ten are next.",
+  "variety_code": "argentine"
+}
