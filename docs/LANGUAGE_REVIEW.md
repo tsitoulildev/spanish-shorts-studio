@@ -129,6 +129,8 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | help-02 | Me duele la cabeza. ¿Hay una farmacia? / Está cerca. (dialogue) | correct and natural for someone asking a passer-by; the question was taught in help-01, Está cerca in directions-01, the first sentence in this lesson |
 | numbers-01 | Uno. / Dos. / Tres. / Cuatro. | correct and universal; "uno" shortens to "un" before a noun and "dos" onward take plural nouns ("un café, dos cafés"), said in the tips; the single "r" of "tres" is a light tap, said in the tip |
 | numbers-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; voseo "tenés", so the lesson is marked argentine; both phrases were taught in family-01 and "cuatro" in this lesson |
+| numbers-02 | Cinco. / Seis. / Siete. / Ocho. | correct and universal; the "c" of "cinco" is an "s" sound in Argentina, said in the tip; "seis" is one syllable and "siete" two, said in the tips; "ch" in "ocho" as in English "chair", said in the tip |
+| numbers-02 | Cuatro. Cinco. / Seis. Siete. (dialogue) | correct and natural for two friends counting aloud; Cuatro was taught in numbers-01, the other numbers in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
