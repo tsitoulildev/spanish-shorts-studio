@@ -1,0 +1,60 @@
+{
+  "id": "es-a1-help-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Argentine Spanish (Rioplatense), voseo. Read only by the Argentine voice.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Say how you feel, part 2",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Me siento mal.",
+      "translation": "I feel bad.",
+      "pronunciation": "meh SYEHN-toh mahl",
+      "when": "Say it when you feel sick. Add “Necesito ayuda” if it is serious."
+    },
+    {
+      "target": "Me duele la cabeza.",
+      "translation": "My head hurts.",
+      "pronunciation": "meh DWEH-leh lah kah-BEH-sah",
+      "when": "“Duele” means hurts. Swap “la cabeza” for another body part."
+    },
+    {
+      "target": "Ya estoy mejor.",
+      "translation": "I'm better now.",
+      "pronunciation": "shah ehs-TOY meh-HOHR",
+      "when": "“Ya” means already. Say it to calm people down. The “j” is a soft “h”."
+    }
+  ],
+  "hook": "Feel sick abroad? Three phrases to say how.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Me duele la cabeza. ¿Hay una farmacia?",
+      "translation": "My head hurts. Is there a pharmacy?"
+    },
+    {
+      "speaker": "B",
+      "target": "Está cerca.",
+      "translation": "It's close."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Your head hurts. What do you say?",
+      "answer": "Me duele la cabeza.",
+      "choices": [
+        "Me siento mal.",
+        "Me duele la cabeza.",
+        "Ya estoy mejor."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Numbers are next.",
+  "variety_code": "argentine"
+}
