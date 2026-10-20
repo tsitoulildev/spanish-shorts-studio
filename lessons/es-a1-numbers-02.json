@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-numbers-02",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Numbers are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Numbers 1 to 10, part 2",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Cinco.",
+      "translation": "Five.",
+      "pronunciation": "SEEN-koh",
+      "when": "Written with c, but it sounds like an s: the c before i is soft."
+    },
+    {
+      "target": "Seis.",
+      "translation": "Six.",
+      "pronunciation": "sayss",
+      "when": "One syllable, like “say” plus s. Do not stretch it into two."
+    },
+    {
+      "target": "Siete.",
+      "translation": "Seven.",
+      "pronunciation": "SYEH-teh",
+      "when": "Two syllables, not three. Do not mix it up with seis: siete has the t."
+    },
+    {
+      "target": "Ocho.",
+      "translation": "Eight.",
+      "pronunciation": "OH-choh",
+      "when": "The ch sounds like the ch in “chair”: OH-choh, stress on the first syllable."
+    }
+  ],
+  "hook": "Count from five to eight in Spanish. Four words.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "Tres. Cuatro. Cinco.",
+      "translation": "Three. Four. Five."
+    },
+    {
+      "speaker": "B",
+      "target": "Seis. Siete. Ocho.",
+      "translation": "Six. Seven. Eight."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Which one is seven?",
+      "answer": "Siete.",
+      "choices": [
+        "Seis.",
+        "Siete.",
+        "Ocho."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Nine and ten are next.",
+  "variety_code": "neutral"
+}
