@@ -41,13 +41,13 @@
   "dialogue": [
     {
       "speaker": "A",
-      "target": "Tres. Cuatro. Cinco.",
-      "translation": "Three. Four. Five."
+      "target": "Cuatro. Cinco.",
+      "translation": "Four. Five."
     },
     {
       "speaker": "B",
-      "target": "Seis. Siete. Ocho.",
-      "translation": "Six. Seven. Eight."
+      "target": "Seis. Siete.",
+      "translation": "Six. Seven."
     }
   ],
   "quiz": [
