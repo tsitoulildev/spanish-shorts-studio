@@ -8,8 +8,8 @@
 [es/clear/A] Siete.
 [en/fast/A] Eight
 [es/clear/A] Ocho.
-[es/clear/A] Tres. Cuatro. Cinco.
-[es/clear/B] Seis. Siete. Ocho.
+[es/clear/A] Cuatro. Cinco.
+[es/clear/B] Seis. Siete.
 [en/fast/A] Which one is seven?
 [es/clear/A] Siete.
 [en/fast/A] Say them out loud. Nine and ten are next.

@@ -1,4 +1,4 @@
-es-a1-help-01 (mixed): 29.4 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 13.6 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-help-01 (mixed): 29.5 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 13.6 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 0.93): wanted 'Necesito ayuda.' heard 'Necesita ayuda.'
 INFO clip hook [en] match 1.00: wanted 'Need help abroad? Three phrases to ask for it.' heard 'Need help abroad? Three phrases to ask for it.'
 INFO clip p01_q [en] match 1.00: wanted 'I need help' heard 'I need help.'
@@ -6,10 +6,10 @@ INFO clip p01_a [es] too short for a reliable check (match 0.93): wanted 'Necesi
 INFO clip p02_q [en] match 1.00: wanted 'Do you speak English?' heard 'Do you speak English?'
 INFO clip p02_a [es] too short for a reliable check (match 0.69): wanted '¿Hablás inglés?' heard 'a las similes.'
 INFO clip p03_q [en] match 1.00: wanted 'Is there a pharmacy?' heard 'Is there a pharmacy?'
-INFO clip p03_a [es] match 1.00: wanted '¿Hay una farmacia?' heard 'Hay una farmacia.'
+INFO clip p03_a [es] match 1.00: wanted '¿Hay una farmacia?' heard 'hay una farmacia.'
 INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Hay una farmacia?' heard 'Perdón, hay una farmacia.'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
-INFO clip q01_ask [en] match 1.00: wanted 'You need a pharmacy. What do you ask?' heard 'You need a pharmacy. What do you ask?'
+INFO clip q01_ask [en] match 1.00: wanted 'You need a pharmacy. What do you ask?' heard 'You need a pharmacy, what do you ask?'
 INFO clip q01_ans [es] match 1.00: wanted '¿Hay una farmacia?' heard 'hay una farmacia.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
 QA: PASS

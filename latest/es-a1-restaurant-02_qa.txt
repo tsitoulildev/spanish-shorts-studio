@@ -1,15 +1,15 @@
-es-a1-restaurant-02 (mixed): 29.9 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
-INFO clip cold [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
+es-a1-restaurant-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] match 0.89: wanted '¿Me traés la cuenta?' heard 'Me traes y acuenta.'
 INFO clip hook [en] match 1.00: wanted 'Enjoy your meal and pay in Spanish.' heard 'Enjoy your meal and pay in Spanish.'
 INFO clip p01_q [en] match 1.00: wanted 'It's tasty' heard 'It's tasty.'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Está rico.' heard '¡Está rico!'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Está rico.' heard 'Está rico.'
 INFO clip p02_q [en] match 1.00: wanted 'Can you bring me the bill?' heard 'Can you bring me the bill?'
 INFO clip p02_a [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
 INFO clip p03_q [en] match 1.00: wanted 'Can I pay by card?' heard 'Can I pay by card?'
 INFO clip p03_a [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con tarjeta.'
 INFO clip d01 [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
-INFO clip d02 [es] match 0.96: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con terjeta.'
-INFO clip q01_ask [en] match 1.00: wanted 'Pay by card?' heard 'Pay by card.'
-INFO clip q01_ans [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'Se puede pagar con tarjeta.'
+INFO clip d02 [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'Se puede pagar con tarjeta.'
+INFO clip q01_ask [en] match 1.00: wanted 'Pay by card?' heard 'Pay by card'
+INFO clip q01_ans [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con tarjeta.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Transport next.' heard 'Say them out loud. Transport next.'
 QA: PASS

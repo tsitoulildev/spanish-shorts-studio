@@ -1,5 +1,5 @@
-es-a1-cafe-02 (mixed): 31.9 s, 1080x1920@30, first sound 0.0 s, -16.3 LUFS, peak -1.4 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'
+es-a1-cafe-02 (mixed): 31.9 s, 1080x1920@30, first sound 0.0 s, -16.5 LUFS, peak -1.0 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¿Qué tienen?'
 INFO clip hook [en] match 1.00: wanted 'Chat with café staff in Spanish. Four phrases.' heard 'Chat with cafe staff in Spanish. Four phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What do you have?' heard 'What do you have?'
 INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'

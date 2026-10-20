@@ -1,17 +1,17 @@
-es-a1-numbers-02 (mixed): 28.3 s, 1080x1920@30, first sound 0.0 s, -16.5 LUFS, peak -1.2 dBFS, silence 14.3 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Cinco.' heard '¡Cinco!'
+es-a1-numbers-02 (mixed): 27.2 s, 1080x1920@30, first sound 0.0 s, -16.4 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Cinco.' heard 'Cinco.'
 INFO clip hook [en] match 1.00: wanted 'Count from five to eight in Spanish. Four words.' heard 'Count from five to eight in Spanish. Four words.'
-INFO clip p01_q [en] too short for a reliable check (match 0.00): wanted 'Five' heard '5'
-INFO clip p01_a [es] too short for a reliable check (match 0.00): wanted 'Cinco.' heard '5.'
+INFO clip p01_q [en] too short for a reliable check (match 0.00): wanted 'Five' heard '5.'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Cinco.' heard 'Cinco.'
 INFO clip p02_q [en] too short for a reliable check (match 0.67): wanted 'Six' heard 'Sex.'
 INFO clip p02_a [es] too short for a reliable check (match 0.29): wanted 'Seis.' heard '¡Suscríbete!'
 INFO clip p03_q [en] too short for a reliable check (match 0.00): wanted 'Seven' heard '7.'
-INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Siete.' heard '¡Siete!'
+INFO clip p03_a [es] too short for a reliable check (match 0.00): wanted 'Siete.' heard '7.'
 INFO clip p04_q [en] too short for a reliable check (match 0.00): wanted 'Eight' heard '8.'
-INFO clip p04_a [es] too short for a reliable check (match 0.50): wanted 'Ocho.' heard '¡De hecho!'
+INFO clip p04_a [es] too short for a reliable check (match 0.67): wanted 'Ocho.' heard '¡Vecho!'
+INFO clip d01 [es] too short for a reliable check (match 0.11): wanted 'Cuatro. Cinco.' heard '4.  Sigo.'
+INFO clip d02 [es] too short for a reliable check (match 0.15): wanted 'Seis. Siete.' heard '6, 7'
 INFO clip q01_ask [en] match 0.81: wanted 'Which one is seven?' heard 'Which one is 7?'
 INFO clip q01_ans [es] too short for a reliable check (match 0.00): wanted 'Siete.' heard '7.'
 INFO clip outro [en] match 0.86: wanted 'Say them out loud. Nine and ten are next.' heard 'Say them out loud. 9 and 10 are next.'
-WARN clip d01 [es] match 0.17: wanted 'Tres. Cuatro. Cinco.' heard '10, 4, 5.'
-WARN clip d02 [es] match 0.33: wanted 'Seis. Siete. Ocho.' heard '6, 7, ¡pecho!'
-QA: PASS (with warnings)
+QA: PASS

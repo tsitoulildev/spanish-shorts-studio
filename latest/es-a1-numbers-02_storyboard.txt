@@ -18,11 +18,11 @@ es-a1-numbers-02  |  Numbers 1 to 10, part 2  |  hook: Count from five to eight 
  18.6s  card 08 phrase_q  (silent 0.7s: viewer's turn)
  19.3s  card 09 phrase_a  es/A: Ocho.
  20.3s  card 09 phrase_a  (silent 1.4s: viewer's turn)
- 21.7s  card 10 dialogue  es/A: Tres. Cuatro. Cinco.
- 23.3s  card 11 dialogue  es/B: Seis. Siete. Ocho.
- 25.0s  card 12 quiz_q    en/A: Which one is seven?
- 26.9s  card 12 quiz_q    (silent 2.0s: viewer's turn)
- 28.9s  card 13 quiz_a    es/A: Siete.
- 30.3s  card 14 outro     en/A: Say them out loud. Nine and ten are next.
+ 21.7s  card 10 dialogue  es/A: Cuatro. Cinco.
+ 22.9s  card 11 dialogue  es/B: Seis. Siete.
+ 24.2s  card 12 quiz_q    en/A: Which one is seven?
+ 26.0s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 28.0s  card 13 quiz_a    es/A: Siete.
+ 29.4s  card 14 outro     en/A: Say them out loud. Nine and ten are next.
 
-estimated length: 34.3 s (limit 40 s)
+estimated length: 33.4 s (limit 40 s)
