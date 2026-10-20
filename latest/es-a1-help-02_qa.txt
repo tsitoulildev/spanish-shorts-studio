@@ -1,4 +1,4 @@
-es-a1-help-02 (mixed): 30.2 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.3 dBFS, silence 14.6 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
+es-a1-help-02 (mixed): 30.3 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.8 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Me siento mal.' heard 'Me siento mal.'
 INFO clip hook [en] match 1.00: wanted 'Feel sick abroad? Three phrases to say how.' heard 'Feel sick abroad? Three phrases to say how.'
 INFO clip p01_q [en] match 1.00: wanted 'I feel bad' heard 'I feel bad.'
@@ -8,7 +8,7 @@ INFO clip p02_a [es] match 1.00: wanted 'Me duele la cabeza.' heard 'me duele la
 INFO clip p03_q [en] match 1.00: wanted 'I'm better now' heard 'I'm better now.'
 INFO clip p03_a [es] match 1.00: wanted 'Ya estoy mejor.' heard 'Ya estoy mejor.'
 INFO clip d01 [es] match 1.00: wanted 'Me duele la cabeza. ¿Hay una farmacia?' heard 'Me duele la cabeza. Hay una farmacia.'
-INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
+INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'está cerca.'
 INFO clip q01_ask [en] match 1.00: wanted 'Your head hurts. What do you say?' heard 'Your head hurts, what do you say?'
 INFO clip q01_ans [es] match 1.00: wanted 'Me duele la cabeza.' heard 'Me duele la cabeza.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Numbers are next.' heard 'Say them out loud. Numbers are next.'

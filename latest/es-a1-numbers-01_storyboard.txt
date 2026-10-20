@@ -1,0 +1,28 @@
+es-a1-numbers-01  |  Numbers 1 to 10, part 1  |  hook: Count from one to four in Spanish. Four words.
+
+  0.0s  card 00 cold      es/A: Uno.
+  1.3s  card 01 hook      en/A: Count from one to four in Spanish. Four words.
+  5.3s  card 02 phrase_q  en/A: One
+  6.3s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.0s  card 03 phrase_a  es/A: Uno.
+  8.0s  card 03 phrase_a  (silent 1.4s: viewer's turn)
+  9.4s  card 04 phrase_q  en/A: Two
+ 10.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 11.1s  card 05 phrase_a  es/A: Dos.
+ 12.1s  card 05 phrase_a  (silent 1.4s: viewer's turn)
+ 13.5s  card 06 phrase_q  en/A: Three
+ 14.5s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 15.2s  card 07 phrase_a  es/A: Tres.
+ 16.2s  card 07 phrase_a  (silent 1.4s: viewer's turn)
+ 17.6s  card 08 phrase_q  en/A: Four
+ 18.6s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 19.3s  card 09 phrase_a  es/A: Cuatro.
+ 20.3s  card 09 phrase_a  (silent 1.4s: viewer's turn)
+ 21.7s  card 10 dialogue  es/A: ¿Tenés hermanos?
+ 22.9s  card 11 dialogue  es/B: Tengo una hermana. Somos cuatro.
+ 25.4s  card 12 quiz_q    en/A: Which one is two?
+ 27.3s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 29.3s  card 13 quiz_a    es/A: Dos.
+ 30.7s  card 14 outro     en/A: Say them out loud. Five to ten are next.
+
+estimated length: 34.7 s (limit 40 s)

@@ -1,14 +1,14 @@
-es-a1-transport-01 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.2 dBFS, silence 14.3 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+es-a1-transport-01 (mixed): 29.7 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] match 0.94: wanted '¿Este colectivo va al centro?' heard 'este colectivo al centro.'
 INFO clip hook [en] match 1.00: wanted 'Ride the bus in Spanish.' heard 'Ride the bus in Spanish.'
 INFO clip p01_q [en] match 1.00: wanted 'Does this bus go downtown?' heard 'Does this bus go downtown?'
 INFO clip p01_a [es] match 0.94: wanted '¿Este colectivo va al centro?' heard 'este colectivo al centro.'
 INFO clip p02_q [en] match 1.00: wanted 'Where do I get off?' heard 'Where do I get off?'
-INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajó?'
+INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajo?'
 INFO clip p03_q [en] match 1.00: wanted 'Get off at the next one' heard 'Get off at the next one.'
 INFO clip p03_a [es] match 0.95: wanted 'Bajás en la próxima.' heard 'Pajas en la próxima.'
-INFO clip d01 [es] match 0.91: wanted 'Perdón. ¿Dónde bajo?' heard 'Terón, ¿dónde bajó?'
-INFO clip d02 [es] match 0.95: wanted 'Bajás en la próxima.' heard '¡Pajas en la próxima!'
+INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Dónde bajo?' heard 'Perdón, ¿dónde bajo?'
+INFO clip d02 [es] match 0.89: wanted 'Bajás en la próxima.' heard '¡Tagás en la próxima!'
 INFO clip q01_ask [en] match 1.00: wanted 'Where do I get off?' heard 'Where do I get off?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajó?'
 INFO clip outro [en] match 0.93: wanted 'Say them aloud. Part two is next.' heard 'Say them aloud. Part 2 is next.'

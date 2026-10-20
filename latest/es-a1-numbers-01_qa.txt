@@ -1,0 +1,17 @@
+es-a1-numbers-01 (mixed): 26.9 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.25): wanted 'Uno.' heard '¡Claro!'
+INFO clip hook [en] match 1.00: wanted 'Count from one to four in Spanish. Four words.' heard 'Count from one to four in Spanish. Four words.'
+INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'One' heard 'One'
+INFO clip p01_a [es] too short for a reliable check (match 0.29): wanted 'Uno.' heard '¡Belo!'
+INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Two' heard 'two'
+INFO clip p02_a [es] too short for a reliable check (match 0.67): wanted 'Dos.' heard '¡Los!'
+INFO clip p03_q [en] too short for a reliable check (match 0.00): wanted 'Three' heard '3'
+INFO clip p03_a [es] too short for a reliable check (match 0.36): wanted 'Tres.' heard 'Gracias.'
+INFO clip p04_q [en] too short for a reliable check (match 0.00): wanted 'Four' heard '4'
+INFO clip p04_a [es] too short for a reliable check (match 0.83): wanted 'Cuatro.' heard 'cuadro.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana. Somos cuatro.'
+INFO clip q01_ask [en] match 1.00: wanted 'Which one is two?' heard 'Which one is two?'
+INFO clip q01_ans [es] too short for a reliable check (match 0.33): wanted 'Dos.' heard '¡Yes!'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Five to ten are next.' heard 'Say them out loud. Five to ten are next.'
+QA: PASS

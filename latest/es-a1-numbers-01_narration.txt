@@ -1,0 +1,15 @@
+[es/clear/A] Uno.
+[en/fast/A] Count from one to four in Spanish. Four words.
+[en/fast/A] One
+[es/clear/A] Uno.
+[en/fast/A] Two
+[es/clear/A] Dos.
+[en/fast/A] Three
+[es/clear/A] Tres.
+[en/fast/A] Four
+[es/clear/A] Cuatro.
+[es/clear/A] ¿Tenés hermanos?
+[es/clear/B] Tengo una hermana. Somos cuatro.
+[en/fast/A] Which one is two?
+[es/clear/A] Dos.
+[en/fast/A] Say them out loud. Five to ten are next.
