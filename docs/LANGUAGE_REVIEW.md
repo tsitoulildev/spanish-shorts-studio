@@ -127,6 +127,8 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | help-02 | Me duele la cabeza. | correct and universal; "doler" works like "gustar" (the body part is the subject), so "duele" is singular; other body parts are mentioned in the tip |
 | help-02 | Ya estoy mejor. | correct and universal; "ya" = already/now, "mejor" = better; Argentine "y" as "sh" and the soft "j" are in the pronunciation hint and the tip |
 | help-02 | Me duele la cabeza. ¿Hay una farmacia? / Está cerca. (dialogue) | correct and natural for someone asking a passer-by; the question was taught in help-01, Está cerca in directions-01, the first sentence in this lesson |
+| numbers-01 | Uno. / Dos. / Tres. / Cuatro. | correct and universal; "uno" shortens to "un" before a noun and "dos" onward take plural nouns ("un café, dos cafés"), said in the tips; the single "r" of "tres" is a light tap, said in the tip |
+| numbers-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; voseo "tenés", so the lesson is marked argentine; both phrases were taught in family-01 and "cuatro" in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.
