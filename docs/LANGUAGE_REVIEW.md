@@ -131,6 +131,10 @@ Series variety: Argentine Spanish (Rioplatense), voseo. Reviewer: Claude. This i
 | numbers-01 | ¿Tenés hermanos? / Tengo una hermana. Somos cuatro. (dialogue) | correct and natural; voseo "tenés", so the lesson is marked argentine; both phrases were taught in family-01 and "cuatro" in this lesson |
 | numbers-02 | Cinco. / Seis. / Siete. / Ocho. | correct and universal; the "c" of "cinco" is an "s" sound in Argentina, said in the tip; "seis" is one syllable and "siete" two, said in the tips; "ch" in "ocho" as in English "chair", said in the tip |
 | numbers-02 | Cuatro. Cinco. / Seis. Siete. (dialogue) | correct and natural for two friends counting aloud; Cuatro was taught in numbers-01, the other numbers in this lesson |
+| numbers-03 | Nueve. / Diez. | correct and universal; "nueve" has two syllables and a soft "v", "diez" is one syllable with "z" as "s" in Argentina and Latin America, both said in the tips |
+| numbers-03 | ¿Cuánto cuesta? | correct and universal; "costar" (o to ue) gives "cuesta" for a singular thing; Argentines also say "¿Cuánto sale?", taught in shopping-01 and mentioned in the tip |
+| numbers-03 | Es muy caro. | correct and natural; "muy" + adjective, "caro" agrees with a masculine or general "it"; "barato" (the opposite) is only named in the tip |
+| numbers-03 | ¿Cuánto cuesta? / Diez. (dialogue) | correct and natural for a buyer and a seller; every phrase is taught in this lesson |
 
 ## Known limits of this review
 - Respellings (e.g. "meh SHAH-moh") approximate the Argentine "sh" sound for English readers; they are teaching aids, not phonetic transcriptions.

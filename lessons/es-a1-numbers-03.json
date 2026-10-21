@@ -1,0 +1,66 @@
+{
+  "id": "es-a1-numbers-03",
+  "source_language": "English",
+  "target_language": "Spanish",
+  "target_code": "es",
+  "level": "A1",
+  "review_status": "auto-reviewed: Claude checked every Spanish line (see docs/LANGUAGE_REVIEW.md); no native speaker, by the owner's decision",
+  "variety": "Numbers and these price phrases are identical in Argentina and Mexico, so either female voice may read them. Argentine accent is welcome but not required.",
+  "pronunciation_note": "English-style respelling, capitals mark the stressed syllable. Argentine accent: \"ll\" and \"y\" sound like \"sh\".",
+  "topic": "Numbers 1 to 10, part 3",
+  "cold_open": {
+    "phrase": 1
+  },
+  "phrases": [
+    {
+      "target": "Nueve.",
+      "translation": "Nine.",
+      "pronunciation": "NWEH-veh",
+      "when": "Two syllables. The v is soft, close to a b: NWEH-beh."
+    },
+    {
+      "target": "Diez.",
+      "translation": "Ten.",
+      "pronunciation": "dyess",
+      "when": "One syllable. Latin America says the z like an s: dyess, not dyeth."
+    },
+    {
+      "target": "¿Cuánto cuesta?",
+      "translation": "How much is it?",
+      "pronunciation": "KWAHN-toh KWEHS-tah",
+      "when": "Point at the thing and ask. In Argentina you will also hear “¿Cuánto sale?”."
+    },
+    {
+      "target": "Es muy caro.",
+      "translation": "It is very expensive.",
+      "pronunciation": "ehs mwee KAH-roh",
+      "when": "Say it after you hear the price. Caro means expensive; the opposite is barato."
+    }
+  ],
+  "hook": "Count to ten and ask a price in Spanish.",
+  "dialogue": [
+    {
+      "speaker": "A",
+      "target": "¿Cuánto cuesta?",
+      "translation": "How much is it?"
+    },
+    {
+      "speaker": "B",
+      "target": "Diez.",
+      "translation": "Ten."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "How do you ask the price?",
+      "answer": "¿Cuánto cuesta?",
+      "choices": [
+        "¿Cuánto cuesta?",
+        "Es muy caro.",
+        "Diez."
+      ]
+    }
+  ],
+  "outro": "Say them out loud. Follow for the next topic.",
+  "variety_code": "neutral"
+}
