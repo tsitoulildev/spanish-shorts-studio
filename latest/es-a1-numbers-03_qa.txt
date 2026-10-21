@@ -1,0 +1,17 @@
+es-a1-numbers-03 (mixed): 29.0 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.5 dBFS, silence 15.3 s (designed about 14.6 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.40): wanted 'Nueve.' heard 'No es.'
+INFO clip hook [en] match 0.94: wanted 'Count to ten and ask a price in Spanish.' heard 'Count to 10 and ask a price in Spanish.'
+INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Nine' heard 'Nine'
+INFO clip p01_a [es] too short for a reliable check (match 0.29): wanted 'Nueve.' heard '¡No!'
+INFO clip p02_q [en] too short for a reliable check (match 0.00): wanted 'Ten' heard '10'
+INFO clip p02_a [es] too short for a reliable check (match 0.29): wanted 'Diez.' heard 'Yes.'
+INFO clip p03_q [en] match 1.00: wanted 'How much is it?' heard 'How much is it?'
+INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip p04_q [en] match 1.00: wanted 'It is very expensive' heard 'It is very expensive.'
+INFO clip p04_a [es] match 1.00: wanted 'Es muy caro.' heard 'es muy caro.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip d02 [es] too short for a reliable check (match 0.29): wanted 'Diez.' heard 'Yes.'
+INFO clip q01_ask [en] match 1.00: wanted 'How do you ask the price?' heard 'How do you ask the price?'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for the next topic.' heard 'Say them out loud. Follow for the next topic.'
+QA: PASS

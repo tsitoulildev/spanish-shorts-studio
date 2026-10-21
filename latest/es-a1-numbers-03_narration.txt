@@ -1,0 +1,15 @@
+[es/clear/A] Nueve.
+[en/fast/A] Count to ten and ask a price in Spanish.
+[en/fast/A] Nine
+[es/clear/A] Nueve.
+[en/fast/A] Ten
+[es/clear/A] Diez.
+[en/fast/A] How much is it?
+[es/clear/A] ¿Cuánto cuesta?
+[en/fast/A] It is very expensive
+[es/clear/A] Es muy caro.
+[es/clear/A] ¿Cuánto cuesta?
+[es/clear/B] Diez.
+[en/fast/A] How do you ask the price?
+[es/clear/A] ¿Cuánto cuesta?
+[en/fast/A] Say them out loud. Follow for the next topic.

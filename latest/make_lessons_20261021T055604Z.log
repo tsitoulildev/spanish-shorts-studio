@@ -5,14 +5,14 @@ Lesson built: output/lessons/es-a1-cafe-01
   silent preview: output/lessons/es-a1-cafe-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Collecting en-core-web-sm==3.8.0
   Downloading en_core_web_sm-3.8.0-py3-none-any.whl (12.8 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 42.5 MB/s  0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 246.0 MB/s  0:00:00
 Installing collected packages: en-core-web-sm
 Successfully installed en-core-web-sm-3.8.0
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
@@ -27,7 +27,7 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-cafe-01/lesson_mixed.mp4  (30.6 s)
-es-a1-cafe-01 (mixed): 30.6 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.2 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+es-a1-cafe-01 (mixed): 30.6 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, por favor.'
 INFO clip hook [en] match 1.00: wanted 'Order a coffee in Spanish. Three phrases.' heard 'Order a coffee in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'A coffee, please' heard 'A coffee, please.'
@@ -35,11 +35,11 @@ INFO clip p01_a [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, 
 INFO clip p02_q [en] match 1.00: wanted 'To take away' heard 'to take away.'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Para llevar.' heard 'para llevar.'
 INFO clip p03_q [en] match 1.00: wanted 'The bill, please' heard 'The bill, please.'
-INFO clip p03_a [es] match 1.00: wanted 'La cuenta, por favor.' heard 'La cuenta, por favor.'
+INFO clip p03_a [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
 INFO clip d01 [es] match 1.00: wanted 'Un café, por favor.' heard 'Un café, por favor.'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Para llevar.' heard 'para llevar.'
 INFO clip q01_ask [en] match 1.00: wanted 'You want to pay. What do you say?' heard 'You want to pay, what do you say?'
-INFO clip q01_ans [es] match 1.00: wanted 'La cuenta, por favor.' heard 'La cuenta, por favor.'
+INFO clip q01_ans [es] match 0.93: wanted 'La cuenta, por favor.' heard 'La cuenta es por favor.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. More café phrases are next.' heard 'Say them out loud. More cafe phrases are next.'
 QA: PASS
 ok     es-a1-cafe-01 -> output/lessons/es-a1-cafe-01/lesson_mixed.mp4
@@ -50,11 +50,11 @@ Lesson built: output/lessons/es-a1-cafe-02
   silent preview: output/lessons/es-a1-cafe-02/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-cafe-02: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -65,19 +65,19 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-cafe-02/lesson_mixed.mp4  (32.0 s)
-es-a1-cafe-02 (mixed): 31.9 s, 1080x1920@30, first sound 0.0 s, -16.5 LUFS, peak -1.0 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
+Narrated video: output/lessons/es-a1-cafe-02/lesson_mixed.mp4  (31.8 s)
+es-a1-cafe-02 (mixed): 31.8 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.3 dBFS, silence 15.9 s (designed about 15.0 s, longest gap 2.2 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¿Qué tienen?'
-INFO clip hook [en] match 1.00: wanted 'Chat with café staff in Spanish. Four phrases.' heard 'Chat with cafe staff in Spanish. Four phrases.'
+INFO clip hook [en] match 1.00: wanted 'Chat with café staff in Spanish. Four phrases.' heard 'Chat with cafe staff in Spanish.  Four phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What do you have?' heard 'What do you have?'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¡Qué tienen!'
 INFO clip p02_q [en] match 1.00: wanted 'I want this' heard 'I want this.'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Quiero esto.' heard 'Quiero esto.'
 INFO clip p03_q [en] match 1.00: wanted 'Do you take cards?' heard 'Do you take cards?'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted '¿Aceptan tarjeta?' heard 'aceptan tarjeta.'
 INFO clip p04_q [en] match 1.00: wanted 'It's delicious' heard 'It's delicious.'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Está delicioso.' heard 'Está delicioso.'
-INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard 'que tienen.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Qué tienen?' heard '¡Que tienen!'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Quiero esto.' heard 'Quiero esto.'
 INFO clip q01_ask [en] match 1.00: wanted 'You have no cash. What do you ask?' heard 'You have no cash, what do you ask?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Aceptan tarjeta?' heard 'aceptan tarjeta.'
@@ -91,11 +91,11 @@ Lesson built: output/lessons/es-a1-daily-01
   silent preview: output/lessons/es-a1-daily-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-daily-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -106,23 +106,23 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-daily-01/lesson_mixed.mp4  (31.9 s)
-es-a1-daily-01 (mixed): 31.9 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 16.3 s (designed about 15.8 s, longest gap 2.9 s), black 0.00 s
+Narrated video: output/lessons/es-a1-daily-01/lesson_mixed.mp4  (31.8 s)
+es-a1-daily-01 (mixed): 31.7 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 16.2 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 0.63): wanted '¿Qué hacés?' heard '¿Qué es eso?'
 INFO clip hook [en] match 0.98: wanted 'What do you do? Four phrases.' heard 'What do you do for phrases?'
 INFO clip p01_q [en] match 1.00: wanted 'What do you do?' heard 'What do you do?'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Qué hacés?' heard 'que haces.'
+INFO clip p01_a [es] too short for a reliable check (match 0.38): wanted '¿Qué hacés?' heard '¡Guessos!'
 INFO clip p02_q [en] match 1.00: wanted 'I work in an office' heard 'I work in an office.'
-INFO clip p02_a [es] match 0.91: wanted 'Trabajo en una oficina.' heard 'te bajo en una oficina.'
+INFO clip p02_a [es] match 1.00: wanted 'Trabajo en una oficina.' heard 'Trabajo en una oficina.'
 INFO clip p03_q [en] match 1.00: wanted 'I study Spanish' heard 'I study Spanish.'
-INFO clip p03_a [es] too short for a reliable check (match 0.77): wanted 'Estudio español.' heard 'Estuve a español.'
+INFO clip p03_a [es] too short for a reliable check (match 0.67): wanted 'Estudio español.' heard 'Estuve a España.'
 INFO clip p04_q [en] match 1.00: wanted 'Where do you live?' heard 'Where do you live?'
-INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde vivís?' heard 'donde vivís.'
-INFO clip d01 [es] too short for a reliable check (match 0.63): wanted '¿Qué hacés?' heard '¿Qué es eso?'
+INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde vivís?' heard '¿Dónde vivís?'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Qué hacés?' heard '¿Qué haces?'
 INFO clip d02 [es] match 1.00: wanted 'Trabajo en una oficina.' heard 'Trabajo en una oficina.'
 INFO clip q01_ask [en] match 1.00: wanted 'Say that you study Spanish.' heard 'Say that you study Spanish.'
-INFO clip q01_ans [es] too short for a reliable check (match 0.77): wanted 'Estudio español.' heard 'Estuve a Espanol.'
-INFO clip outro [en] match 0.93: wanted 'Say them aloud. Part two next.' heard 'Say them aloud, Part 2 next.'
+INFO clip q01_ans [es] too short for a reliable check (match 0.77): wanted 'Estudio español.' heard 'Estuve a español.'
+INFO clip outro [en] match 1.00: wanted 'Say them aloud. Part two next.' heard 'Say them aloud part two next'
 QA: PASS
 ok     es-a1-daily-01 -> output/lessons/es-a1-daily-01/lesson_mixed.mp4
 build  es-a1-daily-02  engine=mixed
@@ -146,18 +146,18 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-daily-02/lesson_mixed.mp4  (28.5 s)
-es-a1-daily-02 (mixed): 28.5 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.3 s, longest gap 2.8 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard 'Senamos tarde.'
+Narrated video: output/lessons/es-a1-daily-02/lesson_mixed.mp4  (28.4 s)
+es-a1-daily-02 (mixed): 28.4 s, 1080x1920@30, first sound 0.0 s, -15.2 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.3 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard '¡Senamos tarde!'
 INFO clip hook [en] match 1.00: wanted 'Describe your day. Three phrases.' heard 'Describe your day three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'I get up early' heard 'I get up early.'
 INFO clip p01_a [es] match 1.00: wanted 'Me levanto temprano.' heard 'Me levanto temprano.'
 INFO clip p02_q [en] match 1.00: wanted 'We have dinner late' heard 'We have dinner late.'
-INFO clip p02_a [es] too short for a reliable check (match 0.85): wanted 'Cenamos tarde.' heard '¡Senemos tarde!'
+INFO clip p02_a [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard 'Senamos tarde.'
 INFO clip p03_q [en] match 1.00: wanted 'I'm going to sleep' heard 'I'm going to sleep.'
 INFO clip p03_a [es] match 1.00: wanted 'Me voy a dormir.' heard 'Me voy a dormir.'
-INFO clip d01 [es] too short for a reliable check (match 0.85): wanted 'Cenamos tarde.' heard '¡Senemos tarde!'
-INFO clip d02 [es] match 1.00: wanted 'Me voy a dormir.' heard 'Me voy a dormir.'
+INFO clip d01 [es] too short for a reliable check (match 0.92): wanted 'Cenamos tarde.' heard '¡Senamos tarde!'
+INFO clip d02 [es] match 1.00: wanted 'Me voy a dormir.' heard 'me voy a dormir.'
 INFO clip q01_ask [en] match 1.00: wanted 'Say that you are going to sleep.' heard 'Say that you are going to sleep.'
 INFO clip q01_ans [es] match 1.00: wanted 'Me voy a dormir.' heard 'Me voy a dormir.'
 INFO clip outro [en] match 1.00: wanted 'Say them aloud. Sound Argentine next.' heard 'Say them aloud. Sound Argentine next.'
@@ -170,13 +170,13 @@ Lesson built: output/lessons/es-a1-directions-01
   silent preview: output/lessons/es-a1-directions-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Voices for es-a1-directions-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
@@ -184,8 +184,8 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-directions-01/lesson_mixed.mp4  (29.6 s)
-es-a1-directions-01 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -16.2 LUFS, peak -1.4 dBFS, silence 13.9 s (designed about 12.9 s, longest gap 2.9 s), black 0.00 s
+Narrated video: output/lessons/es-a1-directions-01/lesson_mixed.mp4  (29.5 s)
+es-a1-directions-01 (mixed): 29.5 s, 1080x1920@30, first sound 0.0 s, -16.3 LUFS, peak -1.3 dBFS, silence 14.0 s (designed about 12.9 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Dónde está el baño?' heard '¿Dónde está el baño?'
 INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Ask where it is. Three phrases.' heard 'Lost in Spanish, ask where it is. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Where is the bathroom?' heard 'Where is the bathroom?'
@@ -198,7 +198,7 @@ INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Dónde está el baño?' heard 
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
 INFO clip q01_ask [en] match 1.00: wanted 'It is a long walk. What do you hear?' heard 'It is a long walk. What do you hear?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Está lejos.' heard 'Está lejos.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-directions-01 -> output/lessons/es-a1-directions-01/lesson_mixed.mp4
 build  es-a1-directions-02  engine=mixed
@@ -222,12 +222,12 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-directions-02/lesson_mixed.mp4  (29.7 s)
-es-a1-directions-02 (mixed): 29.7 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -1.4 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+Narrated video: output/lessons/es-a1-directions-02/lesson_mixed.mp4  (30.0 s)
+es-a1-directions-02 (mixed): 30.0 s, 1080x1920@30, first sound 0.0 s, -16.1 LUFS, peak -0.9 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
 INFO clip hook [en] match 1.00: wanted 'Understand directions in Spanish. Three phrases.' heard 'Understand directions in Spanish. Three phrases.'
 INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Straight ahead' heard 'Straight ahead.'
-INFO clip p01_a [es] too short for a reliable check (match 0.83): wanted 'Todo derecho.' heard '¡Sólo derecho!'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
 INFO clip p02_q [en] match 1.00: wanted 'To the left' heard 'To the left.'
 INFO clip p02_a [es] match 1.00: wanted 'A la izquierda.' heard 'a la izquierda.'
 INFO clip p03_q [en] match 1.00: wanted 'To the right' heard 'To the right.'
@@ -260,21 +260,21 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-family-01/lesson_mixed.mp4  (29.8 s)
-es-a1-family-01 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.3 dBFS, silence 13.7 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
+Narrated video: output/lessons/es-a1-family-01/lesson_mixed.mp4  (29.7 s)
+es-a1-family-01 (mixed): 29.7 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 13.8 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
-INFO clip hook [en] match 1.00: wanted 'Your family in Spanish. Three phrases.' heard 'Your family in Spanish. Three Phrases.'
+INFO clip hook [en] match 1.00: wanted 'Your family in Spanish. Three phrases.' heard 'Your family in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Do you have siblings?' heard 'Do you have siblings?'
 INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
 INFO clip p02_q [en] match 1.00: wanted 'I have a sister' heard 'I have a sister.'
-INFO clip p02_a [es] match 0.94: wanted 'Tengo una hermana.' heard '¡Tenmo una hermana!'
+INFO clip p02_a [es] match 0.91: wanted 'Tengo una hermana.' heard 'Temo una hermana.'
 INFO clip p03_q [en] match 1.00: wanted 'There are four of us' heard 'There are four of us.'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos cuatro.' heard 'Somos cuatro.'
-INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+INFO clip d01 [es] too short for a reliable check (match 0.90): wanted '¿Tenés hermanos?' heard '¡Te les hermanos!'
 INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana, somos cuatro.'
 INFO clip q01_ask [en] match 1.00: wanted 'You have one sister. What do you say?' heard 'You have one sister. What do you say?'
-INFO clip q01_ans [es] match 0.94: wanted 'Tengo una hermana.' heard 'Tenmo una hermana.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip q01_ans [es] match 0.85: wanted 'Tengo una hermana.' heard '¡Tenmo una semana!'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-family-01 -> output/lessons/es-a1-family-01/lesson_mixed.mp4
 build  es-a1-family-02  engine=mixed
@@ -299,7 +299,7 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-family-02/lesson_mixed.mp4  (29.8 s)
-es-a1-family-02 (mixed): 29.7 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.5 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+es-a1-family-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Es mi amigo.' heard 'Es mi amigo.'
 INFO clip hook [en] match 1.00: wanted 'Introduce a friend and your partner. Three phrases.' heard 'Introduce a friend and your partner. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'He is my friend' heard 'He is my friend.'
@@ -308,12 +308,12 @@ INFO clip p02_q [en] match 1.00: wanted 'She is my girlfriend' heard 'She is my 
 INFO clip p02_a [es] match 1.00: wanted 'Es mi novia.' heard 'Es mi novia.'
 INFO clip p03_q [en] match 1.00: wanted 'We are friends' heard 'We are friends.'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
-INFO clip d01 [es] match 0.88: wanted 'Hola. Es mi novia.' heard 'Todela es mi novia.'
-INFO clip d02 [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
+INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Mucho gusto.' heard '¡Mucho gusto!'
 INFO clip q01_ask [en] match 0.99: wanted 'You and Ana are just friends. What do you say?' heard 'You and Anna are just friends. What do you say?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Somos amigos.' heard 'Somos amigos.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Next topic: time.' heard 'Say them out loud next topic time'
-QA: PASS
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Next topic: time.' heard 'Say them out loud, next topic time.'
+WARN clip d01 [es] match 0.70: wanted 'Hola. Es mi novia.' heard 'De verdad, es mi novia.'
+QA: PASS (with warnings)
 ok     es-a1-family-02 -> output/lessons/es-a1-family-02/lesson_mixed.mp4
 build  es-a1-greetings-01  engine=mixed
 CHECK: OK
@@ -322,13 +322,13 @@ Lesson built: output/lessons/es-a1-greetings-01
   silent preview: output/lessons/es-a1-greetings-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 Voices for es-a1-greetings-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_ES-sharvard-medium@1', 'es_b': 'piper:es_AR-daniela-high'}
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
@@ -337,23 +337,23 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-greetings-01/lesson_mixed.mp4  (32.4 s)
-es-a1-greetings-01 (mixed): 32.4 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.5 dBFS, silence 15.6 s (designed about 14.6 s, longest gap 2.2 s), black 0.00 s
+Narrated video: output/lessons/es-a1-greetings-01/lesson_mixed.mp4  (32.2 s)
+es-a1-greetings-01 (mixed): 32.2 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 15.7 s (designed about 14.6 s, longest gap 2.2 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Buenos días.' heard 'Buenos días.'
 INFO clip hook [en] match 0.99: wanted 'Stop saying only “Hola”. Four greetings.' heard 'Stop saying only Ola. Four greetings.'
 INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Hello' heard 'Hello.'
-INFO clip p01_a [es] too short for a reliable check (match 0.67): wanted 'Hola.' heard 'colas'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Hola.' heard '¡Hola!'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Good morning' heard 'Good morning'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Buenos días.' heard 'Buenos días.'
-INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'Good afternoon' heard 'Good afternoon'
+INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'Good afternoon' heard 'Good afternoon.'
 INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Buenas tardes.' heard 'Buenas tardes.'
 INFO clip p04_q [en] match 1.00: wanted 'Good evening / Good night' heard 'Good evening, good night.'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Buenas noches.' heard 'Buenas noches.'
 INFO clip d01 [es] too short for a reliable check (match 1.00): wanted 'Buenas tardes.' heard 'Buenas tardes.'
-INFO clip d02 [es] match 0.86: wanted 'Hola. Buenas tardes.' heard '¡Telda! ¡Buenas tardes!'
-INFO clip q01_ask [en] match 1.00: wanted 'It is nine at night. What do you say?' heard 'It is nine at night, what do you say?'
+INFO clip d02 [es] match 0.85: wanted 'Hola. Buenas tardes.' heard '¡Hasta la! ¡Buenas tardes!'
+INFO clip q01_ask [en] match 0.93: wanted 'It is nine at night. What do you say?' heard 'It is 9 at night, what do you say?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Buenas noches.' heard 'Buenas noches.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-greetings-01 -> output/lessons/es-a1-greetings-01/lesson_mixed.mp4
 build  es-a1-greetings-02  engine=mixed
@@ -378,24 +378,24 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-greetings-02/lesson_mixed.mp4  (33.7 s)
-es-a1-greetings-02 (mixed): 33.7 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.3 dBFS, silence 16.1 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Mucho gusto.' heard '¡Mucho gusto!'
+Narrated video: output/lessons/es-a1-greetings-02/lesson_mixed.mp4  (33.5 s)
+es-a1-greetings-02 (mixed): 33.4 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.3 dBFS, silence 16.2 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
 INFO clip hook [en] match 0.99: wanted 'Meet someone in Spanish. Four phrases.' heard 'Meet someone in Spanish for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Nice to meet you' heard 'Nice to meet you.'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Mucho gusto.' heard '¡Mucho gusto!'
+INFO clip p01_a [es] too short for a reliable check (match 0.91): wanted 'Mucho gusto.' heard 'Mucha gusto.'
 INFO clip p02_q [en] match 1.00: wanted 'How are you?' heard 'How are you?'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Cómo estás?' heard '¿Cómo estás?'
 INFO clip p03_q [en] match 1.00: wanted 'I'm fine, thank you' heard 'I'm fine, thank you.'
 INFO clip p03_a [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip p04_q [en] match 1.00: wanted 'See you later' heard 'See you later.'
 INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Hasta luego.' heard 'Hasta luego.'
-INFO clip d01 [es] match 0.82: wanted 'Hola. Mucho gusto.' heard '¡Te las! ¡Mucho gusto!'
 INFO clip d02 [es] match 1.00: wanted 'Mucho gusto. ¿Cómo estás?' heard '¡Mucho gusto! ¿Cómo estás?'
 INFO clip q01_ask [en] match 1.00: wanted '“¿Cómo estás?” How do you answer?' heard 'Como estas, how do you answer?'
 INFO clip q01_ans [es] match 1.00: wanted 'Estoy bien, gracias.' heard 'Estoy bien, gracias.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
-QA: PASS
+WARN clip d01 [es] match 0.76: wanted 'Hola. Mucho gusto.' heard 'Debele, mucho gusto.'
+QA: PASS (with warnings)
 ok     es-a1-greetings-02 -> output/lessons/es-a1-greetings-02/lesson_mixed.mp4
 build  es-a1-help-01  engine=mixed
 CHECK: OK
@@ -418,12 +418,12 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-help-01/lesson_mixed.mp4  (29.5 s)
-es-a1-help-01 (mixed): 29.5 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 13.6 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
+Narrated video: output/lessons/es-a1-help-01/lesson_mixed.mp4  (29.6 s)
+es-a1-help-01 (mixed): 29.6 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 13.6 s (designed about 12.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 0.93): wanted 'Necesito ayuda.' heard 'Necesita ayuda.'
 INFO clip hook [en] match 1.00: wanted 'Need help abroad? Three phrases to ask for it.' heard 'Need help abroad? Three phrases to ask for it.'
 INFO clip p01_q [en] match 1.00: wanted 'I need help' heard 'I need help.'
-INFO clip p01_a [es] too short for a reliable check (match 0.93): wanted 'Necesito ayuda.' heard 'Necesita ayuda.'
+INFO clip p01_a [es] too short for a reliable check (match 0.67): wanted 'Necesito ayuda.' heard 'Necesita sure.'
 INFO clip p02_q [en] match 1.00: wanted 'Do you speak English?' heard 'Do you speak English?'
 INFO clip p02_a [es] too short for a reliable check (match 0.69): wanted '¿Hablás inglés?' heard 'a las similes.'
 INFO clip p03_q [en] match 1.00: wanted 'Is there a pharmacy?' heard 'Is there a pharmacy?'
@@ -432,7 +432,7 @@ INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Hay una farmacia?' heard 'Perd
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
 INFO clip q01_ask [en] match 1.00: wanted 'You need a pharmacy. What do you ask?' heard 'You need a pharmacy, what do you ask?'
 INFO clip q01_ans [es] match 1.00: wanted '¿Hay una farmacia?' heard 'hay una farmacia.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-help-01 -> output/lessons/es-a1-help-01/lesson_mixed.mp4
 build  es-a1-help-02  engine=mixed
@@ -442,11 +442,11 @@ Lesson built: output/lessons/es-a1-help-02
   silent preview: output/lessons/es-a1-help-02/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-help-02: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -456,8 +456,8 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-help-02/lesson_mixed.mp4  (30.3 s)
-es-a1-help-02 (mixed): 30.3 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 14.7 s (designed about 13.8 s, longest gap 2.9 s), black 0.00 s
+Narrated video: output/lessons/es-a1-help-02/lesson_mixed.mp4  (30.4 s)
+es-a1-help-02 (mixed): 30.4 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.3 dBFS, silence 14.4 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Me siento mal.' heard 'Me siento mal.'
 INFO clip hook [en] match 1.00: wanted 'Feel sick abroad? Three phrases to say how.' heard 'Feel sick abroad? Three phrases to say how.'
 INFO clip p01_q [en] match 1.00: wanted 'I feel bad' heard 'I feel bad.'
@@ -466,10 +466,10 @@ INFO clip p02_q [en] match 1.00: wanted 'My head hurts' heard 'My head hurts'
 INFO clip p02_a [es] match 1.00: wanted 'Me duele la cabeza.' heard 'Me duele la cabeza.'
 INFO clip p03_q [en] match 1.00: wanted 'I'm better now' heard 'I'm better now.'
 INFO clip p03_a [es] match 1.00: wanted 'Ya estoy mejor.' heard 'Ya estoy mejor.'
-INFO clip d01 [es] match 1.00: wanted 'Me duele la cabeza. ¿Hay una farmacia?' heard 'me duele la cabeza. Hay una farmacia.'
+INFO clip d01 [es] match 1.00: wanted 'Me duele la cabeza. ¿Hay una farmacia?' heard 'Me duele la cabeza. Hay una farmacia.'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Está cerca.' heard 'Está cerca.'
-INFO clip q01_ask [en] match 1.00: wanted 'Your head hurts. What do you say?' heard 'Your head hurts. What do you say?'
-INFO clip q01_ans [es] match 1.00: wanted 'Me duele la cabeza.' heard 'me duele la cabeza.'
+INFO clip q01_ask [en] match 1.00: wanted 'Your head hurts. What do you say?' heard 'Your head hurts, what do you say?'
+INFO clip q01_ans [es] match 1.00: wanted 'Me duele la cabeza.' heard 'Me duele la cabeza.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Numbers are next.' heard 'Say them out loud. Numbers are next.'
 QA: PASS
 ok     es-a1-help-02 -> output/lessons/es-a1-help-02/lesson_mixed.mp4
@@ -496,22 +496,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-introductions-01/lesson_mixed.mp4  (32.2 s)
-es-a1-introductions-01 (mixed): 32.2 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.5 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
-INFO clip cold [es] match 1.00: wanted '¿Cómo te llamás?' heard '¿Cómo te llamás?'
+es-a1-introductions-01 (mixed): 32.2 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] match 0.90: wanted '¿Cómo te llamás?' heard '¿Cómo te la amas?'
 INFO clip hook [en] match 0.98: wanted 'Introduce yourself. Four phrases.' heard 'Introduce yourself for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What is your name?' heard 'What is your name?'
-INFO clip p01_a [es] match 1.00: wanted '¿Cómo te llamás?' heard '¿Cómo te llamás?'
+INFO clip p01_a [es] match 0.93: wanted '¿Cómo te llamás?' heard '¿Cómo te la más?'
 INFO clip p02_q [en] match 0.97: wanted 'My name is Ana' heard 'My name is Anna.'
 INFO clip p02_a [es] match 1.00: wanted 'Me llamo Ana.' heard 'Me llamo Ana.'
 INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'And you?' heard 'And you.'
-INFO clip p03_a [es] too short for a reliable check (match 0.44): wanted '¿Y vos?' heard 'Dios.'
+INFO clip p03_a [es] too short for a reliable check (match 0.75): wanted '¿Y vos?' heard 'Yos.'
 INFO clip p04_q [en] too short for a reliable check (match 1.00): wanted 'Likewise' heard 'Likewise'
-INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
-INFO clip d02 [es] match 0.86: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamó Ana. ¡Dios!'
+INFO clip p04_a [es] too short for a reliable check (match 0.76): wanted 'Igualmente.' heard 'y guanmente.'
+INFO clip d02 [es] match 0.92: wanted 'Me llamo Ana. ¿Y vos?' heard 'Me llamo Dana, y dos.'
 INFO clip q01_ask [en] match 1.00: wanted 'They say “Mucho gusto.” Your reply?' heard 'They say Mucho Gusto, your reply.'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Igualmente.' heard 'Igualmente.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
-WARN clip d01 [es] match 0.68: wanted 'Hola. ¿Cómo te llamás?' heard '¿De verdad? ¿Cómo te la amas?'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
+WARN clip d01 [es] match 0.75: wanted 'Hola. ¿Cómo te llamás?' heard '¡Duele! ¿Cómo te la amas?'
 QA: PASS (with warnings)
 ok     es-a1-introductions-01 -> output/lessons/es-a1-introductions-01/lesson_mixed.mp4
 build  es-a1-introductions-02  engine=mixed
@@ -521,11 +521,11 @@ Lesson built: output/lessons/es-a1-introductions-02
   silent preview: output/lessons/es-a1-introductions-02/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-introductions-02: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -536,18 +536,18 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-introductions-02/lesson_mixed.mp4  (30.2 s)
-es-a1-introductions-02 (mixed): 30.1 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-introductions-02 (mixed): 30.2 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 14.5 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
 INFO clip hook [en] match 1.00: wanted 'Ask and say where you are from. Three phrases.' heard 'Ask and say where you are from. Three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Where are you from?' heard 'Where are you from?'
 INFO clip p01_a [es] match 1.00: wanted '¿De dónde sos?' heard '¿De dónde sos?'
 INFO clip p02_q [en] match 1.00: wanted 'I'm from Greece' heard 'I'm from Greece.'
-INFO clip p02_a [es] match 0.83: wanted 'Soy de Grecia.' heard 'Soy Aérecia.'
 INFO clip p03_q [en] match 1.00: wanted 'I live in Athens' heard 'I live in Athens.'
-INFO clip p03_a [es] match 0.86: wanted 'Vivo en Atenas.' heard 'Dios en Atenas.'
-INFO clip d01 [es] match 0.88: wanted 'Hola. ¿De dónde sos?' heard '¡Tela! ¿De dónde sos?'
+INFO clip d01 [es] match 0.86: wanted 'Hola. ¿De dónde sos?' heard 'de la de donde sos.'
 INFO clip q01_ask [en] match 1.00: wanted 'You live in Athens. What do you say?' heard 'You live in Athens, what do you say?'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for more.' heard 'Say them out loud. Follow for more.'
+WARN clip p02_a [es] match 0.72: wanted 'Soy de Grecia.' heard 'Soy Adriacia.'
+WARN clip p03_a [es] match 0.40: wanted 'Vivo en Atenas.' heard 'Buenas.'
 WARN clip d02 [es] match 0.76: wanted 'Soy de Grecia. ¿Y vos?' heard 'Soy Edrecia.  ¡Ios!'
 WARN clip q01_ans [es] match 0.75: wanted 'Vivo en Atenas.' heard '¡Bionatenas!'
 QA: PASS (with warnings)
@@ -559,11 +559,11 @@ Lesson built: output/lessons/es-a1-likes-01
   silent preview: output/lessons/es-a1-likes-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-likes-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -573,22 +573,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-likes-01/lesson_mixed.mp4  (27.9 s)
-es-a1-likes-01 (mixed): 27.9 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.5 dBFS, silence 14.5 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
+Narrated video: output/lessons/es-a1-likes-01/lesson_mixed.mp4  (28.1 s)
+es-a1-likes-01 (mixed): 28.0 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
 INFO clip hook [en] match 1.00: wanted 'Say what you like in Spanish. Three phrases.' heard 'Say what you like in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What do you like?' heard 'What do you like?'
 INFO clip p01_a [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
 INFO clip p02_q [en] match 1.00: wanted 'I like mate' heard 'I like mate.'
-INFO clip p02_a [es] match 0.88: wanted 'Me gusta el mate.' heard '¡Me gustan y mate!'
+INFO clip p02_a [es] match 1.00: wanted 'Me gusta el mate.' heard '¡Me gusta el mate!'
 INFO clip p03_q [en] match 1.00: wanted 'I don't like it' heard 'I don't like it.'
-INFO clip p03_a [es] match 0.90: wanted 'No me gusta.' heard '¡Nome Usta!'
+INFO clip p03_a [es] match 0.80: wanted 'No me gusta.' heard '¡Neme Usta!'
 INFO clip d01 [es] match 1.00: wanted '¿Qué te gusta?' heard 'que te gusta.'
-INFO clip d02 [es] match 1.00: wanted 'Me gusta el mate.' heard 'Me gusta el mate.'
+INFO clip d02 [es] match 0.87: wanted 'Me gusta el mate.' heard '¡Me gustan, Mate!'
 INFO clip q01_ask [en] match 1.00: wanted 'You don't like it. Say it.' heard 'You don't like it, say it.'
-INFO clip q01_ans [es] match 0.80: wanted 'No me gusta.' heard '¡Neme Usta!'
 INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
-QA: PASS
+WARN clip q01_ans [es] match 0.64: wanted 'No me gusta.' heard 'Mi nombre es Usta.'
+QA: PASS (with warnings)
 ok     es-a1-likes-01 -> output/lessons/es-a1-likes-01/lesson_mixed.mp4
 build  es-a1-likes-02  engine=mixed
 CHECK: OK
@@ -611,12 +611,12 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-likes-02/lesson_mixed.mp4  (29.3 s)
-es-a1-likes-02 (mixed): 29.2 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 14.1 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
+Narrated video: output/lessons/es-a1-likes-02/lesson_mixed.mp4  (29.1 s)
+es-a1-likes-02 (mixed): 29.0 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.4 dBFS, silence 13.8 s (designed about 13.0 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip hook [en] match 1.00: wanted 'Talk about food in Spanish. Three phrases.' heard 'Talk about food in Spanish, three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'I'm hungry' heard 'I'm hungry.'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Tengo hambre.' heard '¡Tengo hambre!'
+INFO clip p01_a [es] too short for a reliable check (match 0.72): wanted 'Tengo hambre.' heard 'tenlo a mi re'
 INFO clip p02_q [en] match 1.00: wanted 'What do you want to eat?' heard 'What do you want to eat?'
 INFO clip p02_a [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip p03_q [en] match 1.00: wanted 'I want a breaded cutlet' heard 'I want a breaded cutlet.'
@@ -624,7 +624,7 @@ INFO clip p03_a [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una
 INFO clip d01 [es] match 0.97: wanted '¿Qué querés comer?' heard '¿Qué quieres comer?'
 INFO clip d02 [es] match 1.00: wanted 'Quiero una milanesa.' heard 'Quiero una milanesa.'
 INFO clip q01_ask [en] match 1.00: wanted 'Your stomach is empty. What do you say?' heard 'Your stomach is empty. What do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.72): wanted 'Tengo hambre.' heard '¡Tenbo a mi re!'
+INFO clip q01_ans [es] too short for a reliable check (match 0.64): wanted 'Tengo hambre.' heard '¡Ten boba mire!'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Shopping is next.' heard 'Say them out loud. Shopping is next.'
 QA: PASS
 ok     es-a1-likes-02 -> output/lessons/es-a1-likes-02/lesson_mixed.mp4
@@ -635,11 +635,11 @@ Lesson built: output/lessons/es-a1-numbers-01
   silent preview: output/lessons/es-a1-numbers-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-numbers-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -651,22 +651,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-numbers-01/lesson_mixed.mp4  (26.9 s)
-es-a1-numbers-01 (mixed): 26.9 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.5 dBFS, silence 14.3 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 0.40): wanted 'Uno.' heard '¡Vámonos!'
-INFO clip hook [en] match 1.00: wanted 'Count from one to four in Spanish. Four words.' heard 'Count from one to four in Spanish. Four words.'
+es-a1-numbers-01 (mixed): 26.9 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.5 dBFS, silence 14.2 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.33): wanted 'Uno.' heard '¡Gol!'
+INFO clip hook [en] match 0.89: wanted 'Count from one to four in Spanish. Four words.' heard 'Count from 1 to 4 in Spanish. Four words.'
 INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'One' heard 'One'
-INFO clip p01_a [es] too short for a reliable check (match 0.29): wanted 'Uno.' heard 'Pero...'
+INFO clip p01_a [es] too short for a reliable check (match 0.33): wanted 'Uno.' heard '¡Buh!'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Two' heard 'Two'
-INFO clip p02_a [es] too short for a reliable check (match 0.33): wanted 'Dos.' heard '¡Las!'
+INFO clip p02_a [es] too short for a reliable check (match 0.20): wanted 'Dos.' heard '¡Yes, sir!'
 INFO clip p03_q [en] too short for a reliable check (match 0.00): wanted 'Three' heard '3'
-INFO clip p03_a [es] too short for a reliable check (match 0.20): wanted 'Tres.' heard '¡Hasta la próxima!'
+INFO clip p03_a [es] too short for a reliable check (match 0.57): wanted 'Tres.' heard '¡Des!'
 INFO clip p04_q [en] too short for a reliable check (match 0.00): wanted 'Four' heard '4'
-INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Cuatro.' heard 'Cuatro.'
-INFO clip d01 [es] too short for a reliable check (match 0.90): wanted '¿Tenés hermanos?' heard '¡Te les hermanos!'
-INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana, somos cuatro.'
-INFO clip q01_ask [en] match 0.87: wanted 'Which one is two?' heard 'Which one is 2?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.33): wanted 'Dos.' heard '¡Yes!'
-INFO clip outro [en] match 0.86: wanted 'Say them out loud. Five to ten are next.' heard 'Say them out loud. 5 to 10 are next.'
+INFO clip p04_a [es] too short for a reliable check (match 0.67): wanted 'Cuatro.' heard 'cuadra.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés hermanos?' heard '¡Tenés hermanos!'
+INFO clip d02 [es] match 1.00: wanted 'Tengo una hermana. Somos cuatro.' heard 'Tengo una hermana. Somos cuatro.'
+INFO clip q01_ask [en] match 1.00: wanted 'Which one is two?' heard 'Which one is two?'
+INFO clip q01_ans [es] too short for a reliable check (match 0.67): wanted 'Dos.' heard '¡Los!'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Five to ten are next.' heard 'Say them out loud. Five to ten are next.'
 QA: PASS
 ok     es-a1-numbers-01 -> output/lessons/es-a1-numbers-01/lesson_mixed.mp4
 build  es-a1-numbers-02  engine=mixed
@@ -692,7 +692,7 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-numbers-02/lesson_mixed.mp4  (27.2 s)
-es-a1-numbers-02 (mixed): 27.2 s, 1080x1920@30, first sound 0.0 s, -16.4 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
+es-a1-numbers-02 (mixed): 27.2 s, 1080x1920@30, first sound 0.0 s, -16.6 LUFS, peak -1.3 dBFS, silence 14.3 s (designed about 13.4 s, longest gap 2.2 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Cinco.' heard 'Cinco.'
 INFO clip hook [en] match 1.00: wanted 'Count from five to eight in Spanish. Four words.' heard 'Count from five to eight in Spanish. Four words.'
 INFO clip p01_q [en] too short for a reliable check (match 0.00): wanted 'Five' heard '5.'
@@ -702,14 +702,55 @@ INFO clip p02_a [es] too short for a reliable check (match 0.29): wanted 'Seis.'
 INFO clip p03_q [en] too short for a reliable check (match 0.00): wanted 'Seven' heard '7.'
 INFO clip p03_a [es] too short for a reliable check (match 0.00): wanted 'Siete.' heard '7.'
 INFO clip p04_q [en] too short for a reliable check (match 0.00): wanted 'Eight' heard '8.'
-INFO clip p04_a [es] too short for a reliable check (match 0.67): wanted 'Ocho.' heard '¡Vecho!'
-INFO clip d01 [es] too short for a reliable check (match 0.11): wanted 'Cuatro. Cinco.' heard '4.  Sigo.'
+INFO clip p04_a [es] too short for a reliable check (match 0.67): wanted 'Ocho.' heard '¡Bachó!'
+INFO clip d01 [es] too short for a reliable check (match 0.83): wanted 'Cuatro. Cinco.' heard 'Cuatro.  Silco.'
 INFO clip d02 [es] too short for a reliable check (match 0.15): wanted 'Seis. Siete.' heard '6, 7'
 INFO clip q01_ask [en] match 0.81: wanted 'Which one is seven?' heard 'Which one is 7?'
 INFO clip q01_ans [es] too short for a reliable check (match 0.00): wanted 'Siete.' heard '7.'
 INFO clip outro [en] match 0.86: wanted 'Say them out loud. Nine and ten are next.' heard 'Say them out loud. 9 and 10 are next.'
 QA: PASS
 ok     es-a1-numbers-02 -> output/lessons/es-a1-numbers-02/lesson_mixed.mp4
+build  es-a1-numbers-03  engine=mixed
+CHECK: OK
+Lesson built: output/lessons/es-a1-numbers-03
+  cards: 15  segments: 24  est. length: 37.8 s
+  silent preview: output/lessons/es-a1-numbers-03/preview.mp4
+  next: scriptstudio voice <folder>, then scriptstudio qa <folder>
+  reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  super().__init__("LSTM", *args, **kwargs)
+/home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+/home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Voices for es-a1-numbers-03: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
+Narrated video: output/lessons/es-a1-numbers-03/lesson_mixed.mp4  (29.0 s)
+es-a1-numbers-03 (mixed): 29.0 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.5 dBFS, silence 15.3 s (designed about 14.6 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.40): wanted 'Nueve.' heard 'No es.'
+INFO clip hook [en] match 0.94: wanted 'Count to ten and ask a price in Spanish.' heard 'Count to 10 and ask a price in Spanish.'
+INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Nine' heard 'Nine'
+INFO clip p01_a [es] too short for a reliable check (match 0.29): wanted 'Nueve.' heard '¡No!'
+INFO clip p02_q [en] too short for a reliable check (match 0.00): wanted 'Ten' heard '10'
+INFO clip p02_a [es] too short for a reliable check (match 0.29): wanted 'Diez.' heard 'Yes.'
+INFO clip p03_q [en] match 1.00: wanted 'How much is it?' heard 'How much is it?'
+INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip p04_q [en] match 1.00: wanted 'It is very expensive' heard 'It is very expensive.'
+INFO clip p04_a [es] match 1.00: wanted 'Es muy caro.' heard 'es muy caro.'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip d02 [es] too short for a reliable check (match 0.29): wanted 'Diez.' heard 'Yes.'
+INFO clip q01_ask [en] match 1.00: wanted 'How do you ask the price?' heard 'How do you ask the price?'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Cuánto cuesta?' heard '¿Cuánto cuesta?'
+INFO clip outro [en] match 1.00: wanted 'Say them out loud. Follow for the next topic.' heard 'Say them out loud. Follow for the next topic.'
+QA: PASS
+ok     es-a1-numbers-03 -> output/lessons/es-a1-numbers-03/lesson_mixed.mp4
 build  es-a1-politeness-01  engine=mixed
 CHECK: OK
 Lesson built: output/lessons/es-a1-politeness-01
@@ -733,22 +774,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-politeness-01/lesson_mixed.mp4  (30.3 s)
-es-a1-politeness-01 (mixed): 30.3 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 15.2 s (designed about 14.2 s, longest gap 2.2 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Por favor.' heard 'Por favor.'
+es-a1-politeness-01 (mixed): 30.3 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.2 dBFS, silence 15.2 s (designed about 14.2 s, longest gap 2.2 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.78): wanted 'Por favor.' heard 'Por Sador'
 INFO clip hook [en] match 1.00: wanted 'Be polite in Spanish. Four phrases.' heard 'Be polite in Spanish. Four phrases.'
 INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Please' heard 'Please.'
-INFO clip p01_a [es] too short for a reliable check (match 0.78): wanted 'Por favor.' heard 'por Sador'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Por favor.' heard 'Por favor.'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Thank you' heard 'Thank you.'
-INFO clip p02_a [es] too short for a reliable check (match 0.88): wanted 'Gracias.' heard 'y gracias.'
+INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Gracias.' heard '¡Gracias!'
 INFO clip p03_q [en] match 1.00: wanted 'You're welcome' heard 'You're welcome.'
-INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'De nada.' heard 'De nada.'
+INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'De nada.' heard 'de nada.'
 INFO clip p04_q [en] match 1.00: wanted 'Sorry. / Excuse me' heard 'Sorry, excuse me.'
-INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Perdón.' heard 'Perdón.'
-INFO clip d01 [es] too short for a reliable check (match 0.80): wanted 'Hola. Gracias.' heard 'de la. Gracias.'
+INFO clip p04_a [es] too short for a reliable check (match 0.33): wanted 'Perdón.' heard '¡Telena!'
+INFO clip d01 [es] too short for a reliable check (match 0.67): wanted 'Hola. Gracias.' heard 'Todavía no, gracias.'
 INFO clip d02 [es] match 1.00: wanted 'De nada. Hasta luego.' heard 'De nada, hasta luego.'
 INFO clip q01_ask [en] match 0.95: wanted 'Someone says “Gracias.” Your reply?' heard 'Someone says, Gracious, your reply.'
-INFO clip q01_ans [es] too short for a reliable check (match 0.67): wanted 'De nada.' heard 'Te la da.'
-INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'De nada.' heard 'De nada.'
+INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-politeness-01 -> output/lessons/es-a1-politeness-01/lesson_mixed.mp4
 build  es-a1-politeness-02  engine=mixed
@@ -772,22 +813,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-politeness-02/lesson_mixed.mp4  (31.5 s)
-es-a1-politeness-02 (mixed): 31.5 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 14.6 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
-INFO clip cold [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
+Narrated video: output/lessons/es-a1-politeness-02/lesson_mixed.mp4  (31.6 s)
+es-a1-politeness-02 (mixed): 31.6 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.2 dBFS, silence 14.8 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
+INFO clip cold [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
 INFO clip hook [en] match 1.00: wanted 'Lost in Spanish? Three phrases to save you.' heard 'Lost in Spanish, three phrases to save you.'
 INFO clip p01_q [en] match 1.00: wanted 'I don't understand' heard 'I don't understand.'
-INFO clip p01_a [es] too short for a reliable check (match 0.91): wanted 'No entiendo.' heard 'lo entiendo.'
+INFO clip p01_a [es] too short for a reliable check (match 0.43): wanted 'No entiendo.' heard '¡Lo vende al hindo!'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Slower, please' heard 'Slower, please.'
-INFO clip p02_a [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
+INFO clip p02_a [es] match 0.95: wanted 'Más despacio, por favor.' heard 'Más espacios, por favor.'
 INFO clip p03_q [en] match 1.00: wanted 'I speak a little Spanish' heard 'I speak a little Spanish.'
-INFO clip p03_a [es] match 0.96: wanted 'Hablo un poco de español.' heard 'Habla un poco de español.'
-INFO clip d02 [es] match 1.00: wanted 'Más despacio, por favor.' heard 'Más despacio, por favor.'
+INFO clip p03_a [es] match 0.94: wanted 'Hablo un poco de español.' heard 'Hale un poco de español.'
+INFO clip d01 [es] match 0.94: wanted 'Perdón. No entiendo.' heard 'Perdón, lo entiendo.'
+INFO clip d02 [es] match 0.98: wanted 'Más despacio, por favor.' heard 'Más despacios, por favor.'
 INFO clip q01_ask [en] match 1.00: wanted 'You do not follow. What do you say?' heard 'You do not follow, what do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.91): wanted 'No entiendo.' heard 'Lo entiendo.'
+INFO clip q01_ans [es] too short for a reliable check (match 0.18): wanted 'No entiendo.' heard '¡Lo ni el no!'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Numbers next.' heard 'Say them out loud. Numbers next.'
-WARN clip d01 [es] match 0.78: wanted 'Perdón. No entiendo.' heard 'Te doy, lo entiendo.'
-QA: PASS (with warnings)
+QA: PASS
 ok     es-a1-politeness-02 -> output/lessons/es-a1-politeness-02/lesson_mixed.mp4
 build  es-a1-restaurant-01  engine=mixed
 CHECK: OK
@@ -796,11 +837,11 @@ Lesson built: output/lessons/es-a1-restaurant-01
   silent preview: output/lessons/es-a1-restaurant-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-restaurant-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -811,22 +852,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-restaurant-01/lesson_mixed.mp4  (32.7 s)
-es-a1-restaurant-01 (mixed): 32.6 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 17.1 s (designed about 16.4 s, longest gap 2.5 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'La carta.' heard 'la carta.'
+Narrated video: output/lessons/es-a1-restaurant-01/lesson_mixed.mp4  (33.0 s)
+es-a1-restaurant-01 (mixed): 32.9 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 17.2 s (designed about 16.4 s, longest gap 2.5 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 0.89): wanted 'La carta.' heard 'la cabrota.'
 INFO clip hook [en] match 1.00: wanted 'Table and menu in Spanish. Four phrases.' heard 'Table and Menu in Spanish. Four Phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Table for two' heard 'Table for two.'
-INFO clip p01_a [es] match 1.00: wanted 'Mesa para dos.' heard 'Mesa para dos.'
+INFO clip p01_a [es] match 0.83: wanted 'Mesa para dos.' heard 'Mesa para 2.'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'The menu' heard 'The menu.'
-INFO clip p02_a [es] too short for a reliable check (match 0.89): wanted 'La carta.' heard 'la cadrota.'
+INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'La carta.' heard 'la carta.'
 INFO clip p03_q [en] match 1.00: wanted 'What do you recommend?' heard 'What do you recommend?'
-INFO clip p03_a [es] match 0.97: wanted '¿Qué me recomendás?' heard 'que me recomenas.'
+INFO clip p03_a [es] match 0.97: wanted '¿Qué me recomendás?' heard 'que me recomiendas.'
 INFO clip p04_q [en] match 1.00: wanted 'For me, this one' heard 'For me, this one.'
-INFO clip p04_a [es] match 1.00: wanted 'Para mí, esto.' heard 'para mí esto.'
+INFO clip p04_a [es] match 1.00: wanted 'Para mí, esto.' heard 'Para mí, esto.'
 INFO clip d01 [es] match 0.97: wanted '¿Qué me recomendás?' heard 'que me recomiendas.'
 INFO clip d02 [es] match 1.00: wanted 'Para mí, esto.' heard 'Para mí, esto.'
 INFO clip q01_ask [en] match 1.00: wanted 'At the door?' heard 'At the door.'
-INFO clip q01_ans [es] match 1.00: wanted 'Mesa para dos.' heard 'Mesa para dos.'
+INFO clip q01_ans [es] match 1.00: wanted 'Mesa para dos.' heard 'Mesa para dos'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part two is next.'
 QA: PASS
 ok     es-a1-restaurant-01 -> output/lessons/es-a1-restaurant-01/lesson_mixed.mp4
@@ -851,20 +892,20 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-restaurant-02/lesson_mixed.mp4  (29.8 s)
-es-a1-restaurant-02 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.4 dBFS, silence 14.2 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
-INFO clip cold [es] match 0.89: wanted '¿Me traés la cuenta?' heard 'Me traes y acuenta.'
+Narrated video: output/lessons/es-a1-restaurant-02/lesson_mixed.mp4  (29.9 s)
+es-a1-restaurant-02 (mixed): 29.9 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.7 s, longest gap 2.9 s), black 0.00 s
+INFO clip cold [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
 INFO clip hook [en] match 1.00: wanted 'Enjoy your meal and pay in Spanish.' heard 'Enjoy your meal and pay in Spanish.'
 INFO clip p01_q [en] match 1.00: wanted 'It's tasty' heard 'It's tasty.'
 INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Está rico.' heard 'Está rico.'
 INFO clip p02_q [en] match 1.00: wanted 'Can you bring me the bill?' heard 'Can you bring me the bill?'
-INFO clip p02_a [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
+INFO clip p02_a [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'me traes la cuenta.'
 INFO clip p03_q [en] match 1.00: wanted 'Can I pay by card?' heard 'Can I pay by card?'
 INFO clip p03_a [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con tarjeta.'
 INFO clip d01 [es] match 1.00: wanted '¿Me traés la cuenta?' heard 'Me traes la cuenta.'
-INFO clip d02 [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'Se puede pagar con tarjeta.'
+INFO clip d02 [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con tarjeta.'
 INFO clip q01_ask [en] match 1.00: wanted 'Pay by card?' heard 'Pay by card'
-INFO clip q01_ans [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'se puede pagar con tarjeta.'
+INFO clip q01_ans [es] match 1.00: wanted '¿Se puede pagar con tarjeta?' heard 'Se puede pagar con tarjeta.'
 INFO clip outro [en] match 1.00: wanted 'Say them out loud. Transport next.' heard 'Say them out loud. Transport next.'
 QA: PASS
 ok     es-a1-restaurant-02 -> output/lessons/es-a1-restaurant-02/lesson_mixed.mp4
@@ -890,22 +931,22 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-shopping-01/lesson_mixed.mp4  (31.3 s)
-es-a1-shopping-01 (mixed): 31.3 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.2 dBFS, silence 16.6 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
-INFO clip cold [es] too short for a reliable check (match 0.91): wanted '¿Cuánto sale?' heard '¿Cuánto salí?'
+Narrated video: output/lessons/es-a1-shopping-01/lesson_mixed.mp4  (31.4 s)
+es-a1-shopping-01 (mixed): 31.4 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.3 dBFS, silence 16.6 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip hook [en] match 0.99: wanted 'Ask the price in Spanish. Four phrases.' heard 'Ask the price in Spanish for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'Do you have this?' heard 'Do you have this?'
-INFO clip p01_a [es] too short for a reliable check (match 0.86): wanted '¿Tenés esto?' heard 'Te les esto.'
+INFO clip p01_a [es] too short for a reliable check (match 0.86): wanted '¿Tenés esto?' heard '¡Te les esto!'
 INFO clip p02_q [en] match 1.00: wanted 'How much is it?' heard 'How much is it?'
 INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'Something cheaper?' heard 'Something cheaper.'
-INFO clip p03_a [es] match 0.95: wanted '¿Tenés algo más barato?' heard '¿Tenés algo más rato?'
+INFO clip p03_a [es] match 0.98: wanted '¿Tenés algo más barato?' heard 'Tenéis algo más barato.'
 INFO clip p04_q [en] match 1.00: wanted 'I'll take it' heard 'I'll take it.'
-INFO clip p04_a [es] too short for a reliable check (match 0.67): wanted 'Lo llevo.' heard '¡Lo sebo!'
-INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard '¡Tenés esto!'
-INFO clip d02 [es] too short for a reliable check (match 0.91): wanted '¿Cuánto sale?' heard '¿Cuándo sale?'
+INFO clip p04_a [es] too short for a reliable check (match 0.94): wanted 'Lo llevo.' heard '¡Los llevo!'
+INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Tenés esto?' heard '¿Tenés esto?'
+INFO clip d02 [es] too short for a reliable check (match 1.00): wanted '¿Cuánto sale?' heard '¿Cuánto sale?'
 INFO clip q01_ask [en] match 1.00: wanted 'Buying it. What do you say?' heard 'Buying it, what do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Lo llevo.' heard '¡Lo llevo!'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'Lo llevo.' heard 'Lo llevo.'
 INFO clip outro [en] match 0.94: wanted 'Say them out loud. Part two is next.' heard 'Say them out loud. Part 2 is next.'
 QA: PASS
 ok     es-a1-shopping-01 -> output/lessons/es-a1-shopping-01/lesson_mixed.mp4
@@ -916,11 +957,11 @@ Lesson built: output/lessons/es-a1-shopping-02
   silent preview: output/lessons/es-a1-shopping-02/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-shopping-02: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -932,18 +973,18 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-shopping-02/lesson_mixed.mp4  (32.7 s)
-es-a1-shopping-02 (mixed): 32.7 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 17.6 s (designed about 16.8 s, longest gap 2.5 s), black 0.00 s
+es-a1-shopping-02 (mixed): 32.7 s, 1080x1920@30, first sound 0.0 s, -16.0 LUFS, peak -1.3 dBFS, silence 17.5 s (designed about 16.8 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted 'Me queda grande.' heard 'Me queda grande.'
-INFO clip hook [en] match 1.00: wanted 'Shop for clothes in Spanish.' heard 'Shop for clothes in Spanish'
-INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Just looking' heard 'Just looking.'
-INFO clip p01_a [es] match 1.00: wanted 'Solo estoy mirando.' heard 'Solo estoy mirando.'
-INFO clip p02_q [en] match 1.00: wanted 'Too big on me' heard 'Too big on me.'
-INFO clip p02_a [es] match 1.00: wanted 'Me queda grande.' heard 'Me queda grande.'
+INFO clip hook [en] match 1.00: wanted 'Shop for clothes in Spanish.' heard 'Shop for clothes in Spanish.'
+INFO clip p01_q [en] too short for a reliable check (match 1.00): wanted 'Just looking' heard 'just looking'
+INFO clip p01_a [es] match 1.00: wanted 'Solo estoy mirando.' heard 'Sólo estoy mirando.'
+INFO clip p02_q [en] match 1.00: wanted 'Too big on me' heard 'Too big on me'
+INFO clip p02_a [es] match 1.00: wanted 'Me queda grande.' heard 'me queda grande.'
 INFO clip p03_q [en] match 1.00: wanted 'Too small on me' heard 'Too small on me'
-INFO clip p03_a [es] match 1.00: wanted 'Me queda chico.' heard 'Me queda chico.'
+INFO clip p03_a [es] match 1.00: wanted 'Me queda chico.' heard '¡Me queda chico!'
 INFO clip p04_q [en] too short for a reliable check (match 0.96): wanted 'Another colour?' heard 'Another color.'
 INFO clip p04_a [es] match 0.94: wanted '¿Tenés otro color?' heard 'Tenis otro color.'
-INFO clip d01 [es] match 1.00: wanted '¿Tenés otro color?' heard 'Tenés otro color.'
+INFO clip d01 [es] match 0.94: wanted '¿Tenés otro color?' heard 'Tenis otro color.'
 INFO clip d02 [es] match 1.00: wanted 'Me queda chico.' heard '¡Me queda chico!'
 INFO clip q01_ask [en] match 1.00: wanted 'Too small. What do you say?' heard 'Too small, what do you say?'
 INFO clip q01_ans [es] match 1.00: wanted 'Me queda chico.' heard 'Me queda chico.'
@@ -972,24 +1013,24 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-social-01/lesson_mixed.mp4  (32.7 s)
-es-a1-social-01 (mixed): 32.7 s, 1080x1920@30, first sound 0.0 s, -15.6 LUFS, peak -1.5 dBFS, silence 16.8 s (designed about 15.8 s, longest gap 2.9 s), black 0.00 s
+Narrated video: output/lessons/es-a1-social-01/lesson_mixed.mp4  (32.8 s)
+es-a1-social-01 (mixed): 32.8 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.5 dBFS, silence 16.9 s (designed about 15.8 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted '¿Todo bien?' heard '¡Todo bien!'
 INFO clip hook [en] match 0.99: wanted 'Sound Argentine. Four everyday phrases.' heard 'Sound Argentine for Everyday Phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'All good? / How's it going?' heard 'All good. How's it going?'
-INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Todo bien?' heard 'Todo bien.'
+INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted '¿Todo bien?' heard '¡Todo bien!'
 INFO clip p02_q [en] match 0.90: wanted 'All good, and you?' heard 'All good in you'
 INFO clip p02_a [es] match 1.00: wanted 'Todo bien, ¿y vos?' heard '¡Todo bien y vos!'
 INFO clip p03_q [en] match 0.82: wanted 'Okay. / Sure. / Deal' heard 'Okay, slash sure. Deal.'
-INFO clip p03_a [es] too short for a reliable check (match 0.75): wanted 'Dale.' heard 'Dele.'
+INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted 'Dale.' heard '¡Dale!'
 INFO clip p04_q [en] too short for a reliable check (match 1.00): wanted 'See you' heard 'See you!'
-INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Nos vemos.' heard 'Nos vemos.'
+INFO clip p04_a [es] too short for a reliable check (match 1.00): wanted 'Nos vemos.' heard '¡Nos vemos!'
 INFO clip d01 [es] too short for a reliable check (match 1.00): wanted '¿Todo bien?' heard '¡Todo bien!'
-INFO clip d02 [es] match 1.00: wanted 'Todo bien, ¿y vos?' heard '¡Todo bien y vos!'
+INFO clip d02 [es] match 1.00: wanted 'Todo bien, ¿y vos?' heard 'Todo bien y vos.'
 INFO clip d03 [es] too short for a reliable check (match 1.00): wanted 'Nos vemos.' heard 'Nos vemos.'
-INFO clip d04 [es] too short for a reliable check (match 0.75): wanted 'Dale.' heard '¡Dele!'
+INFO clip d04 [es] too short for a reliable check (match 0.67): wanted 'Dale.' heard '¡Leale!'
 INFO clip q01_ask [en] match 1.00: wanted '“Coffee later?” Say yes.' heard 'Coffee later, say yes.'
-INFO clip q01_ans [es] too short for a reliable check (match 0.75): wanted 'Dale.' heard 'Vale.'
+INFO clip q01_ans [es] too short for a reliable check (match 0.60): wanted 'Dale.' heard '¡Te ale!'
 INFO clip outro [en] match 1.00: wanted 'Part two is next.' heard 'Part two is next.'
 QA: PASS
 ok     es-a1-social-01 -> output/lessons/es-a1-social-01/lesson_mixed.mp4
@@ -1016,19 +1057,19 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-social-02/lesson_mixed.mp4  (33.8 s)
-es-a1-social-02 (mixed): 33.8 s, 1080x1920@30, first sound 0.0 s, -15.9 LUFS, peak -1.5 dBFS, silence 16.6 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-social-02 (mixed): 33.8 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 16.6 s (designed about 15.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 0.89): wanted '¡Qué bueno!' heard '¡Qué buena!'
 INFO clip hook [en] match 0.98: wanted 'React like an Argentine. Four phrases for any chat.' heard 'React like in Argentine. Four phrases for any chat.'
 INFO clip p01_q [en] match 0.82: wanted 'How great! / Nice!' heard 'How great slash nice.'
 INFO clip p01_a [es] too short for a reliable check (match 0.89): wanted '¡Qué bueno!' heard '¡Qué buena!'
 INFO clip p02_q [en] too short for a reliable check (match 1.00): wanted 'Really nice' heard 'Really nice.'
-INFO clip p02_a [es] too short for a reliable check (match 0.80): wanted 'Re lindo.' heard '¡Pelindo!'
+INFO clip p02_a [es] too short for a reliable check (match 0.88): wanted 'Re lindo.' heard 'Te lindo.'
 INFO clip p03_q [en] match 1.00: wanted 'Of course. / Obviously' heard 'Of course, obviously.'
-INFO clip p03_a [es] too short for a reliable check (match 0.60): wanted 'Obvio.' heard '¡Dorio!'
+INFO clip p03_a [es] too short for a reliable check (match 0.20): wanted 'Obvio.' heard '¡Valeo!'
 INFO clip p04_q [en] too short for a reliable check (match 1.00): wanted 'No problem' heard 'No problem'
 INFO clip p04_a [es] match 1.00: wanted 'No hay problema.' heard 'No hay problema.'
 INFO clip d01 [es] too short for a reliable check (match 0.82): wanted '¿Me ayudás?' heard 'y ayudas.'
-INFO clip d02 [es] too short for a reliable check (match 0.15): wanted 'Obvio.' heard 'y nos vemos en el próximo vídeo, ¡hasta la próxima!'
+INFO clip d02 [es] too short for a reliable check (match 0.40): wanted 'Obvio.' heard 'Adiós.'
 INFO clip d03 [es] too short for a reliable check (match 1.00): wanted 'Gracias.' heard 'Gracias.'
 INFO clip d04 [es] match 1.00: wanted 'No hay problema.' heard 'No hay problema.'
 INFO clip q01_ask [en] match 1.00: wanted 'A friend says “Thanks!” Answer.' heard 'A friend says thanks, answer.'
@@ -1043,11 +1084,11 @@ Lesson built: output/lessons/es-a1-time-01
   silent preview: output/lessons/es-a1-time-01/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-time-01: {'en': 'kokoro:af_heart', 'es': 'piper:es_ES-sharvard-medium@1', 'es_b': 'piper:es_AR-daniela-high'}
@@ -1058,7 +1099,7 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-time-01/lesson_mixed.mp4  (27.7 s)
-es-a1-time-01 (mixed): 27.6 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.5 dBFS, silence 14.0 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
+es-a1-time-01 (mixed): 27.6 s, 1080x1920@30, first sound 0.0 s, -15.3 LUFS, peak -1.3 dBFS, silence 13.8 s (designed about 13.5 s, longest gap 2.5 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip hook [en] match 1.00: wanted 'Tell the time in Spanish. Three phrases.' heard 'Tell the time in Spanish three phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'What time is it?' heard 'What time is it?'
@@ -1069,9 +1110,9 @@ INFO clip p03_q [en] match 1.00: wanted 'It is three o'clock' heard 'It is three
 INFO clip p03_a [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres.'
 INFO clip d01 [es] match 1.00: wanted '¿Qué hora es?' heard '¿Qué hora es?'
 INFO clip d02 [es] match 1.00: wanted 'Son las tres.' heard 'Son las tres.'
-INFO clip q01_ask [en] match 1.00: wanted 'It is one o'clock. What do you say?' heard 'It is one o'clock. What do you say?'
-INFO clip q01_ans [es] match 1.00: wanted 'Es la una.' heard 'es la una.'
-INFO clip outro [en] match 1.00: wanted 'Days of the week next.' heard 'Days of the Week Next.'
+INFO clip q01_ask [en] match 0.94: wanted 'It is one o'clock. What do you say?' heard 'It is 1 o'clock, what do you say?'
+INFO clip q01_ans [es] match 1.00: wanted 'Es la una.' heard 'Es la una.'
+INFO clip outro [en] match 1.00: wanted 'Days of the week next.' heard 'days of the week next'
 QA: PASS
 ok     es-a1-time-01 -> output/lessons/es-a1-time-01/lesson_mixed.mp4
 build  es-a1-time-02  engine=mixed
@@ -1095,20 +1136,20 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-time-02/lesson_mixed.mp4  (28.6 s)
-es-a1-time-02 (mixed): 28.6 s, 1080x1920@30, first sound 0.0 s, -15.2 LUFS, peak -1.4 dBFS, silence 14.0 s (designed about 13.3 s, longest gap 2.9 s), black 0.00 s
+Narrated video: output/lessons/es-a1-time-02/lesson_mixed.mp4  (28.9 s)
+es-a1-time-02 (mixed): 28.9 s, 1080x1920@30, first sound 0.0 s, -15.2 LUFS, peak -1.5 dBFS, silence 14.3 s (designed about 13.3 s, longest gap 2.9 s), black 0.00 s
 INFO clip cold [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
-INFO clip hook [en] match 1.00: wanted 'Plan a day in Spanish. Three phrases.' heard 'Plan a day in Spanish. Three phrases.'
+INFO clip hook [en] match 1.00: wanted 'Plan a day in Spanish. Three phrases.' heard 'Plan a Day in Spanish. Three Phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'When is the party?' heard 'When is the party?'
 INFO clip p01_a [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
 INFO clip p02_q [en] match 1.00: wanted 'Tomorrow is Tuesday' heard 'Tomorrow is Tuesday.'
-INFO clip p02_a [es] match 0.80: wanted 'Mañana es martes.' heard '¡Mañanas Maldes!'
+INFO clip p02_a [es] match 0.90: wanted 'Mañana es martes.' heard 'Manianas martes.'
 INFO clip p03_q [en] too short for a reliable check (match 1.00): wanted 'On Friday' heard 'On Friday.'
-INFO clip p03_a [es] too short for a reliable check (match 0.60): wanted 'El viernes.' heard 'y huyernes.'
+INFO clip p03_a [es] too short for a reliable check (match 0.84): wanted 'El viernes.' heard 'y viernes.'
 INFO clip d01 [es] match 1.00: wanted '¿Cuándo es la fiesta?' heard '¿Cuándo es la fiesta?'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'El viernes.' heard 'el viernes.'
 INFO clip q01_ask [en] match 1.00: wanted 'The party is on Friday. What do you say?' heard 'The party is on Friday. What do you say?'
-INFO clip q01_ans [es] too short for a reliable check (match 0.84): wanted 'El viernes.' heard 'y viernes.'
+INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted 'El viernes.' heard 'el viernes.'
 INFO clip outro [en] match 1.00: wanted 'Weather is next.' heard 'Weather is next.'
 QA: PASS
 ok     es-a1-time-02 -> output/lessons/es-a1-time-02/lesson_mixed.mp4
@@ -1134,17 +1175,17 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 Narrated video: output/lessons/es-a1-transport-01/lesson_mixed.mp4  (29.8 s)
-es-a1-transport-01 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.4 LUFS, peak -1.3 dBFS, silence 14.3 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
-INFO clip cold [es] match 0.92: wanted '¿Este colectivo va al centro?' heard 'este colectivo Gal Centro.'
+es-a1-transport-01 (mixed): 29.8 s, 1080x1920@30, first sound 0.0 s, -15.5 LUFS, peak -1.4 dBFS, silence 14.3 s (designed about 13.7 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] match 0.94: wanted '¿Este colectivo va al centro?' heard 'este colectivo al centro.'
 INFO clip hook [en] match 1.00: wanted 'Ride the bus in Spanish.' heard 'Ride the bus in Spanish.'
 INFO clip p01_q [en] match 1.00: wanted 'Does this bus go downtown?' heard 'Does this bus go downtown?'
-INFO clip p01_a [es] match 1.00: wanted '¿Este colectivo va al centro?' heard 'Este colectivo va al centro.'
+INFO clip p01_a [es] match 0.94: wanted '¿Este colectivo va al centro?' heard 'este colectivo al centro.'
 INFO clip p02_q [en] match 1.00: wanted 'Where do I get off?' heard 'Where do I get off?'
-INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajó?'
+INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajo?'
 INFO clip p03_q [en] match 1.00: wanted 'Get off at the next one' heard 'Get off at the next one.'
-INFO clip p03_a [es] match 0.87: wanted 'Bajás en la próxima.' heard '¡Pachás en la próxima!'
+INFO clip p03_a [es] match 0.95: wanted 'Bajás en la próxima.' heard 'Pajas en la próxima.'
 INFO clip d01 [es] match 1.00: wanted 'Perdón. ¿Dónde bajo?' heard 'Perdón, ¿dónde bajo?'
-INFO clip d02 [es] match 0.95: wanted 'Bajás en la próxima.' heard '¡Pajas en la próxima!'
+INFO clip d02 [es] match 1.00: wanted 'Bajás en la próxima.' heard 'Bajas en la próxima.'
 INFO clip q01_ask [en] match 1.00: wanted 'Where do I get off?' heard 'Where do I get off?'
 INFO clip q01_ans [es] too short for a reliable check (match 1.00): wanted '¿Dónde bajo?' heard '¿Dónde bajó?'
 INFO clip outro [en] match 0.93: wanted 'Say them aloud. Part two is next.' heard 'Say them aloud. Part 2 is next.'
@@ -1157,11 +1198,11 @@ Lesson built: output/lessons/es-a1-transport-02
   silent preview: output/lessons/es-a1-transport-02/preview.mp4
   next: scriptstudio voice <folder>, then scriptstudio qa <folder>
   reminder: check every Spanish line (docs/LANGUAGE_REVIEW.md) and set review_status before publishing
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/modules/rnn.py:1011: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
   super().__init__("LSTM", *args, **kwargs)
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/nn/utils/weight_norm.py:145: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
   WeightNorm.apply(module, name, dim)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 /home/runner/work/spanish-shorts-studio/spanish-shorts-studio/.venv/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
   warnings.warn(
 Voices for es-a1-transport-02: {'en': 'kokoro:af_heart', 'es': 'piper:es_AR-daniela-high', 'es_b': 'piper:es_AR-daniela-high'}
@@ -1172,19 +1213,19 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-transport-02/lesson_mixed.mp4  (32.8 s)
-es-a1-transport-02 (mixed): 32.8 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.3 dBFS, silence 16.5 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
+Narrated video: output/lessons/es-a1-transport-02/lesson_mixed.mp4  (33.0 s)
+es-a1-transport-02 (mixed): 32.9 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.3 dBFS, silence 16.4 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
 INFO clip cold [es] too short for a reliable check (match 1.00): wanted 'Estoy perdida.' heard 'Estoy perdida.'
-INFO clip hook [en] match 1.00: wanted 'Lost in the city? Four phrases.' heard 'Lost in the City, Four Phrases.'
+INFO clip hook [en] match 0.98: wanted 'Lost in the city? Four phrases.' heard 'Lost in the City for Phrases'
 INFO clip p01_q [en] match 1.00: wanted 'I'm lost' heard 'I'm lost.'
 INFO clip p01_a [es] too short for a reliable check (match 1.00): wanted 'Estoy perdida.' heard 'Estoy perdida.'
 INFO clip p02_q [en] match 1.00: wanted 'Can you help me?' heard 'Can you help me?'
-INFO clip p02_a [es] too short for a reliable check (match 0.89): wanted '¿Me ayudás?' heard 'Te ayudas.'
+INFO clip p02_a [es] too short for a reliable check (match 0.82): wanted '¿Me ayudás?' heard 'y ayudas.'
 INFO clip p03_q [en] match 1.00: wanted 'How long does it take?' heard 'How long does it take?'
-INFO clip p03_a [es] too short for a reliable check (match 0.85): wanted '¿Cuánto tarda?' heard '¿Cuánto te hará?'
+INFO clip p03_a [es] too short for a reliable check (match 1.00): wanted '¿Cuánto tarda?' heard '¿Cuánto tarda?'
 INFO clip p04_q [en] match 1.00: wanted 'Stop here, please' heard 'Stop here, please.'
-INFO clip p04_a [es] match 0.94: wanted 'Pare acá, por favor.' heard 'Para acá, por favor.'
-INFO clip d01 [es] match 0.89: wanted 'Estoy perdida. ¿Me ayudás?' heard 'Estoy perdido y ayudas.'
+INFO clip p04_a [es] match 0.91: wanted 'Pare acá, por favor.' heard 'Áreca, por favor.'
+INFO clip d01 [es] match 0.96: wanted 'Estoy perdida. ¿Me ayudás?' heard 'Estoy perdida. ¿Te ayudas?'
 INFO clip d02 [es] too short for a reliable check (match 1.00): wanted 'Todo derecho.' heard 'Todo derecho.'
 INFO clip q01_ask [en] match 1.00: wanted 'Tell the driver to stop.' heard 'Tell the driver to stop.'
 INFO clip q01_ans [es] match 0.94: wanted 'Pare acá, por favor.' heard 'Para acá, por favor.'
@@ -1213,23 +1254,23 @@ WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
 WARNING: Defaulting repo_id to hexgrad/Kokoro-82M. Pass repo_id='hexgrad/Kokoro-82M' to suppress this warning.
-Narrated video: output/lessons/es-a1-weather-01/lesson_mixed.mp4  (31.6 s)
-es-a1-weather-01 (mixed): 31.6 s, 1080x1920@30, first sound 0.0 s, -15.7 LUFS, peak -1.4 dBFS, silence 16.4 s (designed about 15.8 s, longest gap 2.9 s), black 0.00 s
-INFO clip cold [es] match 1.00: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo hace hoy?'
+Narrated video: output/lessons/es-a1-weather-01/lesson_mixed.mp4  (31.4 s)
+es-a1-weather-01 (mixed): 31.4 s, 1080x1920@30, first sound 0.0 s, -15.8 LUFS, peak -1.4 dBFS, silence 16.5 s (designed about 15.8 s, longest gap 2.8 s), black 0.00 s
+INFO clip cold [es] match 0.97: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo haces hoy?'
 INFO clip hook [en] match 0.99: wanted 'Talk about the weather. Four phrases.' heard 'Talk about the weather for phrases.'
 INFO clip p01_q [en] match 1.00: wanted 'How's the weather?' heard 'How's the weather?'
-INFO clip p01_a [es] match 0.87: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo ha se doy?'
+INFO clip p01_a [es] match 1.00: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo hace hoy?'
 INFO clip p02_q [en] match 1.00: wanted 'It's hot' heard 'It's hot.'
-INFO clip p02_a [es] too short for a reliable check (match 1.00): wanted 'Hace calor.' heard 'Hace calor.'
+INFO clip p02_a [es] too short for a reliable check (match 0.74): wanted 'Hace calor.' heard 'ese calor.'
 INFO clip p03_q [en] match 1.00: wanted 'It's cold' heard 'It's cold.'
 INFO clip p03_a [es] too short for a reliable check (match 0.89): wanted 'Hace frío.' heard '¡Hace fido!'
 INFO clip p04_q [en] match 1.00: wanted 'It's raining' heard 'It's raining.'
-INFO clip p04_a [es] too short for a reliable check (match 0.79): wanted 'Está lloviendo.' heard 'Está sobriendo.'
+INFO clip p04_a [es] too short for a reliable check (match 0.89): wanted 'Está lloviendo.' heard 'Está soviendo.'
 INFO clip d01 [es] match 1.00: wanted '¿Qué tiempo hace hoy?' heard '¿Qué tiempo hace hoy?'
-INFO clip d02 [es] too short for a reliable check (match 0.74): wanted 'Hace frío.' heard '¡Pase Frido!'
+INFO clip d02 [es] too short for a reliable check (match 0.59): wanted 'Hace frío.' heard '¡Pasefido!'
 INFO clip q01_ask [en] match 1.00: wanted 'Rain today. What do you say?' heard 'Rain today, what do you say?'
 INFO clip q01_ans [es] too short for a reliable check (match 0.89): wanted 'Está lloviendo.' heard 'Está soviendo.'
-INFO clip outro [en] match 1.00: wanted 'Say them aloud. Likes next.' heard 'Say them aloud likes next'
+INFO clip outro [en] match 1.00: wanted 'Say them aloud. Likes next.' heard 'Say them aloud, likes next.'
 QA: PASS
 ok     es-a1-weather-01 -> output/lessons/es-a1-weather-01/lesson_mixed.mp4
 script exit rc=0

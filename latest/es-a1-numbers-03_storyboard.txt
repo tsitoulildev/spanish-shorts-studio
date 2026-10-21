@@ -1,0 +1,28 @@
+es-a1-numbers-03  |  Numbers 1 to 10, part 3  |  hook: Count to ten and ask a price in Spanish.
+
+  0.0s  card 00 cold      es/A: Nueve.
+  1.3s  card 01 hook      en/A: Count to ten and ask a price in Spanish.
+  5.3s  card 02 phrase_q  en/A: Nine
+  6.3s  card 02 phrase_q  (silent 0.7s: viewer's turn)
+  7.0s  card 03 phrase_a  es/A: Nueve.
+  8.0s  card 03 phrase_a  (silent 1.4s: viewer's turn)
+  9.4s  card 04 phrase_q  en/A: Ten
+ 10.4s  card 04 phrase_q  (silent 0.7s: viewer's turn)
+ 11.1s  card 05 phrase_a  es/A: Diez.
+ 12.1s  card 05 phrase_a  (silent 1.4s: viewer's turn)
+ 13.5s  card 06 phrase_q  en/A: How much is it?
+ 15.4s  card 06 phrase_q  (silent 0.7s: viewer's turn)
+ 16.1s  card 07 phrase_a  es/A: ¿Cuánto cuesta?
+ 17.1s  card 07 phrase_a  (silent 1.8s: viewer's turn)
+ 18.9s  card 08 phrase_q  en/A: It is very expensive
+ 20.8s  card 08 phrase_q  (silent 0.7s: viewer's turn)
+ 21.5s  card 09 phrase_a  es/A: Es muy caro.
+ 22.9s  card 09 phrase_a  (silent 2.2s: viewer's turn)
+ 25.2s  card 10 dialogue  es/A: ¿Cuánto cuesta?
+ 26.4s  card 11 dialogue  es/B: Diez.
+ 27.6s  card 12 quiz_q    en/A: How do you ask the price?
+ 30.3s  card 12 quiz_q    (silent 2.0s: viewer's turn)
+ 32.3s  card 13 quiz_a    es/A: ¿Cuánto cuesta?
+ 33.8s  card 14 outro     en/A: Say them out loud. Follow for the next topic.
+
+estimated length: 37.8 s (limit 40 s)
