@@ -1,0 +1,11 @@
+ok thunder1 ['Duration: 00:04:14.43, start: 0.000000, bitrate: 108 kb/s', '[Parsed_volumedetect_0 @ 0x56403ecb7680] mean_volume: -28.0 dB', '[Parsed_volumedetect_0 @ 0x56403ecb7680] max_volume: -1.8 dB']
+ok thunder3 ['Duration: 00:04:14.43, start: 0.000000, bitrate: 107 kb/s', '[Parsed_volumedetect_0 @ 0x55777d109680] mean_volume: -23.4 dB', '[Parsed_volumedetect_0 @ 0x55777d109680] max_volume: 0.0 dB']
+ok ocean_tropical ['Duration: 00:06:24.27, start: 0.000000, bitrate: 100 kb/s', '[Parsed_volumedetect_0 @ 0x55fe8f60b980] mean_volume: -13.4 dB', '[Parsed_volumedetect_0 @ 0x55fe8f60b980] max_volume: 0.0 dB']
+ok pebble_beach ['Duration: 00:00:40.36, start: 0.000000, bitrate: 109 kb/s', '[Parsed_volumedetect_0 @ 0x55fe32031ec0] mean_volume: -15.2 dB', '[Parsed_volumedetect_0 @ 0x55fe32031ec0] max_volume: 0.0 dB']
+ok stream_close ['Duration: 00:01:08.89, start: 0.000000, bitrate: 116 kb/s', '[Parsed_volumedetect_0 @ 0x55b0f98f9500] mean_volume: -50.7 dB', '[Parsed_volumedetect_0 @ 0x55b0f98f9500] max_volume: -25.2 dB']
+ok swale ['Duration: 00:00:31.03, start: 0.000000, bitrate: 144 kb/s', '[Parsed_volumedetect_0 @ 0x55d33beb83c0] mean_volume: -32.9 dB', '[Parsed_volumedetect_0 @ 0x55d33beb83c0] max_volume: -7.2 dB']
+ok shallow_river ['Duration: 00:00:17.89, start: 0.000000, bitrate: 105 kb/s', '[Parsed_volumedetect_0 @ 0x55fd289afac0] mean_volume: -26.6 dB', '[Parsed_volumedetect_0 @ 0x55fd289afac0] max_volume: -6.9 dB']
+ok rain_other ['Duration: 00:02:59.70, start: 0.000000, bitrate: 77 kb/s', '[Parsed_volumedetect_0 @ 0x561046757240] mean_volume: -40.5 dB', '[Parsed_volumedetect_0 @ 0x561046757240] max_volume: -12.0 dB']
+ok ocean__Ocean_surface_waves
+ok ocean__Ocean_surface_waves_02
+ok ocean__Ocean_surface_waves_04
