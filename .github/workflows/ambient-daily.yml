@@ -1,0 +1,84 @@
+name: Ambient daily (3 uploads)
+# Renders and uploads one ambient video per run, 3 runs per day. Needs the secrets AMBIENT_YT_CLIENT_ID, AMBIENT_YT_CLIENT_SECRET,
+# AMBIENT_YT_REFRESH_TOKEN (the ambient channel's own OAuth, never the Spanish channel's). Without them the run stops before rendering.
+on:
+  schedule:
+    - cron: "30 5 * * *"
+    - cron: "30 11 * * *"
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+    inputs:
+      index: { description: "Slot index override (empty = from the clock)", default: "" }
+concurrency:
+  group: ambient-daily
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      AMBIENT_YT_CLIENT_ID: ${{ secrets.AMBIENT_YT_CLIENT_ID }}
+      AMBIENT_YT_CLIENT_SECRET: ${{ secrets.AMBIENT_YT_CLIENT_SECRET }}
+      AMBIENT_YT_REFRESH_TOKEN: ${{ secrets.AMBIENT_YT_REFRESH_TOKEN }}
+      AMBIENT_YT_PRIVACY: ${{ vars.AMBIENT_YT_PRIVACY || 'private' }}
+    steps:
+      - name: Credentials present?
+        id: cfg
+        run: |
+          if [ -n "$AMBIENT_YT_CLIENT_ID" ] && [ -n "$AMBIENT_YT_CLIENT_SECRET" ] && [ -n "$AMBIENT_YT_REFRESH_TOKEN" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; else echo "ok=0" >> "$GITHUB_OUTPUT"; echo "ambient YouTube secrets not set: nothing rendered"; fi
+      - uses: actions/checkout@v4
+        if: steps.cfg.outputs.ok == '1'
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        if: steps.cfg.outputs.ok == '1'
+        with: { python-version: "3.12" }
+      - name: Install
+        if: steps.cfg.outputs.ok == '1'
+        run: pip install numpy scipy requests && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Pick slot
+        if: steps.cfg.outputs.ok == '1'
+        id: slot
+        working-directory: ambient_studio
+        run: |
+          set -eu
+          if [ -n "${{ inputs.index }}" ]; then idx="${{ inputs.index }}"; else
+            h=$(date -u +%H); case "$h" in 0[0-8]) s=0;; 09|1[0-4]) s=1;; *) s=2;; esac
+            idx=$(python3 -c "import datetime as d,ambient.plan as p;print(p.slot_index(d.datetime.utcnow(),$s))")
+          fi
+          plan=$(python3 -m ambient.plan "$idx"); echo "idx=$idx" >> "$GITHUB_OUTPUT"
+          echo "plan=$plan" >> "$GITHUB_OUTPUT"
+          echo "$plan" | python3 -c "import sys,json;p=json.load(sys.stdin);print(p['id'],p['kind'],p['hours'],'h',p['title'])"
+      - name: Already uploaded?
+        if: steps.cfg.outputs.ok == '1'
+        id: ledger
+        run: |
+          id=$(echo '${{ steps.slot.outputs.plan }}' | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])")
+          git fetch -q origin ambient-ledger 2>/dev/null && git show FETCH_HEAD:ledger.txt > ledger.txt 2>/dev/null || : > ledger.txt
+          if grep -q "^$id " ledger.txt; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "already uploaded: $id"; else echo "skip=0" >> "$GITHUB_OUTPUT"; fi
+      - name: Render
+        if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
+        working-directory: ambient_studio
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          p = json.loads('''${{ steps.slot.outputs.plan }}''')
+          subprocess.run(["python3", "-m", "ambient.build2", "--kind", p["kind"], "--hours", str(p["hours"]), "--seed", str(p["seed"]), "--out", "../out.mp4"], check=True)
+          PY
+          ls -la ../out.mp4
+      - name: Upload
+        if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
+        id: up
+        working-directory: ambient_studio
+        run: |
+          vid=$(python3 -m ambient.upload ../out.mp4 '${{ steps.slot.outputs.plan }}')
+          echo "video=$vid" >> "$GITHUB_OUTPUT"; echo "uploaded $vid"
+      - name: Record in ledger
+        if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0' && steps.up.outputs.video != ''
+        run: |
+          id=$(echo '${{ steps.slot.outputs.plan }}' | python3 -c "import sys,json;print(json.load(sys.stdin)['id'])")
+          echo "$id ${{ steps.up.outputs.video }}" >> ledger.txt
+          mkdir -p /tmp/l && cp ledger.txt /tmp/l/
+          git config user.name github-actions; git config user.email actions@github.com
+          git checkout -q --orphan ambient-ledger; git rm -rqf . ; cp /tmp/l/ledger.txt .; git add ledger.txt; git commit -qm "ledger $id"; git push -f origin ambient-ledger

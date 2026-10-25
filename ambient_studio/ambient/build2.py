@@ -35,9 +35,10 @@ def _loop(x: np.ndarray, seconds: float, fade: float = 4.0, shift: float = 0.0) 
 def audio(kind: str, seconds: int, tmp: pathlib.Path, seed: int) -> pathlib.Path:
     A = ROOT / "audio"
     if kind in ("rain", "storm"):
-        x = _loop(_load(A / "rain1.ogg", tmp), seconds) + 0.5 * _loop(_load(A / "rain_veranda.ogg", tmp), seconds, 3, shift=7)
+        r = np.random.default_rng(seed)  # seed varies the mix so videos of one kind are not identical
+        x = _loop(_load(A / "rain1.ogg", tmp), seconds, shift=r.uniform(0, 30)) + r.uniform(0.3, 0.8) * _loop(_load(A / "rain_veranda.ogg", tmp), seconds, 3, shift=r.uniform(0, 25))
         if kind == "storm":
-            x = 0.9 * x + 0.8 * _loop(_load(A / "rain_thunder.ogg", tmp), seconds, 3, shift=2)
+            x = 0.9 * x + r.uniform(0.6, 1.1) * _loop(_load(A / "rain_thunder.ogg", tmp), seconds, 3, shift=r.uniform(0, 15))
     else:
         x = synth.make_loop("fire", seconds, seed)
     x = synth.normalise(x, -24)
@@ -51,7 +52,7 @@ def build(kind: str, hours: float, seed: int, out: str, audio_s: int = 300) -> N
     fl = FIRE_FILTER if kind == "fire" else WIDE_FILTER
     fc = fl + ";[x]split[p][q];[q]reverse[r];[p][r]concat=n=2:v=1:a=0[v]"  # ping-pong: no visible jump at the loop point
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(ROOT / "video" / VIDEO[kind]), "-filter_complex", fc, "-map", "[v]",
-                    "-an", "-c:v", "libx264", "-crf", "23", "-pix_fmt", "yuv420p", str(tmp / "v.mp4")], check=True)
+                    "-an", "-c:v", "libx264", "-crf", "28", "-maxrate", "1800k", "-bufsize", "3600k", "-pix_fmt", "yuv420p", str(tmp / "v.mp4")], check=True)
     dur = int(hours * 3600)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", str(-(-dur // audio_s)), "-i", str(wav), "-t", str(dur),
                     "-c:a", "aac", "-b:a", "160k", str(tmp / "a.m4a")], check=True)
