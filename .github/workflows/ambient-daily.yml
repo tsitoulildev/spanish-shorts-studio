@@ -1,6 +1,6 @@
 name: Ambient daily (3 uploads)
-# Renders and uploads one ambient video per run, 3 runs per day. Needs the secrets AMBIENT_YT_CLIENT_ID, AMBIENT_YT_CLIENT_SECRET,
-# AMBIENT_YT_REFRESH_TOKEN (the ambient channel's own OAuth, never the Spanish channel's). Without them the run stops before rendering.
+# Renders and uploads one ambient video per run, 3 runs per day, to the same channel as the Spanish lessons (uses YT_* secrets;
+# AMBIENT_YT_* secrets, if set, override them for a separate channel). Without credentials the run stops before rendering.
 on:
   schedule:
     - cron: "30 5 * * *"
@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 180
     env:
-      AMBIENT_YT_CLIENT_ID: ${{ secrets.AMBIENT_YT_CLIENT_ID }}
-      AMBIENT_YT_CLIENT_SECRET: ${{ secrets.AMBIENT_YT_CLIENT_SECRET }}
-      AMBIENT_YT_REFRESH_TOKEN: ${{ secrets.AMBIENT_YT_REFRESH_TOKEN }}
+      AMBIENT_YT_CLIENT_ID: ${{ secrets.AMBIENT_YT_CLIENT_ID || secrets.YT_CLIENT_ID }}
+      AMBIENT_YT_CLIENT_SECRET: ${{ secrets.AMBIENT_YT_CLIENT_SECRET || secrets.YT_CLIENT_SECRET }}
+      AMBIENT_YT_REFRESH_TOKEN: ${{ secrets.AMBIENT_YT_REFRESH_TOKEN || secrets.YT_REFRESH_TOKEN }}
       AMBIENT_YT_PRIVACY: ${{ vars.AMBIENT_YT_PRIVACY || 'private' }}
     steps:
       - name: Credentials present?
