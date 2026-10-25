@@ -2,7 +2,7 @@
 from __future__ import annotations
 import datetime as dt
 
-KINDS = ["rain", "ocean", "fire", "river", "storm", "snow", "autumn"]
+KINDS = ["rain", "ocean", "river", "storm", "snow", "autumn"]
 MINUTES = 20  # length of every video
 T = {
     "rain": ["Rain on the Window at Night — {m} Minutes of Gentle Rain for Sleep", "Night City Rain Sounds — {m} Minutes of Rain Ambience", "{m} Minutes of Soft Rain on a Window — Sleep, Study, Relax"],

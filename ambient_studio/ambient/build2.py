@@ -66,23 +66,26 @@ def audio(kind: str, seconds: int, tmp: pathlib.Path, seed: int) -> pathlib.Path
     return tmp / "a.wav"
 
 
+def _duration(path) -> float:
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
+                                capture_output=True, text=True, check=True).stdout.strip())
+
+
 def video(kind: str, seed: int, tmp: pathlib.Path) -> pathlib.Path:
-    """Every clip is cropped to 16:9 (square clips get a blurred fill), played forward then backward and faded at the edges;
-    the clips of a theme are shuffled by the seed and joined into one loop."""
+    """Every clip becomes a seamless loop of its own (its last 2 s cross-fade into its first 2 s: no reversed motion, no jump).
+    The clips of a theme are shuffled by the seed and joined, each cut being a plain cut between two different scenes."""
     refs = list(THEMES[kind]["video"]); np.random.default_rng(seed).shuffle(refs)
     parts = []
     for i, ref in enumerate(refs):
         src = fetch(ref)
-        w, h = [int(v) for v in subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(src)],
-                                               capture_output=True, text=True, check=True).stdout.strip().split(",")[:2]]
-        sq = abs(w / h - 16 / 9) > 0.5
-        fl = FIRE_FILTER if sq else WIDE_FILTER
-        if not sq:
-            fl = "[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30[x]"
+        d = min(_duration(src), 30.0); f = 2.0
+        fc = (f"[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,format=yuv420p,split=3[a][b][c];"
+              f"[a]trim=start={f}:end={d - f},setpts=PTS-STARTPTS[body];[b]trim=start={d - f}:end={d},setpts=PTS-STARTPTS[tail];"
+              f"[c]trim=start=0:end={f},setpts=PTS-STARTPTS[head];[tail][head]xfade=transition=fade:duration={f}:offset=0[x];"
+              f"[body][x]concat=n=2:v=1:a=0,setsar=1[v]")
         out = tmp / f"c{i}.mp4"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", "60", "-i", str(src), "-filter_complex",
-                        fl + ";[x]split[p][q];[q]reverse[r];[p][r]concat=n=2:v=1:a=0,fade=t=in:d=0.6,setsar=1[v]", "-map", "[v]", "-an",
-                        "-c:v", "libx264", "-crf", "24", "-maxrate", "2500k", "-bufsize", "5000k", "-pix_fmt", "yuv420p", str(out)], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-t", "30", "-i", str(src), "-filter_complex", fc, "-map", "[v]", "-an",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-maxrate", "2500k", "-bufsize", "5000k", "-pix_fmt", "yuv420p", str(out)], check=True)
         parts.append(out)
     lst = tmp / "list.txt"; lst.write_text("".join(f"file '{p}'\n" for p in parts))
     out = tmp / "v.mp4"
