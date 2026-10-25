@@ -5,3 +5,4 @@ output/
 .venv/
 campaigns/out/
 logs/
+__pycache__/

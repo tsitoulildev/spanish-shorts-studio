@@ -1,0 +1,24 @@
+name: Render ambient video
+on:
+  workflow_dispatch:
+    inputs:
+      kind: { description: "rain | storm | fire | rainfire", default: "storm" }
+      hours: { description: "Length in hours", default: "3" }
+      seed: { description: "Seed (unique mix)", default: "1" }
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install numpy scipy
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - working-directory: ambient_studio
+        run: python -m ambient.build --kind "${{ inputs.kind }}" --hours "${{ inputs.hours }}" --seed "${{ inputs.seed }}" --out ../out.mp4
+      - run: ffprobe -v error -show_entries format=duration,size -of default=nw=1 out.mp4
+      - uses: actions/upload-artifact@v4
+        with: { name: "${{ inputs.kind }}-${{ inputs.seed }}", path: out.mp4, retention-days: 3 }
