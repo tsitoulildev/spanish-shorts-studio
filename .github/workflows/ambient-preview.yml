@@ -18,9 +18,11 @@ jobs:
         working-directory: ambient_studio
         run: |
           mkdir -p /tmp/prev
-          for k in rain ocean fire river storm snow autumn; do
+          for k in river storm snow autumn; do
             echo "== $k"
-            if python3 -m ambient.build2 --kind $k --hours 0.02 --seed 1006 --out /tmp/prev/full_$k.mp4 2>&1 | tail -5; [ -f /tmp/prev/full_$k.mp4 ]; then
+            python3 -m ambient.build2 --kind $k --hours 0.02 --seed 1006 --out /tmp/prev/full_$k.mp4 > /tmp/prev/log_$k.txt 2>&1 || true
+            tail -c 1500 /tmp/prev/log_$k.txt
+            if [ -f /tmp/prev/full_$k.mp4 ]; then
               ffmpeg -loglevel error -y -ss 20 -t 25 -i /tmp/prev/full_$k.mp4 -c copy /tmp/prev/$k.mp4
               ffprobe -v error -show_entries format=duration,size -of csv=p=0 /tmp/prev/$k.mp4
             else echo "FAILED $k"; fi
@@ -30,4 +32,4 @@ jobs:
       - name: Publish previews
         run: |
           git config user.name github-actions; git config user.email actions@github.com
-          git checkout -q --orphan ambient-previews; git rm -rqf .; cp /tmp/prev/*.mp4 . ; git add -A; git commit -qm "previews"; git push -f origin ambient-previews
+          git checkout -q --orphan ambient-previews; git rm -rqf .; cp /tmp/prev/*.mp4 /tmp/prev/*.txt . ; git add -A; git commit -qm "previews"; git push -f origin ambient-previews
