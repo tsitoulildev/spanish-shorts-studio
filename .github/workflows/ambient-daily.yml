@@ -60,12 +60,13 @@ jobs:
       - name: Render
         if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
         working-directory: ambient_studio
+        env:
+          PLAN: ${{ steps.slot.outputs.plan }}
         run: |
-          python3 - <<'PY'
-          import json, subprocess
-          p = json.loads('''${{ steps.slot.outputs.plan }}''')
-          subprocess.run(["python3", "-m", "ambient.build2", "--kind", p["kind"], "--hours", str(p["hours"]), "--seed", str(p["seed"]), "--out", "../out.mp4"], check=True)
-          PY
+          kind=$(python3 -c "import os,json;print(json.loads(os.environ['PLAN'])['kind'])")
+          hours=$(python3 -c "import os,json;print(json.loads(os.environ['PLAN'])['hours'])")
+          seed=$(python3 -c "import os,json;print(json.loads(os.environ['PLAN'])['seed'])")
+          python3 -m ambient.build2 --kind "$kind" --hours "$hours" --seed "$seed" --out ../out.mp4
           ls -la ../out.mp4
       - name: Upload
         if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
