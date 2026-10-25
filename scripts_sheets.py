@@ -1,4 +1,5 @@
-import sys, subprocess, pathlib, urllib.parse
+import sys, subprocess, pathlib, urllib.parse, signal, time
+signal.signal(signal.SIGALRM, lambda *a: (_ for _ in ()).throw(TimeoutError('clip took too long')))
 sys.path.insert(0, "ambient_studio")
 from ambient.build2 import fetch
 from ambient.themes import THEMES
@@ -18,6 +19,7 @@ refs += extra
 seen = set()
 for i, ref in enumerate(dict.fromkeys(refs)):
     try:
+        signal.alarm(240)
         f = fetch(ref)
         d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)], capture_output=True, text=True).stdout.strip() or 0)
         fr = []
@@ -27,7 +29,8 @@ for i, ref in enumerate(dict.fromkeys(refs)):
             fr.append(p)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y"] + sum([["-i", str(p)] for p in fr], []) + ["-filter_complex", "hstack=inputs=3", str(out / f"sheet_{i:02d}.jpg")])
         (out / f"sheet_{i:02d}.txt").write_text(ref[8:])
-        print("ok", i, ref)
+        print("ok", i, ref, flush=True)
         f.unlink()  # keep the cache small
+        signal.alarm(0)
     except BaseException as e:
-        print("FAIL", ref, e)
+        signal.alarm(0); print("FAIL", ref, e, flush=True)
