@@ -11,7 +11,7 @@ THEMES = {
     "ocean": {"video": [C + n for n in ("ocean__Ocean_surface_waves_03.mp4", "ocean__Ocean_surface_waves_05.mp4", "ocean__Ocean_surface_waves.mp4",
                                         "ocean__Ocean_surface_waves_02.mp4", "ocean__Ocean_surface_waves_04.mp4")],
               "audio": [(A + "ocean_tropical.ogg", 1.0, 5), (A + "pebble_beach.ogg", 0.4, 4)]},
-    "river": {"video": [C + n for n in ("river__Klamath_River_28205908032.mp4", "river__Sixes_River_33895113543.mp4", "river__Wallowa_River_35001236162.mp4",
+    "river": {"video": [C + n for n in ("river__Sixes_River_33895113543.mp4", "river__Klamath_River_28205908032.mp4", "river__Wallowa_River_35001236162.mp4",
                                         "river__White_Wild_and_Scenic_River_30126165673.mp4", "river__Running_Stream_Of_Water.mp4",
                                         "river__Delaneys_Falls.mp4", "forest__Little_Applegate_River_50982975823.mp4")],
               "audio": [(A + "shallow_river.ogg", 1.0, 3), (A + "swale.ogg", 0.6, 4), (A + "stream_close.ogg", 0.5, 4)]},

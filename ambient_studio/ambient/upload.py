@@ -30,9 +30,26 @@ def upload(video: str, p: dict, privacy: str) -> str:
         put = requests.put(init.headers["Location"], data=fh, timeout=7200, headers={"Content-Type": "video/mp4", "Content-Length": str(size)})
     if put.status_code not in (200, 201):
         raise SystemExit(f"upload failed: HTTP {put.status_code} {put.text[:300]}")
-    return put.json()["id"]
+    vid = put.json()["id"]
+    return vid
+
+
+def set_thumbnail(video_id: str, jpg: str) -> None:
+    """Best effort: a failed thumbnail never loses the upload."""
+    try:
+        c = creds()
+        r = requests.post(TOKEN_URL, data={"client_id": c[0], "client_secret": c[1], "refresh_token": c[2], "grant_type": "refresh_token"}, timeout=60)
+        with open(jpg, "rb") as fh:
+            t = requests.post("https://www.googleapis.com/upload/youtube/v3/thumbnails/set", params={"videoId": video_id, "uploadType": "media"},
+                              headers={"Authorization": f"Bearer {r.json()['access_token']}", "Content-Type": "image/jpeg"}, data=fh, timeout=120)
+        print(f"thumbnail: HTTP {t.status_code} {t.text[:200] if t.status_code != 200 else ''}", file=sys.stderr)
+    except Exception as e:
+        print(f"thumbnail failed: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
     plan = json.loads(sys.argv[2])
-    print(upload(sys.argv[1], plan, os.environ.get("AMBIENT_YT_PRIVACY", "private") or "private"))
+    vid = upload(sys.argv[1], plan, os.environ.get("AMBIENT_YT_PRIVACY", "private") or "private")
+    if len(sys.argv) > 3:
+        set_thumbnail(vid, sys.argv[3])
+    print(vid)
