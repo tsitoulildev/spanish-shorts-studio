@@ -18,7 +18,7 @@ jobs:
       - run: pip install numpy scipy
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - working-directory: ambient_studio
-        run: python -m ambient.build --kind "${{ inputs.kind }}" --hours "${{ inputs.hours }}" --seed "${{ inputs.seed }}" --out ../out.mp4
+        run: python -m ambient.build2 --kind "${{ inputs.kind }}" --hours "${{ inputs.hours }}" --seed "${{ inputs.seed }}" --out ../out.mp4
       - run: ffprobe -v error -show_entries format=duration,size -of default=nw=1 out.mp4
       - uses: actions/upload-artifact@v4
         with: { name: "${{ inputs.kind }}-${{ inputs.seed }}", path: out.mp4, retention-days: 3 }
