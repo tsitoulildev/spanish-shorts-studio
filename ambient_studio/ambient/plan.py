@@ -3,11 +3,11 @@ from __future__ import annotations
 import datetime as dt
 
 KINDS = ["rain", "storm", "fire"]
-HOURS = [3, 4, 3, 5, 3]
+MINUTES = 20  # length of every video
 T = {
-    "rain": ["Rain on the Window at Night — {h} Hours of Gentle Rain for Sleep", "Night City Rain Sounds — {h} Hours of Rain Ambience", "{h} Hours of Soft Rain on a Window — Sleep, Study, Relax"],
-    "storm": ["Thunderstorm and Heavy Rain — {h} Hours for Deep Sleep", "Distant Thunder and Rain Sounds — {h} Hours", "Lightning Storm Ambience with Rain — {h} Hours"],
-    "fire": ["Cozy Fireplace Crackling — {h} Hours of Fire Sounds", "Warm Fireplace Ambience — {h} Hours to Relax and Sleep", "Crackling Fire in the Hearth — {h} Hours"],
+    "rain": ["Rain on the Window at Night — {m} Minutes of Gentle Rain for Sleep", "Night City Rain Sounds — {m} Minutes of Rain Ambience", "{m} Minutes of Soft Rain on a Window — Sleep, Study, Relax"],
+    "storm": ["Thunderstorm and Heavy Rain — {m} Minutes for Deep Sleep", "Distant Thunder and Rain Sounds — {m} Minutes", "Lightning Storm Ambience with Rain — {m} Minutes"],
+    "fire": ["Cozy Fireplace Crackling — {m} Minutes of Fire Sounds", "Warm Fireplace Ambience — {m} Minutes to Relax and Sleep", "Crackling Fire in the Hearth — {m} Minutes"],
 }
 DESC = {
     "rain": "Real rain footage and rain recordings, looped without a break. Good for sleep, studying, reading or background calm.",
@@ -23,9 +23,8 @@ def slot_index(now: dt.datetime, slot: int) -> int:
 
 def plan(idx: int) -> dict:
     kind = KINDS[idx % 3]
-    hours = HOURS[(idx // 3) % len(HOURS)]
-    title = T[kind][(idx // 3) % 3].format(h=hours)
-    return {"id": f"{kind}-{idx:04d}", "kind": kind, "hours": hours, "seed": 1000 + idx, "title": title,
+    title = T[kind][(idx // 3) % 3].format(m=MINUTES)
+    return {"id": f"{kind}-{idx:04d}", "kind": kind, "hours": round(MINUTES / 60, 4), "seed": 1000 + idx, "title": title,
             "description": f"{DESC[kind]}\n\n{CREDITS}",
             "tags": ["ambient", "sleep sounds", "relaxing", kind, "white noise", "study"]}
 
