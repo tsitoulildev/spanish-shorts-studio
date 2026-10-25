@@ -1,12 +1,11 @@
 name: Ambient previews
-# Renders a 25-second preview of every theme and pushes them to the branch ambient-previews (for review). Runs only on the branch ambient-themes.
 on:
   push:
     branches: [ambient-themes]
 permissions:
   contents: write
 jobs:
-  preview:
+  sheets:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
@@ -14,22 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install numpy scipy && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - name: Render all themes
-        working-directory: ambient_studio
+      - run: python3 scripts_sheets.py 2>&1 | tee /tmp/sheets.log
+      - name: Publish
         run: |
-          mkdir -p /tmp/prev
-          for k in river storm snow autumn; do
-            echo "== $k"
-            python3 -m ambient.build2 --kind $k --hours 0.02 --seed 1006 --out /tmp/prev/full_$k.mp4 > /tmp/prev/log_$k.txt 2>&1 || true
-            tail -c 1500 /tmp/prev/log_$k.txt
-            if [ -f /tmp/prev/full_$k.mp4 ]; then
-              ffmpeg -loglevel error -y -ss 20 -t 25 -i /tmp/prev/full_$k.mp4 -c copy /tmp/prev/$k.mp4
-              ffprobe -v error -show_entries format=duration,size -of csv=p=0 /tmp/prev/$k.mp4
-            else echo "FAILED $k"; fi
-            rm -f /tmp/prev/full_$k.mp4
-          done
-          ls -la /tmp/prev
-      - name: Publish previews
-        run: |
+          mkdir -p /tmp/o; cp /tmp/sheets/sheet_* /tmp/o/; cp /tmp/sheets.log /tmp/o/
           git config user.name github-actions; git config user.email actions@github.com
-          git checkout -q --orphan ambient-previews; git rm -rqf .; cp /tmp/prev/*.mp4 /tmp/prev/*.txt . ; git add -A; git commit -qm "previews"; git push -f origin ambient-previews
+          git checkout -q --orphan ambient-sheets; git rm -rqf .; cp /tmp/o/* .; git add -A; git commit -qm sheets; git push -f origin ambient-sheets
