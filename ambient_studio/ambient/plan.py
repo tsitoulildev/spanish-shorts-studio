@@ -5,22 +5,23 @@ import datetime as dt
 KINDS = ["rain", "ocean", "river", "storm", "snow", "autumn"]
 MINUTES = 20  # length of every video
 T = {
-    "rain": ["Rain on the Window at Night — {m} Minutes of Gentle Rain for Sleep", "Night City Rain Sounds — {m} Minutes of Rain Ambience", "{m} Minutes of Soft Rain on a Window — Sleep, Study, Relax"],
-    "ocean": ["Ocean Waves on a Tropical Beach — {m} Minutes to Relax", "Calm Sea Waves Ambience — {m} Minutes for Sleep", "Beach Waves and Pebbles — {m} Minutes of Ocean Sounds"],
-    "fire": ["Cozy Fireplace Crackling — {m} Minutes of Fire Sounds", "Warm Fire Ambience — {m} Minutes to Relax and Sleep", "Crackling Fire in the Hearth — {m} Minutes"],
-    "river": ["River and Forest Stream Sounds — {m} Minutes of Flowing Water", "Mountain Stream Ambience — {m} Minutes for Focus and Sleep", "Running Water in the Wild — {m} Minutes"],
-    "storm": ["Thunderstorm and Heavy Rain — {m} Minutes for Deep Sleep", "Distant Thunder and Rain Sounds — {m} Minutes", "Lightning Storm Ambience with Rain — {m} Minutes"],
-    "snow": ["Snowfall and Soft Winter Wind — {m} Minutes of Winter Calm", "Quiet Snowy Landscapes — {m} Minutes of Winter Ambience", "Falling Snow Ambience — {m} Minutes to Relax"],
-    "autumn": ["Autumn Rain over the Lake — {m} Minutes of Rain Sounds", "Rainy Autumn Morning — {m} Minutes of Calm Rain", "Soft Autumn Rain — {m} Minutes for Sleep and Study"],
+    "rain": ["Rain on Window at Night 🌧 Relaxing Rain Sounds for Sleep | {m} Min", "Night City Rain Ambience 🌧 Rain Sounds for Study and Focus | {m} Min", "Soft Rain Sounds to Fall Asleep Fast 🌧 Calm Night Rain | {m} Min"],
+    "ocean": ["Ocean Waves Sounds for Sleeping 🌊 Calm Sea to Relax | {m} Min", "Beach Waves Ambience 🌊 Relaxing Ocean Sounds for Focus | {m} Min", "Gentle Sea Waves to Fall Asleep 🌊 Ocean Sounds | {m} Min"],
+    "river": ["River Sounds for Sleep 🏞 Flowing Water and Forest Streams | {m} Min", "Mountain Stream Ambience 🏞 Water Sounds for Focus and Study | {m} Min", "Relaxing River Sounds 🏞 Nature Water Noise for Calm | {m} Min"],
+    "storm": ["Thunderstorm Sounds for Deep Sleep ⛈ Rain and Thunder | {m} Min", "Rain and Thunder Ambience ⛈ Storm Sounds to Relax | {m} Min", "Lightning Storm Over the Hills ⛈ Thunder Sounds for Sleep | {m} Min"],
+    "snow": ["Snowfall Ambience ❄ Quiet Winter Wind for Sleep and Calm | {m} Min", "Falling Snow in the Forest ❄ Cozy Winter Sounds to Relax | {m} Min", "Winter Wind and Snowy Landscapes ❄ Calm Ambience | {m} Min"],
+    "autumn": ["Autumn Rain Sounds 🍂 Cozy Rain on the Lake for Sleep | {m} Min", "Rainy Autumn Morning 🍂 Calm Rain Ambience for Study | {m} Min", "Soft Autumn Rain to Relax 🍂 Rain Sounds for Reading | {m} Min"],
 }
+USE = "Perfect for sleep, studying, reading, meditation, focus or just a calm background."
+HASH = {"rain": "#rainsounds #sleepsounds #relaxing", "ocean": "#oceansounds #wavesounds #relaxing", "river": "#riversounds #naturesounds #relaxing",
+        "storm": "#thunderstorm #rainandthunder #sleepsounds", "snow": "#snowfall #winterambience #relaxing", "autumn": "#rainsounds #autumn #relaxing"}
 DESC = {
-    "rain": "Real rain footage and rain recordings, looped without a break. Good for sleep, studying, reading or background calm.",
-    "ocean": "Real ocean footage with a recording of waves on a beach, looped without a break. Good for relaxing, sleep or focus.",
-    "fire": "Real fire footage with the sound of a crackling fire (the sound is generated), looped without a break. Good for relaxing, reading or sleep.",
-    "river": "Real river and stream footage with recordings of flowing water, looped without a break. Good for focus, relaxing or sleep.",
-    "storm": "Thunder and rain recordings over real storm footage, looped without a break. Good for sleep, focus or a stormy evening in.",
-    "snow": "Real snowfall footage with a soft wind (the wind sound is generated), looped without a break. Good for relaxing, reading or sleep.",
-    "autumn": "Real autumn rain footage with rain recordings, looped without a break. Good for sleep, studying or a quiet morning.",
+    "rain": "Real rain footage and real rain recordings, looped without a break.",
+    "ocean": "Real ocean footage with a recording of waves on a beach, looped without a break.",
+    "river": "Real river and stream footage with recordings of flowing water, looped without a break.",
+    "storm": "Real thunderstorm recordings over real storm footage, looped without a break.",
+    "snow": "Real snowfall footage with a soft wind (the wind sound is generated), looped without a break.",
+    "autumn": "Real autumn rain footage with real rain recordings, looped without a break.",
 }
 CREDITS = "Footage and recordings: public domain / CC0 material from Wikimedia Commons, edited and looped."
 
@@ -33,7 +34,7 @@ def plan(idx: int) -> dict:
     kind = KINDS[idx % len(KINDS)]
     title = T[kind][(idx // len(KINDS)) % 3].format(m=MINUTES)
     return {"id": f"{kind}-{idx:04d}", "kind": kind, "hours": round(MINUTES / 60, 4), "seed": 1000 + idx, "title": title,
-            "description": f"{DESC[kind]}\n\n{CREDITS}",
+            "description": f"{DESC[kind]} {USE}\n\n{CREDITS}\n\n{HASH[kind]}",
             "tags": ["ambient", "sleep sounds", "relaxing", kind, "white noise", "study"]}
 
 

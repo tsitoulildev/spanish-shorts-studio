@@ -36,7 +36,7 @@ jobs:
         with: { python-version: "3.12" }
       - name: Install
         if: steps.cfg.outputs.ok == '1'
-        run: pip install numpy scipy requests && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: pip install numpy scipy requests pillow && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Pick slot
         if: steps.cfg.outputs.ok == '1'
         id: slot
@@ -68,12 +68,20 @@ jobs:
           seed=$(python3 -c "import os,json;print(json.loads(os.environ['PLAN'])['seed'])")
           python3 -m ambient.build2 --kind "$kind" --hours "$hours" --seed "$seed" --out ../out.mp4
           ls -la ../out.mp4
+      - name: Thumbnail
+        if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
+        working-directory: ambient_studio
+        env:
+          PLAN: ${{ steps.slot.outputs.plan }}
+        run: |
+          pip install pillow
+          python3 -m ambient.thumb "$PLAN" ../thumb.jpg && ls -la ../thumb.jpg
       - name: Upload
         if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0'
         id: up
         working-directory: ambient_studio
         run: |
-          vid=$(python3 -m ambient.upload ../out.mp4 '${{ steps.slot.outputs.plan }}')
+          vid=$(python3 -m ambient.upload ../out.mp4 '${{ steps.slot.outputs.plan }}' ../thumb.jpg)
           echo "video=$vid" >> "$GITHUB_OUTPUT"; echo "uploaded $vid"
       - name: Record in ledger
         if: steps.cfg.outputs.ok == '1' && steps.ledger.outputs.skip == '0' && steps.up.outputs.video != ''

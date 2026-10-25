@@ -74,7 +74,7 @@ def _duration(path) -> float:
 def video(kind: str, seed: int, tmp: pathlib.Path) -> pathlib.Path:
     """Every clip becomes a seamless loop of its own (its last 2 s cross-fade into its first 2 s: no reversed motion, no jump).
     The clips of a theme are shuffled by the seed and joined, each cut being a plain cut between two different scenes."""
-    refs = list(THEMES[kind]["video"]); np.random.default_rng(seed).shuffle(refs)
+    refs = list(THEMES[kind]["video"]); rest = refs[1:]; np.random.default_rng(seed).shuffle(rest); refs = refs[:1] + rest  # the first clip is the hero and always opens
     parts = []
     for i, ref in enumerate(refs):
         src = fetch(ref)
