@@ -43,12 +43,12 @@ def fetch(ref: str) -> pathlib.Path:
     if dst.exists() and dst.stat().st_size > 0:
         return dst
     url = "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(name.replace(" ", "_"))
-    for attempt in range(3):
+    for attempt in range(6):
         try:
-            r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "ambient-studio/1.0 (github actions; public-domain/CC0 only)"}), timeout=300)
-            dst.write_bytes(r.read()); time.sleep(5); return dst
+            r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "ambient-studio/1.0 (https://github.com/tsitoulildev/spanish-shorts-studio; downloads only CC0/public-domain files, one at a time)"}), timeout=300)
+            dst.write_bytes(r.read()); time.sleep(20); return dst
         except Exception as e:
-            print("retry", name, e); time.sleep(20)
+            print("retry", name, e); time.sleep(90)
     raise SystemExit(f"could not download {name}")
 
 
