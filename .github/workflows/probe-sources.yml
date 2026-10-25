@@ -15,6 +15,6 @@ jobs:
           for f in assets/audio/* assets/video/*; do echo "== $f"; ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 "$f"; done | tee -a fetch.log
       - name: publish
         run: |
-          mkdir -p /tmp/o; cp -r assets fetch.log /tmp/o/
+          mkdir -p /tmp/o; cp -r assets fetch.log /tmp/o/; git fetch -q origin ambient-assets:old; git checkout -q old -- assets/audio; cp -r assets/audio /tmp/o/assets/ || true
           git config user.name github-actions; git config user.email actions@github.com
           git checkout -q --orphan ambient-assets; git rm -rqf .; cp -r /tmp/o/* .; git add -A; git commit -qm "CC0/public-domain assets from Wikimedia Commons"; git push -f origin ambient-assets

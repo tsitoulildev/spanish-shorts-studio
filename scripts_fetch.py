@@ -12,9 +12,13 @@ FILES = {
  "video/lightning_storm.ogv": "6/66/Lightning_storm_over_Colorado%2C_USA.ogg",
 }
 os.makedirs("assets/audio", exist_ok=True); os.makedirs("assets/video", exist_ok=True)
+import time
 for dst, src in FILES.items():
-    try:
-        r = urllib.request.urlopen(urllib.request.Request(B + src, headers={"User-Agent": "ambient-fetch/1.0 (github actions)"}), timeout=120)
-        open("assets/" + dst, "wb").write(r.read()); print("ok", dst, os.path.getsize("assets/" + dst))
-    except Exception as e:
-        print("FAIL", dst, e)
+    if not dst.startswith("video"): continue
+    for attempt in range(6):
+      try:
+        r = urllib.request.urlopen(urllib.request.Request(B + src, headers={"User-Agent": "ambient-fetch/1.0 (github actions; contact via repo)"}), timeout=180)
+        open("assets/" + dst, "wb").write(r.read()); print("ok", dst, os.path.getsize("assets/" + dst)); break
+      except Exception as e:
+        print("retry", dst, e); time.sleep(45)
+    time.sleep(20)
