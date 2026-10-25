@@ -139,6 +139,8 @@ def make_loop(kind: str, seconds: float, seed: int, **kw) -> np.ndarray:
         x = rain(n_total, seed, intensity=kw.get("intensity", 1.4), thunder=True, roof=kw.get("roof", 0.6))
     elif kind == "fire":
         x = fire(n_total, seed, **kw)
+    elif kind == "wind":
+        x = wind(n_total, seed)
     elif kind == "rainfire":
         x = rain(n_total, seed, intensity=0.7, roof=0.3) * 0.8 + fire(n_total, seed, 0.9) * 0.7
     else:
@@ -157,3 +159,14 @@ def normalise(x: np.ndarray, target_rms_db: float = -26.0, peak_db: float = -3.0
 def write_wav(path, x: np.ndarray) -> None:
     from scipy.io import wavfile
     wavfile.write(str(path), SR, (np.clip(x.T, -1, 1) * 32767).astype(np.int16))
+
+
+def wind(seconds: float, seed: int) -> np.ndarray:
+    """Soft wind for snow scenes: low/mid band noise with slow gusts (generated, no recording)."""
+    n = int(seconds * SR)
+    ch = []
+    for c in range(2):
+        r = _rng(seed, f"wind{c}")
+        x = _band(_pink(r, n), 60, 1100, 2) * _slow(r, n, 0.06, 5.0)
+        ch.append(x + 0.15 * _band(r.normal(0, 1, n), 1500, 4000, 2) * _slow(r, n, 0.09, 6.0))
+    return np.stack(ch)
