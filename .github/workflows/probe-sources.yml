@@ -10,38 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: probe
-        run: |
-          mkdir -p out; R=out/results.txt
-          echo "== Commons audio search (rain/thunder/fire), with licence ==" >> $R
-          for q in "rain" "thunder" "fireplace" "crackling fire" "rainfall ambience"; do
-            curl -s --max-time 30 -G "https://commons.wikimedia.org/w/api.php" --data-urlencode "action=query" --data-urlencode "generator=search" --data-urlencode "gsrnamespace=6" --data-urlencode "gsrsearch=filetype:audio $q" --data-urlencode "gsrlimit=8" --data-urlencode "prop=imageinfo" --data-urlencode "iiprop=url|size|extmetadata|mime" --data-urlencode "iiextmetadatafilter=LicenseShortName|Artist" --data-urlencode "format=json" | python3 -c "
-import sys,json
-d=json.load(sys.stdin)
-for p in d.get('query',{}).get('pages',{}).values():
-    i=p['imageinfo'][0]; m=i['extmetadata']
-    print('$q|',p['title'],'|',m.get('LicenseShortName',{}).get('value'),'|',i['size'],'|',i['url'])
-" >> $R || echo "commons fail $q" >> $R
-          done
-          echo "== Commons video search ==" >> $R
-          for q in "rain window" "fireplace" "fire burning" "thunderstorm"; do
-            curl -s --max-time 30 -G "https://commons.wikimedia.org/w/api.php" --data-urlencode "action=query" --data-urlencode "generator=search" --data-urlencode "gsrnamespace=6" --data-urlencode "gsrsearch=filetype:video $q" --data-urlencode "gsrlimit=8" --data-urlencode "prop=imageinfo" --data-urlencode "iiprop=url|size|extmetadata" --data-urlencode "iiextmetadatafilter=LicenseShortName" --data-urlencode "format=json" | python3 -c "
-import sys,json
-d=json.load(sys.stdin)
-for p in d.get('query',{}).get('pages',{}).values():
-    i=p['imageinfo'][0]; m=i['extmetadata']
-    print('$q|',p['title'],'|',m.get('LicenseShortName',{}).get('value'),'|',i['size'],'|',i['url'])
-" >> $R || echo "commons v fail $q" >> $R
-          done
-          echo "== Pollinations ==" >> $R
-          curl -s --max-time 120 -o out/p.jpg -w "http %{http_code} size %{size_download} type %{content_type}\n" "https://image.pollinations.ai/prompt/cozy%20stone%20fireplace%20burning%20logs%20dark%20room%20photorealistic?width=1920&height=1080&nologo=true&seed=1" >> $R
-          echo "== Internet Archive search ==" >> $R
-          curl -s --max-time 30 "https://archive.org/advancedsearch.php?q=title%3A%28rain%29+AND+licenseurl%3A%28*publicdomain*%29+AND+mediatype%3Aaudio&fl%5B%5D=identifier&fl%5B%5D=title&rows=8&output=json" >> $R
-          echo >> $R
-          echo "== Freesound API reachable? ==" >> $R
-          curl -s --max-time 20 -o /dev/null -w "http %{http_code}\n" "https://freesound.org/apiv2/search/text/?query=rain" >> $R
-          curl -s --max-time 20 -o /dev/null -w "pexels http %{http_code}\n" "https://api.pexels.com/videos/search?query=rain" >> $R
-          cat $R
+        run: python3 scripts_probe.py | tee results.txt
       - name: publish results
         run: |
+          mkdir -p /tmp/o; cp results.txt /tmp/o/; cp p.jpg /tmp/o/ 2>/dev/null || true
           git config user.name github-actions; git config user.email actions@github.com
-          git checkout -q --orphan probe-results; git rm -rqf . ; cp -r out/results.txt out/p.jpg . 2>/dev/null; git add results.txt p.jpg; git commit -qm "probe results"; git push -f origin probe-results
+          git checkout -q --orphan probe-results; git rm -rqf .; cp /tmp/o/* .; git add -A; git commit -qm "probe results"; git push origin probe-results
