@@ -1,18 +1,20 @@
-name: Probe free sources
+name: Fetch assets
 on:
   push:
     branches: [probe-sources]
 permissions:
   contents: write
 jobs:
-  probe:
+  fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: probe
-        run: python3 scripts_probe.py | tee results.txt
-      - name: publish results
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: python3 scripts_fetch.py | tee fetch.log
+      - run: |
+          for f in assets/audio/* assets/video/*; do echo "== $f"; ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 "$f"; done | tee -a fetch.log
+      - name: publish
         run: |
-          mkdir -p /tmp/o; cp results.txt /tmp/o/; cp p.jpg /tmp/o/ 2>/dev/null || true
+          mkdir -p /tmp/o; cp -r assets fetch.log /tmp/o/
           git config user.name github-actions; git config user.email actions@github.com
-          git checkout -q --orphan probe-results; git rm -rqf .; cp /tmp/o/* .; git add -A; git commit -qm "probe results"; git push origin probe-results
+          git checkout -q --orphan ambient-assets; git rm -rqf .; cp -r /tmp/o/* .; git add -A; git commit -qm "CC0/public-domain assets from Wikimedia Commons"; git push -f origin ambient-assets
