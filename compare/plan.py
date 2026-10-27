@@ -46,9 +46,16 @@ def plan_for(a: str, b: str) -> dict:
     seed = 5000 + idx
     cats = render.choose(a, b, seed)
     words = "\n".join(f"{render.CAT[k][1]} = {render.CAT[k][0].capitalize().replace('gdp', 'GDP').replace('Gdp', 'GDP')}" for k in cats)
-    title = f"{ca['en']} vs {cb['en']} {flag_emoji(ca['iso2'])}{flag_emoji(cb['iso2'])} Who Wins? | {ca['es']} vs {cb['es']} #shorts"
-    if len(title) > 100:
-        title = f"{ca['en']} vs {cb['en']} {flag_emoji(ca['iso2'])}{flag_emoji(cb['iso2'])} Who Wins? #shorts"
+    year = render.DATA["fetched"][:4]
+    mil = "MS.MIL.XPND.CD" in cats
+    style = idx % 3
+    fl = f"{flag_emoji(ca['iso2'])}{flag_emoji(cb['iso2'])}"
+    if style == 0:
+        title = f"{ca['en']} vs {cb['en']} {fl} {'Military & Economy' if mil else 'Economy & Power'} Comparison {year} 🔥 #shorts"
+    elif style == 1:
+        title = f"{ca['en']} vs {cb['en']} {fl}: The Result Will Surprise You 😳 #shorts"
+    else:
+        title = f"{ca['en']} vs {cb['en']} {fl} — Who Really Wins? {len(cats)} Rounds #shorts"
     desc = (f"{ca['en']} vs {cb['en']}: {len(cats)} rounds with real data. Who wins? Comment your country!\n"
             f"{ca['es']} contra {cb['es']}: ¿quién gana? ¡Comenta tu país!\n\n"
             f"Learn the Spanish words in this video:\n{words}\n\n"
