@@ -1,0 +1,22 @@
+name: Comparison topic research (weekly)
+# Ranks country pairs by demand (Wikipedia interest, rivalry, and YouTube views when the secret YT_API_KEY exists) and stores
+# compare/data ranking on the branch compare-research. The daily Shorts workflow always takes the best pair not yet uploaded.
+on:
+  schedule:
+    - cron: "20 3 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [cmp-preview]
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    env:
+      YT_API_KEY: ${{ secrets.YT_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 compare/research.py /tmp/ranking.json
+      - run: |
+          git config user.name github-actions; git config user.email actions@github.com
+          git checkout -q --orphan compare-research; git rm -rqf .; cp /tmp/ranking.json ranking.json; git add ranking.json; git commit -qm "ranking $(date -u +%F)"; git push -f origin compare-research

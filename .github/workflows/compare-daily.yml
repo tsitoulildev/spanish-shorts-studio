@@ -8,7 +8,7 @@ on:
     - cron: "10 18 * * *"
   workflow_dispatch:
     inputs:
-      index: { description: "Slot index override (empty = from the clock)", default: "" }
+      pair: { description: "Optional pair override, e.g. 'ESP MEX' (empty = next from the research ranking)", default: "" }
   push:
     branches: [cmp-preview]
 concurrency:
@@ -47,18 +47,19 @@ jobs:
           done
           git config user.name github-actions; git config user.email actions@github.com
           git checkout -q --orphan cmp-previews; git rm -rqf .; cp /tmp/prev/*.mp4 .; git add -A; git commit -qm previews; git push -f origin cmp-previews
-      - name: Pick slot
+      - name: Pick the next pair (research ranking, skipping what was already uploaded)
         if: env.PREVIEW == '0'
         id: slot
         run: |
           set -eu
-          if [ -n "${{ inputs.index }}" ]; then idx="${{ inputs.index }}"; else
-            h=$(date -u +%H); case "$h" in 0[0-9]|1[0-1]) s=0;; 1[2-6]) s=1;; *) s=2;; esac
-            idx=$(cd compare && python3 -c "import datetime as d,plan as p;print(p.slot_index(d.datetime.utcnow(),$s))")
-          fi
-          (cd compare && python3 plan.py "$idx") > /tmp/plan.json
-          id=$(python3 -c "import json;print(json.load(open('/tmp/plan.json'))['id'])")
           git fetch -q origin compare-ledger 2>/dev/null && git show FETCH_HEAD:ledger.txt > /tmp/ledger.txt 2>/dev/null || : > /tmp/ledger.txt
+          git fetch -q origin compare-research 2>/dev/null && git show FETCH_HEAD:ranking.json > /tmp/ranking.json 2>/dev/null || echo "no ranking yet: curated order"
+          if [ -n "${{ inputs.pair }}" ]; then
+            set -- ${{ inputs.pair }}; (cd compare && python3 -c "import json,plan;print(json.dumps(plan.plan_for('$1','$2'),ensure_ascii=False))") > /tmp/plan.json
+          else
+            (cd compare && python3 plan.py next /tmp/ranking.json /tmp/ledger.txt) > /tmp/plan.json
+          fi
+          id=$(python3 -c "import json;print(json.load(open('/tmp/plan.json'))['id'])")
           if grep -q "^$id " /tmp/ledger.txt; then echo "skip=1" >> "$GITHUB_OUTPUT"; echo "already uploaded: $id"; else echo "skip=0" >> "$GITHUB_OUTPUT"; fi
           echo "id=$id" >> "$GITHUB_OUTPUT"; cat /tmp/plan.json
       - name: Voice and render
