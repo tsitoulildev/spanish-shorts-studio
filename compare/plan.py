@@ -16,19 +16,26 @@ def slot_index(now: dt.datetime, slot: int) -> int:
 def next_pair(ranking_path: str | None, ledger_path: str | None) -> tuple[str, str]:
     """Highest-ranked pair (research ranking) that has not been uploaded yet; curated list as fallback."""
     import os
-    used = set()
+    used, recent = set(), []
     if ledger_path and os.path.exists(ledger_path):
         for line in open(ledger_path):
             parts = line.split()[0].split("-") if line.strip() else []
             if len(parts) >= 3:
-                used.add(frozenset(parts[-2:]))
+                used.add(frozenset(parts[-2:])); recent += parts[-2:]
+    recent = set(recent[-4:])  # variety: neither country of the last two Shorts appears again right away
     order = []
     if ranking_path and os.path.exists(ranking_path):
         order = [(p["a"], p["b"]) for p in json.load(open(ranking_path))["pairs"]]
     order += list(CURATED)
-    for a, b in order:
-        if frozenset((a, b)) not in used and a in render.DATA["countries"] and b in render.DATA["countries"] and len(render.choose(a, b, 1)) >= 6:
-            return a, b
+    BLOCK = {frozenset(p) for p in (("RUS", "UKR"), ("ISR", "PSE"), ("IND", "PAK"), ("ARM", "AZE"), ("CHN", "TWN"))}  # active conflicts: no
+    for strict in (True, False):
+        for a, b in order:
+            if strict and (a in recent or b in recent):
+                continue
+            if frozenset((a, b)) in BLOCK:
+                continue
+            if frozenset((a, b)) not in used and a in render.DATA["countries"] and b in render.DATA["countries"] and len(render.choose(a, b, 1)) >= 6:
+                return a, b
     raise SystemExit("no unused pair left")
 
 
