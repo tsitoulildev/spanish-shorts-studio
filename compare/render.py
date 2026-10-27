@@ -71,6 +71,8 @@ def choose(a, b, seed, n=7):
     rng.shuffle(rest)
     cats = core + rest[: n - len(core)]
     rng.shuffle(cats)
+    if "MS.MIL.XPND.CD" in cats:
+        cats.remove("MS.MIL.XPND.CD"); cats.insert(0, "MS.MIL.XPND.CD")
     return cats
 
 
@@ -174,7 +176,7 @@ ease = lambda x: 1 - (1 - min(max(x, 0), 1)) ** 3
 def build(a, b, seed, out, voices=None):
     ca, cb = DATA["countries"][a], DATA["countries"][b]
     cats = choose(a, b, seed)
-    INTRO, ROUND, OUTRO = 2.8, 3.2, 3.4
+    INTRO, ROUND, OUTRO = 3.6, 3.2, 3.4
     total = INTRO + ROUND * len(cats) + OUTRO
     cardA, cardB = card(ca["iso2"], 380), card(cb["iso2"], 380)
     silA, silB = silhouette(a, ca["iso2"], 430), silhouette(b, cb["iso2"], 430)
@@ -200,8 +202,8 @@ def build(a, b, seed, out, voices=None):
                     s2 = sil.resize((max(1, int(sil.width * sc * 0.9)), max(1, int(sil.height * sc * 0.9))))
                     im.alpha_composite(s2, (int(cx - s2.width / 2), int(820 - s2.height / 2)))
             d = ImageDraw.Draw(im)
-            text_c(d, (540, 300), "WHO WINS?", font(96), (255, 255, 255), 4)
-            text_c(d, (540, 410), "¿Quién gana?", font(56, "Medium"), GOLD, 3)
+            for i, line in enumerate(hook_lines(a, b)):
+                text_c(d, (540, 250 + i * 92), line, fit(d, line, 980, 76), (255, 255, 255) if i == 0 else GOLD, 4)
             fA = fit(d, ca["en"].upper(), 460, 60); fB = fit(d, cb["en"].upper(), 460, 60)
             text_c(d, (290, 1130), ca["en"].upper(), fA, (255, 255, 255), 3)
             text_c(d, (790, 1130), cb["en"].upper(), fB, (255, 255, 255), 3)
@@ -345,6 +347,22 @@ def build(a, b, seed, out, voices=None):
     return {"a": a, "b": b, "cats": cats, "results": [r[0] for r in results], "seconds": total}
 
 
+def hook_lines(a, b):
+    """A surprising fact from the data as the opening line, then the question."""
+    ca, cb = DATA["countries"][a], DATA["countries"][b]
+    V = DATA["values"]
+    pa, pb = V["SP.POP.TOTL"][a][0], V["SP.POP.TOTL"][b][0]
+    big, small = (ca, cb) if pa > pb else (cb, ca)
+    r = max(pa, pb) / min(pa, pb)
+    if r >= 1.5:
+        return [f"{big['en'].upper()} HAS {r:.1f}x MORE PEOPLE", "...BUT WHO WINS?"]
+    ga, gb = V.get("NY.GDP.PCAP.CD", {}).get(a, [0])[0], V.get("NY.GDP.PCAP.CD", {}).get(b, [0])[0]
+    if ga and gb and max(ga, gb) / min(ga, gb) >= 1.3:
+        rich = ca if ga > gb else cb
+        return [f"{rich['en'].upper()} IS RICHER PER PERSON", "...BUT WHO WINS?"]
+    return ["ALMOST THE SAME SIZE...", "SO WHO WINS?"]
+
+
 def voice_name(txt):
     import hashlib
     return hashlib.md5(txt.encode()).hexdigest()[:12]
@@ -363,7 +381,11 @@ def outro_line(a, b, seed):
 
 
 def intro_line(a, b):
-    return f"{DATA['countries'][a]['en']} versus {DATA['countries'][b]['en']}. Who wins?"
+    l1, l2 = hook_lines(a, b)
+    l1 = l1.lower().replace("x more", " times more").rstrip(".")
+    for c in (DATA["countries"][a]["en"], DATA["countries"][b]["en"]):
+        l1 = l1.replace(c.lower(), c)
+    return f"{DATA['countries'][a]['en']} versus {DATA['countries'][b]['en']}. {l1[0].upper() + l1[1:]}. {l2.replace('...', '').capitalize()}"
 
 
 def voice_lines(a, b, seed):
