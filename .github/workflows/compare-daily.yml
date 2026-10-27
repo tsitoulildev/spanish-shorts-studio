@@ -32,9 +32,9 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - uses: actions/cache@v4
-        with: { path: ~/.cache/piper, key: piper-es-ar-daniela-high }
+        with: { path: ~/.cache/huggingface, key: hf-kokoro-compare }
       - name: Install
-        run: pip install numpy scipy pillow requests piper-tts && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng && pip install --extra-index-url https://download.pytorch.org/whl/cpu torch && pip install numpy scipy pillow requests kokoro soundfile
       - name: Preview samples
         if: env.PREVIEW == '1'
         run: |
@@ -42,7 +42,7 @@ jobs:
           mkdir -p /tmp/prev
           for p in "ESP MEX 11" "ARG BRA 12"; do
             set -- $p
-            bash compare/voices.sh $1 $2 $3 /tmp/v_$1_$2
+            python3 compare/voices_en.py $1 $2 $3 /tmp/v_$1_$2
             python3 compare/render.py $1 $2 --seed $3 --voices /tmp/v_$1_$2 --out /tmp/prev/$1_$2.mp4
           done
           git config user.name github-actions; git config user.email actions@github.com
@@ -66,7 +66,7 @@ jobs:
         run: |
           set -e
           read a b seed < <(python3 -c "import json;p=json.load(open('/tmp/plan.json'));print(p['a'],p['b'],p['seed'])")
-          bash compare/voices.sh $a $b $seed /tmp/voices
+          python3 compare/voices_en.py $a $b $seed /tmp/voices
           python3 compare/render.py $a $b --seed $seed --voices /tmp/voices --out out.mp4
           ffprobe -v error -show_entries format=duration -of csv=p=0 out.mp4
       - name: Upload

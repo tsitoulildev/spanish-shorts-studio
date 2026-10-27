@@ -174,7 +174,7 @@ ease = lambda x: 1 - (1 - min(max(x, 0), 1)) ** 3
 def build(a, b, seed, out, voices=None):
     ca, cb = DATA["countries"][a], DATA["countries"][b]
     cats = choose(a, b, seed)
-    INTRO, ROUND, OUTRO = 2.8, 4.0, 3.6
+    INTRO, ROUND, OUTRO = 2.8, 3.2, 3.4
     total = INTRO + ROUND * len(cats) + OUTRO
     cardA, cardB = card(ca["iso2"], 380), card(cb["iso2"], 380)
     silA, silB = silhouette(a, ca["iso2"], 430), silhouette(b, cb["iso2"], 430)
@@ -224,7 +224,7 @@ def build(a, b, seed, out, voices=None):
             text_c(d, (540, 357 - 32), "VS", font(46), (255, 255, 255))
             ri = min(int((t - INTRO) // ROUND), len(cats) - 1)
             tr = t - INTRO - ri * ROUND
-            done = [r for i, r in enumerate(results) if i < ri or (i == ri and tr >= 1.8)]
+            done = [r for i, r in enumerate(results) if i < ri or (i == ri and tr >= 1.5)]
             sa, sb = sum(r[0] == "A" for r in done), sum(r[0] == "B" for r in done)
             for sc, cx, col in ((sa, 250, BLUE), (sb, 830, RED)):
                 d.rounded_rectangle((cx - 60, 610, cx + 60, 700), 18, fill=col)
@@ -233,7 +233,7 @@ def build(a, b, seed, out, voices=None):
                 to = t - INTRO - ROUND * len(cats)
                 win = a if sa > sb else b if sb > sa else None
                 if fi == int((INTRO + ROUND * len(cats)) * FPS):
-                    events.append((t, "whoosh")); events.append((t + 0.3, "win"))
+                    events.append((t, "whoosh")); events.append((t + 0.3, "win")); events.append((t + 0.5, f"voice:{outro_line(a, b, seed)}"))
                 u = ease(to / 0.5)
                 if win:
                     cw = DATA["countries"][win]
@@ -254,28 +254,28 @@ def build(a, b, seed, out, voices=None):
             else:
                 k = cats[ri]; en, es, kind, hi = CAT[k]; who, va, vb = results[ri]
                 if abs(tr) < 1 / FPS / 2 or (fi == int((INTRO + ri * ROUND) * FPS)):
-                    events.append((t, "whoosh")); events.append((t + 0.3, f"voice:{es}")); events.append((t + 1.8, "ding"))
-                    for j in range(10):
-                        events.append((t + 0.45 + j * 0.11, "tick"))
+                    events.append((t, "whoosh")); events.append((t + 0.25, f"voice:{say(k)}")); events.append((t + 1.5, "ding"))
+                    for j in range(8):
+                        events.append((t + 0.35 + j * 0.11, "tick"))
                 slide = ease(tr / 0.35)
                 x0 = int((1 - slide) * 300)
                 text_c(d, (540 + x0, 760), en, fit(d, en, 960, 66), (255, 255, 255), 3)
                 text_c(d, (540 + x0, 845), es, fit(d, es, 900, 48, "Medium"), GOLD, 2)
                 yr = max(DATA["values"][k][a][1], DATA["values"][k][b][1])
                 text_c(d, (540, 905), f"{yr} · World Bank", font(26, "Medium"), (148, 163, 184))
-                g = ease((tr - 0.35) / 1.3)
+                g = ease((tr - 0.3) / 1.0)
                 vmax = max(abs(va), abs(vb)) or 1
                 base, top = 1480, 1060
                 for v, cx, col, side in ((va, 290, BLUE, "A"), (vb, 790, RED, "B")):
                     hfrac = max(0.06, abs(v) / vmax)
                     hpx = int((base - top) * hfrac * g)
                     c = col
-                    if tr >= 1.8:
+                    if tr >= 1.5:
                         c = GREEN if who == side else GREY
                     d.rounded_rectangle((cx - 130, base - hpx, cx + 130, base), 20, fill=c)
                     text_c(d, (cx, base - hpx - 78), fmt(v * g, kind), fit(d, fmt(v, kind), 380, 54), (255, 255, 255), 3)
-                    if tr >= 1.8 and who == side:
-                        pop = ease((tr - 1.8) / 0.25)
+                    if tr >= 1.5 and who == side:
+                        pop = ease((tr - 1.5) / 0.25)
                         rr = int(40 * pop)
                         cy = base - hpx + 60 if hpx > 140 else base - hpx - 130  # inside the bar when it is tall enough
                         d.ellipse((cx - rr, cy - rr, cx + rr, cy + rr), fill=(21, 128, 61), outline=(255, 255, 255), width=4)
@@ -328,12 +328,12 @@ def build(a, b, seed, out, voices=None):
                     voice_cache[txt] = x / (np.abs(x).max() + 1e-9) * 0.9
                 add(voice_cache[txt], at, 1.0, target=vtrack)
     if vdir:
-        intro_txt = f"{ca['es']} contra {cb['es']}"
+        intro_txt = intro_line(a, b)
         f = vdir / (voice_name(intro_txt) + ".wav")
         if f.exists():
             vsr, x = wavfile.read(str(f)); x = x.astype(float) / 32768
             x = np.interp(np.arange(int(len(x) * sr / vsr)) / sr, np.arange(len(x)) / vsr, x)
-            add(x / (np.abs(x).max() + 1e-9) * 0.9, 0.5, 1.0, target=vtrack)
+            add(x / (np.abs(x).max() + 1e-9) * 0.9, 0.3, 1.0, target=vtrack)
     # duck the music under the voice
     env = np.convolve(np.abs(vtrack), np.ones(4410) / 4410, mode="same")
     duck = 1 - 0.55 * np.clip(env / 0.05, 0, 1)
@@ -350,9 +350,24 @@ def voice_name(txt):
     return hashlib.md5(txt.encode()).hexdigest()[:12]
 
 
+def say(k):
+    return CAT[k][0].capitalize().replace("gdp", "GDP").replace("Gdp", "GDP")
+
+
+def outro_line(a, b, seed):
+    res = [("A" if (DATA["values"][k][a][0] > DATA["values"][k][b][0]) == CAT[k][3] else "B") for k in choose(a, b, seed)]
+    sa, sb = res.count("A"), res.count("B")
+    if sa == sb:
+        return "It's a tie!"
+    return f"{DATA['countries'][a if sa > sb else b]['en']} wins!"
+
+
+def intro_line(a, b):
+    return f"{DATA['countries'][a]['en']} versus {DATA['countries'][b]['en']}. Who wins?"
+
+
 def voice_lines(a, b, seed):
-    ca, cb = DATA["countries"][a], DATA["countries"][b]
-    return [f"{ca['es']} contra {cb['es']}"] + [CAT[k][1] for k in choose(a, b, seed)]
+    return [intro_line(a, b)] + [say(k) for k in choose(a, b, seed)] + [outro_line(a, b, seed)]
 
 
 if __name__ == "__main__":
