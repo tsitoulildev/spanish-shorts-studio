@@ -1,0 +1,35 @@
+name: YouTube token info
+# Prints only non-secret facts about the upload credentials: the Google Cloud project number (first part of the client id),
+# the scopes the refresh token grants, and the channel the token belongs to (if the scopes allow reading it).
+on:
+  push:
+    branches: [token-info]
+permissions:
+  contents: write
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    env:
+      CID: ${{ secrets.YT_CLIENT_ID }}
+      CSEC: ${{ secrets.YT_CLIENT_SECRET }}
+      RT: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python3 - <<'PY' > /tmp/info.txt
+          import json, os, urllib.parse, urllib.request
+          cid = os.environ["CID"]
+          print("project number:", cid.split("-")[0])
+          body = urllib.parse.urlencode({"client_id": cid, "client_secret": os.environ["CSEC"], "refresh_token": os.environ["RT"], "grant_type": "refresh_token"}).encode()
+          tok = json.load(urllib.request.urlopen("https://oauth2.googleapis.com/token", body))
+          print("scopes:", tok.get("scope"))
+          at = tok["access_token"]
+          try:
+              r = json.load(urllib.request.urlopen(urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", headers={"Authorization": "Bearer " + at})))
+              print("channel:", [(c["id"], c["snippet"]["title"]) for c in r.get("items", [])])
+          except Exception as e:
+              print("channel: not readable with these scopes (", e, ")")
+          PY
+          cat /tmp/info.txt
+          git config user.name github-actions; git config user.email actions@github.com
+          git checkout -q --orphan token-info-result; git rm -rqf .; cp /tmp/info.txt info.txt; git add info.txt; git commit -qm info; git push -f origin token-info-result
