@@ -42,7 +42,7 @@ CAT = {
     "EG.ELC.RNEW.ZS": ("RENEWABLE ELECTRICITY", "Electricidad renovable", "pct", True),
     "IS.AIR.PSGR": ("AIR PASSENGERS", "Pasajeros aéreos", "count", True),
 }
-CORE = ["SP.POP.TOTL", "AG.SRF.TOTL.K2", "NY.GDP.PCAP.CD"]
+CORE = ["SP.POP.TOTL", "NY.GDP.MKTP.CD", "MS.MIL.XPND.CD", "NY.GDP.PCAP.CD"]  # economy and military are the classic hooks of the genre
 BLUE, RED, GREEN, GREY, GOLD = (59, 130, 246), (239, 68, 68), (34, 197, 94), (71, 85, 105), (250, 204, 21)
 
 
