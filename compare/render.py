@@ -265,7 +265,7 @@ def build(a, b, seed, out, voices=None):
                 text_c(d, (540, 905), f"{yr} · World Bank", font(26, "Medium"), (148, 163, 184))
                 g = ease((tr - 0.35) / 1.3)
                 vmax = max(abs(va), abs(vb)) or 1
-                base, top = 1480, 1010
+                base, top = 1480, 1060
                 for v, cx, col, side in ((va, 290, BLUE, "A"), (vb, 790, RED, "B")):
                     hfrac = max(0.06, abs(v) / vmax)
                     hpx = int((base - top) * hfrac * g)
@@ -277,9 +277,10 @@ def build(a, b, seed, out, voices=None):
                     if tr >= 1.8 and who == side:
                         pop = ease((tr - 1.8) / 0.25)
                         rr = int(40 * pop)
-                        d.ellipse((cx - rr, base - hpx - 150 - rr, cx + rr, base - hpx - 150 + rr), fill=GREEN, outline=(255, 255, 255), width=4)
+                        cy = base - hpx + 60 if hpx > 140 else base - hpx - 130  # inside the bar when it is tall enough
+                        d.ellipse((cx - rr, cy - rr, cx + rr, cy + rr), fill=(21, 128, 61), outline=(255, 255, 255), width=4)
                         if pop > 0.6:
-                            d.line((cx - 18, base - hpx - 150, cx - 4, base - hpx - 136, cx + 20, base - hpx - 166), fill=(255, 255, 255), width=8)
+                            d.line((cx - 18, cy, cx - 4, cy + 14, cx + 20, cy - 16), fill=(255, 255, 255), width=8)
                         text_c(d, (cx, base + 10), "+1", font(44), GREEN, 2)
                 # progress dots
                 for i in range(len(cats)):
