@@ -17,6 +17,7 @@ from pairs import CURATED  # noqa: E402
 UA = {"User-Agent": "compare-shorts research (https://github.com/tsitoulildev/spanish-shorts-studio)"}
 HUBS = {"ESP", "MEX", "ARG", "COL", "CHL", "PER", "USA", "GBR", "CAN", "AUS", "VEN", "ECU", "CUB", "URY", "BOL", "PRY", "DOM", "GTM", "HND",
         "CRI", "PAN", "SLV", "NIC", "IRL", "NZL"}
+RICH = {"USA", "GBR", "CAN", "AUS"}
 MAX_YT = int(os.environ.get("MAX_YT", "40"))
 
 
@@ -87,6 +88,8 @@ def main(out):
             if a not in HUBS and b not in HUBS:
                 continue
             s = math.sqrt(interest[a] * interest[b])
+            if a in RICH or b in RICH:  # English-speaking high-RPM audiences (US/UK/CA/AU): Shorts pay several times more there
+                s *= 1.3
             if frozenset((a, b)) in cur:
                 s *= 2
             elif DATA["countries"][a]["region"] == DATA["countries"][b]["region"]:
