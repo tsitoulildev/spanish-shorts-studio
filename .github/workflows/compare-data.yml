@@ -1,0 +1,17 @@
+name: Comparison data snapshot
+on:
+  push:
+    branches: [cmp-data]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: mkdir -p compare/data && python3 compare/fetch_data.py compare/data/worldbank.json
+      - run: |
+          cp compare/data/worldbank.json /tmp/wb.json
+          git config user.name github-actions; git config user.email actions@github.com
+          git checkout -q --orphan cmp-data-result; git rm -rqf .; cp /tmp/wb.json worldbank.json; git add worldbank.json; git commit -qm "World Bank snapshot"; git push -f origin cmp-data-result

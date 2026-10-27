@@ -19,7 +19,7 @@ def upload(video: str, p: dict, privacy: str) -> str:
     if r.status_code != 200:
         raise SystemExit(f"token refresh failed: HTTP {r.status_code}")
     h = {"Authorization": f"Bearer {r.json()['access_token']}"}
-    meta = {"snippet": {"title": p["title"][:100], "description": p["description"], "tags": p["tags"], "categoryId": "10"},
+    meta = {"snippet": {"title": p["title"][:100], "description": p["description"], "tags": p["tags"], "categoryId": p.get("categoryId", "10")},
             "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False}}
     size = os.path.getsize(video)
     init = requests.post(UPLOAD_URL, params={"uploadType": "resumable", "part": "snippet,status"}, json=meta, timeout=60,

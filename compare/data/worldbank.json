@@ -1,0 +1,17774 @@
+{
+"source": "World Bank Open Data (CC BY 4.0), data.worldbank.org",
+"fetched": "2026-10-27",
+"countries": {
+"ABW": {
+"iso2": "aw",
+"en": "Aruba",
+"es": "Aruba",
+"region": "Latin America & Caribbean "
+},
+"AFG": {
+"iso2": "af",
+"en": "Afghanistan",
+"es": "Afganistán",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"AGO": {
+"iso2": "ao",
+"en": "Angola",
+"es": "Angola",
+"region": "Sub-Saharan Africa "
+},
+"ALB": {
+"iso2": "al",
+"en": "Albania",
+"es": "Albania",
+"region": "Europe & Central Asia"
+},
+"AND": {
+"iso2": "ad",
+"en": "Andorra",
+"es": "Andorra",
+"region": "Europe & Central Asia"
+},
+"ARE": {
+"iso2": "ae",
+"en": "United Arab Emirates",
+"es": "Emiratos Árabes Unidos",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ARG": {
+"iso2": "ar",
+"en": "Argentina",
+"es": "Argentina",
+"region": "Latin America & Caribbean "
+},
+"ARM": {
+"iso2": "am",
+"en": "Armenia",
+"es": "Armenia",
+"region": "Europe & Central Asia"
+},
+"ASM": {
+"iso2": "as",
+"en": "American Samoa",
+"es": "Samoa Americana",
+"region": "East Asia & Pacific"
+},
+"ATG": {
+"iso2": "ag",
+"en": "Antigua and Barbuda",
+"es": "Antigua y Barbuda",
+"region": "Latin America & Caribbean "
+},
+"AUS": {
+"iso2": "au",
+"en": "Australia",
+"es": "Australia",
+"region": "East Asia & Pacific"
+},
+"AUT": {
+"iso2": "at",
+"en": "Austria",
+"es": "Austria",
+"region": "Europe & Central Asia"
+},
+"AZE": {
+"iso2": "az",
+"en": "Azerbaijan",
+"es": "Azerbaiyán",
+"region": "Europe & Central Asia"
+},
+"BDI": {
+"iso2": "bi",
+"en": "Burundi",
+"es": "Burundi",
+"region": "Sub-Saharan Africa "
+},
+"BEL": {
+"iso2": "be",
+"en": "Belgium",
+"es": "Bélgica",
+"region": "Europe & Central Asia"
+},
+"BEN": {
+"iso2": "bj",
+"en": "Benin",
+"es": "Benin",
+"region": "Sub-Saharan Africa "
+},
+"BFA": {
+"iso2": "bf",
+"en": "Burkina Faso",
+"es": "Burkina Faso",
+"region": "Sub-Saharan Africa "
+},
+"BGD": {
+"iso2": "bd",
+"en": "Bangladesh",
+"es": "Bangladesh",
+"region": "South Asia"
+},
+"BGR": {
+"iso2": "bg",
+"en": "Bulgaria",
+"es": "Bulgaria",
+"region": "Europe & Central Asia"
+},
+"BHR": {
+"iso2": "bh",
+"en": "Bahrain",
+"es": "Bahrein",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"BHS": {
+"iso2": "bs",
+"en": "Bahamas, The",
+"es": "Bahamas",
+"region": "Latin America & Caribbean "
+},
+"BIH": {
+"iso2": "ba",
+"en": "Bosnia and Herzegovina",
+"es": "Bosnia y Herzegovina",
+"region": "Europe & Central Asia"
+},
+"BLR": {
+"iso2": "by",
+"en": "Belarus",
+"es": "Belarús",
+"region": "Europe & Central Asia"
+},
+"BLZ": {
+"iso2": "bz",
+"en": "Belize",
+"es": "Belice",
+"region": "Latin America & Caribbean "
+},
+"BMU": {
+"iso2": "bm",
+"en": "Bermuda",
+"es": "Bermudas",
+"region": "North America"
+},
+"BOL": {
+"iso2": "bo",
+"en": "Bolivia",
+"es": "Bolivia",
+"region": "Latin America & Caribbean "
+},
+"BRA": {
+"iso2": "br",
+"en": "Brazil",
+"es": "Brasil",
+"region": "Latin America & Caribbean "
+},
+"BRB": {
+"iso2": "bb",
+"en": "Barbados",
+"es": "Barbados",
+"region": "Latin America & Caribbean "
+},
+"BRN": {
+"iso2": "bn",
+"en": "Brunei Darussalam",
+"es": "Brunei Darussalam",
+"region": "East Asia & Pacific"
+},
+"BTN": {
+"iso2": "bt",
+"en": "Bhutan",
+"es": "Bhután",
+"region": "South Asia"
+},
+"BWA": {
+"iso2": "bw",
+"en": "Botswana",
+"es": "Botswana",
+"region": "Sub-Saharan Africa "
+},
+"CAF": {
+"iso2": "cf",
+"en": "Central African Republic",
+"es": "República Centroafricana",
+"region": "Sub-Saharan Africa "
+},
+"CAN": {
+"iso2": "ca",
+"en": "Canada",
+"es": "Canadá",
+"region": "North America"
+},
+"CHE": {
+"iso2": "ch",
+"en": "Switzerland",
+"es": "Suiza",
+"region": "Europe & Central Asia"
+},
+"CHI": {
+"iso2": "jg",
+"en": "Channel Islands",
+"es": "Islas del Canal",
+"region": "Europe & Central Asia"
+},
+"CHL": {
+"iso2": "cl",
+"en": "Chile",
+"es": "Chile",
+"region": "Latin America & Caribbean "
+},
+"CHN": {
+"iso2": "cn",
+"en": "China",
+"es": "China",
+"region": "East Asia & Pacific"
+},
+"CIV": {
+"iso2": "ci",
+"en": "Cote d'Ivoire",
+"es": "Côte d'Ivoire",
+"region": "Sub-Saharan Africa "
+},
+"CMR": {
+"iso2": "cm",
+"en": "Cameroon",
+"es": "Camerún",
+"region": "Sub-Saharan Africa "
+},
+"COD": {
+"iso2": "cd",
+"en": "Congo, Dem. Rep.",
+"es": "Congo, República Democrática del",
+"region": "Sub-Saharan Africa "
+},
+"COG": {
+"iso2": "cg",
+"en": "Congo, Rep.",
+"es": "Congo, República del",
+"region": "Sub-Saharan Africa "
+},
+"COL": {
+"iso2": "co",
+"en": "Colombia",
+"es": "Colombia",
+"region": "Latin America & Caribbean "
+},
+"COM": {
+"iso2": "km",
+"en": "Comoros",
+"es": "Comoras",
+"region": "Sub-Saharan Africa "
+},
+"CPV": {
+"iso2": "cv",
+"en": "Cabo Verde",
+"es": "Cabo Verde",
+"region": "Sub-Saharan Africa "
+},
+"CRI": {
+"iso2": "cr",
+"en": "Costa Rica",
+"es": "Costa Rica",
+"region": "Latin America & Caribbean "
+},
+"CUB": {
+"iso2": "cu",
+"en": "Cuba",
+"es": "Cuba",
+"region": "Latin America & Caribbean "
+},
+"CUW": {
+"iso2": "cw",
+"en": "Curacao",
+"es": "Curacao",
+"region": "Latin America & Caribbean "
+},
+"CYM": {
+"iso2": "ky",
+"en": "Cayman Islands",
+"es": "Islas Caimán",
+"region": "Latin America & Caribbean "
+},
+"CYP": {
+"iso2": "cy",
+"en": "Cyprus",
+"es": "Chipre",
+"region": "Europe & Central Asia"
+},
+"CZE": {
+"iso2": "cz",
+"en": "Czechia",
+"es": "República Checa",
+"region": "Europe & Central Asia"
+},
+"DEU": {
+"iso2": "de",
+"en": "Germany",
+"es": "Alemania",
+"region": "Europe & Central Asia"
+},
+"DJI": {
+"iso2": "dj",
+"en": "Djibouti",
+"es": "Djibouti",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"DMA": {
+"iso2": "dm",
+"en": "Dominica",
+"es": "Dominica",
+"region": "Latin America & Caribbean "
+},
+"DNK": {
+"iso2": "dk",
+"en": "Denmark",
+"es": "Dinamarca",
+"region": "Europe & Central Asia"
+},
+"DOM": {
+"iso2": "do",
+"en": "Dominican Republic",
+"es": "República Dominicana",
+"region": "Latin America & Caribbean "
+},
+"DZA": {
+"iso2": "dz",
+"en": "Algeria",
+"es": "Argelia",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ECU": {
+"iso2": "ec",
+"en": "Ecuador",
+"es": "Ecuador",
+"region": "Latin America & Caribbean "
+},
+"EGY": {
+"iso2": "eg",
+"en": "Egypt, Arab Rep.",
+"es": "Egipto, República Árabe de",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ERI": {
+"iso2": "er",
+"en": "Eritrea",
+"es": "Eritrea",
+"region": "Sub-Saharan Africa "
+},
+"ESP": {
+"iso2": "es",
+"en": "Spain",
+"es": "España",
+"region": "Europe & Central Asia"
+},
+"EST": {
+"iso2": "ee",
+"en": "Estonia",
+"es": "Estonia",
+"region": "Europe & Central Asia"
+},
+"ETH": {
+"iso2": "et",
+"en": "Ethiopia",
+"es": "Etiopía",
+"region": "Sub-Saharan Africa "
+},
+"FIN": {
+"iso2": "fi",
+"en": "Finland",
+"es": "Finlandia",
+"region": "Europe & Central Asia"
+},
+"FJI": {
+"iso2": "fj",
+"en": "Fiji",
+"es": "Fiji",
+"region": "East Asia & Pacific"
+},
+"FRA": {
+"iso2": "fr",
+"en": "France",
+"es": "Francia",
+"region": "Europe & Central Asia"
+},
+"FRO": {
+"iso2": "fo",
+"en": "Faroe Islands",
+"es": "Islas Feroe",
+"region": "Europe & Central Asia"
+},
+"FSM": {
+"iso2": "fm",
+"en": "Micronesia, Fed. Sts.",
+"es": "Micronesia (Estados Federados de)",
+"region": "East Asia & Pacific"
+},
+"GAB": {
+"iso2": "ga",
+"en": "Gabon",
+"es": "Gabón",
+"region": "Sub-Saharan Africa "
+},
+"GBR": {
+"iso2": "gb",
+"en": "United Kingdom",
+"es": "Reino Unido",
+"region": "Europe & Central Asia"
+},
+"GEO": {
+"iso2": "ge",
+"en": "Georgia",
+"es": "Georgia",
+"region": "Europe & Central Asia"
+},
+"GHA": {
+"iso2": "gh",
+"en": "Ghana",
+"es": "Ghana",
+"region": "Sub-Saharan Africa "
+},
+"GIB": {
+"iso2": "gi",
+"en": "Gibraltar",
+"es": "Gibraltar",
+"region": "Europe & Central Asia"
+},
+"GIN": {
+"iso2": "gn",
+"en": "Guinea",
+"es": "Guinea",
+"region": "Sub-Saharan Africa "
+},
+"GMB": {
+"iso2": "gm",
+"en": "Gambia, The",
+"es": "Gambia",
+"region": "Sub-Saharan Africa "
+},
+"GNB": {
+"iso2": "gw",
+"en": "Guinea-Bissau",
+"es": "Guinea-Bissau",
+"region": "Sub-Saharan Africa "
+},
+"GNQ": {
+"iso2": "gq",
+"en": "Equatorial Guinea",
+"es": "Guinea Ecuatorial",
+"region": "Sub-Saharan Africa "
+},
+"GRC": {
+"iso2": "gr",
+"en": "Greece",
+"es": "Grecia",
+"region": "Europe & Central Asia"
+},
+"GRD": {
+"iso2": "gd",
+"en": "Grenada",
+"es": "Granada",
+"region": "Latin America & Caribbean "
+},
+"GRL": {
+"iso2": "gl",
+"en": "Greenland",
+"es": "Groenlandia",
+"region": "Europe & Central Asia"
+},
+"GTM": {
+"iso2": "gt",
+"en": "Guatemala",
+"es": "Guatemala",
+"region": "Latin America & Caribbean "
+},
+"GUM": {
+"iso2": "gu",
+"en": "Guam",
+"es": "Guam",
+"region": "East Asia & Pacific"
+},
+"GUY": {
+"iso2": "gy",
+"en": "Guyana",
+"es": "Guyana",
+"region": "Latin America & Caribbean "
+},
+"HKG": {
+"iso2": "hk",
+"en": "Hong Kong SAR, China",
+"es": "Hong Kong, Región Administrativa Especial",
+"region": "East Asia & Pacific"
+},
+"HND": {
+"iso2": "hn",
+"en": "Honduras",
+"es": "Honduras",
+"region": "Latin America & Caribbean "
+},
+"HRV": {
+"iso2": "hr",
+"en": "Croatia",
+"es": "Croacia",
+"region": "Europe & Central Asia"
+},
+"HTI": {
+"iso2": "ht",
+"en": "Haiti",
+"es": "Haití",
+"region": "Latin America & Caribbean "
+},
+"HUN": {
+"iso2": "hu",
+"en": "Hungary",
+"es": "Hungría",
+"region": "Europe & Central Asia"
+},
+"IDN": {
+"iso2": "id",
+"en": "Indonesia",
+"es": "Indonesia",
+"region": "East Asia & Pacific"
+},
+"IMN": {
+"iso2": "im",
+"en": "Isle of Man",
+"es": "Isla de Man",
+"region": "Europe & Central Asia"
+},
+"IND": {
+"iso2": "in",
+"en": "India",
+"es": "India",
+"region": "South Asia"
+},
+"IRL": {
+"iso2": "ie",
+"en": "Ireland",
+"es": "Irlanda",
+"region": "Europe & Central Asia"
+},
+"IRN": {
+"iso2": "ir",
+"en": "Iran, Islamic Rep.",
+"es": "Irán, República Islámica del",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"IRQ": {
+"iso2": "iq",
+"en": "Iraq",
+"es": "Iraq",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ISL": {
+"iso2": "is",
+"en": "Iceland",
+"es": "Islandia",
+"region": "Europe & Central Asia"
+},
+"ISR": {
+"iso2": "il",
+"en": "Israel",
+"es": "Israel",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ITA": {
+"iso2": "it",
+"en": "Italy",
+"es": "Italia",
+"region": "Europe & Central Asia"
+},
+"JAM": {
+"iso2": "jm",
+"en": "Jamaica",
+"es": "Jamaica",
+"region": "Latin America & Caribbean "
+},
+"JOR": {
+"iso2": "jo",
+"en": "Jordan",
+"es": "Jordania",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"JPN": {
+"iso2": "jp",
+"en": "Japan",
+"es": "Japón",
+"region": "East Asia & Pacific"
+},
+"KAZ": {
+"iso2": "kz",
+"en": "Kazakhstan",
+"es": "Kazajstán",
+"region": "Europe & Central Asia"
+},
+"KEN": {
+"iso2": "ke",
+"en": "Kenya",
+"es": "Kenya",
+"region": "Sub-Saharan Africa "
+},
+"KGZ": {
+"iso2": "kg",
+"en": "Kyrgyz Republic",
+"es": "Kirguistán",
+"region": "Europe & Central Asia"
+},
+"KHM": {
+"iso2": "kh",
+"en": "Cambodia",
+"es": "Camboya",
+"region": "East Asia & Pacific"
+},
+"KIR": {
+"iso2": "ki",
+"en": "Kiribati",
+"es": "Kiribati",
+"region": "East Asia & Pacific"
+},
+"KNA": {
+"iso2": "kn",
+"en": "St. Kitts and Nevis",
+"es": "Saint Kitts y Nevis",
+"region": "Latin America & Caribbean "
+},
+"KOR": {
+"iso2": "kr",
+"en": "Korea, Rep.",
+"es": "Corea, República de",
+"region": "East Asia & Pacific"
+},
+"KWT": {
+"iso2": "kw",
+"en": "Kuwait",
+"es": "Kuwait",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"LAO": {
+"iso2": "la",
+"en": "Lao PDR",
+"es": "República Democrática Popular Lao",
+"region": "East Asia & Pacific"
+},
+"LBN": {
+"iso2": "lb",
+"en": "Lebanon",
+"es": "Líbano",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"LBR": {
+"iso2": "lr",
+"en": "Liberia",
+"es": "Liberia",
+"region": "Sub-Saharan Africa "
+},
+"LBY": {
+"iso2": "ly",
+"en": "Libya",
+"es": "Libia",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"LCA": {
+"iso2": "lc",
+"en": "St. Lucia",
+"es": "Santa Lucía",
+"region": "Latin America & Caribbean "
+},
+"LIE": {
+"iso2": "li",
+"en": "Liechtenstein",
+"es": "Liechtenstein",
+"region": "Europe & Central Asia"
+},
+"LKA": {
+"iso2": "lk",
+"en": "Sri Lanka",
+"es": "Sri Lanka",
+"region": "South Asia"
+},
+"LSO": {
+"iso2": "ls",
+"en": "Lesotho",
+"es": "Lesotho",
+"region": "Sub-Saharan Africa "
+},
+"LTU": {
+"iso2": "lt",
+"en": "Lithuania",
+"es": "Lituania",
+"region": "Europe & Central Asia"
+},
+"LUX": {
+"iso2": "lu",
+"en": "Luxembourg",
+"es": "Luxemburgo",
+"region": "Europe & Central Asia"
+},
+"LVA": {
+"iso2": "lv",
+"en": "Latvia",
+"es": "Letonia",
+"region": "Europe & Central Asia"
+},
+"MAC": {
+"iso2": "mo",
+"en": "Macao SAR, China",
+"es": "Región Administrativa Especial de Macao, China",
+"region": "East Asia & Pacific"
+},
+"MAF": {
+"iso2": "mf",
+"en": "St. Martin (French part)",
+"es": "Isla de San Martín (parte francesa)",
+"region": "Latin America & Caribbean "
+},
+"MAR": {
+"iso2": "ma",
+"en": "Morocco",
+"es": "Marruecos",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"MCO": {
+"iso2": "mc",
+"en": "Monaco",
+"es": "Mónaco",
+"region": "Europe & Central Asia"
+},
+"MDA": {
+"iso2": "md",
+"en": "Moldova",
+"es": "República de Moldova",
+"region": "Europe & Central Asia"
+},
+"MDG": {
+"iso2": "mg",
+"en": "Madagascar",
+"es": "Madagascar",
+"region": "Sub-Saharan Africa "
+},
+"MDV": {
+"iso2": "mv",
+"en": "Maldives",
+"es": "Maldivas",
+"region": "South Asia"
+},
+"MEX": {
+"iso2": "mx",
+"en": "Mexico",
+"es": "México",
+"region": "Latin America & Caribbean "
+},
+"MHL": {
+"iso2": "mh",
+"en": "Marshall Islands",
+"es": "Islas Marshall",
+"region": "East Asia & Pacific"
+},
+"MKD": {
+"iso2": "mk",
+"en": "North Macedonia",
+"es": "Macedonia del Norte",
+"region": "Europe & Central Asia"
+},
+"MLI": {
+"iso2": "ml",
+"en": "Mali",
+"es": "Malí",
+"region": "Sub-Saharan Africa "
+},
+"MLT": {
+"iso2": "mt",
+"en": "Malta",
+"es": "Malta",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"MMR": {
+"iso2": "mm",
+"en": "Myanmar",
+"es": "Myanmar",
+"region": "East Asia & Pacific"
+},
+"MNE": {
+"iso2": "me",
+"en": "Montenegro",
+"es": "Montenegro",
+"region": "Europe & Central Asia"
+},
+"MNG": {
+"iso2": "mn",
+"en": "Mongolia",
+"es": "Mongolia",
+"region": "East Asia & Pacific"
+},
+"MNP": {
+"iso2": "mp",
+"en": "Northern Mariana Islands",
+"es": "Mariana",
+"region": "East Asia & Pacific"
+},
+"MOZ": {
+"iso2": "mz",
+"en": "Mozambique",
+"es": "Mozambique",
+"region": "Sub-Saharan Africa "
+},
+"MRT": {
+"iso2": "mr",
+"en": "Mauritania",
+"es": "Mauritania",
+"region": "Sub-Saharan Africa "
+},
+"MUS": {
+"iso2": "mu",
+"en": "Mauritius",
+"es": "Mauricio",
+"region": "Sub-Saharan Africa "
+},
+"MWI": {
+"iso2": "mw",
+"en": "Malawi",
+"es": "Malawi",
+"region": "Sub-Saharan Africa "
+},
+"MYS": {
+"iso2": "my",
+"en": "Malaysia",
+"es": "Malasia",
+"region": "East Asia & Pacific"
+},
+"NAM": {
+"iso2": "na",
+"en": "Namibia",
+"es": "Namibia",
+"region": "Sub-Saharan Africa "
+},
+"NCL": {
+"iso2": "nc",
+"en": "New Caledonia",
+"es": "Nueva Caledonia",
+"region": "East Asia & Pacific"
+},
+"NER": {
+"iso2": "ne",
+"en": "Niger",
+"es": "Níger",
+"region": "Sub-Saharan Africa "
+},
+"NGA": {
+"iso2": "ng",
+"en": "Nigeria",
+"es": "Nigeria",
+"region": "Sub-Saharan Africa "
+},
+"NIC": {
+"iso2": "ni",
+"en": "Nicaragua",
+"es": "Nicaragua",
+"region": "Latin America & Caribbean "
+},
+"NLD": {
+"iso2": "nl",
+"en": "Netherlands",
+"es": "Países Bajos",
+"region": "Europe & Central Asia"
+},
+"NOR": {
+"iso2": "no",
+"en": "Norway",
+"es": "Noruega",
+"region": "Europe & Central Asia"
+},
+"NPL": {
+"iso2": "np",
+"en": "Nepal",
+"es": "Nepal",
+"region": "South Asia"
+},
+"NRU": {
+"iso2": "nr",
+"en": "Naoero",
+"es": "Naoero",
+"region": "East Asia & Pacific"
+},
+"NZL": {
+"iso2": "nz",
+"en": "New Zealand",
+"es": "Nueva Zelandia",
+"region": "East Asia & Pacific"
+},
+"OMN": {
+"iso2": "om",
+"en": "Oman",
+"es": "Omán",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"PAK": {
+"iso2": "pk",
+"en": "Pakistan",
+"es": "Pakistán",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"PAN": {
+"iso2": "pa",
+"en": "Panama",
+"es": "Panamá",
+"region": "Latin America & Caribbean "
+},
+"PER": {
+"iso2": "pe",
+"en": "Peru",
+"es": "Perú",
+"region": "Latin America & Caribbean "
+},
+"PHL": {
+"iso2": "ph",
+"en": "Philippines",
+"es": "Filipinas",
+"region": "East Asia & Pacific"
+},
+"PLW": {
+"iso2": "pw",
+"en": "Palau",
+"es": "Palau",
+"region": "East Asia & Pacific"
+},
+"PNG": {
+"iso2": "pg",
+"en": "Papua New Guinea",
+"es": "Papua Nueva Guinea",
+"region": "East Asia & Pacific"
+},
+"POL": {
+"iso2": "pl",
+"en": "Poland",
+"es": "Polonia",
+"region": "Europe & Central Asia"
+},
+"PRI": {
+"iso2": "pr",
+"en": "Puerto Rico (US)",
+"es": "Puerto Rico (US)",
+"region": "Latin America & Caribbean "
+},
+"PRK": {
+"iso2": "kp",
+"en": "Korea, Dem. People's Rep.",
+"es": "Corea, República Popular Democrática de",
+"region": "East Asia & Pacific"
+},
+"PRT": {
+"iso2": "pt",
+"en": "Portugal",
+"es": "Portugal",
+"region": "Europe & Central Asia"
+},
+"PRY": {
+"iso2": "py",
+"en": "Paraguay",
+"es": "Paraguay",
+"region": "Latin America & Caribbean "
+},
+"PSE": {
+"iso2": "ps",
+"en": "West Bank and Gaza",
+"es": "Ribera Occidental y Gaza",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"PYF": {
+"iso2": "pf",
+"en": "French Polynesia",
+"es": "Polinesia Francesa",
+"region": "East Asia & Pacific"
+},
+"QAT": {
+"iso2": "qa",
+"en": "Qatar",
+"es": "Qatar",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ROU": {
+"iso2": "ro",
+"en": "Romania",
+"es": "Rumania",
+"region": "Europe & Central Asia"
+},
+"RUS": {
+"iso2": "ru",
+"en": "Russian Federation",
+"es": "Federación de Rusia",
+"region": "Europe & Central Asia"
+},
+"RWA": {
+"iso2": "rw",
+"en": "Rwanda",
+"es": "Rwanda",
+"region": "Sub-Saharan Africa "
+},
+"SAU": {
+"iso2": "sa",
+"en": "Saudi Arabia",
+"es": "Arabia Saudita",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"SDN": {
+"iso2": "sd",
+"en": "Sudan",
+"es": "Sudán",
+"region": "Sub-Saharan Africa "
+},
+"SEN": {
+"iso2": "sn",
+"en": "Senegal",
+"es": "Senegal",
+"region": "Sub-Saharan Africa "
+},
+"SGP": {
+"iso2": "sg",
+"en": "Singapore",
+"es": "Singapur",
+"region": "East Asia & Pacific"
+},
+"SLB": {
+"iso2": "sb",
+"en": "Solomon Islands",
+"es": "Islas Salomón",
+"region": "East Asia & Pacific"
+},
+"SLE": {
+"iso2": "sl",
+"en": "Sierra Leone",
+"es": "Sierra Leona",
+"region": "Sub-Saharan Africa "
+},
+"SLV": {
+"iso2": "sv",
+"en": "El Salvador",
+"es": "El Salvador",
+"region": "Latin America & Caribbean "
+},
+"SMR": {
+"iso2": "sm",
+"en": "San Marino",
+"es": "San Marino",
+"region": "Europe & Central Asia"
+},
+"SOM": {
+"iso2": "so",
+"en": "Somalia, Fed. Rep.",
+"es": "República Federal de Somalia",
+"region": "Sub-Saharan Africa "
+},
+"SRB": {
+"iso2": "rs",
+"en": "Serbia",
+"es": "Serbia",
+"region": "Europe & Central Asia"
+},
+"SSD": {
+"iso2": "ss",
+"en": "South Sudan",
+"es": "Sudán del Sur",
+"region": "Sub-Saharan Africa "
+},
+"STP": {
+"iso2": "st",
+"en": "Sao Tome and Principe",
+"es": "Santo Tomé y Príncipe",
+"region": "Sub-Saharan Africa "
+},
+"SUR": {
+"iso2": "sr",
+"en": "Suriname",
+"es": "Suriname",
+"region": "Latin America & Caribbean "
+},
+"SVK": {
+"iso2": "sk",
+"en": "Slovak Republic",
+"es": "República Eslovaca",
+"region": "Europe & Central Asia"
+},
+"SVN": {
+"iso2": "si",
+"en": "Slovenia",
+"es": "Eslovenia",
+"region": "Europe & Central Asia"
+},
+"SWE": {
+"iso2": "se",
+"en": "Sweden",
+"es": "Suecia",
+"region": "Europe & Central Asia"
+},
+"SWZ": {
+"iso2": "sz",
+"en": "Eswatini",
+"es": "Eswatini",
+"region": "Sub-Saharan Africa "
+},
+"SXM": {
+"iso2": "sx",
+"en": "Sint Maarten (Dutch part)",
+"es": "Sint Maarten (Dutch part)",
+"region": "Latin America & Caribbean "
+},
+"SYC": {
+"iso2": "sc",
+"en": "Seychelles",
+"es": "Seychelles",
+"region": "Sub-Saharan Africa "
+},
+"SYR": {
+"iso2": "sy",
+"en": "Syrian Arab Republic",
+"es": "República Árabe Siria",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"TCA": {
+"iso2": "tc",
+"en": "Turks and Caicos Islands",
+"es": "Islas Turcas y Caicos",
+"region": "Latin America & Caribbean "
+},
+"TCD": {
+"iso2": "td",
+"en": "Chad",
+"es": "Chad",
+"region": "Sub-Saharan Africa "
+},
+"TGO": {
+"iso2": "tg",
+"en": "Togo",
+"es": "Togo",
+"region": "Sub-Saharan Africa "
+},
+"THA": {
+"iso2": "th",
+"en": "Thailand",
+"es": "Tailandia",
+"region": "East Asia & Pacific"
+},
+"TJK": {
+"iso2": "tj",
+"en": "Tajikistan",
+"es": "Tayikistán",
+"region": "Europe & Central Asia"
+},
+"TKM": {
+"iso2": "tm",
+"en": "Turkmenistan",
+"es": "Turkmenistán",
+"region": "Europe & Central Asia"
+},
+"TLS": {
+"iso2": "tl",
+"en": "Timor-Leste",
+"es": "Timor-Leste",
+"region": "East Asia & Pacific"
+},
+"TON": {
+"iso2": "to",
+"en": "Tonga",
+"es": "Tonga",
+"region": "East Asia & Pacific"
+},
+"TTO": {
+"iso2": "tt",
+"en": "Trinidad and Tobago",
+"es": "Trinidad y Tobago",
+"region": "Latin America & Caribbean "
+},
+"TUN": {
+"iso2": "tn",
+"en": "Tunisia",
+"es": "Túnez",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"TUR": {
+"iso2": "tr",
+"en": "Turkiye",
+"es": "Turquía",
+"region": "Europe & Central Asia"
+},
+"TUV": {
+"iso2": "tv",
+"en": "Tuvalu",
+"es": "Tuvalu",
+"region": "East Asia & Pacific"
+},
+"TZA": {
+"iso2": "tz",
+"en": "Tanzania",
+"es": "Tanzanía",
+"region": "Sub-Saharan Africa "
+},
+"UGA": {
+"iso2": "ug",
+"en": "Uganda",
+"es": "Uganda",
+"region": "Sub-Saharan Africa "
+},
+"UKR": {
+"iso2": "ua",
+"en": "Ukraine",
+"es": "Ucrania",
+"region": "Europe & Central Asia"
+},
+"URY": {
+"iso2": "uy",
+"en": "Uruguay",
+"es": "Uruguay",
+"region": "Latin America & Caribbean "
+},
+"USA": {
+"iso2": "us",
+"en": "United States",
+"es": "Estados Unidos",
+"region": "North America"
+},
+"UZB": {
+"iso2": "uz",
+"en": "Uzbekistan",
+"es": "Uzbekistán",
+"region": "Europe & Central Asia"
+},
+"VCT": {
+"iso2": "vc",
+"en": "St. Vincent and the Grenadines",
+"es": "San Vicente y las Granadinas",
+"region": "Latin America & Caribbean "
+},
+"VEN": {
+"iso2": "ve",
+"en": "Venezuela, RB",
+"es": "Venezuela",
+"region": "Latin America & Caribbean "
+},
+"VGB": {
+"iso2": "vg",
+"en": "British Virgin Islands",
+"es": "Islas Vírgenes Británicas",
+"region": "Latin America & Caribbean "
+},
+"VIR": {
+"iso2": "vi",
+"en": "Virgin Islands (U.S.)",
+"es": "Islas Vírgenes (EE.UU.)",
+"region": "Latin America & Caribbean "
+},
+"VNM": {
+"iso2": "vn",
+"en": "Viet Nam",
+"es": "Viet Nam",
+"region": "East Asia & Pacific"
+},
+"VUT": {
+"iso2": "vu",
+"en": "Vanuatu",
+"es": "Vanuatu",
+"region": "East Asia & Pacific"
+},
+"WSM": {
+"iso2": "ws",
+"en": "Samoa",
+"es": "Samoa",
+"region": "East Asia & Pacific"
+},
+"XKX": {
+"iso2": "xk",
+"en": "Kosovo",
+"es": "Kosovo",
+"region": "Europe & Central Asia"
+},
+"YEM": {
+"iso2": "ye",
+"en": "Yemen, Rep.",
+"es": "Yemen, Rep. del",
+"region": "Middle East, North Africa, Afghanistan & Pakistan"
+},
+"ZAF": {
+"iso2": "za",
+"en": "South Africa",
+"es": "Sudáfrica",
+"region": "Sub-Saharan Africa "
+},
+"ZMB": {
+"iso2": "zm",
+"en": "Zambia",
+"es": "Zambia",
+"region": "Sub-Saharan Africa "
+},
+"ZWE": {
+"iso2": "zw",
+"en": "Zimbabwe",
+"es": "Zimbabwe",
+"region": "Sub-Saharan Africa "
+}
+},
+"values": {
+"SP.POP.TOTL": {
+"AFG": [
+43844111,
+"2025"
+],
+"ALB": [
+2349580,
+"2025"
+],
+"DZA": [
+47435312,
+"2025"
+],
+"ASM": [
+46029,
+"2025"
+],
+"AND": [
+82904,
+"2025"
+],
+"AGO": [
+39040039,
+"2025"
+],
+"ATG": [
+94209,
+"2025"
+],
+"ARG": [
+45851378,
+"2025"
+],
+"ARM": [
+3086700,
+"2025"
+],
+"ABW": [
+108785,
+"2025"
+],
+"AUS": [
+27614411,
+"2025"
+],
+"AUT": [
+9208163,
+"2025"
+],
+"AZE": [
+10246996,
+"2025"
+],
+"BHS": [
+403033,
+"2025"
+],
+"BHR": [
+1600366,
+"2025"
+],
+"BGD": [
+175686899,
+"2025"
+],
+"BRB": [
+282623,
+"2025"
+],
+"BLR": [
+9085991,
+"2025"
+],
+"BEL": [
+11941781,
+"2025"
+],
+"BLZ": [
+422924,
+"2025"
+],
+"BEN": [
+14814460,
+"2025"
+],
+"BMU": [
+64555,
+"2025"
+],
+"BTN": [
+796682,
+"2025"
+],
+"BOL": [
+12581843,
+"2025"
+],
+"BIH": [
+3140095,
+"2025"
+],
+"BWA": [
+2562122,
+"2025"
+],
+"BRA": [
+212812405,
+"2025"
+],
+"VGB": [
+39732,
+"2025"
+],
+"BRN": [
+466330,
+"2025"
+],
+"BGR": [
+6433302,
+"2025"
+],
+"BFA": [
+24074580,
+"2025"
+],
+"BDI": [
+14390003,
+"2025"
+],
+"CPV": [
+527326,
+"2025"
+],
+"KHM": [
+17847982,
+"2025"
+],
+"CMR": [
+29879337,
+"2025"
+],
+"CAN": [
+41651653,
+"2025"
+],
+"CYM": [
+75844,
+"2025"
+],
+"CAF": [
+5513282,
+"2025"
+],
+"TCD": [
+21003705,
+"2025"
+],
+"CHI": [
+168466,
+"2025"
+],
+"CHL": [
+19859921,
+"2025"
+],
+"CHN": [
+1406585000,
+"2025"
+],
+"COL": [
+53425635,
+"2025"
+],
+"COM": [
+882847,
+"2025"
+],
+"COD": [
+112832473,
+"2025"
+],
+"COG": [
+6484437,
+"2025"
+],
+"CRI": [
+5152950,
+"2025"
+],
+"CIV": [
+32711547,
+"2025"
+],
+"HRV": [
+3876200,
+"2025"
+],
+"CUB": [
+10937203,
+"2025"
+],
+"CUW": [
+156263,
+"2025"
+],
+"CYP": [
+1370754,
+"2025"
+],
+"CZE": [
+10886878,
+"2025"
+],
+"DNK": [
+6009169,
+"2025"
+],
+"DJI": [
+1184076,
+"2025"
+],
+"DMA": [
+65871,
+"2025"
+],
+"DOM": [
+11520487,
+"2025"
+],
+"ECU": [
+18289896,
+"2025"
+],
+"EGY": [
+118365995,
+"2025"
+],
+"SLV": [
+6365503,
+"2025"
+],
+"GNQ": [
+1938431,
+"2025"
+],
+"ERI": [
+3607003,
+"2025"
+],
+"EST": [
+1366475,
+"2025"
+],
+"SWZ": [
+1256174,
+"2025"
+],
+"ETH": [
+135472051,
+"2025"
+],
+"FRO": [
+54900,
+"2025"
+],
+"FJI": [
+933154,
+"2025"
+],
+"FIN": [
+5646436,
+"2025"
+],
+"FRA": [
+68720337,
+"2025"
+],
+"PYF": [
+282465,
+"2025"
+],
+"GAB": [
+2593130,
+"2025"
+],
+"GMB": [
+2822093,
+"2025"
+],
+"GEO": [
+3935766,
+"2025"
+],
+"DEU": [
+83491249,
+"2025"
+],
+"GHA": [
+35064272,
+"2025"
+],
+"GIB": [
+40126,
+"2025"
+],
+"GRC": [
+10413962,
+"2025"
+],
+"GRL": [
+56831,
+"2025"
+],
+"GRD": [
+117303,
+"2025"
+],
+"GUM": [
+168999,
+"2025"
+],
+"GTM": [
+18687881,
+"2025"
+],
+"GIN": [
+15099727,
+"2025"
+],
+"GNB": [
+2249515,
+"2025"
+],
+"GUY": [
+835986,
+"2025"
+],
+"HTI": [
+11906095,
+"2025"
+],
+"HND": [
+11005850,
+"2025"
+],
+"HKG": [
+7498900,
+"2025"
+],
+"HUN": [
+9514251,
+"2025"
+],
+"ISL": [
+392404,
+"2025"
+],
+"IND": [
+1463865525,
+"2025"
+],
+"IDN": [
+285721236,
+"2025"
+],
+"IRN": [
+92417681,
+"2025"
+],
+"IRQ": [
+47020774,
+"2025"
+],
+"IRL": [
+5484367,
+"2025"
+],
+"IMN": [
+84118,
+"2025"
+],
+"ISR": [
+10122800,
+"2025"
+],
+"ITA": [
+58915656,
+"2025"
+],
+"JAM": [
+2837077,
+"2025"
+],
+"JPN": [
+123366734,
+"2025"
+],
+"JOR": [
+11520684,
+"2025"
+],
+"KAZ": [
+20843754,
+"2025"
+],
+"KEN": [
+57532493,
+"2025"
+],
+"KIR": [
+136488,
+"2025"
+],
+"PRK": [
+26571036,
+"2025"
+],
+"KOR": [
+51684564,
+"2025"
+],
+"XKX": [
+1576876,
+"2025"
+],
+"KWT": [
+4865298,
+"2025"
+],
+"KGZ": [
+7343064,
+"2025"
+],
+"LAO": [
+7873046,
+"2025"
+],
+"LVA": [
+1847785,
+"2025"
+],
+"LBN": [
+5849421,
+"2025"
+],
+"LSO": [
+2363325,
+"2025"
+],
+"LBR": [
+5731206,
+"2025"
+],
+"LBY": [
+7458555,
+"2025"
+],
+"LIE": [
+41024,
+"2025"
+],
+"LTU": [
+2888774,
+"2025"
+],
+"LUX": [
+686970,
+"2025"
+],
+"MAC": [
+685900,
+"2025"
+],
+"MDG": [
+32740678,
+"2025"
+],
+"MWI": [
+22216120,
+"2025"
+],
+"MYS": [
+35977838,
+"2025"
+],
+"MDV": [
+529676,
+"2025"
+],
+"MLI": [
+25198821,
+"2025"
+],
+"MLT": [
+579704,
+"2025"
+],
+"MHL": [
+36282,
+"2025"
+],
+"MRT": [
+5315065,
+"2025"
+],
+"MUS": [
+1243741,
+"2025"
+],
+"MEX": [
+131946900,
+"2025"
+],
+"FSM": [
+113683,
+"2025"
+],
+"MDA": [
+2360527,
+"2025"
+],
+"MCO": [
+38341,
+"2025"
+],
+"MNG": [
+3568978,
+"2025"
+],
+"MNE": [
+623129,
+"2025"
+],
+"MAR": [
+38430770,
+"2025"
+],
+"MOZ": [
+35631653,
+"2025"
+],
+"MMR": [
+54850648,
+"2025"
+],
+"NAM": [
+3092816,
+"2025"
+],
+"NRU": [
+12025,
+"2025"
+],
+"NPL": [
+29618118,
+"2025"
+],
+"NLD": [
+18087633,
+"2025"
+],
+"NCL": [
+295333,
+"2025"
+],
+"NZL": [
+5324700,
+"2025"
+],
+"NIC": [
+7007502,
+"2025"
+],
+"NER": [
+27917831,
+"2025"
+],
+"NGA": [
+237527782,
+"2025"
+],
+"MKD": [
+1820909,
+"2025"
+],
+"MNP": [
+43541,
+"2025"
+],
+"NOR": [
+5610870,
+"2025"
+],
+"OMN": [
+5494691,
+"2025"
+],
+"PAK": [
+255219554,
+"2025"
+],
+"PLW": [
+17663,
+"2025"
+],
+"PAN": [
+4571189,
+"2025"
+],
+"PNG": [
+10762817,
+"2025"
+],
+"PRY": [
+7013078,
+"2025"
+],
+"PER": [
+34576665,
+"2025"
+],
+"PHL": [
+116786962,
+"2025"
+],
+"POL": [
+36435861,
+"2025"
+],
+"PRT": [
+10804871,
+"2025"
+],
+"PRI": [
+3184835,
+"2025"
+],
+"QAT": [
+2972215,
+"2025"
+],
+"ROU": [
+19020271,
+"2025"
+],
+"RUS": [
+143513328,
+"2025"
+],
+"RWA": [
+14569341,
+"2025"
+],
+"WSM": [
+219306,
+"2025"
+],
+"SMR": [
+34109,
+"2025"
+],
+"STP": [
+240254,
+"2025"
+],
+"SAU": [
+36973555,
+"2025"
+],
+"SEN": [
+18931966,
+"2025"
+],
+"SRB": [
+6549143,
+"2025"
+],
+"SYC": [
+122730,
+"2025"
+],
+"SLE": [
+8819794,
+"2025"
+],
+"SGP": [
+6111175,
+"2025"
+],
+"SXM": [
+43923,
+"2025"
+],
+"SVK": [
+5413813,
+"2025"
+],
+"SVN": [
+2130986,
+"2025"
+],
+"SLB": [
+838645,
+"2025"
+],
+"SOM": [
+19654739,
+"2025"
+],
+"ZAF": [
+64747319,
+"2025"
+],
+"SSD": [
+12188788,
+"2025"
+],
+"ESP": [
+49355143,
+"2025"
+],
+"LKA": [
+21756000,
+"2025"
+],
+"KNA": [
+46922,
+"2025"
+],
+"LCA": [
+180149,
+"2025"
+],
+"MAF": [
+24941,
+"2025"
+],
+"VCT": [
+99924,
+"2025"
+],
+"SDN": [
+51662147,
+"2025"
+],
+"SUR": [
+639850,
+"2025"
+],
+"SWE": [
+10596620,
+"2025"
+],
+"CHE": [
+9092436,
+"2025"
+],
+"SYR": [
+25620427,
+"2025"
+],
+"TJK": [
+10786734,
+"2025"
+],
+"TZA": [
+70545865,
+"2025"
+],
+"THA": [
+71619863,
+"2025"
+],
+"TLS": [
+1418517,
+"2025"
+],
+"TGO": [
+8591626,
+"2025"
+],
+"TON": [
+103742,
+"2025"
+],
+"TTO": [
+1367764,
+"2025"
+],
+"TUN": [
+12348573,
+"2025"
+],
+"TUR": [
+85878556,
+"2025"
+],
+"TKM": [
+7618847,
+"2025"
+],
+"TCA": [
+46855,
+"2025"
+],
+"TUV": [
+9492,
+"2025"
+],
+"UGA": [
+51384894,
+"2025"
+],
+"UKR": [
+38980376,
+"2025"
+],
+"ARE": [
+11513149,
+"2025"
+],
+"GBR": [
+69487000,
+"2025"
+],
+"USA": [
+341784857,
+"2025"
+],
+"URY": [
+3384688,
+"2025"
+],
+"UZB": [
+37053428,
+"2025"
+],
+"VUT": [
+335169,
+"2025"
+],
+"VEN": [
+28516896,
+"2025"
+],
+"VNM": [
+101598527,
+"2025"
+],
+"VIR": [
+103792,
+"2025"
+],
+"PSE": [
+5413596,
+"2025"
+],
+"YEM": [
+41773878,
+"2025"
+],
+"ZMB": [
+21913874,
+"2025"
+],
+"ZWE": [
+16950795,
+"2025"
+]
+},
+"NY.GDP.MKTP.CD": {
+"AFG": [
+17778508875.7396,
+"2024"
+],
+"ALB": [
+30540188271.3421,
+"2025"
+],
+"DZA": [
+287031225987.736,
+"2025"
+],
+"ASM": [
+871000000,
+"2022"
+],
+"AND": [
+4500982731.80784,
+"2025"
+],
+"AGO": [
+122174889423.635,
+"2025"
+],
+"ATG": [
+2338196296.2963,
+"2025"
+],
+"ARG": [
+683097891618.597,
+"2025"
+],
+"ARM": [
+29243452882.3545,
+"2025"
+],
+"ABW": [
+4167588070.29217,
+"2024"
+],
+"AUS": [
+1798518933689.21,
+"2025"
+],
+"AUT": [
+579470021095.418,
+"2025"
+],
+"AZE": [
+75937647058.8235,
+"2025"
+],
+"BHS": [
+15832800000,
+"2024"
+],
+"BHR": [
+48965725531.9149,
+"2025"
+],
+"BGD": [
+456319229255.578,
+"2025"
+],
+"BRB": [
+8016550000,
+"2025"
+],
+"BLR": [
+93397215864.198,
+"2025"
+],
+"BEL": [
+725466462859.646,
+"2025"
+],
+"BLZ": [
+3326500000,
+"2025"
+],
+"BEN": [
+24566420903.5337,
+"2025"
+],
+"BMU": [
+9194499000,
+"2024"
+],
+"BTN": [
+3579320145.13077,
+"2025"
+],
+"BOL": [
+64768947525.3256,
+"2025"
+],
+"BIH": [
+32599982936.3931,
+"2025"
+],
+"BWA": [
+19928479839.4476,
+"2025"
+],
+"BRA": [
+2279920092492.13,
+"2025"
+],
+"BRN": [
+15031980994.1121,
+"2025"
+],
+"BGR": [
+130777235529.606,
+"2025"
+],
+"BFA": [
+27627297461.3181,
+"2025"
+],
+"BDI": [
+3364713864.08488,
+"2025"
+],
+"CPV": [
+3056630435.32463,
+"2025"
+],
+"KHM": [
+51267065842.9641,
+"2025"
+],
+"CMR": [
+58933453923.761,
+"2025"
+],
+"CAN": [
+2319899772425.92,
+"2025"
+],
+"CYM": [
+7765336505.34319,
+"2024"
+],
+"CAF": [
+3066109226.40165,
+"2025"
+],
+"TCD": [
+21472835225.4338,
+"2025"
+],
+"CHI": [
+12507320838.3932,
+"2023"
+],
+"CHL": [
+357371159574.862,
+"2025"
+],
+"CHN": [
+19498039388042.6,
+"2025"
+],
+"COL": [
+457410034202.523,
+"2025"
+],
+"COM": [
+1814920856.27026,
+"2025"
+],
+"COD": [
+91030531316.9936,
+"2025"
+],
+"COG": [
+16306633778.765,
+"2025"
+],
+"CRI": [
+102904921157.478,
+"2025"
+],
+"CIV": [
+99773555666.1988,
+"2025"
+],
+"HRV": [
+105060182186.274,
+"2025"
+],
+"CUB": [
+107352000000,
+"2020"
+],
+"CUW": [
+3561178212.2905,
+"2024"
+],
+"CYP": [
+41225787247.3309,
+"2025"
+],
+"CZE": [
+391026962800.475,
+"2025"
+],
+"DNK": [
+462526660468.393,
+"2025"
+],
+"DJI": [
+4624533092.31886,
+"2025"
+],
+"DMA": [
+723859259.259259,
+"2025"
+],
+"DOM": [
+127407463759.043,
+"2025"
+],
+"ECU": [
+130320560400,
+"2025"
+],
+"EGY": [
+365254630179.737,
+"2025"
+],
+"SLV": [
+36708110000,
+"2025"
+],
+"GNQ": [
+12823210425.9217,
+"2025"
+],
+"ERI": [
+2065001626.01626,
+"2011"
+],
+"EST": [
+47030833798.5866,
+"2025"
+],
+"SWZ": [
+5160679612.81734,
+"2025"
+],
+"ETH": [
+126358758448.356,
+"2025"
+],
+"FRO": [
+4052937169.76536,
+"2024"
+],
+"FJI": [
+6198013062.06553,
+"2025"
+],
+"FIN": [
+317039368819.607,
+"2025"
+],
+"FRA": [
+3366315927447.33,
+"2025"
+],
+"PYF": [
+6323716355.05009,
+"2024"
+],
+"GAB": [
+21427119323.2764,
+"2025"
+],
+"GMB": [
+2593673987.53306,
+"2025"
+],
+"GEO": [
+38143612855.1367,
+"2025"
+],
+"DEU": [
+5050922925047.05,
+"2025"
+],
+"GHA": [
+114209905278.717,
+"2025"
+],
+"GRC": [
+280635521324.441,
+"2025"
+],
+"GRL": [
+3326543974.39193,
+"2023"
+],
+"GRD": [
+1420173228.56948,
+"2025"
+],
+"GUM": [
+6910000000,
+"2022"
+],
+"GTM": [
+123306008821.471,
+"2025"
+],
+"GIN": [
+28346024753.2924,
+"2025"
+],
+"GNB": [
+2527930272.92988,
+"2025"
+],
+"GUY": [
+27097477218.2254,
+"2025"
+],
+"HTI": [
+32077278409.2339,
+"2025"
+],
+"HND": [
+39601409103.3005,
+"2025"
+],
+"HKG": [
+427310315921.993,
+"2025"
+],
+"HUN": [
+246490213513.054,
+"2025"
+],
+"ISL": [
+38582528789.0033,
+"2025"
+],
+"IND": [
+3956067115771.63,
+"2025"
+],
+"IDN": [
+1445642584163.81,
+"2025"
+],
+"IRN": [
+362682115433.364,
+"2025"
+],
+"IRQ": [
+254367293538.462,
+"2025"
+],
+"IRL": [
+721701359046.313,
+"2025"
+],
+"IMN": [
+7576129932.79381,
+"2023"
+],
+"ISR": [
+610777842873.595,
+"2025"
+],
+"ITA": [
+2551556954100.35,
+"2025"
+],
+"JAM": [
+22704903217.5631,
+"2025"
+],
+"JPN": [
+4435162999976.94,
+"2025"
+],
+"JOR": [
+61610052535.2113,
+"2025"
+],
+"KAZ": [
+306239209650.024,
+"2025"
+],
+"KEN": [
+135941278878.815,
+"2025"
+],
+"KIR": [
+349227254.158833,
+"2025"
+],
+"KOR": [
+1872374961553.15,
+"2025"
+],
+"XKX": [
+12456403306.8191,
+"2025"
+],
+"KWT": [
+157209026926.418,
+"2025"
+],
+"KGZ": [
+22623752095.4613,
+"2025"
+],
+"LAO": [
+18302970218.5902,
+"2025"
+],
+"LVA": [
+48618869160.3254,
+"2025"
+],
+"LBN": [
+25971643441.3408,
+"2024"
+],
+"LSO": [
+2573572920.05159,
+"2025"
+],
+"LBR": [
+5245938900,
+"2025"
+],
+"LBY": [
+48098909613.6316,
+"2025"
+],
+"LIE": [
+8905764270.4054,
+"2024"
+],
+"LTU": [
+95210150818.3512,
+"2025"
+],
+"LUX": [
+101157829491.107,
+"2025"
+],
+"MAC": [
+52061007670.169,
+"2025"
+],
+"MDG": [
+19620352035.7899,
+"2025"
+],
+"MWI": [
+14918276698.303,
+"2025"
+],
+"MYS": [
+472193128644.597,
+"2025"
+],
+"MDV": [
+7741066860.6337,
+"2025"
+],
+"MLI": [
+30069148580.7688,
+"2025"
+],
+"MLT": [
+27771821560.9411,
+"2025"
+],
+"MHL": [
+308000000,
+"2025"
+],
+"MRT": [
+11679910946.4371,
+"2025"
+],
+"MUS": [
+16157804491.7614,
+"2025"
+],
+"MEX": [
+1832641364775.52,
+"2025"
+],
+"FSM": [
+501797600,
+"2025"
+],
+"MDA": [
+20351796275.2943,
+"2025"
+],
+"MCO": [
+11125788838.2812,
+"2024"
+],
+"MNG": [
+25369107325.4549,
+"2025"
+],
+"MNE": [
+9232801464.79257,
+"2025"
+],
+"MAR": [
+182374250612.28,
+"2025"
+],
+"MOZ": [
+22337997046.1913,
+"2025"
+],
+"MMR": [
+81665773809.5238,
+"2025"
+],
+"NAM": [
+15080340653.5276,
+"2025"
+],
+"NRU": [
+176040043.932346,
+"2025"
+],
+"NPL": [
+45489810283.1132,
+"2025"
+],
+"NLD": [
+1332767651100.39,
+"2025"
+],
+"NCL": [
+8548919387.12607,
+"2024"
+],
+"NZL": [
+264057413739.965,
+"2025"
+],
+"NIC": [
+22237167113.0916,
+"2025"
+],
+"NER": [
+21646191388.2507,
+"2025"
+],
+"NGA": [
+290794361542.112,
+"2025"
+],
+"MKD": [
+19101199817.0174,
+"2025"
+],
+"MNP": [
+1096000000,
+"2022"
+],
+"NOR": [
+530755719438.879,
+"2025"
+],
+"OMN": [
+109604780696.23,
+"2025"
+],
+"PAK": [
+407307214476.222,
+"2025"
+],
+"PLW": [
+345000000,
+"2025"
+],
+"PAN": [
+90462600000,
+"2025"
+],
+"PNG": [
+32498658653.8415,
+"2025"
+],
+"PRY": [
+49278227554.3339,
+"2025"
+],
+"PER": [
+334854659181.893,
+"2025"
+],
+"PHL": [
+487086123720.417,
+"2025"
+],
+"POL": [
+1035491784197.44,
+"2025"
+],
+"PRT": [
+346639825141.821,
+"2025"
+],
+"PRI": [
+129368484000,
+"2025"
+],
+"QAT": [
+215559615384.615,
+"2025"
+],
+"ROU": [
+428677977854.826,
+"2025"
+],
+"RUS": [
+2561310169358.74,
+"2025"
+],
+"RWA": [
+16372132990.2271,
+"2025"
+],
+"WSM": [
+1287936621.64619,
+"2025"
+],
+"SMR": [
+2027243193.5116,
+"2023"
+],
+"STP": [
+981293586.906408,
+"2025"
+],
+"SAU": [
+1276942933333.33,
+"2025"
+],
+"SEN": [
+37006536238.3731,
+"2025"
+],
+"SRB": [
+99953324472.9042,
+"2025"
+],
+"SYC": [
+2387022853.48583,
+"2025"
+],
+"SLE": [
+7464157904.43509,
+"2025"
+],
+"SGP": [
+603869516998.738,
+"2025"
+],
+"SXM": [
+1887728480.44693,
+"2025"
+],
+"SVK": [
+154530066506.895,
+"2025"
+],
+"SVN": [
+79648204979.3618,
+"2025"
+],
+"SLB": [
+1749572442.95016,
+"2025"
+],
+"SOM": [
+12995200000.2658,
+"2025"
+],
+"ZAF": [
+427184325997.307,
+"2025"
+],
+"SSD": [
+11997800760.2242,
+"2015"
+],
+"ESP": [
+1906453309985.88,
+"2025"
+],
+"LKA": [
+108825231671.196,
+"2025"
+],
+"KNA": [
+1183514814.81481,
+"2025"
+],
+"LCA": [
+2656444444.44444,
+"2025"
+],
+"MAF": [
+649206262.847519,
+"2021"
+],
+"VCT": [
+1255222222.22222,
+"2025"
+],
+"SDN": [
+60162634574.4689,
+"2025"
+],
+"SUR": [
+4523657796.86421,
+"2025"
+],
+"SWE": [
+668998664082.081,
+"2025"
+],
+"CHE": [
+1043529899250.92,
+"2025"
+],
+"SYR": [
+23737634644.3994,
+"2022"
+],
+"TJK": [
+17660626562.4832,
+"2025"
+],
+"TZA": [
+90143496090.4411,
+"2025"
+],
+"THA": [
+577009981112.015,
+"2025"
+],
+"TLS": [
+1902180257.82737,
+"2025"
+],
+"TGO": [
+11889949067.4697,
+"2025"
+],
+"TON": [
+679218218.578017,
+"2025"
+],
+"TTO": [
+25942749718.4685,
+"2025"
+],
+"TUN": [
+57502836548.0878,
+"2025"
+],
+"TUR": [
+1597293229287,
+"2025"
+],
+"TKM": [
+49828621355.6516,
+"2025"
+],
+"TCA": [
+1745378000,
+"2024"
+],
+"TUV": [
+57345434.7234984,
+"2025"
+],
+"UGA": [
+61985829288.1496,
+"2025"
+],
+"UKR": [
+214233312784.397,
+"2025"
+],
+"ARE": [
+552324919095.872,
+"2024"
+],
+"GBR": [
+4002587541846.01,
+"2025"
+],
+"USA": [
+30769700000000,
+"2025"
+],
+"URY": [
+85347696277.6859,
+"2025"
+],
+"UZB": [
+147038081129.405,
+"2025"
+],
+"VUT": [
+1353658840.63993,
+"2025"
+],
+"VEN": [
+99661244155.6306,
+"2025"
+],
+"VNM": [
+514697215165.065,
+"2025"
+],
+"VIR": [
+4672000000,
+"2022"
+],
+"PSE": [
+17167100000,
+"2025"
+],
+"YEM": [
+21606160663.0318,
+"2018"
+],
+"ZMB": [
+28879806220.1264,
+"2025"
+],
+"ZWE": [
+51215643905.5886,
+"2025"
+]
+},
+"NY.GDP.PCAP.CD": {
+"AFG": [
+416.871146273728,
+"2024"
+],
+"ALB": [
+12998.147869552,
+"2025"
+],
+"DZA": [
+6051.00322704182,
+"2025"
+],
+"ASM": [
+18017.4589383973,
+"2022"
+],
+"AND": [
+54291.5026031052,
+"2025"
+],
+"AGO": [
+3129.47662331063,
+"2025"
+],
+"ATG": [
+24819.2454680158,
+"2025"
+],
+"ARG": [
+14898.0885943842,
+"2025"
+],
+"ARM": [
+9474.01849300368,
+"2025"
+],
+"ABW": [
+38590.5650288641,
+"2024"
+],
+"AUS": [
+65129.7227990563,
+"2025"
+],
+"AUT": [
+62930.0351324599,
+"2025"
+],
+"AZE": [
+7410.72281660142,
+"2025"
+],
+"BHS": [
+39455.4466548546,
+"2024"
+],
+"BHR": [
+30596.5794898885,
+"2025"
+],
+"BGD": [
+2597.34352335275,
+"2025"
+],
+"BRB": [
+28364.8181499736,
+"2025"
+],
+"BLR": [
+10279.2547190723,
+"2025"
+],
+"BEL": [
+60750.2735864647,
+"2025"
+],
+"BLZ": [
+7865.47937690933,
+"2025"
+],
+"BEN": [
+1658.27312662991,
+"2025"
+],
+"BMU": [
+142250.433195123,
+"2024"
+],
+"BTN": [
+4492.78400306618,
+"2025"
+],
+"BOL": [
+5147.81081955367,
+"2025"
+],
+"BIH": [
+10381.8460703874,
+"2025"
+],
+"BWA": [
+7778.1151090571,
+"2025"
+],
+"BRA": [
+10713.2856869511,
+"2025"
+],
+"BRN": [
+32234.6428368582,
+"2025"
+],
+"BGR": [
+20328.1667065538,
+"2025"
+],
+"BFA": [
+1147.57131635601,
+"2025"
+],
+"BDI": [
+233.823013385395,
+"2025"
+],
+"CPV": [
+5796.47207860911,
+"2025"
+],
+"KHM": [
+2872.42926639909,
+"2025"
+],
+"CMR": [
+1972.3815800786,
+"2025"
+],
+"CAN": [
+55697.6639660837,
+"2025"
+],
+"CYM": [
+104292.900672109,
+"2024"
+],
+"CAF": [
+556.131398031455,
+"2025"
+],
+"TCD": [
+1022.33559390754,
+"2025"
+],
+"CHI": [
+74585.5224096294,
+"2023"
+],
+"CHL": [
+17994.5911957485,
+"2025"
+],
+"CHN": [
+13861.970224368,
+"2025"
+],
+"COL": [
+8561.62091854449,
+"2025"
+],
+"COM": [
+2055.75921566281,
+"2025"
+],
+"COD": [
+806.776000708534,
+"2025"
+],
+"COG": [
+2514.73393584747,
+"2025"
+],
+"CRI": [
+19970.0989059622,
+"2025"
+],
+"CIV": [
+3050.10202257321,
+"2025"
+],
+"HRV": [
+27103.9116109268,
+"2025"
+],
+"CUB": [
+9605.27914559614,
+"2020"
+],
+"CUW": [
+22832.895498987,
+"2024"
+],
+"CYP": [
+41783.08984375,
+"2025"
+],
+"CZE": [
+35917.2724081665,
+"2025"
+],
+"DNK": [
+76970.1535217919,
+"2025"
+],
+"DJI": [
+3905.604954681,
+"2025"
+],
+"DMA": [
+10989.0431185083,
+"2025"
+],
+"DOM": [
+11059.2081531834,
+"2025"
+],
+"ECU": [
+7125.27618527738,
+"2025"
+],
+"EGY": [
+3085.80712036204,
+"2025"
+],
+"SLV": [
+5766.72574029107,
+"2025"
+],
+"GNQ": [
+6615.25245207167,
+"2025"
+],
+"ERI": [
+688.68165957684,
+"2011"
+],
+"EST": [
+34417.6320815138,
+"2025"
+],
+"SWZ": [
+4108.25221093363,
+"2025"
+],
+"ETH": [
+932.729352775179,
+"2025"
+],
+"FRO": [
+74175.2776311377,
+"2024"
+],
+"FJI": [
+6642.00449450523,
+"2025"
+],
+"FIN": [
+56148.580949046,
+"2025"
+],
+"FRA": [
+48985.7307807924,
+"2025"
+],
+"PYF": [
+22439.8838746025,
+"2024"
+],
+"GAB": [
+8263.03321595,
+"2025"
+],
+"GMB": [
+919.060423427951,
+"2025"
+],
+"GEO": [
+9691.53472415196,
+"2025"
+],
+"DEU": [
+60496.4350820414,
+"2025"
+],
+"GHA": [
+3257.1588903576,
+"2025"
+],
+"GRC": [
+26948.0070432791,
+"2025"
+],
+"GRL": [
+58498.9707973609,
+"2023"
+],
+"GRD": [
+12106.8790105068,
+"2025"
+],
+"GUM": [
+41833.1517132825,
+"2022"
+],
+"GTM": [
+6598.18032988711,
+"2025"
+],
+"GIN": [
+1877.2541220972,
+"2025"
+],
+"GNB": [
+1123.76679992349,
+"2025"
+],
+"GUY": [
+32413.7930757518,
+"2025"
+],
+"HTI": [
+2694.18969101404,
+"2025"
+],
+"HND": [
+3598.21450440452,
+"2025"
+],
+"HKG": [
+56983.0663059906,
+"2025"
+],
+"HUN": [
+25907.4743259406,
+"2025"
+],
+"ISL": [
+98323.4849517418,
+"2025"
+],
+"IND": [
+2702.47987141553,
+"2025"
+],
+"IDN": [
+5059.62596411213,
+"2025"
+],
+"IRN": [
+3924.38017821898,
+"2025"
+],
+"IRQ": [
+5409.67899716967,
+"2025"
+],
+"IRL": [
+131592.462547877,
+"2025"
+],
+"IMN": [
+90015.2074234398,
+"2023"
+],
+"ISR": [
+60336.8477964194,
+"2025"
+],
+"ITA": [
+43308.6403060733,
+"2025"
+],
+"JAM": [
+8002.92104076242,
+"2025"
+],
+"JPN": [
+35951.0449549304,
+"2025"
+],
+"JOR": [
+5347.77731384797,
+"2025"
+],
+"KAZ": [
+14692.1331757237,
+"2025"
+],
+"KEN": [
+2362.86091198611,
+"2025"
+],
+"KIR": [
+2558.66636011102,
+"2025"
+],
+"KOR": [
+36226.9663637512,
+"2025"
+],
+"XKX": [
+7899.41841135202,
+"2025"
+],
+"KWT": [
+32312.3119953634,
+"2025"
+],
+"KGZ": [
+3080.96893823359,
+"2025"
+],
+"LAO": [
+2324.76353098791,
+"2025"
+],
+"LVA": [
+26311.9730706362,
+"2025"
+],
+"LBN": [
+4473.27134441128,
+"2024"
+],
+"LSO": [
+1088.96276223185,
+"2025"
+],
+"LBR": [
+915.328972645548,
+"2025"
+],
+"LBY": [
+6448.82415074121,
+"2025"
+],
+"LIE": [
+220167.225473557,
+"2024"
+],
+"LTU": [
+32958.6706396386,
+"2025"
+],
+"LUX": [
+147252.179121515,
+"2025"
+],
+"MAC": [
+75901.7461294198,
+"2025"
+],
+"MDG": [
+599.265294255357,
+"2025"
+],
+"MWI": [
+671.506847203876,
+"2025"
+],
+"MYS": [
+13124.5554178269,
+"2025"
+],
+"MDV": [
+14614.7208116541,
+"2025"
+],
+"MLI": [
+1193.27601004701,
+"2025"
+],
+"MLT": [
+47906.9000057635,
+"2025"
+],
+"MHL": [
+8489.05793506422,
+"2025"
+],
+"MRT": [
+2197.51046251309,
+"2025"
+],
+"MUS": [
+12991.2935987166,
+"2025"
+],
+"MEX": [
+13889.2339628708,
+"2025"
+],
+"FSM": [
+4414.00737137479,
+"2025"
+],
+"MDA": [
+8621.71721623786,
+"2025"
+],
+"MCO": [
+288001.574856495,
+"2024"
+],
+"MNG": [
+7108.22743246244,
+"2025"
+],
+"MNE": [
+14816.8380299947,
+"2025"
+],
+"MAR": [
+4672.46826171875,
+"2025"
+],
+"MOZ": [
+626.914419215727,
+"2025"
+],
+"MMR": [
+1488.87527836542,
+"2025"
+],
+"NAM": [
+4875.92558158247,
+"2025"
+],
+"NRU": [
+14639.5046929186,
+"2025"
+],
+"NPL": [
+1535.87781246307,
+"2025"
+],
+"NLD": [
+73683.917132794,
+"2025"
+],
+"NCL": [
+29213.1923192946,
+"2024"
+],
+"NZL": [
+49591.0405731713,
+"2025"
+],
+"NIC": [
+3173.33724815085,
+"2025"
+],
+"NER": [
+775.353622143879,
+"2025"
+],
+"NGA": [
+1224.25410237743,
+"2025"
+],
+"MKD": [
+10489.9255355525,
+"2025"
+],
+"MNP": [
+23785.754590043,
+"2022"
+],
+"NOR": [
+94594.1929573987,
+"2025"
+],
+"OMN": [
+19947.3966227092,
+"2025"
+],
+"PAK": [
+1595.90912252837,
+"2025"
+],
+"PLW": [
+19532.3557719527,
+"2025"
+],
+"PAN": [
+19789.7308555826,
+"2025"
+],
+"PNG": [
+3019.5309140573,
+"2025"
+],
+"PRY": [
+7026.61906146401,
+"2025"
+],
+"PER": [
+9684.41170314988,
+"2025"
+],
+"PHL": [
+4170.72347271451,
+"2025"
+],
+"POL": [
+28419.5777395638,
+"2025"
+],
+"PRT": [
+32081.8106150292,
+"2025"
+],
+"PRI": [
+40620.1526923687,
+"2025"
+],
+"QAT": [
+72524.9066385222,
+"2025"
+],
+"ROU": [
+22537.9532108047,
+"2025"
+],
+"RUS": [
+17546.609375,
+"2025"
+],
+"RWA": [
+1123.73874633225,
+"2025"
+],
+"WSM": [
+5872.78333308796,
+"2025"
+],
+"SMR": [
+59871.3288101478,
+"2023"
+],
+"STP": [
+4084.40062145233,
+"2025"
+],
+"SAU": [
+34536.6555456551,
+"2025"
+],
+"SEN": [
+1954.71174194867,
+"2025"
+],
+"SRB": [
+15262.0464193413,
+"2025"
+],
+"SYC": [
+19449.3836346926,
+"2025"
+],
+"SLE": [
+846.296172499617,
+"2025"
+],
+"SGP": [
+98813.9788172877,
+"2025"
+],
+"SXM": [
+42978.1317407037,
+"2025"
+],
+"SVK": [
+28543.6653439813,
+"2025"
+],
+"SVN": [
+37376.2216079138,
+"2025"
+],
+"SLB": [
+2086.18955928928,
+"2025"
+],
+"SOM": [
+661.173877723116,
+"2025"
+],
+"ZAF": [
+6597.71450918774,
+"2025"
+],
+"SSD": [
+1080.14718624765,
+"2015"
+],
+"ESP": [
+38627.2472148623,
+"2025"
+],
+"LKA": [
+5002.07904353724,
+"2025"
+],
+"KNA": [
+25223.0257622185,
+"2025"
+],
+"LCA": [
+14745.8184305461,
+"2025"
+],
+"MAF": [
+21668.3776525323,
+"2021"
+],
+"VCT": [
+12561.769166789,
+"2025"
+],
+"SDN": [
+1164.53991699219,
+"2025"
+],
+"SUR": [
+7069.87230892274,
+"2025"
+],
+"SWE": [
+63133.2126736715,
+"2025"
+],
+"CHE": [
+114769.012314293,
+"2025"
+],
+"SYR": [
+1056.78264718197,
+"2022"
+],
+"TJK": [
+1637.2542942547,
+"2025"
+],
+"TZA": [
+1318.81921386719,
+"2025"
+],
+"THA": [
+8056.56359761558,
+"2025"
+],
+"TLS": [
+1340.9640193437,
+"2025"
+],
+"TGO": [
+1383.89974929887,
+"2025"
+],
+"TON": [
+6547.18646814228,
+"2025"
+],
+"TTO": [
+18967.2704636681,
+"2025"
+],
+"TUN": [
+4656.63818386852,
+"2025"
+],
+"TUR": [
+18599.4420922378,
+"2025"
+],
+"TKM": [
+6540.17876401136,
+"2025"
+],
+"TCA": [
+37506.7798431288,
+"2024"
+],
+"TUV": [
+6041.44908591428,
+"2025"
+],
+"UGA": [
+1206.30450825002,
+"2025"
+],
+"UKR": [
+5865.884765625,
+"2025"
+],
+"ARE": [
+50273.5126243239,
+"2024"
+],
+"GBR": [
+57601.9621201954,
+"2025"
+],
+"USA": [
+90026.5163005744,
+"2025"
+],
+"URY": [
+25215.8238152781,
+"2025"
+],
+"UZB": [
+3968.2720079072,
+"2025"
+],
+"VUT": [
+4038.73520713411,
+"2025"
+],
+"VEN": [
+3494.8138870244,
+"2025"
+],
+"VNM": [
+5065.99091899299,
+"2025"
+],
+"VIR": [
+44320.909185774,
+"2022"
+],
+"PSE": [
+3171.10844621579,
+"2025"
+],
+"YEM": [
+633.887202451545,
+"2018"
+],
+"ZMB": [
+1317.87771619597,
+"2025"
+],
+"ZWE": [
+3021.43019873632,
+"2025"
+]
+},
+"AG.SRF.TOTL.K2": {
+"AFG": [
+652870,
+"2024"
+],
+"ALB": [
+28750,
+"2024"
+],
+"DZA": [
+2381740,
+"2024"
+],
+"ASM": [
+199,
+"2024"
+],
+"AND": [
+468,
+"2024"
+],
+"AGO": [
+1246700,
+"2024"
+],
+"ATG": [
+440.298,
+"2024"
+],
+"ARG": [
+2780400,
+"2024"
+],
+"ARM": [
+29740,
+"2024"
+],
+"ABW": [
+180,
+"2024"
+],
+"AUS": [
+7741220,
+"2024"
+],
+"AUT": [
+83879,
+"2024"
+],
+"AZE": [
+86600,
+"2024"
+],
+"BHS": [
+13878,
+"2024"
+],
+"BHR": [
+800,
+"2024"
+],
+"BGD": [
+147570,
+"2024"
+],
+"BRB": [
+431,
+"2024"
+],
+"BLR": [
+207629,
+"2024"
+],
+"BEL": [
+30689.17,
+"2024"
+],
+"BLZ": [
+22966,
+"2024"
+],
+"BEN": [
+114760,
+"2024"
+],
+"BMU": [
+4290,
+"2024"
+],
+"BTN": [
+38390,
+"2024"
+],
+"BOL": [
+1098580,
+"2024"
+],
+"BIH": [
+51210,
+"2023"
+],
+"BWA": [
+581730,
+"2024"
+],
+"BRA": [
+8510420,
+"2024"
+],
+"VGB": [
+151,
+"2024"
+],
+"BRN": [
+5770,
+"2024"
+],
+"BGR": [
+111000,
+"2024"
+],
+"BFA": [
+274200,
+"2024"
+],
+"BDI": [
+27834,
+"2024"
+],
+"CPV": [
+4030,
+"2024"
+],
+"KHM": [
+181035,
+"2024"
+],
+"CMR": [
+475442,
+"2024"
+],
+"CAN": [
+15634410,
+"2024"
+],
+"CYM": [
+264,
+"2024"
+],
+"CAF": [
+622980,
+"2024"
+],
+"TCD": [
+1284000,
+"2024"
+],
+"CHI": [
+198,
+"2021"
+],
+"CHL": [
+756556.4,
+"2024"
+],
+"CHN": [
+9562910,
+"2024"
+],
+"COL": [
+1140619.1,
+"2024"
+],
+"COM": [
+1869.7,
+"2024"
+],
+"COD": [
+2345410,
+"2024"
+],
+"COG": [
+342000,
+"2024"
+],
+"CRI": [
+51100,
+"2024"
+],
+"CIV": [
+322460,
+"2024"
+],
+"HRV": [
+88070,
+"2024"
+],
+"CUB": [
+109884.01,
+"2024"
+],
+"CUW": [
+444,
+"2024"
+],
+"CYP": [
+9250,
+"2024"
+],
+"CZE": [
+78871.42,
+"2024"
+],
+"DNK": [
+42920,
+"2024"
+],
+"DJI": [
+23200,
+"2024"
+],
+"DMA": [
+751,
+"2024"
+],
+"DOM": [
+146839.46,
+"2024"
+],
+"ECU": [
+256370,
+"2024"
+],
+"EGY": [
+1001450,
+"2024"
+],
+"SLV": [
+21040,
+"2024"
+],
+"GNQ": [
+28051.5,
+"2024"
+],
+"ERI": [
+121630,
+"2024"
+],
+"EST": [
+45340,
+"2024"
+],
+"SWZ": [
+17364,
+"2024"
+],
+"ETH": [
+1129818.8,
+"2024"
+],
+"FRO": [
+12960,
+"2024"
+],
+"FJI": [
+18333,
+"2024"
+],
+"FIN": [
+338485,
+"2024"
+],
+"FRA": [
+606410,
+"2024"
+],
+"PYF": [
+3521,
+"2024"
+],
+"GAB": [
+267670,
+"2024"
+],
+"GMB": [
+11295,
+"2024"
+],
+"GEO": [
+69700,
+"2024"
+],
+"DEU": [
+357680,
+"2024"
+],
+"GHA": [
+238539,
+"2024"
+],
+"GIB": [
+10,
+"2024"
+],
+"GRC": [
+131960,
+"2024"
+],
+"GRL": [
+410449,
+"2024"
+],
+"GRD": [
+344,
+"2024"
+],
+"GUM": [
+541,
+"2024"
+],
+"GTM": [
+108889,
+"2024"
+],
+"GIN": [
+245857,
+"2024"
+],
+"GNB": [
+36125,
+"2024"
+],
+"GUY": [
+214970,
+"2024"
+],
+"HTI": [
+27750,
+"2024"
+],
+"HND": [
+112492,
+"2024"
+],
+"HKG": [
+1110,
+"2024"
+],
+"HUN": [
+93030,
+"2024"
+],
+"ISL": [
+103000,
+"2024"
+],
+"IND": [
+3287263,
+"2024"
+],
+"IDN": [
+1916906.8,
+"2024"
+],
+"IRN": [
+1745150,
+"2024"
+],
+"IRQ": [
+435050,
+"2024"
+],
+"IRL": [
+70280,
+"2024"
+],
+"IMN": [
+572.387,
+"2024"
+],
+"ISR": [
+22070,
+"2024"
+],
+"ITA": [
+302070,
+"2024"
+],
+"JAM": [
+10991,
+"2024"
+],
+"JPN": [
+377974.71,
+"2024"
+],
+"JOR": [
+89318,
+"2024"
+],
+"KAZ": [
+2724902,
+"2024"
+],
+"KEN": [
+591970,
+"2024"
+],
+"KIR": [
+811,
+"2024"
+],
+"PRK": [
+120540,
+"2024"
+],
+"KOR": [
+100460,
+"2024"
+],
+"KWT": [
+17820,
+"2024"
+],
+"KGZ": [
+199950,
+"2024"
+],
+"LAO": [
+236800,
+"2024"
+],
+"LVA": [
+64590,
+"2024"
+],
+"LBN": [
+10452,
+"2024"
+],
+"LSO": [
+30360,
+"2024"
+],
+"LBR": [
+111370,
+"2024"
+],
+"LBY": [
+1759540,
+"2024"
+],
+"LIE": [
+160,
+"2024"
+],
+"LTU": [
+65290,
+"2024"
+],
+"LUX": [
+2590,
+"2024"
+],
+"MAC": [
+33.3,
+"2024"
+],
+"MDG": [
+591896,
+"2024"
+],
+"MWI": [
+118484,
+"2024"
+],
+"MYS": [
+330534,
+"2024"
+],
+"MDV": [
+300,
+"2024"
+],
+"MLI": [
+1241238,
+"2024"
+],
+"MLT": [
+315.15,
+"2024"
+],
+"MHL": [
+181,
+"2024"
+],
+"MRT": [
+1030700,
+"2024"
+],
+"MUS": [
+2010,
+"2024"
+],
+"MEX": [
+1957193.9,
+"2024"
+],
+"FSM": [
+701,
+"2024"
+],
+"MDA": [
+33849,
+"2024"
+],
+"MCO": [
+74.9,
+"2024"
+],
+"MNG": [
+1564115.746,
+"2024"
+],
+"MNE": [
+13883,
+"2024"
+],
+"MAR": [
+446550,
+"2024"
+],
+"MOZ": [
+799380,
+"2024"
+],
+"MMR": [
+676578,
+"2024"
+],
+"NAM": [
+824292,
+"2024"
+],
+"NRU": [
+21,
+"2024"
+],
+"NPL": [
+147181,
+"2024"
+],
+"NLD": [
+41540,
+"2024"
+],
+"NCL": [
+18576,
+"2024"
+],
+"NZL": [
+267710,
+"2024"
+],
+"NIC": [
+130370,
+"2023"
+],
+"NER": [
+1267000,
+"2024"
+],
+"NGA": [
+923768,
+"2024"
+],
+"MKD": [
+25713,
+"2024"
+],
+"MNP": [
+457,
+"2024"
+],
+"NOR": [
+624500,
+"2024"
+],
+"OMN": [
+309500,
+"2024"
+],
+"PAK": [
+796100,
+"2024"
+],
+"PLW": [
+460,
+"2024"
+],
+"PAN": [
+75320,
+"2024"
+],
+"PNG": [
+462840,
+"2024"
+],
+"PRY": [
+406752,
+"2024"
+],
+"PER": [
+1285215.6,
+"2024"
+],
+"PHL": [
+300000,
+"2024"
+],
+"POL": [
+313940,
+"2024"
+],
+"PRT": [
+92230,
+"2024"
+],
+"PRI": [
+8870,
+"2024"
+],
+"QAT": [
+11636.8,
+"2024"
+],
+"ROU": [
+238397,
+"2024"
+],
+"RUS": [
+17125190,
+"2024"
+],
+"RWA": [
+26340,
+"2024"
+],
+"WSM": [
+2840,
+"2024"
+],
+"SMR": [
+61.2,
+"2024"
+],
+"STP": [
+960,
+"2024"
+],
+"SAU": [
+2149690,
+"2024"
+],
+"SEN": [
+196710,
+"2024"
+],
+"SRB": [
+88490,
+"2024"
+],
+"SYC": [
+457,
+"2024"
+],
+"SLE": [
+72300,
+"2024"
+],
+"SGP": [
+735.6,
+"2024"
+],
+"SXM": [
+34,
+"2024"
+],
+"SVK": [
+49030,
+"2024"
+],
+"SVN": [
+20480,
+"2024"
+],
+"SLB": [
+28446,
+"2024"
+],
+"SOM": [
+637657,
+"2024"
+],
+"ZAF": [
+1219602,
+"2024"
+],
+"SSD": [
+646883,
+"2024"
+],
+"ESP": [
+505981.25,
+"2024"
+],
+"LKA": [
+65610,
+"2024"
+],
+"KNA": [
+261,
+"2024"
+],
+"LCA": [
+616,
+"2024"
+],
+"MAF": [
+53,
+"2024"
+],
+"VCT": [
+389,
+"2024"
+],
+"SDN": [
+1878000,
+"2024"
+],
+"SUR": [
+163820,
+"2024"
+],
+"SWE": [
+528860,
+"2024"
+],
+"CHE": [
+41290.7,
+"2024"
+],
+"SYR": [
+185180,
+"2024"
+],
+"TJK": [
+141379,
+"2024"
+],
+"TZA": [
+945500,
+"2024"
+],
+"THA": [
+513115,
+"2024"
+],
+"TLS": [
+14870,
+"2024"
+],
+"TGO": [
+56785,
+"2024"
+],
+"TON": [
+749,
+"2024"
+],
+"TTO": [
+5128,
+"2024"
+],
+"TUN": [
+163610,
+"2024"
+],
+"TUR": [
+785350,
+"2024"
+],
+"TKM": [
+491209,
+"2024"
+],
+"TCA": [
+948.23,
+"2024"
+],
+"TUV": [
+26,
+"2024"
+],
+"UGA": [
+241551,
+"2024"
+],
+"UKR": [
+603550,
+"2024"
+],
+"ARE": [
+98647.9,
+"2024"
+],
+"GBR": [
+243610,
+"2024"
+],
+"USA": [
+9831510,
+"2024"
+],
+"URY": [
+176215,
+"2024"
+],
+"UZB": [
+448923,
+"2024"
+],
+"VUT": [
+12189,
+"2024"
+],
+"VEN": [
+912050,
+"2024"
+],
+"VNM": [
+331338.31,
+"2024"
+],
+"VIR": [
+348,
+"2024"
+],
+"PSE": [
+6025,
+"2024"
+],
+"YEM": [
+527968,
+"2024"
+],
+"ZMB": [
+752612,
+"2024"
+],
+"ZWE": [
+390760,
+"2024"
+]
+},
+"SP.DYN.LE00.IN": {
+"AFG": [
+66.289,
+"2024"
+],
+"ALB": [
+79.776,
+"2024"
+],
+"DZA": [
+76.475,
+"2024"
+],
+"ASM": [
+72.992,
+"2024"
+],
+"AND": [
+84.188,
+"2024"
+],
+"AGO": [
+64.805,
+"2024"
+],
+"ATG": [
+77.766,
+"2024"
+],
+"ARG": [
+77.543,
+"2024"
+],
+"ARM": [
+78.319512195122,
+"2024"
+],
+"ABW": [
+76.5,
+"2024"
+],
+"AUS": [
+83.0512195121951,
+"2024"
+],
+"AUT": [
+81.9951219512195,
+"2024"
+],
+"AZE": [
+74.576,
+"2024"
+],
+"BHS": [
+74.71,
+"2024"
+],
+"BHR": [
+81.423,
+"2024"
+],
+"BGD": [
+74.93,
+"2024"
+],
+"BRB": [
+76.332,
+"2024"
+],
+"BLR": [
+74.3653414634147,
+"2024"
+],
+"BEL": [
+82.3,
+"2024"
+],
+"BLZ": [
+73.739,
+"2024"
+],
+"BEN": [
+60.961,
+"2024"
+],
+"BMU": [
+82.49,
+"2024"
+],
+"BTN": [
+73.262,
+"2024"
+],
+"BOL": [
+68.739,
+"2024"
+],
+"BIH": [
+78.044,
+"2024"
+],
+"BWA": [
+69.293,
+"2024"
+],
+"BRA": [
+76.023,
+"2024"
+],
+"VGB": [
+77.431,
+"2024"
+],
+"BRN": [
+75.501,
+"2024"
+],
+"BGR": [
+75.7609756097561,
+"2024"
+],
+"BFA": [
+61.292,
+"2024"
+],
+"BDI": [
+63.818,
+"2024"
+],
+"CPV": [
+76.224,
+"2024"
+],
+"KHM": [
+70.817,
+"2024"
+],
+"CMR": [
+63.968,
+"2024"
+],
+"CAN": [
+82.1080487804878,
+"2024"
+],
+"CYM": [
+80.54,
+"2024"
+],
+"CAF": [
+57.671,
+"2024"
+],
+"TCD": [
+55.238,
+"2024"
+],
+"CHI": [
+81.2,
+"2024"
+],
+"CHL": [
+81.359,
+"2024"
+],
+"CHN": [
+78.017,
+"2024"
+],
+"COL": [
+77.913,
+"2024"
+],
+"COM": [
+67.023,
+"2024"
+],
+"COD": [
+62.074,
+"2024"
+],
+"COG": [
+66.001,
+"2024"
+],
+"CRI": [
+80.996,
+"2024"
+],
+"CIV": [
+62.11,
+"2024"
+],
+"HRV": [
+78.9292682926829,
+"2024"
+],
+"CUB": [
+78.264,
+"2024"
+],
+"CUW": [
+76.989,
+"2024"
+],
+"CYP": [
+81.821,
+"2024"
+],
+"CZE": [
+79.9780487804878,
+"2024"
+],
+"DNK": [
+82.2536585365854,
+"2024"
+],
+"DJI": [
+66.202,
+"2024"
+],
+"DMA": [
+71.294,
+"2024"
+],
+"DOM": [
+73.868,
+"2024"
+],
+"ECU": [
+77.579,
+"2024"
+],
+"EGY": [
+71.806,
+"2024"
+],
+"SLV": [
+72.302,
+"2024"
+],
+"GNQ": [
+63.906,
+"2024"
+],
+"ERI": [
+68.893,
+"2024"
+],
+"EST": [
+79.2951219512195,
+"2024"
+],
+"SWZ": [
+64.264,
+"2024"
+],
+"ETH": [
+67.603,
+"2024"
+],
+"FRO": [
+83.0832463414634,
+"2024"
+],
+"FJI": [
+67.463,
+"2024"
+],
+"FIN": [
+82.3365853658537,
+"2024"
+],
+"FRA": [
+82.9804878048781,
+"2024"
+],
+"PYF": [
+84.192,
+"2024"
+],
+"GAB": [
+68.511,
+"2024"
+],
+"GMB": [
+66.057,
+"2024"
+],
+"GEO": [
+74.657,
+"2024"
+],
+"DEU": [
+80.7926829268293,
+"2024"
+],
+"GHA": [
+65.695,
+"2024"
+],
+"GIB": [
+83.63,
+"2024"
+],
+"GRC": [
+81.8390243902439,
+"2024"
+],
+"GRL": [
+70.2734146341463,
+"2024"
+],
+"GRD": [
+75.367,
+"2024"
+],
+"GUM": [
+77.422,
+"2024"
+],
+"GTM": [
+72.746,
+"2024"
+],
+"GIN": [
+60.904,
+"2024"
+],
+"GNB": [
+64.254,
+"2024"
+],
+"GUY": [
+70.319,
+"2024"
+],
+"HTI": [
+65.119,
+"2024"
+],
+"HND": [
+73.044,
+"2024"
+],
+"HKG": [
+85.3926829268293,
+"2024"
+],
+"HUN": [
+76.7243902439025,
+"2024"
+],
+"ISL": [
+82.809756097561,
+"2024"
+],
+"IND": [
+72.235,
+"2024"
+],
+"IDN": [
+71.288,
+"2024"
+],
+"IRN": [
+77.854,
+"2024"
+],
+"IRQ": [
+72.424,
+"2024"
+],
+"IRL": [
+83.009756097561,
+"2024"
+],
+"IMN": [
+81.091,
+"2024"
+],
+"ISR": [
+83.1975609756098,
+"2024"
+],
+"ITA": [
+83.9512195121951,
+"2024"
+],
+"JAM": [
+71.606,
+"2024"
+],
+"JPN": [
+84.0363414634146,
+"2024"
+],
+"JOR": [
+77.981,
+"2024"
+],
+"KAZ": [
+74.531,
+"2024"
+],
+"KEN": [
+63.834,
+"2024"
+],
+"KIR": [
+66.6,
+"2024"
+],
+"PRK": [
+73.743,
+"2024"
+],
+"KOR": [
+83.6292682926829,
+"2024"
+],
+"XKX": [
+78.222,
+"2024"
+],
+"KWT": [
+84.580487804878,
+"2024"
+],
+"KGZ": [
+72.4,
+"2024"
+],
+"LAO": [
+69.225,
+"2024"
+],
+"LVA": [
+76.4292682926829,
+"2024"
+],
+"LBN": [
+77.945,
+"2024"
+],
+"LSO": [
+57.798,
+"2024"
+],
+"LBR": [
+62.324,
+"2024"
+],
+"LBY": [
+71.121,
+"2024"
+],
+"LIE": [
+84.2,
+"2024"
+],
+"LTU": [
+77.1951219512195,
+"2024"
+],
+"LUX": [
+83.1951219512195,
+"2024"
+],
+"MAC": [
+83.3317073170732,
+"2024"
+],
+"MDG": [
+63.835,
+"2024"
+],
+"MWI": [
+67.561,
+"2024"
+],
+"MYS": [
+76.821,
+"2024"
+],
+"MDV": [
+81.285,
+"2024"
+],
+"MLI": [
+60.675,
+"2024"
+],
+"MLT": [
+82.9560975609756,
+"2024"
+],
+"MHL": [
+67.075,
+"2024"
+],
+"MRT": [
+68.713,
+"2024"
+],
+"MUS": [
+73.7890243902439,
+"2024"
+],
+"MEX": [
+75.264,
+"2024"
+],
+"FSM": [
+67.357,
+"2024"
+],
+"MDA": [
+71.332,
+"2024"
+],
+"MCO": [
+86.497,
+"2024"
+],
+"MNG": [
+72.3980487804878,
+"2024"
+],
+"MNE": [
+77.890243902439,
+"2024"
+],
+"MAR": [
+75.493,
+"2024"
+],
+"MOZ": [
+63.797,
+"2024"
+],
+"MMR": [
+67.095,
+"2024"
+],
+"NAM": [
+67.516,
+"2024"
+],
+"NRU": [
+62.279,
+"2024"
+],
+"NPL": [
+70.636,
+"2024"
+],
+"NLD": [
+81.9658536585366,
+"2024"
+],
+"NCL": [
+78.921,
+"2024"
+],
+"NZL": [
+82.009756097561,
+"2024"
+],
+"NIC": [
+75.1,
+"2024"
+],
+"NER": [
+61.433,
+"2024"
+],
+"NGA": [
+54.635,
+"2024"
+],
+"MKD": [
+76.6165853658537,
+"2024"
+],
+"MNP": [
+78.947,
+"2024"
+],
+"NOR": [
+83.1609756097561,
+"2024"
+],
+"OMN": [
+80.246,
+"2024"
+],
+"PAK": [
+67.799,
+"2024"
+],
+"PLW": [
+69.383,
+"2024"
+],
+"PAN": [
+79.775,
+"2024"
+],
+"PNG": [
+66.256,
+"2024"
+],
+"PRY": [
+73.982,
+"2024"
+],
+"PER": [
+77.941,
+"2024"
+],
+"PHL": [
+69.946,
+"2024"
+],
+"POL": [
+78.409756097561,
+"2024"
+],
+"PRT": [
+82.3829268292683,
+"2024"
+],
+"PRI": [
+81.902,
+"2024"
+],
+"QAT": [
+82.522,
+"2024"
+],
+"ROU": [
+76.4585365853659,
+"2024"
+],
+"RUS": [
+73.4404878048781,
+"2024"
+],
+"RWA": [
+68.017,
+"2024"
+],
+"WSM": [
+71.826,
+"2024"
+],
+"SMR": [
+85.817,
+"2024"
+],
+"STP": [
+69.905,
+"2024"
+],
+"SAU": [
+78.982,
+"2024"
+],
+"SEN": [
+68.924,
+"2024"
+],
+"SRB": [
+75.9682926829268,
+"2024"
+],
+"SYC": [
+76.2951219512195,
+"2024"
+],
+"SLE": [
+61.964,
+"2024"
+],
+"SGP": [
+83.3463414634146,
+"2024"
+],
+"SXM": [
+76.528,
+"2024"
+],
+"SVK": [
+78.3707317073171,
+"2024"
+],
+"SVN": [
+82.2853658536585,
+"2024"
+],
+"SLB": [
+70.694,
+"2024"
+],
+"SOM": [
+58.967,
+"2024"
+],
+"ZAF": [
+66.312,
+"2024"
+],
+"SSD": [
+57.738,
+"2024"
+],
+"ESP": [
+83.8878048780488,
+"2024"
+],
+"LKA": [
+77.672,
+"2024"
+],
+"KNA": [
+72.281,
+"2024"
+],
+"LCA": [
+72.846,
+"2024"
+],
+"MAF": [
+80.438,
+"2024"
+],
+"VCT": [
+71.382,
+"2024"
+],
+"SDN": [
+66.521,
+"2024"
+],
+"SUR": [
+73.757,
+"2024"
+],
+"SWE": [
+84.0634146341463,
+"2024"
+],
+"CHE": [
+84.4073170731707,
+"2024"
+],
+"SYR": [
+72.56,
+"2024"
+],
+"TJK": [
+71.927,
+"2024"
+],
+"TZA": [
+67.212,
+"2024"
+],
+"THA": [
+76.564,
+"2024"
+],
+"TLS": [
+67.904,
+"2024"
+],
+"TGO": [
+62.935,
+"2024"
+],
+"TON": [
+73.07,
+"2024"
+],
+"TTO": [
+73.617,
+"2024"
+],
+"TUN": [
+76.711,
+"2024"
+],
+"TUR": [
+77.421,
+"2024"
+],
+"TKM": [
+70.201,
+"2024"
+],
+"TCA": [
+78.181,
+"2024"
+],
+"TUV": [
+67.259,
+"2024"
+],
+"UGA": [
+68.487,
+"2024"
+],
+"UKR": [
+74.692,
+"2024"
+],
+"ARE": [
+83.069,
+"2024"
+],
+"GBR": [
+81.3868536585366,
+"2024"
+],
+"USA": [
+78.890243902439,
+"2024"
+],
+"URY": [
+78.287,
+"2024"
+],
+"UZB": [
+72.528,
+"2024"
+],
+"VUT": [
+71.654,
+"2024"
+],
+"VEN": [
+72.673,
+"2024"
+],
+"VNM": [
+74.736,
+"2024"
+],
+"VIR": [
+80.7707317073171,
+"2024"
+],
+"PSE": [
+69.213,
+"2024"
+],
+"YEM": [
+69.439,
+"2024"
+],
+"ZMB": [
+66.528,
+"2024"
+],
+"ZWE": [
+63.064,
+"2024"
+]
+},
+"MS.MIL.XPND.CD": {
+"AFG": [
+278250788.014927,
+"2021"
+],
+"ALB": [
+623614024.57297,
+"2025"
+],
+"DZA": [
+25438789692.3346,
+"2025"
+],
+"AGO": [
+1459150446.30333,
+"2025"
+],
+"ARG": [
+3875750072.35425,
+"2025"
+],
+"ARM": [
+1725213042.68086,
+"2025"
+],
+"AUS": [
+35326559811.2952,
+"2025"
+],
+"AUT": [
+6353360557.72398,
+"2025"
+],
+"AZE": [
+4939000000,
+"2025"
+],
+"BHR": [
+1468151595.74468,
+"2025"
+],
+"BGD": [
+3826632299.58464,
+"2025"
+],
+"BLR": [
+1938589500.49007,
+"2025"
+],
+"BEL": [
+14531958576.8111,
+"2025"
+],
+"BLZ": [
+33317350,
+"2025"
+],
+"BEN": [
+216913737.35984,
+"2025"
+],
+"BOL": [
+688306801.736614,
+"2025"
+],
+"BIH": [
+231395167.755815,
+"2025"
+],
+"BWA": [
+614353516.229317,
+"2025"
+],
+"BRA": [
+23949869705.5596,
+"2025"
+],
+"BRN": [
+560266733.742499,
+"2024"
+],
+"BGR": [
+2589155424.30657,
+"2025"
+],
+"BFA": [
+891556029.442113,
+"2025"
+],
+"BDI": [
+226615473.530873,
+"2025"
+],
+"CPV": [
+20076627.5685326,
+"2025"
+],
+"KHM": [
+738950217.718036,
+"2025"
+],
+"CMR": [
+627467840.682397,
+"2025"
+],
+"CAN": [
+37494244642.3716,
+"2025"
+],
+"CAF": [
+74185526.5873289,
+"2025"
+],
+"TCD": [
+648809933.273715,
+"2025"
+],
+"CHL": [
+5327885653.37998,
+"2025"
+],
+"CHN": [
+335524155624.44,
+"2025"
+],
+"COL": [
+14502706852.6697,
+"2025"
+],
+"COD": [
+1225252134.15196,
+"2025"
+],
+"COG": [
+204916764.119144,
+"2025"
+],
+"CRI": [
+0,
+"2025"
+],
+"CIV": [
+759441425.328472,
+"2025"
+],
+"HRV": [
+2101617670.28405,
+"2025"
+],
+"CUB": [
+128609126.955981,
+"2018"
+],
+"CYP": [
+663312501.410103,
+"2025"
+],
+"CZE": [
+7051481133.02338,
+"2025"
+],
+"DNK": [
+14948790190.9334,
+"2025"
+],
+"DJI": [
+36274835.2755161,
+"2008"
+],
+"DOM": [
+1037253440.08817,
+"2025"
+],
+"ECU": [
+2735600000,
+"2025"
+],
+"EGY": [
+2501747815.23096,
+"2025"
+],
+"SLV": [
+490000000,
+"2025"
+],
+"GNQ": [
+120731065.556855,
+"2025"
+],
+"ERI": [
+181583668.998912,
+"2003"
+],
+"EST": [
+1575931232.09169,
+"2025"
+],
+"SWZ": [
+93361425.0009785,
+"2025"
+],
+"ETH": [
+528111206.319261,
+"2025"
+],
+"FJI": [
+81159432.2235739,
+"2025"
+],
+"FIN": [
+8081582925.3435,
+"2025"
+],
+"FRA": [
+68007580714.3018,
+"2025"
+],
+"GAB": [
+356111990.094242,
+"2025"
+],
+"GMB": [
+14738181.3404507,
+"2025"
+],
+"GEO": [
+657878727.017108,
+"2025"
+],
+"DEU": [
+113585948604.562,
+"2025"
+],
+"GHA": [
+506651717.200633,
+"2025"
+],
+"GRC": [
+8388421361.36994,
+"2025"
+],
+"GTM": [
+632872273.981159,
+"2025"
+],
+"GIN": [
+600539642.430641,
+"2025"
+],
+"GNB": [
+22360184.3571576,
+"2025"
+],
+"GUY": [
+247643803.406549,
+"2025"
+],
+"HTI": [
+39144696.9765041,
+"2025"
+],
+"HND": [
+580246011.635374,
+"2025"
+],
+"HUN": [
+5001983632.20059,
+"2025"
+],
+"ISL": [
+0,
+"2025"
+],
+"IND": [
+92057013588.1601,
+"2025"
+],
+"IDN": [
+15025416115.2861,
+"2025"
+],
+"IRN": [
+7396057109.81132,
+"2025"
+],
+"IRQ": [
+6447958100.79325,
+"2025"
+],
+"IRL": [
+1551113417.41308,
+"2025"
+],
+"ISR": [
+48281256782.2613,
+"2025"
+],
+"ITA": [
+48143627462.04,
+"2025"
+],
+"JAM": [
+286646045.669905,
+"2025"
+],
+"JPN": [
+62158093812.4419,
+"2025"
+],
+"JOR": [
+2555352112.67606,
+"2025"
+],
+"KAZ": [
+1308552096.59849,
+"2025"
+],
+"KEN": [
+1469684195.87127,
+"2025"
+],
+"PRK": [
+1604444444.44444,
+"2018"
+],
+"KOR": [
+47770908937.4631,
+"2025"
+],
+"XKX": [
+234500146.650723,
+"2025"
+],
+"KWT": [
+8088284947.00752,
+"2025"
+],
+"KGZ": [
+601125601.97899,
+"2025"
+],
+"LAO": [
+22755619.3589915,
+"2013"
+],
+"LVA": [
+1731606615.07569,
+"2025"
+],
+"LBN": [
+828299104.155617,
+"2025"
+],
+"LSO": [
+39909364.8832255,
+"2025"
+],
+"LBR": [
+44210000,
+"2025"
+],
+"LBY": [
+1572965616.59158,
+"2023"
+],
+"LTU": [
+2952191864.26911,
+"2025"
+],
+"LUX": [
+855409155.517451,
+"2025"
+],
+"MDG": [
+119676668.151526,
+"2025"
+],
+"MWI": [
+162819193.404249,
+"2025"
+],
+"MYS": [
+4933177367.16025,
+"2025"
+],
+"MLI": [
+952899497.833115,
+"2025"
+],
+"MLT": [
+124657626.965684,
+"2025"
+],
+"MRT": [
+321759024.993279,
+"2025"
+],
+"MUS": [
+23839838.9129243,
+"2025"
+],
+"MEX": [
+13647711360.1699,
+"2025"
+],
+"MDA": [
+113287334.343161,
+"2025"
+],
+"MNG": [
+221316703.291124,
+"2025"
+],
+"MNE": [
+176544908.963743,
+"2025"
+],
+"MAR": [
+6330727244.32833,
+"2025"
+],
+"MOZ": [
+468062039.793201,
+"2025"
+],
+"MMR": [
+5011272415.12673,
+"2024"
+],
+"NAM": [
+410522284.161499,
+"2025"
+],
+"NPL": [
+428290814.130341,
+"2025"
+],
+"NLD": [
+28944340410.1708,
+"2025"
+],
+"NZL": [
+2855732604.46047,
+"2025"
+],
+"NIC": [
+116367344.164231,
+"2025"
+],
+"NER": [
+488890417.555204,
+"2025"
+],
+"NGA": [
+2101677527.96428,
+"2025"
+],
+"MKD": [
+374751246.971901,
+"2025"
+],
+"NOR": [
+17033643852.4906,
+"2025"
+],
+"OMN": [
+5988296488.94668,
+"2025"
+],
+"PAK": [
+11871380866.1054,
+"2025"
+],
+"PAN": [
+0,
+"2025"
+],
+"PNG": [
+106480682.765567,
+"2025"
+],
+"PRY": [
+421095331.469374,
+"2025"
+],
+"PER": [
+2596241408.39308,
+"2025"
+],
+"PHL": [
+6378758229.62055,
+"2025"
+],
+"POL": [
+46760133894.5979,
+"2025"
+],
+"PRT": [
+5861290977.59628,
+"2025"
+],
+"QAT": [
+15412087912.0879,
+"2022"
+],
+"ROU": [
+9725350362.95386,
+"2025"
+],
+"RUS": [
+190416640325.211,
+"2025"
+],
+"RWA": [
+191192499.021855,
+"2025"
+],
+"SAU": [
+83181333333.3333,
+"2025"
+],
+"SEN": [
+566873602.751505,
+"2025"
+],
+"SRB": [
+2781295696.28539,
+"2025"
+],
+"SYC": [
+28380338.8842227,
+"2025"
+],
+"SLE": [
+32182766.1089669,
+"2025"
+],
+"SGP": [
+17438486492.2764,
+"2025"
+],
+"SVK": [
+3118330513.25437,
+"2025"
+],
+"SVN": [
+1221658206.42978,
+"2025"
+],
+"SOM": [
+199468000,
+"2025"
+],
+"ZAF": [
+3173874329.74185,
+"2025"
+],
+"SSD": [
+178422465.694743,
+"2025"
+],
+"ESP": [
+40211754089.1145,
+"2025"
+],
+"LKA": [
+1390730987.15186,
+"2025"
+],
+"SDN": [
+369443039.163841,
+"2021"
+],
+"SWE": [
+16473477206.4967,
+"2025"
+],
+"CHE": [
+7591405901.06939,
+"2025"
+],
+"SYR": [
+2494887483.1484,
+"2011"
+],
+"TJK": [
+246931888.321536,
+"2025"
+],
+"TZA": [
+1030461758.32071,
+"2025"
+],
+"THA": [
+5983978404.68406,
+"2025"
+],
+"TLS": [
+47916000,
+"2025"
+],
+"TGO": [
+204947549.441101,
+"2025"
+],
+"TTO": [
+229899160.506055,
+"2025"
+],
+"TUN": [
+1484859113.76125,
+"2025"
+],
+"TUR": [
+29986711540.6008,
+"2025"
+],
+"TKM": [
+111923076.923077,
+"1999"
+],
+"UGA": [
+1296994464.2173,
+"2025"
+],
+"UKR": [
+84109045741.8544,
+"2025"
+],
+"ARE": [
+22755071477.1954,
+"2014"
+],
+"GBR": [
+88977496940.3926,
+"2025"
+],
+"USA": [
+954387000000,
+"2025"
+],
+"URY": [
+1954316864.68679,
+"2025"
+],
+"UZB": [
+1440466815.75834,
+"2018"
+],
+"VEN": [
+2127936596.43571,
+"2017"
+],
+"VNM": [
+10487302148.8671,
+"2025"
+],
+"YEM": [
+1714830843.68747,
+"2014"
+],
+"ZMB": [
+405858785.205616,
+"2025"
+],
+"ZWE": [
+159639292.706335,
+"2025"
+]
+},
+"ST.INT.ARVL": {
+"ALB": [
+2658000,
+"2020"
+],
+"DZA": [
+591000,
+"2020"
+],
+"ASM": [
+899.999976158142,
+"2020"
+],
+"AND": [
+5207000,
+"2020"
+],
+"AGO": [
+218000,
+"2019"
+],
+"ATG": [
+384500,
+"2020"
+],
+"ARG": [
+7399000,
+"2019"
+],
+"ARM": [
+375000,
+"2020"
+],
+"ABW": [
+1951000,
+"2019"
+],
+"AUS": [
+1828000,
+"2020"
+],
+"AUT": [
+15091000,
+"2020"
+],
+"AZE": [
+796000,
+"2020"
+],
+"BHS": [
+1794500,
+"2020"
+],
+"BHR": [
+1909000,
+"2020"
+],
+"BGD": [
+323000,
+"2019"
+],
+"BRB": [
+966000,
+"2019"
+],
+"BLR": [
+3598000,
+"2020"
+],
+"BEL": [
+2584000,
+"2020"
+],
+"BLZ": [
+487000,
+"2020"
+],
+"BEN": [
+337000,
+"2019"
+],
+"BMU": [
+51400.0015258789,
+"2020"
+],
+"BTN": [
+29799.9992370605,
+"2020"
+],
+"BOL": [
+323299.987792969,
+"2020"
+],
+"BIH": [
+197000,
+"2020"
+],
+"BWA": [
+1830000,
+"2018"
+],
+"BRA": [
+6353000,
+"2019"
+],
+"VGB": [
+83000,
+"2020"
+],
+"BRN": [
+1071000,
+"2020"
+],
+"BGR": [
+4973000,
+"2020"
+],
+"BFA": [
+67000,
+"2020"
+],
+"BDI": [
+299000,
+"2017"
+],
+"CPV": [
+180000,
+"2020"
+],
+"KHM": [
+1306000,
+"2020"
+],
+"CMR": [
+1021000,
+"2019"
+],
+"CAN": [
+32430000,
+"2019"
+],
+"CYM": [
+660000,
+"2020"
+],
+"CAF": [
+87000,
+"2019"
+],
+"TCD": [
+10399.9996185303,
+"2020"
+],
+"CHL": [
+5431000,
+"2019"
+],
+"CHN": [
+30402000,
+"2020"
+],
+"COL": [
+1396000,
+"2020"
+],
+"COM": [
+7000,
+"2020"
+],
+"COD": [
+351000,
+"2016"
+],
+"COG": [
+158000,
+"2018"
+],
+"CRI": [
+1146500,
+"2020"
+],
+"CIV": [
+668000,
+"2020"
+],
+"HRV": [
+21608000,
+"2020"
+],
+"CUB": [
+1086000,
+"2020"
+],
+"CUW": [
+1293000,
+"2019"
+],
+"CYP": [
+4117000,
+"2019"
+],
+"CZE": [
+37202000,
+"2019"
+],
+"DNK": [
+15595000,
+"2020"
+],
+"DJI": [
+63000,
+"2013"
+],
+"DMA": [
+140000,
+"2020"
+],
+"DOM": [
+2748000,
+"2020"
+],
+"ECU": [
+2108000,
+"2019"
+],
+"EGY": [
+13026000,
+"2019"
+],
+"SLV": [
+707000,
+"2020"
+],
+"ERI": [
+142000,
+"2016"
+],
+"EST": [
+1695000,
+"2020"
+],
+"SWZ": [
+345299.987792969,
+"2020"
+],
+"ETH": [
+518000,
+"2020"
+],
+"FJI": [
+168000,
+"2020"
+],
+"FIN": [
+896000,
+"2020"
+],
+"FRA": [
+117109000,
+"2020"
+],
+"PYF": [
+89400.0015258789,
+"2020"
+],
+"GAB": [
+526000,
+"2005"
+],
+"GMB": [
+246000,
+"2020"
+],
+"GEO": [
+1513000,
+"2020"
+],
+"DEU": [
+12449000,
+"2020"
+],
+"GHA": [
+897000,
+"2015"
+],
+"GRC": [
+7406000,
+"2020"
+],
+"GRD": [
+217000,
+"2020"
+],
+"GUM": [
+328000,
+"2020"
+],
+"GTM": [
+594000,
+"2020"
+],
+"GIN": [
+99000,
+"2017"
+],
+"GNB": [
+52400.0015258789,
+"2019"
+],
+"GUY": [
+86400.0015258789,
+"2020"
+],
+"HTI": [
+938000,
+"2019"
+],
+"HND": [
+669000,
+"2020"
+],
+"HKG": [
+3569000,
+"2020"
+],
+"HUN": [
+31641000,
+"2020"
+],
+"ISL": [
+488000,
+"2020"
+],
+"IND": [
+17914000,
+"2019"
+],
+"IDN": [
+4053000,
+"2020"
+],
+"IRN": [
+1550000,
+"2020"
+],
+"IRQ": [
+892000,
+"2013"
+],
+"IRL": [
+10951000,
+"2019"
+],
+"ISR": [
+4905000,
+"2019"
+],
+"ITA": [
+38419000,
+"2020"
+],
+"JAM": [
+1329699.95117188,
+"2020"
+],
+"JPN": [
+4115799.8046875,
+"2020"
+],
+"JOR": [
+1240000,
+"2020"
+],
+"KAZ": [
+2035000,
+"2020"
+],
+"KEN": [
+2049000,
+"2019"
+],
+"KIR": [
+12000,
+"2019"
+],
+"KOR": [
+2519000,
+"2020"
+],
+"KWT": [
+2161000,
+"2020"
+],
+"KGZ": [
+8508000,
+"2019"
+],
+"LAO": [
+886400.024414063,
+"2020"
+],
+"LVA": [
+3204000,
+"2020"
+],
+"LBN": [
+1936000,
+"2019"
+],
+"LSO": [
+1142000,
+"2019"
+],
+"LBY": [
+760000,
+"2008"
+],
+"LIE": [
+58400.0015258789,
+"2020"
+],
+"LTU": [
+2284000,
+"2020"
+],
+"LUX": [
+525000,
+"2020"
+],
+"MAC": [
+5897000,
+"2020"
+],
+"MDG": [
+87099.9984741211,
+"2020"
+],
+"MWI": [
+871000,
+"2018"
+],
+"MYS": [
+4333000,
+"2020"
+],
+"MDV": [
+555000,
+"2020"
+],
+"MLI": [
+217000,
+"2019"
+],
+"MLT": [
+718000,
+"2020"
+],
+"MHL": [
+6099.99990463257,
+"2019"
+],
+"MRT": [
+30000,
+"2000"
+],
+"MUS": [
+316000,
+"2020"
+],
+"MEX": [
+51128000,
+"2020"
+],
+"FSM": [
+18000,
+"2019"
+],
+"MDA": [
+29000,
+"2020"
+],
+"MCO": [
+159000,
+"2020"
+],
+"MNG": [
+66900.0015258789,
+"2020"
+],
+"MNE": [
+351000,
+"2020"
+],
+"MAR": [
+2802000,
+"2020"
+],
+"MOZ": [
+2033000,
+"2019"
+],
+"MMR": [
+903000,
+"2020"
+],
+"NAM": [
+187100.006103516,
+"2020"
+],
+"NPL": [
+230000,
+"2020"
+],
+"NLD": [
+7265000,
+"2020"
+],
+"NCL": [
+31000,
+"2020"
+],
+"NZL": [
+996000,
+"2020"
+],
+"NIC": [
+474000,
+"2020"
+],
+"NER": [
+85000,
+"2020"
+],
+"NGA": [
+5265000,
+"2016"
+],
+"MKD": [
+118000,
+"2020"
+],
+"MNP": [
+487000,
+"2019"
+],
+"NOR": [
+1397000,
+"2020"
+],
+"OMN": [
+869000,
+"2020"
+],
+"PAK": [
+966000,
+"2012"
+],
+"PLW": [
+18399.9996185303,
+"2020"
+],
+"PAN": [
+647000,
+"2020"
+],
+"PNG": [
+39000,
+"2020"
+],
+"PRY": [
+1077000,
+"2020"
+],
+"PER": [
+1119000,
+"2020"
+],
+"PHL": [
+1483000,
+"2020"
+],
+"POL": [
+88515000,
+"2019"
+],
+"PRT": [
+4208000,
+"2020"
+],
+"PRI": [
+3882000,
+"2020"
+],
+"QAT": [
+582000,
+"2020"
+],
+"ROU": [
+5023000,
+"2020"
+],
+"RUS": [
+6359000,
+"2020"
+],
+"RWA": [
+1634000,
+"2019"
+],
+"WSM": [
+23899.9996185303,
+"2020"
+],
+"SMR": [
+1904000,
+"2019"
+],
+"STP": [
+33400.0015258789,
+"2018"
+],
+"SAU": [
+20292000,
+"2019"
+],
+"SEN": [
+1376000,
+"2017"
+],
+"SRB": [
+446000,
+"2020"
+],
+"SYC": [
+124500,
+"2020"
+],
+"SLE": [
+71000,
+"2019"
+],
+"SGP": [
+2742000,
+"2020"
+],
+"SXM": [
+1952000,
+"2019"
+],
+"SVK": [
+15299000,
+"2018"
+],
+"SVN": [
+1216000,
+"2020"
+],
+"SLB": [
+4400.00009536743,
+"2020"
+],
+"ZAF": [
+3886600.09765625,
+"2020"
+],
+"ESP": [
+36410000,
+"2020"
+],
+"LKA": [
+540000,
+"2020"
+],
+"KNA": [
+301399.993896484,
+"2020"
+],
+"LCA": [
+432500,
+"2020"
+],
+"VCT": [
+392000,
+"2019"
+],
+"SDN": [
+836000,
+"2018"
+],
+"SUR": [
+279000,
+"2017"
+],
+"SWE": [
+1957000,
+"2020"
+],
+"CHE": [
+11818000,
+"2019"
+],
+"SYR": [
+2424000,
+"2019"
+],
+"TJK": [
+1035000,
+"2018"
+],
+"TZA": [
+1527000,
+"2019"
+],
+"THA": [
+39916000,
+"2019"
+],
+"TLS": [
+74800.0030517578,
+"2019"
+],
+"TGO": [
+482000,
+"2020"
+],
+"TON": [
+94000,
+"2019"
+],
+"TTO": [
+141000,
+"2020"
+],
+"TUN": [
+2012000,
+"2020"
+],
+"TUR": [
+15971000,
+"2020"
+],
+"TKM": [
+380000,
+"1998"
+],
+"TCA": [
+370399.993896484,
+"2020"
+],
+"TUV": [
+3599.99990463257,
+"2019"
+],
+"UGA": [
+473000,
+"2020"
+],
+"UKR": [
+3382000,
+"2020"
+],
+"ARE": [
+8084000,
+"2020"
+],
+"GBR": [
+11101000,
+"2020"
+],
+"USA": [
+45037000,
+"2020"
+],
+"URY": [
+3480000,
+"2019"
+],
+"UZB": [
+6749000,
+"2019"
+],
+"VUT": [
+82400.0015258789,
+"2020"
+],
+"VEN": [
+429000,
+"2017"
+],
+"VNM": [
+3837000,
+"2020"
+],
+"VIR": [
+8612000,
+"2020"
+],
+"PSE": [
+93000,
+"2020"
+],
+"YEM": [
+398000,
+"2015"
+],
+"ZMB": [
+502000,
+"2020"
+],
+"ZWE": [
+639000,
+"2020"
+]
+},
+"IT.NET.USER.ZS": {
+"AFG": [
+16.09499931,
+"2024"
+],
+"ALB": [
+85.86389923,
+"2024"
+],
+"DZA": [
+77.4178009,
+"2024"
+],
+"ASM": [
+0,
+"1990"
+],
+"AND": [
+94.39759827,
+"2024"
+],
+"AGO": [
+40.70479965,
+"2024"
+],
+"ATG": [
+72.73040009,
+"2024"
+],
+"ARG": [
+89.66715228,
+"2024"
+],
+"ARM": [
+81.33930206,
+"2024"
+],
+"ABW": [
+97.17,
+"2017"
+],
+"AUS": [
+96.13140106,
+"2024"
+],
+"AUT": [
+91.92573373,
+"2025"
+],
+"AZE": [
+90.80000181,
+"2025"
+],
+"BHS": [
+92.47270203,
+"2024"
+],
+"BHR": [
+100,
+"2024"
+],
+"BGD": [
+53.42171316,
+"2024"
+],
+"BRB": [
+70.36470032,
+"2024"
+],
+"BLR": [
+94.26182128,
+"2024"
+],
+"BEL": [
+95.77579144,
+"2024"
+],
+"BLZ": [
+80.00582262,
+"2024"
+],
+"BEN": [
+33.98379898,
+"2024"
+],
+"BMU": [
+98.37,
+"2017"
+],
+"BTN": [
+91.27739716,
+"2024"
+],
+"BOL": [
+79.70469666,
+"2024"
+],
+"BIH": [
+86.10091103,
+"2024"
+],
+"BWA": [
+57.45950036,
+"2024"
+],
+"BRA": [
+84.46347227,
+"2024"
+],
+"VGB": [
+77.7042682926829,
+"2017"
+],
+"BRN": [
+96.29828801,
+"2024"
+],
+"BGR": [
+82.438955,
+"2024"
+],
+"BFA": [
+28.25270081,
+"2024"
+],
+"BDI": [
+8.595999718,
+"2024"
+],
+"CPV": [
+74.73519897,
+"2024"
+],
+"KHM": [
+68.47530365,
+"2024"
+],
+"CMR": [
+46.25880051,
+"2024"
+],
+"CAN": [
+94.353302,
+"2024"
+],
+"CYM": [
+81.0676932508161,
+"2017"
+],
+"CAF": [
+13.78250027,
+"2024"
+],
+"TCD": [
+12.62689972,
+"2024"
+],
+"CHL": [
+95.590243,
+"2024"
+],
+"CHN": [
+91.6,
+"2025"
+],
+"COL": [
+79.34543299,
+"2024"
+],
+"COM": [
+32.51750183,
+"2024"
+],
+"COD": [
+19.67350006,
+"2024"
+],
+"COG": [
+47.25159836,
+"2024"
+],
+"CRI": [
+87.17019653,
+"2024"
+],
+"CIV": [
+41.43219902,
+"2024"
+],
+"HRV": [
+83.63240029,
+"2024"
+],
+"CUB": [
+70.47699738,
+"2024"
+],
+"CUW": [
+68.1272162511339,
+"2017"
+],
+"CYP": [
+89.60099246,
+"2024"
+],
+"CZE": [
+87.68776014,
+"2024"
+],
+"DNK": [
+99.76915157,
+"2024"
+],
+"DJI": [
+65.29889679,
+"2024"
+],
+"DMA": [
+82.04689789,
+"2024"
+],
+"DOM": [
+91.0022446,
+"2024"
+],
+"ECU": [
+77.17273115,
+"2024"
+],
+"EGY": [
+74.64839935,
+"2024"
+],
+"SLV": [
+66.47769928,
+"2024"
+],
+"GNQ": [
+63.29930115,
+"2024"
+],
+"ERI": [
+14.34939957,
+"2020"
+],
+"EST": [
+92.23796204,
+"2024"
+],
+"SWZ": [
+63.40309906,
+"2024"
+],
+"ETH": [
+21.94129944,
+"2024"
+],
+"FRO": [
+97.5819589384468,
+"2017"
+],
+"FJI": [
+74.7052002,
+"2024"
+],
+"FIN": [
+93.72405196,
+"2024"
+],
+"FRA": [
+88.65381638,
+"2024"
+],
+"PYF": [
+72.7038953132942,
+"2017"
+],
+"GAB": [
+68.72090149,
+"2024"
+],
+"GMB": [
+49.49430084,
+"2024"
+],
+"GEO": [
+83.79855689,
+"2024"
+],
+"DEU": [
+93.49999579,
+"2024"
+],
+"GHA": [
+72.17569733,
+"2024"
+],
+"GIB": [
+94.4444715818151,
+"2016"
+],
+"GRC": [
+86.26968886,
+"2024"
+],
+"GRL": [
+69.4824617821988,
+"2017"
+],
+"GRD": [
+70.16159821,
+"2024"
+],
+"GUM": [
+80.5054655600831,
+"2017"
+],
+"GTM": [
+60.22140121,
+"2024"
+],
+"GIN": [
+33.30469894,
+"2024"
+],
+"GNB": [
+29.77739906,
+"2024"
+],
+"GUY": [
+83.00080109,
+"2024"
+],
+"HTI": [
+47.8614006,
+"2024"
+],
+"HND": [
+58.62269974,
+"2024"
+],
+"HKG": [
+95.75536971,
+"2024"
+],
+"HUN": [
+93.77898628,
+"2024"
+],
+"ISL": [
+98.209198,
+"2024"
+],
+"IND": [
+70,
+"2025"
+],
+"IDN": [
+72.78075544,
+"2024"
+],
+"IRN": [
+85.3404007,
+"2024"
+],
+"IRQ": [
+81.47450256,
+"2024"
+],
+"IRL": [
+97.18769836,
+"2024"
+],
+"ISR": [
+88.18242225,
+"2024"
+],
+"ITA": [
+89.2207202,
+"2024"
+],
+"JAM": [
+90.10870361,
+"2024"
+],
+"JPN": [
+85.54153081,
+"2024"
+],
+"JOR": [
+95.62244985,
+"2024"
+],
+"KAZ": [
+93.39167254,
+"2024"
+],
+"KEN": [
+34.97622513,
+"2024"
+],
+"KIR": [
+89.44029999,
+"2024"
+],
+"PRK": [
+0,
+"2004"
+],
+"KOR": [
+97.89563777,
+"2024"
+],
+"XKX": [
+89.4430319734879,
+"2018"
+],
+"KWT": [
+100,
+"2025"
+],
+"KGZ": [
+92.0286026,
+"2024"
+],
+"LAO": [
+65.59269714,
+"2024"
+],
+"LVA": [
+92.70757011,
+"2024"
+],
+"LBN": [
+80.63400269,
+"2024"
+],
+"LSO": [
+51.79660034,
+"2024"
+],
+"LBR": [
+32.23360062,
+"2024"
+],
+"LBY": [
+81.95449829,
+"2024"
+],
+"LIE": [
+98.2641983,
+"2024"
+],
+"LTU": [
+89.16116293,
+"2024"
+],
+"LUX": [
+99.12902211,
+"2025"
+],
+"MAC": [
+89.82640076,
+"2024"
+],
+"MDG": [
+18.67790031,
+"2024"
+],
+"MWI": [
+18.96159935,
+"2024"
+],
+"MYS": [
+98.0206059,
+"2024"
+],
+"MDV": [
+85.23999786,
+"2024"
+],
+"MLI": [
+36.80149841,
+"2024"
+],
+"MLT": [
+93.86029816,
+"2024"
+],
+"MHL": [
+65.915802,
+"2024"
+],
+"MRT": [
+45.77939987,
+"2024"
+],
+"MUS": [
+73.30793533,
+"2024"
+],
+"MEX": [
+83.12233799,
+"2024"
+],
+"FSM": [
+39.52360153,
+"2024"
+],
+"MDA": [
+77.3687973,
+"2024"
+],
+"MCO": [
+99.04489899,
+"2024"
+],
+"MNG": [
+85.12349701,
+"2024"
+],
+"MNE": [
+88.88258428,
+"2024"
+],
+"MAR": [
+91.2,
+"2024"
+],
+"MOZ": [
+20.52729988,
+"2024"
+],
+"MMR": [
+45.4477005,
+"2020"
+],
+"NAM": [
+64.87460327,
+"2024"
+],
+"NRU": [
+83.01170349,
+"2024"
+],
+"NPL": [
+46.32189941,
+"2024"
+],
+"NLD": [
+97.00679779,
+"2024"
+],
+"NCL": [
+82.0058408035186,
+"2017"
+],
+"NZL": [
+93.51930237,
+"2024"
+],
+"NIC": [
+61.39550018,
+"2024"
+],
+"NER": [
+15.55760002,
+"2024"
+],
+"NGA": [
+41.21139908,
+"2024"
+],
+"MKD": [
+93.1,
+"2025"
+],
+"MNP": [
+0,
+"1990"
+],
+"NOR": [
+99,
+"2024"
+],
+"OMN": [
+95.25174678,
+"2024"
+],
+"PAK": [
+57.253,
+"2024"
+],
+"PLW": [
+83.92549896,
+"2024"
+],
+"PAN": [
+72.77149963,
+"2024"
+],
+"PNG": [
+18.81159973,
+"2024"
+],
+"PRY": [
+81.57806793,
+"2024"
+],
+"PER": [
+81.95705992,
+"2024"
+],
+"PHL": [
+67.26300914,
+"2024"
+],
+"POL": [
+88.58496367,
+"2024"
+],
+"PRT": [
+88.48704454,
+"2024"
+],
+"PRI": [
+87.29178106,
+"2022"
+],
+"QAT": [
+98.08540344,
+"2024"
+],
+"ROU": [
+91.29048551,
+"2024"
+],
+"RUS": [
+94.36495368,
+"2024"
+],
+"RWA": [
+31.70330048,
+"2024"
+],
+"WSM": [
+21.20000076,
+"2014"
+],
+"SMR": [
+97.35220337,
+"2024"
+],
+"STP": [
+59.11759949,
+"2024"
+],
+"SAU": [
+100,
+"2024"
+],
+"SEN": [
+60.11780167,
+"2024"
+],
+"SRB": [
+87.69071294,
+"2024"
+],
+"SYC": [
+87.81800079,
+"2024"
+],
+"SLE": [
+25.10499954,
+"2024"
+],
+"SGP": [
+94.37757178,
+"2024"
+],
+"SVK": [
+89.82507032,
+"2024"
+],
+"SVN": [
+90.76355487,
+"2024"
+],
+"SLB": [
+29.04070091,
+"2024"
+],
+"SOM": [
+27.94020081,
+"2024"
+],
+"ZAF": [
+78.35759735,
+"2024"
+],
+"SSD": [
+6.671000004,
+"2019"
+],
+"ESP": [
+95.7574516,
+"2024"
+],
+"LKA": [
+54.59,
+"2024"
+],
+"KNA": [
+76.88400269,
+"2024"
+],
+"LCA": [
+68.20500183,
+"2024"
+],
+"VCT": [
+76.19010162,
+"2024"
+],
+"SDN": [
+18.60000038,
+"2017"
+],
+"SUR": [
+87.4,
+"2023"
+],
+"SWE": [
+95.76629783,
+"2025"
+],
+"CHE": [
+97.32103855,
+"2025"
+],
+"SYR": [
+33.77000046,
+"2018"
+],
+"TJK": [
+55.79339981,
+"2024"
+],
+"TZA": [
+31.16209984,
+"2024"
+],
+"THA": [
+90.86718789,
+"2024"
+],
+"TLS": [
+35.04199982,
+"2021"
+],
+"TGO": [
+39.48320007,
+"2024"
+],
+"TON": [
+67.4417038,
+"2024"
+],
+"TTO": [
+82.15989685,
+"2024"
+],
+"TUN": [
+76.5,
+"2024"
+],
+"TUR": [
+89.77024003,
+"2025"
+],
+"TKM": [
+17.99029922,
+"2016"
+],
+"TCA": [
+0,
+"1990"
+],
+"TUV": [
+35.20000076,
+"2017"
+],
+"UGA": [
+8.949831061,
+"2024"
+],
+"UKR": [
+82.47489929,
+"2024"
+],
+"ARE": [
+100,
+"2024"
+],
+"GBR": [
+95.4720993,
+"2024"
+],
+"USA": [
+94.69380188,
+"2024"
+],
+"URY": [
+91.99109007,
+"2024"
+],
+"UZB": [
+89.50550079,
+"2024"
+],
+"VUT": [
+22.35140038,
+"2015"
+],
+"VEN": [
+76.67890167,
+"2024"
+],
+"VNM": [
+84.15,
+"2024"
+],
+"VIR": [
+64.3774942980087,
+"2017"
+],
+"PSE": [
+86.63765334,
+"2023"
+],
+"YEM": [
+17.49099922,
+"2019"
+],
+"ZMB": [
+17.10099983,
+"2024"
+],
+"ZWE": [
+41.64279938,
+"2024"
+]
+},
+"SL.UEM.TOTL.ZS": {
+"AFG": [
+13.351,
+"2025"
+],
+"ALB": [
+10.926,
+"2025"
+],
+"DZA": [
+11.633,
+"2025"
+],
+"AGO": [
+14.108,
+"2025"
+],
+"ARG": [
+7.145,
+"2025"
+],
+"ARM": [
+12.871,
+"2025"
+],
+"AUS": [
+4.09,
+"2025"
+],
+"AUT": [
+5.582,
+"2025"
+],
+"AZE": [
+5.457,
+"2025"
+],
+"BHS": [
+9.207,
+"2025"
+],
+"BHR": [
+1.102,
+"2025"
+],
+"BGD": [
+3.778,
+"2025"
+],
+"BRB": [
+6.524,
+"2025"
+],
+"BLR": [
+3.38,
+"2025"
+],
+"BEL": [
+5.906,
+"2025"
+],
+"BLZ": [
+8.856,
+"2025"
+],
+"BEN": [
+1.589,
+"2025"
+],
+"BTN": [
+3.227,
+"2025"
+],
+"BOL": [
+2.967,
+"2025"
+],
+"BIH": [
+11.037,
+"2025"
+],
+"BWA": [
+24.477,
+"2025"
+],
+"BRA": [
+5.97,
+"2025"
+],
+"BRN": [
+5.277,
+"2025"
+],
+"BGR": [
+3.536,
+"2025"
+],
+"BFA": [
+3.477,
+"2025"
+],
+"BDI": [
+0.922,
+"2025"
+],
+"CPV": [
+11.939,
+"2025"
+],
+"KHM": [
+0.263,
+"2025"
+],
+"CMR": [
+3.602,
+"2025"
+],
+"CAN": [
+6.907,
+"2025"
+],
+"CAF": [
+6.251,
+"2025"
+],
+"TCD": [
+1.057,
+"2025"
+],
+"CHI": [
+6.169,
+"2025"
+],
+"CHL": [
+8.974,
+"2025"
+],
+"CHN": [
+4.615,
+"2025"
+],
+"COL": [
+8.29,
+"2025"
+],
+"COM": [
+3.819,
+"2025"
+],
+"COD": [
+4.434,
+"2025"
+],
+"COG": [
+19.876,
+"2025"
+],
+"CRI": [
+6.843,
+"2025"
+],
+"CIV": [
+2.323,
+"2025"
+],
+"HRV": [
+5.002,
+"2025"
+],
+"CUB": [
+1.746,
+"2025"
+],
+"CYP": [
+4.924,
+"2025"
+],
+"CZE": [
+2.825,
+"2025"
+],
+"DNK": [
+5.529,
+"2025"
+],
+"DJI": [
+26.015,
+"2025"
+],
+"DOM": [
+5.092,
+"2025"
+],
+"ECU": [
+3.308,
+"2025"
+],
+"EGY": [
+6.781,
+"2025"
+],
+"SLV": [
+3.303,
+"2025"
+],
+"GNQ": [
+8.337,
+"2025"
+],
+"ERI": [
+5.978,
+"2025"
+],
+"EST": [
+8.313,
+"2025"
+],
+"SWZ": [
+34.202,
+"2025"
+],
+"ETH": [
+3.323,
+"2025"
+],
+"FJI": [
+5.347,
+"2025"
+],
+"FIN": [
+9.461,
+"2025"
+],
+"FRA": [
+7.542,
+"2025"
+],
+"PYF": [
+11.662,
+"2025"
+],
+"GAB": [
+20.154,
+"2025"
+],
+"GMB": [
+6.521,
+"2025"
+],
+"GEO": [
+12.097,
+"2025"
+],
+"DEU": [
+3.711,
+"2025"
+],
+"GHA": [
+2.979,
+"2025"
+],
+"GRC": [
+8.54,
+"2025"
+],
+"GUM": [
+5.569,
+"2025"
+],
+"GTM": [
+2.604,
+"2025"
+],
+"GIN": [
+5.163,
+"2025"
+],
+"GNB": [
+2.673,
+"2025"
+],
+"GUY": [
+11.962,
+"2025"
+],
+"HTI": [
+14.944,
+"2025"
+],
+"HND": [
+4.92,
+"2025"
+],
+"HKG": [
+2.799,
+"2025"
+],
+"HUN": [
+4.521,
+"2025"
+],
+"ISL": [
+3.625,
+"2025"
+],
+"IND": [
+4.219,
+"2025"
+],
+"IDN": [
+3.237,
+"2025"
+],
+"IRN": [
+8.301,
+"2025"
+],
+"IRQ": [
+15.485,
+"2025"
+],
+"IRL": [
+4.632,
+"2025"
+],
+"ISR": [
+3.489,
+"2025"
+],
+"ITA": [
+6.391,
+"2025"
+],
+"JAM": [
+3.286,
+"2025"
+],
+"JPN": [
+2.451,
+"2025"
+],
+"JOR": [
+16.535,
+"2025"
+],
+"KAZ": [
+4.771,
+"2025"
+],
+"KEN": [
+5.449,
+"2025"
+],
+"PRK": [
+3.545,
+"2025"
+],
+"KOR": [
+2.683,
+"2025"
+],
+"KWT": [
+2.181,
+"2025"
+],
+"KGZ": [
+3.526,
+"2025"
+],
+"LAO": [
+1.187,
+"2025"
+],
+"LVA": [
+6.568,
+"2025"
+],
+"LBN": [
+10.985,
+"2023"
+],
+"LSO": [
+16.315,
+"2025"
+],
+"LBR": [
+2.884,
+"2025"
+],
+"LBY": [
+18.758,
+"2025"
+],
+"LTU": [
+6.731,
+"2025"
+],
+"LUX": [
+6.343,
+"2025"
+],
+"MAC": [
+2.347,
+"2025"
+],
+"MDG": [
+3.041,
+"2025"
+],
+"MWI": [
+5.072,
+"2025"
+],
+"MYS": [
+3.764,
+"2025"
+],
+"MDV": [
+4.514,
+"2025"
+],
+"MLI": [
+2.831,
+"2025"
+],
+"MLT": [
+2.896,
+"2025"
+],
+"MRT": [
+10.319,
+"2025"
+],
+"MUS": [
+5.635,
+"2025"
+],
+"MEX": [
+2.673,
+"2025"
+],
+"MDA": [
+1.505,
+"2025"
+],
+"MNG": [
+5.233,
+"2025"
+],
+"MNE": [
+13.572,
+"2025"
+],
+"MAR": [
+9,
+"2025"
+],
+"MOZ": [
+6.628,
+"2025"
+],
+"MMR": [
+3.047,
+"2025"
+],
+"NAM": [
+19.291,
+"2025"
+],
+"NPL": [
+10.465,
+"2025"
+],
+"NLD": [
+3.874,
+"2025"
+],
+"NCL": [
+11.174,
+"2025"
+],
+"NZL": [
+5.076,
+"2025"
+],
+"NIC": [
+5.04,
+"2025"
+],
+"NER": [
+0.394,
+"2025"
+],
+"NGA": [
+3.064,
+"2025"
+],
+"MKD": [
+12.256,
+"2025"
+],
+"NOR": [
+4.637,
+"2025"
+],
+"OMN": [
+3.251,
+"2025"
+],
+"PAK": [
+5.42,
+"2025"
+],
+"PAN": [
+8.36,
+"2025"
+],
+"PNG": [
+2.571,
+"2025"
+],
+"PRY": [
+4.803,
+"2025"
+],
+"PER": [
+5.117,
+"2025"
+],
+"PHL": [
+2.235,
+"2025"
+],
+"POL": [
+2.976,
+"2025"
+],
+"PRT": [
+6.164,
+"2025"
+],
+"PRI": [
+5.991,
+"2025"
+],
+"QAT": [
+0.13,
+"2025"
+],
+"ROU": [
+5.992,
+"2025"
+],
+"RUS": [
+2.133,
+"2025"
+],
+"RWA": [
+11.363,
+"2025"
+],
+"WSM": [
+4.996,
+"2025"
+],
+"STP": [
+9.132,
+"2025"
+],
+"SAU": [
+3.038,
+"2025"
+],
+"SEN": [
+2.735,
+"2025"
+],
+"SRB": [
+7.123,
+"2025"
+],
+"SLE": [
+3.15,
+"2025"
+],
+"SGP": [
+2.818,
+"2025"
+],
+"SVK": [
+5.359,
+"2025"
+],
+"SVN": [
+3.175,
+"2025"
+],
+"SLB": [
+1.431,
+"2025"
+],
+"SOM": [
+18.948,
+"2025"
+],
+"ZAF": [
+32.391,
+"2025"
+],
+"SSD": [
+12.374,
+"2023"
+],
+"ESP": [
+10.376,
+"2025"
+],
+"LKA": [
+4.005,
+"2025"
+],
+"LCA": [
+9.452,
+"2025"
+],
+"VCT": [
+18.003,
+"2025"
+],
+"SDN": [
+7.53,
+"2022"
+],
+"SUR": [
+7.834,
+"2025"
+],
+"SWE": [
+8.694,
+"2025"
+],
+"CHE": [
+4.873,
+"2025"
+],
+"SYR": [
+13.569,
+"2025"
+],
+"TJK": [
+6.931,
+"2025"
+],
+"TZA": [
+1.572,
+"2025"
+],
+"THA": [
+0.781,
+"2025"
+],
+"TLS": [
+1.592,
+"2025"
+],
+"TGO": [
+1.995,
+"2025"
+],
+"TON": [
+2.008,
+"2025"
+],
+"TTO": [
+3.329,
+"2025"
+],
+"TUN": [
+15.108,
+"2025"
+],
+"TUR": [
+8.52,
+"2025"
+],
+"TKM": [
+4.267,
+"2025"
+],
+"UGA": [
+2.746,
+"2025"
+],
+"UKR": [
+9.834,
+"2021"
+],
+"ARE": [
+2.174,
+"2025"
+],
+"GBR": [
+4.746,
+"2025"
+],
+"USA": [
+4.198,
+"2025"
+],
+"URY": [
+7.516,
+"2025"
+],
+"UZB": [
+4.622,
+"2025"
+],
+"VUT": [
+5.073,
+"2025"
+],
+"VEN": [
+5.307,
+"2025"
+],
+"VNM": [
+1.523,
+"2025"
+],
+"VIR": [
+11.443,
+"2025"
+],
+"PSE": [
+24.42,
+"2022"
+],
+"YEM": [
+17.322,
+"2025"
+],
+"ZMB": [
+5.918,
+"2025"
+],
+"ZWE": [
+9.293,
+"2025"
+]
+},
+"FP.CPI.TOTL.ZG": {
+"AFG": [
+-6.60118564073725,
+"2024"
+],
+"ALB": [
+2.14618551167387,
+"2025"
+],
+"DZA": [
+1.41835151429016,
+"2025"
+],
+"AGO": [
+20.1620197572331,
+"2025"
+],
+"ATG": [
+1.36873527521953,
+"2025"
+],
+"ARG": [
+219.883929014578,
+"2024"
+],
+"ARM": [
+3.30693341072903,
+"2025"
+],
+"ABW": [
+4.25746204335427,
+"2019"
+],
+"AUS": [
+2.87403791660173,
+"2025"
+],
+"AUT": [
+3.52719439956928,
+"2025"
+],
+"AZE": [
+5.62208788068338,
+"2025"
+],
+"BHS": [
+1.10879778651364,
+"2025"
+],
+"BHR": [
+-0.137708855447901,
+"2025"
+],
+"BGD": [
+8.7687628116114,
+"2025"
+],
+"BRB": [
+0.846576563196289,
+"2025"
+],
+"BLR": [
+6.59877945951182,
+"2025"
+],
+"BEL": [
+2.46605755272817,
+"2025"
+],
+"BLZ": [
+1.06281547952896,
+"2025"
+],
+"BEN": [
+1.10155247902977,
+"2025"
+],
+"BTN": [
+3.55513663074987,
+"2025"
+],
+"BOL": [
+19.5171208047329,
+"2025"
+],
+"BIH": [
+3.97821271880433,
+"2025"
+],
+"BWA": [
+2.65985038423427,
+"2025"
+],
+"BRA": [
+5.01675279604836,
+"2025"
+],
+"BRN": [
+-0.302994414446814,
+"2025"
+],
+"BGR": [
+4.58084355235697,
+"2025"
+],
+"BFA": [
+-0.586235316330578,
+"2025"
+],
+"BDI": [
+34.1339985744831,
+"2025"
+],
+"CPV": [
+2.34333897365162,
+"2025"
+],
+"KHM": [
+2.35127105896507,
+"2025"
+],
+"CMR": [
+3.40373458279055,
+"2025"
+],
+"CAN": [
+2.07232411149103,
+"2025"
+],
+"CYM": [
+-0.62525835861814,
+"2016"
+],
+"CAF": [
+1.00198012768088,
+"2025"
+],
+"TCD": [
+-3.91198124406589,
+"2025"
+],
+"CHL": [
+4.21294031801535,
+"2025"
+],
+"CHN": [
+0.0595646916565402,
+"2025"
+],
+"COL": [
+5.14222911946201,
+"2025"
+],
+"COM": [
+3.24909332306432,
+"2025"
+],
+"COD": [
+2.88585107289988,
+"2016"
+],
+"COG": [
+2.40069559361747,
+"2025"
+],
+"CRI": [
+-0.073671440596217,
+"2025"
+],
+"CIV": [
+0.125038772593103,
+"2025"
+],
+"HRV": [
+3.69153459605728,
+"2025"
+],
+"CUW": [
+2.62220783425058,
+"2019"
+],
+"CYP": [
+0.126528851920188,
+"2025"
+],
+"CZE": [
+2.45996367838864,
+"2025"
+],
+"DNK": [
+1.8900606245861,
+"2025"
+],
+"DJI": [
+-0.31373179953348,
+"2025"
+],
+"DMA": [
+2.53385126107135,
+"2025"
+],
+"DOM": [
+3.87311768048129,
+"2025"
+],
+"ECU": [
+0.710469324989076,
+"2025"
+],
+"EGY": [
+14.0735136645933,
+"2025"
+],
+"SLV": [
+0.257570528307202,
+"2025"
+],
+"GNQ": [
+2.92140227309103,
+"2024"
+],
+"EST": [
+4.82894582449954,
+"2025"
+],
+"SWZ": [
+2.59801620311077,
+"2019"
+],
+"ETH": [
+13.2296432836808,
+"2025"
+],
+"FJI": [
+-1.38326833934223,
+"2025"
+],
+"FIN": [
+0.332787049734142,
+"2025"
+],
+"FRA": [
+0.943824761520197,
+"2025"
+],
+"GAB": [
+1.7676660900348,
+"2025"
+],
+"GMB": [
+11.5610532897511,
+"2024"
+],
+"GEO": [
+3.86921321939689,
+"2025"
+],
+"DEU": [
+2.17178770949721,
+"2025"
+],
+"GHA": [
+14.2046755548989,
+"2025"
+],
+"GRC": [
+2.48162694360829,
+"2025"
+],
+"GRD": [
+0.610311975893832,
+"2025"
+],
+"GTM": [
+1.48841591086168,
+"2025"
+],
+"GIN": [
+3.57096573355343,
+"2025"
+],
+"GNB": [
+0.874929691038717,
+"2025"
+],
+"GUY": [
+3.32982339132475,
+"2025"
+],
+"HTI": [
+28.6427976686095,
+"2025"
+],
+"HND": [
+4.59657982325258,
+"2025"
+],
+"HKG": [
+1.43633540372673,
+"2025"
+],
+"HUN": [
+4.41198445905566,
+"2025"
+],
+"ISL": [
+4.09085056006515,
+"2025"
+],
+"IND": [
+2.39884954182294,
+"2025"
+],
+"IDN": [
+1.91333443295079,
+"2025"
+],
+"IRN": [
+42.1712244965444,
+"2025"
+],
+"IRQ": [
+0.303454715219381,
+"2025"
+],
+"IRL": [
+2.21044788475856,
+"2025"
+],
+"ISR": [
+3.04141321556539,
+"2025"
+],
+"ITA": [
+1.5316735709312,
+"2025"
+],
+"JAM": [
+4.00459048079238,
+"2025"
+],
+"JPN": [
+3.17253034260247,
+"2025"
+],
+"JOR": [
+1.76646490894205,
+"2025"
+],
+"KAZ": [
+11.3789456104214,
+"2025"
+],
+"KEN": [
+4.0693076061457,
+"2025"
+],
+"KIR": [
+6.51130441863551,
+"2025"
+],
+"KOR": [
+2.12309421458659,
+"2025"
+],
+"XKX": [
+3.85953869869505,
+"2025"
+],
+"KWT": [
+2.36195936682045,
+"2025"
+],
+"KGZ": [
+8.21496013406325,
+"2025"
+],
+"LAO": [
+7.74226936553694,
+"2025"
+],
+"LVA": [
+3.74577316751945,
+"2025"
+],
+"LBN": [
+14.597595869611,
+"2025"
+],
+"LSO": [
+4.27011140706665,
+"2025"
+],
+"LBR": [
+8.31564329402951,
+"2025"
+],
+"LBY": [
+1.84166666666702,
+"2025"
+],
+"LTU": [
+3.79132375529774,
+"2025"
+],
+"LUX": [
+2.25723817871725,
+"2025"
+],
+"MAC": [
+0.333311677308541,
+"2025"
+],
+"MDG": [
+8.05052431791227,
+"2025"
+],
+"MWI": [
+28.3702565330281,
+"2025"
+],
+"MYS": [
+1.38060872293691,
+"2025"
+],
+"MDV": [
+4.00578494118751,
+"2025"
+],
+"MLI": [
+3.27823540357584,
+"2025"
+],
+"MLT": [
+2.36351752252186,
+"2025"
+],
+"MRT": [
+1.54796926167072,
+"2025"
+],
+"MUS": [
+3.67359279962943,
+"2025"
+],
+"MEX": [
+3.80957950037393,
+"2025"
+],
+"FSM": [
+5.40874375479066,
+"2022"
+],
+"MDA": [
+7.75904124001158,
+"2025"
+],
+"MNG": [
+8.60536487369694,
+"2025"
+],
+"MNE": [
+3.89921045747158,
+"2025"
+],
+"MAR": [
+0.701902154839544,
+"2025"
+],
+"MOZ": [
+4.36846950146149,
+"2025"
+],
+"MMR": [
+8.82506696804558,
+"2019"
+],
+"NAM": [
+3.51074539609587,
+"2025"
+],
+"NRU": [
+-0.124750499001971,
+"2012"
+],
+"NPL": [
+2.65334269811436,
+"2025"
+],
+"NLD": [
+3.20363967869003,
+"2025"
+],
+"NCL": [
+0.578317435520754,
+"2016"
+],
+"NZL": [
+2.8397963180572,
+"2025"
+],
+"NIC": [
+2.08132127098375,
+"2025"
+],
+"NER": [
+-4.45470804102568,
+"2025"
+],
+"NGA": [
+23.0101235833333,
+"2025"
+],
+"MKD": [
+4.07249176848347,
+"2025"
+],
+"NOR": [
+3.03967027305512,
+"2025"
+],
+"OMN": [
+0.967741935483927,
+"2025"
+],
+"PAK": [
+3.54555214890892,
+"2025"
+],
+"PLW": [
+-0.418410041841039,
+"2025"
+],
+"PAN": [
+-0.187950146495633,
+"2025"
+],
+"PNG": [
+4.42141364166485,
+"2025"
+],
+"PRY": [
+4.0380642333938,
+"2025"
+],
+"PER": [
+1.53125450314272,
+"2025"
+],
+"PHL": [
+1.6587364525509,
+"2025"
+],
+"POL": [
+3.81419531520146,
+"2025"
+],
+"PRT": [
+2.33601620316701,
+"2025"
+],
+"QAT": [
+1.26734310292375,
+"2024"
+],
+"ROU": [
+7.18903362292063,
+"2025"
+],
+"RUS": [
+8.71986939402666,
+"2025"
+],
+"RWA": [
+5.91300016882599,
+"2025"
+],
+"WSM": [
+2.2119620764675,
+"2025"
+],
+"SMR": [
+2.29519525025037,
+"2025"
+],
+"STP": [
+11.0474362281814,
+"2025"
+],
+"SAU": [
+2.03559944812264,
+"2025"
+],
+"SEN": [
+1.45900719841384,
+"2025"
+],
+"SRB": [
+3.89036786060009,
+"2025"
+],
+"SYC": [
+0.297589655467555,
+"2025"
+],
+"SLE": [
+7.48750166612985,
+"2025"
+],
+"SGP": [
+0.902998495002676,
+"2025"
+],
+"SXM": [
+2.19201010962985,
+"2017"
+],
+"SVK": [
+4.00042823495829,
+"2025"
+],
+"SVN": [
+2.37420873927207,
+"2025"
+],
+"SLB": [
+3.36462189317824,
+"2025"
+],
+"ZAF": [
+3.20550474112603,
+"2025"
+],
+"SSD": [
+91.4408220769045,
+"2024"
+],
+"ESP": [
+2.67326741144651,
+"2025"
+],
+"LKA": [
+-4.76386036960982,
+"2025"
+],
+"KNA": [
+3.55711230848243,
+"2023"
+],
+"LCA": [
+2.02709512086273,
+"2025"
+],
+"VCT": [
+0.815322893749171,
+"2025"
+],
+"SDN": [
+138.80846024176,
+"2022"
+],
+"SUR": [
+9.2054681878919,
+"2025"
+],
+"SWE": [
+0.679015259300199,
+"2025"
+],
+"CHE": [
+0.154376978290185,
+"2025"
+],
+"SYR": [
+13.417565322857,
+"2019"
+],
+"TJK": [
+3.38875846243549,
+"2025"
+],
+"TZA": [
+3.32697361316105,
+"2025"
+],
+"THA": [
+-0.133634356480206,
+"2025"
+],
+"TLS": [
+0.428322848346937,
+"2025"
+],
+"TGO": [
+0.433183451279108,
+"2025"
+],
+"TON": [
+5.59276642101026,
+"2025"
+],
+"TTO": [
+0.994489987904821,
+"2025"
+],
+"TUN": [
+5.15100197572676,
+"2025"
+],
+"TUR": [
+34.8811700293777,
+"2025"
+],
+"TUV": [
+0.5005807431527,
+"2011"
+],
+"UGA": [
+3.58082784438066,
+"2025"
+],
+"UKR": [
+12.7303341026902,
+"2025"
+],
+"ARE": [
+1.250865245598,
+"2025"
+],
+"GBR": [
+3.88306881625999,
+"2025"
+],
+"USA": [
+2.94952520485207,
+"2024"
+],
+"URY": [
+4.65032720433323,
+"2025"
+],
+"UZB": [
+8.79630890491107,
+"2025"
+],
+"VUT": [
+0.656455142231905,
+"2025"
+],
+"VEN": [
+254.948534781816,
+"2016"
+],
+"VNM": [
+3.30999314219739,
+"2025"
+],
+"PSE": [
+9.80840118100493,
+"2025"
+],
+"YEM": [
+8.10472583623914,
+"2014"
+],
+"ZMB": [
+13.9099095827735,
+"2025"
+],
+"ZWE": [
+104.705170628667,
+"2022"
+]
+},
+"NE.EXP.GNFS.CD": {
+"AFG": [
+2791715131.02282,
+"2024"
+],
+"ALB": [
+11304181754.173,
+"2025"
+],
+"DZA": [
+48321061532.7539,
+"2025"
+],
+"ASM": [
+409000000,
+"2022"
+],
+"AGO": [
+28073040732.7773,
+"2025"
+],
+"ATG": [
+1021455555.55556,
+"2022"
+],
+"ARG": [
+106260393150.75,
+"2025"
+],
+"ARM": [
+14065779954.0064,
+"2025"
+],
+"ABW": [
+3582826085.68774,
+"2024"
+],
+"AUS": [
+418055624770.646,
+"2025"
+],
+"AUT": [
+316981385994.885,
+"2025"
+],
+"AZE": [
+32670058823.5294,
+"2025"
+],
+"BHS": [
+5982200000,
+"2024"
+],
+"BHR": [
+41303457446.8085,
+"2024"
+],
+"BGD": [
+50724940945.2083,
+"2025"
+],
+"BLR": [
+51443726734.383,
+"2025"
+],
+"BEL": [
+547364961669.411,
+"2025"
+],
+"BLZ": [
+1769154200,
+"2024"
+],
+"BEN": [
+4189174580.02885,
+"2025"
+],
+"BMU": [
+5070450000,
+"2024"
+],
+"BTN": [
+1054008208.1737,
+"2024"
+],
+"BOL": [
+11763846801.7366,
+"2024"
+],
+"BIH": [
+13366489381.94,
+"2025"
+],
+"BWA": [
+6383839015.67597,
+"2025"
+],
+"BRA": [
+406298241937.141,
+"2025"
+],
+"BRN": [
+10758583397.0485,
+"2025"
+],
+"BGR": [
+66354382380.9581,
+"2025"
+],
+"BFA": [
+9666763788.45255,
+"2025"
+],
+"CPV": [
+1283053104.60468,
+"2025"
+],
+"KHM": [
+35193057307.4029,
+"2025"
+],
+"CMR": [
+7713888549.30439,
+"2025"
+],
+"CAN": [
+726879970410.257,
+"2025"
+],
+"CYM": [
+3372493489.97396,
+"2020"
+],
+"CAF": [
+593132852.007634,
+"2025"
+],
+"TCD": [
+6316032158.59785,
+"2025"
+],
+"CHL": [
+123520198503.178,
+"2025"
+],
+"CHN": [
+4108470555117.51,
+"2025"
+],
+"COL": [
+68538536936.8153,
+"2025"
+],
+"COM": [
+168747748.104269,
+"2025"
+],
+"COD": [
+39523166164.4367,
+"2025"
+],
+"COG": [
+7830871682.15092,
+"2025"
+],
+"CRI": [
+39978465048.217,
+"2025"
+],
+"CIV": [
+29717948364.1736,
+"2025"
+],
+"HRV": [
+50399507887.8431,
+"2025"
+],
+"CUB": [
+8769000000,
+"2020"
+],
+"CUW": [
+1926703910.61453,
+"2018"
+],
+"CYP": [
+40225580413.4235,
+"2025"
+],
+"CZE": [
+261773375377.022,
+"2025"
+],
+"DNK": [
+324310154069.936,
+"2025"
+],
+"DJI": [
+5109812571.38999,
+"2025"
+],
+"DOM": [
+30119023791.074,
+"2025"
+],
+"ECU": [
+40970936400,
+"2025"
+],
+"EGY": [
+72393571621.6233,
+"2025"
+],
+"SLV": [
+11763690000,
+"2025"
+],
+"GNQ": [
+5965354779.22415,
+"2025"
+],
+"ERI": [
+374897684.552846,
+"2011"
+],
+"EST": [
+36854468950.5399,
+"2025"
+],
+"SWZ": [
+2611937418.73633,
+"2024"
+],
+"ETH": [
+16785187367.6025,
+"2025"
+],
+"FRO": [
+2211130769.46935,
+"2024"
+],
+"FJI": [
+3247013181.67791,
+"2024"
+],
+"FIN": [
+134192277447.843,
+"2025"
+],
+"FRA": [
+1124107902931.06,
+"2025"
+],
+"PYF": [
+1158591620.0156,
+"2024"
+],
+"GAB": [
+11890462993.1663,
+"2025"
+],
+"GMB": [
+330185893.239135,
+"2025"
+],
+"GEO": [
+18082223921.5759,
+"2025"
+],
+"DEU": [
+2042329262308.23,
+"2025"
+],
+"GHA": [
+29197465998.8647,
+"2024"
+],
+"GRC": [
+110743741990.477,
+"2025"
+],
+"GRL": [
+1357184772.6963,
+"2023"
+],
+"GUM": [
+545000000,
+"2022"
+],
+"GTM": [
+19185393857.5219,
+"2025"
+],
+"GIN": [
+11738637526.4471,
+"2025"
+],
+"GNB": [
+350530220.912147,
+"2025"
+],
+"GUY": [
+698037583.989994,
+"2005"
+],
+"HTI": [
+500396994.725824,
+"2025"
+],
+"HND": [
+13857222810.3654,
+"2025"
+],
+"HKG": [
+853585244635.718,
+"2025"
+],
+"HUN": [
+179026907175.624,
+"2025"
+],
+"ISL": [
+15476918000.4086,
+"2025"
+],
+"IND": [
+880740846621.545,
+"2025"
+],
+"IDN": [
+330279431218.799,
+"2025"
+],
+"IRN": [
+93406513015.3745,
+"2025"
+],
+"IRQ": [
+111195200000,
+"2024"
+],
+"IRL": [
+1010863026885.02,
+"2025"
+],
+"ISR": [
+168320379115.799,
+"2025"
+],
+"ITA": [
+822290762950.038,
+"2025"
+],
+"JPN": [
+920960002390.344,
+"2024"
+],
+"JOR": [
+9279830747.53173,
+"2007"
+],
+"KAZ": [
+92070351467.3348,
+"2024"
+],
+"KEN": [
+21429875346.9498,
+"2025"
+],
+"KIR": [
+15496547.3632504,
+"2024"
+],
+"KOR": [
+856855674924.231,
+"2025"
+],
+"XKX": [
+5474849308.4911,
+"2025"
+],
+"KWT": [
+89713098851.9389,
+"2024"
+],
+"KGZ": [
+6065757632.01443,
+"2025"
+],
+"LAO": [
+5284450716.02575,
+"2016"
+],
+"LVA": [
+30422285148.0572,
+"2025"
+],
+"LBN": [
+6055691106.14525,
+"2024"
+],
+"LSO": [
+1274711831.44221,
+"2025"
+],
+"LBY": [
+34493399341.6137,
+"2025"
+],
+"LTU": [
+69488132228.1881,
+"2025"
+],
+"LUX": [
+192728057158.053,
+"2025"
+],
+"MAC": [
+48045096957.4623,
+"2025"
+],
+"MDG": [
+4185661511.34711,
+"2025"
+],
+"MWI": [
+1588626335.55329,
+"2025"
+],
+"MYS": [
+335105024619.412,
+"2025"
+],
+"MDV": [
+5523181581.41595,
+"2024"
+],
+"MLI": [
+6638297560.40789,
+"2025"
+],
+"MLT": [
+33078900363.3725,
+"2025"
+],
+"MHL": [
+111000000,
+"2025"
+],
+"MRT": [
+4654787700.16574,
+"2025"
+],
+"MUS": [
+10508453742.1783,
+"2025"
+],
+"MEX": [
+726556896246.645,
+"2025"
+],
+"FSM": [
+111000000,
+"2025"
+],
+"MDA": [
+6462088523.64641,
+"2025"
+],
+"MNG": [
+17268519883.6881,
+"2025"
+],
+"MNE": [
+3698908466.47919,
+"2025"
+],
+"MAR": [
+76541039367.7208,
+"2025"
+],
+"MOZ": [
+9243792672.4646,
+"2025"
+],
+"NAM": [
+6737407578.92088,
+"2025"
+],
+"NRU": [
+108730615.369979,
+"2025"
+],
+"NPL": [
+4015673776.7883,
+"2025"
+],
+"NLD": [
+1075134885755.68,
+"2025"
+],
+"NCL": [
+999771629.625021,
+"2024"
+],
+"NZL": [
+64603559666.5273,
+"2024"
+],
+"NIC": [
+9249209961.6921,
+"2025"
+],
+"NER": [
+3411837458.42472,
+"2025"
+],
+"NGA": [
+387790744.883702,
+"1960"
+],
+"MKD": [
+11393731930.4666,
+"2025"
+],
+"MNP": [
+244000000,
+"2022"
+],
+"NOR": [
+240819559118.237,
+"2025"
+],
+"OMN": [
+70788296488.9467,
+"2024"
+],
+"PAK": [
+40670467311.9112,
+"2025"
+],
+"PLW": [
+105126808.166504,
+"2024"
+],
+"PAN": [
+38380161300,
+"2024"
+],
+"PNG": [
+2833996151.10035,
+"2004"
+],
+"PRY": [
+18320665709.9656,
+"2025"
+],
+"PER": [
+100355362281.137,
+"2025"
+],
+"PHL": [
+129323001566.143,
+"2025"
+],
+"POL": [
+517233997757.263,
+"2025"
+],
+"PRT": [
+151336322847.151,
+"2025"
+],
+"PRI": [
+60652000000,
+"2025"
+],
+"QAT": [
+161692857142.857,
+"2022"
+],
+"ROU": [
+152113432501.957,
+"2025"
+],
+"RUS": [
+466237273304.333,
+"2025"
+],
+"RWA": [
+3528969299.26467,
+"2025"
+],
+"WSM": [
+355715052.484773,
+"2025"
+],
+"SMR": [
+3770526323.2536,
+"2023"
+],
+"STP": [
+130155394.190871,
+"2025"
+],
+"SAU": [
+379825066666.667,
+"2025"
+],
+"SEN": [
+12022634773.9314,
+"2025"
+],
+"SRB": [
+54287734484.3107,
+"2025"
+],
+"SYC": [
+1900518394.81236,
+"2025"
+],
+"SLE": [
+1559342046.4639,
+"2025"
+],
+"SGP": [
+1073990898313.51,
+"2025"
+],
+"SVK": [
+131496787422.657,
+"2025"
+],
+"SVN": [
+62634926878.6125,
+"2025"
+],
+"SLB": [
+642590820.212243,
+"2024"
+],
+"SOM": [
+3800899999.86713,
+"2025"
+],
+"ZAF": [
+134179428667.706,
+"2025"
+],
+"SSD": [
+4397355862.60474,
+"2015"
+],
+"ESP": [
+698476476631.372,
+"2025"
+],
+"LKA": [
+20641294805.6633,
+"2025"
+],
+"SDN": [
+663619143.86802,
+"2025"
+],
+"SUR": [
+2295461855.15716,
+"2010"
+],
+"SWE": [
+356098645397.388,
+"2025"
+],
+"CHE": [
+814503715316.446,
+"2025"
+],
+"SYR": [
+1608744496.2291,
+"2022"
+],
+"TJK": [
+1617437190.56415,
+"2024"
+],
+"TZA": [
+17113455948.0633,
+"2025"
+],
+"THA": [
+410531624594.48,
+"2025"
+],
+"TLS": [
+196962600,
+"2024"
+],
+"TGO": [
+2390186783.96013,
+"2023"
+],
+"TON": [
+109419833.231961,
+"2024"
+],
+"TUN": [
+26826069545.4849,
+"2025"
+],
+"TUR": [
+396923725496.326,
+"2025"
+],
+"TKM": [
+7210521475.21383,
+"2025"
+],
+"UGA": [
+13289512670.7607,
+"2025"
+],
+"UKR": [
+54272867488.1444,
+"2025"
+],
+"ARE": [
+558401633764.466,
+"2023"
+],
+"GBR": [
+1224670037744.72,
+"2025"
+],
+"USA": [
+3215368000000,
+"2024"
+],
+"URY": [
+23104847902.7936,
+"2025"
+],
+"UZB": [
+32401308149.1144,
+"2025"
+],
+"VUT": [
+329014391.809676,
+"2024"
+],
+"VEN": [
+14852682003.4522,
+"2025"
+],
+"VNM": [
+505661231330.217,
+"2025"
+],
+"VIR": [
+4549000000,
+"2022"
+],
+"PSE": [
+3644200000,
+"2025"
+],
+"YEM": [
+1891857548.62885,
+"2018"
+],
+"ZMB": [
+8851528097.90289,
+"2024"
+],
+"ZWE": [
+7497382805.65406,
+"2024"
+]
+},
+"SH.XPD.CHEX.PC.CD": {
+"AFG": [
+59.06770706,
+"2023"
+],
+"ALB": [
+590.62799072,
+"2023"
+],
+"DZA": [
+233.37947083,
+"2023"
+],
+"AND": [
+3605.19799805,
+"2023"
+],
+"AGO": [
+76.07118225,
+"2023"
+],
+"ATG": [
+841.24884033,
+"2023"
+],
+"ARG": [
+1456.98596191,
+"2023"
+],
+"ARM": [
+766.95874023,
+"2023"
+],
+"AUS": [
+6980.38525391,
+"2023"
+],
+"AUT": [
+6739.30908203,
+"2024"
+],
+"AZE": [
+299.81060791,
+"2023"
+],
+"BHS": [
+2262.33447266,
+"2023"
+],
+"BHR": [
+1175.81628418,
+"2023"
+],
+"BGD": [
+53.46432495,
+"2023"
+],
+"BRB": [
+1286.47680664,
+"2023"
+],
+"BLR": [
+558.22644043,
+"2023"
+],
+"BEL": [
+5931.01464844,
+"2023"
+],
+"BLZ": [
+309.40835571,
+"2023"
+],
+"BEN": [
+46.52822113,
+"2023"
+],
+"BTN": [
+162.19680786,
+"2023"
+],
+"BOL": [
+255.04104614,
+"2023"
+],
+"BIH": [
+772.88568115,
+"2023"
+],
+"BWA": [
+489.59677124,
+"2023"
+],
+"BRA": [
+1009.83563232,
+"2023"
+],
+"BRN": [
+733.00543213,
+"2023"
+],
+"BGR": [
+1257.87597656,
+"2023"
+],
+"BFA": [
+71.73455048,
+"2023"
+],
+"BDI": [
+28.14028931,
+"2023"
+],
+"CPV": [
+290.12619019,
+"2023"
+],
+"KHM": [
+114.56295776,
+"2023"
+],
+"CMR": [
+79.09996796,
+"2023"
+],
+"CAN": [
+6377.96875,
+"2024"
+],
+"CAF": [
+53.81136703,
+"2023"
+],
+"TCD": [
+47.43893051,
+"2023"
+],
+"CHL": [
+1759.70605469,
+"2024"
+],
+"CHN": [
+763.37762451,
+"2023"
+],
+"COL": [
+644.30908203,
+"2024"
+],
+"COM": [
+102.23101807,
+"2023"
+],
+"COD": [
+23.43148804,
+"2023"
+],
+"COG": [
+75.55332184,
+"2023"
+],
+"CRI": [
+1163.30224609,
+"2023"
+],
+"CIV": [
+87.68105316,
+"2023"
+],
+"HRV": [
+1548.33959961,
+"2023"
+],
+"CUB": [
+1199.35327148,
+"2020"
+],
+"CYP": [
+2899.36499023,
+"2023"
+],
+"CZE": [
+2692.76416016,
+"2024"
+],
+"DNK": [
+6745.06152344,
+"2024"
+],
+"DJI": [
+77.57087708,
+"2023"
+],
+"DMA": [
+492.4524231,
+"2023"
+],
+"DOM": [
+488.8727417,
+"2023"
+],
+"ECU": [
+509.49414063,
+"2023"
+],
+"EGY": [
+141.41111755,
+"2023"
+],
+"SLV": [
+500.69497681,
+"2023"
+],
+"GNQ": [
+233.68379211,
+"2023"
+],
+"ERI": [
+28.29782677,
+"2023"
+],
+"EST": [
+2437.83764648,
+"2024"
+],
+"SWZ": [
+296.04562378,
+"2023"
+],
+"ETH": [
+34.79846954,
+"2023"
+],
+"FJI": [
+212.88697815,
+"2023"
+],
+"FIN": [
+5515.40478516,
+"2023"
+],
+"FRA": [
+5327.43359375,
+"2024"
+],
+"GAB": [
+252.98246765,
+"2023"
+],
+"GMB": [
+25.74407768,
+"2023"
+],
+"GEO": [
+554.3248291,
+"2023"
+],
+"DEU": [
+6849.26367188,
+"2024"
+],
+"GHA": [
+70.25730896,
+"2023"
+],
+"GRC": [
+1962.59594727,
+"2023"
+],
+"GRD": [
+526.3918457,
+"2023"
+],
+"GTM": [
+392.01223755,
+"2023"
+],
+"GIN": [
+59.33010101,
+"2023"
+],
+"GNB": [
+82.13543701,
+"2023"
+],
+"GUY": [
+505.03240967,
+"2023"
+],
+"HTI": [
+54.4146843,
+"2023"
+],
+"HND": [
+249.15301514,
+"2023"
+],
+"HUN": [
+1419.87475586,
+"2023"
+],
+"ISL": [
+7641.57373047,
+"2024"
+],
+"IND": [
+84.68669891,
+"2023"
+],
+"IDN": [
+131.77729797,
+"2023"
+],
+"IRN": [
+267.059021,
+"2023"
+],
+"IRQ": [
+333.29360962,
+"2023"
+],
+"IRL": [
+7394.85009766,
+"2024"
+],
+"ISR": [
+3927.69873047,
+"2023"
+],
+"ITA": [
+3397.68798828,
+"2024"
+],
+"JAM": [
+520.15704346,
+"2023"
+],
+"JPN": [
+3638.19287109,
+"2023"
+],
+"JOR": [
+342.10394287,
+"2023"
+],
+"KAZ": [
+489.71456909,
+"2023"
+],
+"KEN": [
+84.958992,
+"2023"
+],
+"KIR": [
+238.12675476,
+"2023"
+],
+"KOR": [
+3136.78564453,
+"2024"
+],
+"KWT": [
+1679.12353516,
+"2023"
+],
+"KGZ": [
+96.65081787,
+"2023"
+],
+"LAO": [
+27.41773605,
+"2023"
+],
+"LVA": [
+1645.4152832,
+"2023"
+],
+"LBN": [
+260.8119812,
+"2023"
+],
+"LSO": [
+122.63982391,
+"2023"
+],
+"LBR": [
+103.94123077,
+"2023"
+],
+"LBY": [
+470.4034729,
+"2023"
+],
+"LIE": [
+11494.95898438,
+"2023"
+],
+"LTU": [
+2232.47631836,
+"2024"
+],
+"LUX": [
+8169.91259766,
+"2024"
+],
+"MDG": [
+17.44003487,
+"2023"
+],
+"MWI": [
+41.26664734,
+"2023"
+],
+"MYS": [
+450.33853149,
+"2023"
+],
+"MDV": [
+1159.02819824,
+"2023"
+],
+"MLI": [
+33.9802475,
+"2023"
+],
+"MLT": [
+3623.4609375,
+"2023"
+],
+"MHL": [
+894.21533203,
+"2023"
+],
+"MRT": [
+92.11444092,
+"2023"
+],
+"MUS": [
+616.20739746,
+"2023"
+],
+"MEX": [
+760.98840332,
+"2023"
+],
+"FSM": [
+507.7762146,
+"2023"
+],
+"MDA": [
+451.73007202,
+"2023"
+],
+"MCO": [
+8004.16845703,
+"2023"
+],
+"MNG": [
+359.60980225,
+"2023"
+],
+"MNE": [
+1147.69787598,
+"2023"
+],
+"MAR": [
+232.24751282,
+"2023"
+],
+"MOZ": [
+52.96166611,
+"2023"
+],
+"MMR": [
+56.18909836,
+"2023"
+],
+"NAM": [
+397.09063721,
+"2023"
+],
+"NRU": [
+2292.37329102,
+"2023"
+],
+"NPL": [
+83.96018982,
+"2023"
+],
+"NLD": [
+6845.14208984,
+"2024"
+],
+"NZL": [
+5022.03271484,
+"2024"
+],
+"NIC": [
+216.55238342,
+"2023"
+],
+"NER": [
+26.01301575,
+"2023"
+],
+"NGA": [
+66.82009125,
+"2023"
+],
+"MKD": [
+639.41693115,
+"2023"
+],
+"NOR": [
+8296.35546875,
+"2023"
+],
+"OMN": [
+732.04089355,
+"2023"
+],
+"PAK": [
+30.48608398,
+"2023"
+],
+"PLW": [
+1683.8458252,
+"2023"
+],
+"PAN": [
+1557.81286621,
+"2023"
+],
+"PNG": [
+85.15021515,
+"2023"
+],
+"PRY": [
+526.5098877,
+"2023"
+],
+"PER": [
+445.52667236,
+"2023"
+],
+"PHL": [
+194.05484009,
+"2023"
+],
+"POL": [
+2014.12780762,
+"2024"
+],
+"PRT": [
+2971.03930664,
+"2024"
+],
+"QAT": [
+1804.35424805,
+"2023"
+],
+"ROU": [
+1050.99755859,
+"2023"
+],
+"RUS": [
+1003.33166504,
+"2023"
+],
+"RWA": [
+52.65630722,
+"2023"
+],
+"WSM": [
+292.81085205,
+"2023"
+],
+"SMR": [
+3923.5234375,
+"2023"
+],
+"STP": [
+171.05166626,
+"2023"
+],
+"SAU": [
+1825.2545166,
+"2023"
+],
+"SEN": [
+73.22670746,
+"2023"
+],
+"SRB": [
+983.69372559,
+"2023"
+],
+"SYC": [
+766.28778076,
+"2023"
+],
+"SLE": [
+35.76205063,
+"2023"
+],
+"SGP": [
+3921.60253906,
+"2023"
+],
+"SVK": [
+1813.46618652,
+"2023"
+],
+"SVN": [
+3370.53076172,
+"2024"
+],
+"SLB": [
+111.35532379,
+"2023"
+],
+"SOM": [
+22.37065506,
+"2023"
+],
+"ZAF": [
+536.58843994,
+"2023"
+],
+"SSD": [
+72.75582886,
+"2023"
+],
+"ESP": [
+3106.62011719,
+"2023"
+],
+"LKA": [
+134.23654175,
+"2023"
+],
+"KNA": [
+1294.88391113,
+"2023"
+],
+"LCA": [
+641.07495117,
+"2023"
+],
+"VCT": [
+469.20709229,
+"2023"
+],
+"SDN": [
+21.0830822,
+"2023"
+],
+"SUR": [
+297.04589844,
+"2023"
+],
+"SWE": [
+6484.76464844,
+"2024"
+],
+"CHE": [
+11783.66992188,
+"2023"
+],
+"SYR": [
+33.34017944,
+"2023"
+],
+"TJK": [
+85.14702606,
+"2023"
+],
+"TZA": [
+36.25619888,
+"2023"
+],
+"THA": [
+326.50482178,
+"2023"
+],
+"TLS": [
+144.21452332,
+"2023"
+],
+"TGO": [
+59.60503769,
+"2023"
+],
+"TON": [
+357.54415894,
+"2023"
+],
+"TTO": [
+1276.33862305,
+"2023"
+],
+"TUN": [
+317.70983887,
+"2023"
+],
+"TUR": [
+547.8145752,
+"2023"
+],
+"TKM": [
+581.38220215,
+"2023"
+],
+"TUV": [
+1723.56542969,
+"2023"
+],
+"UGA": [
+45.21318436,
+"2023"
+],
+"UKR": [
+369.90487671,
+"2021"
+],
+"ARE": [
+2401.52026367,
+"2023"
+],
+"GBR": [
+5860.23925781,
+"2024"
+],
+"USA": [
+13473.19335938,
+"2023"
+],
+"URY": [
+2076.09423828,
+"2023"
+],
+"UZB": [
+192.11869812,
+"2023"
+],
+"VUT": [
+143.43753052,
+"2023"
+],
+"VEN": [
+185.99124146,
+"2023"
+],
+"VNM": [
+197.19210815,
+"2023"
+],
+"PSE": [
+345.67965698,
+"2023"
+],
+"YEM": [
+47.78109741,
+"2023"
+],
+"ZMB": [
+79.55635071,
+"2023"
+],
+"ZWE": [
+62.92946243,
+"2023"
+]
+},
+"SE.XPD.TOTL.GD.ZS": {
+"AFG": [
+4.34319019317627,
+"2017"
+],
+"ALB": [
+3.09153008460998,
+"2023"
+],
+"DZA": [
+8.97772026062012,
+"2024"
+],
+"ASM": [
+14.7170495986938,
+"2006"
+],
+"AND": [
+1.89867997169495,
+"2023"
+],
+"AGO": [
+2.51273663315785,
+"2023"
+],
+"ATG": [
+3.10505161832136,
+"2023"
+],
+"ARG": [
+5.00324010848999,
+"2023"
+],
+"ARM": [
+2.43869996070862,
+"2023"
+],
+"ABW": [
+3.61855755636695,
+"2021"
+],
+"AUS": [
+5.05915021896362,
+"2022"
+],
+"AUT": [
+5.27749013900757,
+"2022"
+],
+"AZE": [
+3.66036009788513,
+"2023"
+],
+"BHS": [
+2.74191570247934,
+"2023"
+],
+"BHR": [
+1.88778167912993,
+"2023"
+],
+"BGD": [
+2.0343847791384,
+"2024"
+],
+"BRB": [
+3.55593188106322,
+"2024"
+],
+"BLR": [
+5.04593992233276,
+"2024"
+],
+"BEL": [
+6.27611017227173,
+"2022"
+],
+"BLZ": [
+4.62276317232973,
+"2024"
+],
+"BEN": [
+3.22974322056608,
+"2023"
+],
+"BMU": [
+1.86510440752276,
+"2023"
+],
+"BTN": [
+5.84518003463745,
+"2023"
+],
+"BOL": [
+7.53980016708374,
+"2024"
+],
+"BIH": [
+3.24564826597779,
+"2023"
+],
+"BWA": [
+8.05833660991541,
+"2020"
+],
+"BRA": [
+5.61920976638794,
+"2022"
+],
+"VGB": [
+3.17283855528435,
+"2023"
+],
+"BRN": [
+4.42539978027344,
+"2016"
+],
+"BGR": [
+4.50109004974365,
+"2022"
+],
+"BFA": [
+5.32757840997187,
+"2023"
+],
+"BDI": [
+4.5040397644043,
+"2025"
+],
+"CPV": [
+4.3482854136693,
+"2023"
+],
+"KHM": [
+2.1809128340295,
+"2023"
+],
+"CMR": [
+2.83907623667935,
+"2023"
+],
+"CAN": [
+4.84426021575928,
+"2022"
+],
+"CYM": [
+1.57024002075195,
+"2023"
+],
+"CAF": [
+1.82995911310419,
+"2023"
+],
+"TCD": [
+3.20149725837724,
+"2023"
+],
+"CHL": [
+4.91201019287109,
+"2022"
+],
+"CHN": [
+3.89714002609253,
+"2023"
+],
+"COL": [
+5.26166009902954,
+"2020"
+],
+"COM": [
+2.34146896682989,
+"2023"
+],
+"COD": [
+2.84466514463005,
+"2022"
+],
+"COG": [
+3.34005209256916,
+"2023"
+],
+"CRI": [
+5.31208992004395,
+"2023"
+],
+"CIV": [
+3.61279988288879,
+"2024"
+],
+"HRV": [
+4.0916600227356,
+"2021"
+],
+"CUB": [
+8.44086351669284,
+"2022"
+],
+"CUW": [
+5.44313725490196,
+"2024"
+],
+"CYP": [
+4.74210977554321,
+"2022"
+],
+"CZE": [
+4.30291986465454,
+"2022"
+],
+"DNK": [
+6.35586023330688,
+"2022"
+],
+"DJI": [
+3.75143003463745,
+"2018"
+],
+"DMA": [
+5.38572189060925,
+"2024"
+],
+"DOM": [
+3.7606477375256,
+"2023"
+],
+"ECU": [
+3.69074988365173,
+"2024"
+],
+"EGY": [
+3.76082992553711,
+"2008"
+],
+"SLV": [
+3.31666994094849,
+"2024"
+],
+"GNQ": [
+2.18796992301941,
+"1998"
+],
+"ERI": [
+2.12700009346008,
+"2006"
+],
+"EST": [
+5.20733976364136,
+"2022"
+],
+"SWZ": [
+6.03082905337534,
+"2024"
+],
+"ETH": [
+2.2978069565991,
+"2024"
+],
+"FJI": [
+4.24679790890603,
+"2023"
+],
+"FIN": [
+6.37578010559082,
+"2022"
+],
+"FRA": [
+5.32434988021851,
+"2022"
+],
+"GAB": [
+2.31594287726056,
+"2023"
+],
+"GMB": [
+2.80838156544977,
+"2023"
+],
+"GEO": [
+3.98011682083814,
+"2024"
+],
+"DEU": [
+5.23916006088257,
+"2022"
+],
+"GHA": [
+2.90963831638452,
+"2022"
+],
+"GRC": [
+3.37547993659973,
+"2022"
+],
+"GRD": [
+5.12544845968893,
+"2023"
+],
+"GTM": [
+3.07588005065918,
+"2024"
+],
+"GIN": [
+1.72470879088585,
+"2023"
+],
+"GNB": [
+2.01027011871338,
+"2013"
+],
+"GUY": [
+4.45058012008667,
+"2018"
+],
+"HTI": [
+0.964648012977964,
+"2023"
+],
+"HND": [
+4.54962037172702,
+"2023"
+],
+"HKG": [
+3.80552005767822,
+"2024"
+],
+"HUN": [
+3.8011999130249,
+"2022"
+],
+"ISL": [
+7.30798006057739,
+"2022"
+],
+"IND": [
+4.09865814174589,
+"2022"
+],
+"IDN": [
+1.27517088245674,
+"2023"
+],
+"IRN": [
+2.82443290958712,
+"2023"
+],
+"IRQ": [
+3.55150008201599,
+"1989"
+],
+"IRL": [
+2.90461993217468,
+"2021"
+],
+"ISR": [
+5.93291997909546,
+"2022"
+],
+"ITA": [
+4.06775999069214,
+"2022"
+],
+"JAM": [
+5.51383018493652,
+"2024"
+],
+"JPN": [
+3.33663988113403,
+"2021"
+],
+"JOR": [
+3.23356008529663,
+"2024"
+],
+"KAZ": [
+4.86469984054565,
+"2023"
+],
+"KEN": [
+4.02242346098974,
+"2024"
+],
+"KIR": [
+16.39053,
+"2023"
+],
+"KOR": [
+5.40910005569458,
+"2022"
+],
+"KWT": [
+6.43592667889685,
+"2024"
+],
+"KGZ": [
+6.82694680798777,
+"2023"
+],
+"LAO": [
+1.23375160355741,
+"2023"
+],
+"LVA": [
+4.3196702003479,
+"2022"
+],
+"LBN": [
+1.22490869993085,
+"2024"
+],
+"LSO": [
+6.62253066096596,
+"2024"
+],
+"LBR": [
+2.2665256232687,
+"2023"
+],
+"LBY": [
+2.26416993141174,
+"1999"
+],
+"LIE": [
+2.55604004859924,
+"2011"
+],
+"LTU": [
+4.25285005569458,
+"2022"
+],
+"LUX": [
+3.74451994895935,
+"2022"
+],
+"MAC": [
+3.50183010101318,
+"2023"
+],
+"MDG": [
+3.04770386693564,
+"2023"
+],
+"MWI": [
+2.74888371105811,
+"2022"
+],
+"MYS": [
+3.51481008529663,
+"2023"
+],
+"MDV": [
+5.16706374664829,
+"2023"
+],
+"MLI": [
+4.18465094218116,
+"2023"
+],
+"MLT": [
+4.71258020401001,
+"2022"
+],
+"MHL": [
+7.70088005065918,
+"2022"
+],
+"MRT": [
+7.61007976531982,
+"2024"
+],
+"MUS": [
+4.247389793396,
+"2024"
+],
+"MEX": [
+4.05987977981567,
+"2022"
+],
+"FSM": [
+11.5591397849462,
+"2020"
+],
+"MDA": [
+6.55709981918335,
+"2023"
+],
+"MCO": [
+1.73223996162415,
+"2023"
+],
+"MNG": [
+5.21229982376099,
+"2024"
+],
+"MAR": [
+6.02096928801329,
+"2023"
+],
+"MOZ": [
+5.97607342054314,
+"2022"
+],
+"MMR": [
+1.99976003170013,
+"2019"
+],
+"NAM": [
+9.08440819434816,
+"2024"
+],
+"NRU": [
+5.77715015411377,
+"2023"
+],
+"NPL": [
+3.68849173764595,
+"2024"
+],
+"NLD": [
+5.17918014526367,
+"2022"
+],
+"NZL": [
+5.21326017379761,
+"2023"
+],
+"NIC": [
+2.86954998970032,
+"2023"
+],
+"NER": [
+4.07412707618114,
+"2023"
+],
+"NGA": [
+0.319069049792343,
+"2023"
+],
+"MKD": [
+3.30014991760254,
+"2002"
+],
+"NOR": [
+5.43234014511108,
+"2022"
+],
+"OMN": [
+4.38311004638672,
+"2022"
+],
+"PAK": [
+1.94658005237579,
+"2023"
+],
+"PLW": [
+3.43726476321334,
+"2023"
+],
+"PAN": [
+2.47225999832153,
+"2023"
+],
+"PNG": [
+0.782122804685732,
+"2023"
+],
+"PRY": [
+3.53410005569458,
+"2024"
+],
+"PER": [
+4.35778999328613,
+"2024"
+],
+"PHL": [
+3.96922646675346,
+"2025"
+],
+"POL": [
+4.31372976303101,
+"2022"
+],
+"PRT": [
+4.55160999298096,
+"2022"
+],
+"PRI": [
+4.27101949674789,
+"2024"
+],
+"QAT": [
+3.23368000984192,
+"2020"
+],
+"ROU": [
+3.2788200378418,
+"2022"
+],
+"RUS": [
+4.16454853394225,
+"2023"
+],
+"RWA": [
+4.61476993560791,
+"2024"
+],
+"WSM": [
+5.45616637544294,
+"2024"
+],
+"SMR": [
+2.89753007888794,
+"2022"
+],
+"STP": [
+5.0288576428727,
+"2023"
+],
+"SAU": [
+4.48087978363037,
+"2023"
+],
+"SEN": [
+6.16277045366329,
+"2023"
+],
+"SRB": [
+3.40377998352051,
+"2023"
+],
+"SYC": [
+4.45409960547034,
+"2023"
+],
+"SLE": [
+2.62455277942046,
+"2023"
+],
+"SGP": [
+2.19099857819757,
+"2024"
+],
+"SXM": [
+3.92363832601723,
+"2023"
+],
+"SVK": [
+4.65688991546631,
+"2022"
+],
+"SVN": [
+5.28065013885498,
+"2022"
+],
+"SLB": [
+8.29349080062944,
+"2023"
+],
+"SOM": [
+8.14262404011e-06,
+"2023"
+],
+"ZAF": [
+6.02110004425049,
+"2024"
+],
+"SSD": [
+1.56539228959694,
+"2016"
+],
+"ESP": [
+4.58553981781006,
+"2022"
+],
+"LKA": [
+1.82774571561927,
+"2023"
+],
+"KNA": [
+3.49726171629099,
+"2023"
+],
+"LCA": [
+3.84700018653403,
+"2024"
+],
+"VCT": [
+6.4582691706334,
+"2023"
+],
+"SDN": [
+2.02213001251221,
+"2009"
+],
+"SUR": [
+2.86623341491363,
+"2023"
+],
+"SWE": [
+7.31909990310669,
+"2022"
+],
+"CHE": [
+4.86427021026611,
+"2022"
+],
+"SYR": [
+5.13012981414795,
+"2009"
+],
+"TJK": [
+5.43682120015444,
+"2023"
+],
+"TZA": [
+3.15504437906936,
+"2024"
+],
+"THA": [
+2.52122219628772,
+"2023"
+],
+"TLS": [
+5.24052834781801,
+"2023"
+],
+"TGO": [
+4.14281885166484,
+"2023"
+],
+"TON": [
+5.31016278046634,
+"2022"
+],
+"TTO": [
+3.23358011245727,
+"2023"
+],
+"TUN": [
+6.73398856321206,
+"2023"
+],
+"TUR": [
+3.09571003913879,
+"2022"
+],
+"TKM": [
+4.28878021240234,
+"2024"
+],
+"TCA": [
+2.94998113247616,
+"2024"
+],
+"TUV": [
+12.8456897735596,
+"2023"
+],
+"UGA": [
+2.56105027176925,
+"2022"
+],
+"UKR": [
+5.14010000228882,
+"2021"
+],
+"ARE": [
+3.89404010772705,
+"2021"
+],
+"GBR": [
+5.90681982040405,
+"2021"
+],
+"USA": [
+5.42038011550903,
+"2021"
+],
+"URY": [
+4.76461982727051,
+"2023"
+],
+"UZB": [
+5.47287597270024,
+"2023"
+],
+"VUT": [
+7.63695001602173,
+"2024"
+],
+"VEN": [
+6.87467002868652,
+"2009"
+],
+"VNM": [
+2.88738689372749,
+"2022"
+],
+"PSE": [
+5.43442010879517,
+"2021"
+],
+"YEM": [
+5.15144014358521,
+"2008"
+],
+"ZMB": [
+4.07374933049157,
+"2023"
+],
+"ZWE": [
+0.384771297211919,
+"2023"
+]
+},
+"EN.POP.DNST": {
+"AFG": [
+65.3871977676586,
+"2024"
+],
+"ALB": [
+86.756496350365,
+"2024"
+],
+"DZA": [
+19.6555073181791,
+"2024"
+],
+"ASM": [
+235,
+"2024"
+],
+"AND": [
+175.081196581197,
+"2024"
+],
+"AGO": [
+30.3889059116066,
+"2024"
+],
+"ATG": [
+212.973940376745,
+"2024"
+],
+"ARG": [
+16.6976014820824,
+"2024"
+],
+"ARM": [
+107.573210777534,
+"2024"
+],
+"ABW": [
+599.972222222222,
+"2024"
+],
+"AUS": [
+3.53710598992988,
+"2024"
+],
+"AUT": [
+111.221303926321,
+"2024"
+],
+"AZE": [
+123.446218995765,
+"2024"
+],
+"BHS": [
+40.0882117882118,
+"2024"
+],
+"BHR": [
+1985.8375,
+"2024"
+],
+"BGD": [
+1333.35149419989,
+"2024"
+],
+"BRB": [
+655.375870069606,
+"2024"
+],
+"BLR": [
+44.9936396421252,
+"2024"
+],
+"BEL": [
+388.880581303604,
+"2024"
+],
+"BLZ": [
+18.2846120122753,
+"2024"
+],
+"BEN": [
+128.261120964881,
+"2024"
+],
+"BMU": [
+1196.96296296296,
+"2024"
+],
+"BTN": [
+20.7531200839014,
+"2024"
+],
+"BOL": [
+11.4097266273871,
+"2024"
+],
+"BIH": [
+61.80181640625,
+"2024"
+],
+"BWA": [
+4.44857163022956,
+"2024"
+],
+"BRA": [
+25.3643242396035,
+"2024"
+],
+"VGB": [
+261.397350993377,
+"2024"
+],
+"BRN": [
+87.8028462998102,
+"2024"
+],
+"BGR": [
+59.3351234340457,
+"2024"
+],
+"BFA": [
+86.070105994152,
+"2024"
+],
+"BDI": [
+547.032165109034,
+"2024"
+],
+"CPV": [
+130.242431761787,
+"2024"
+],
+"KHM": [
+99.9252266032178,
+"2024"
+],
+"CMR": [
+61.6101711408686,
+"2024"
+],
+"CAN": [
+4.69492973932436,
+"2024"
+],
+"CYM": [
+310.2375,
+"2024"
+],
+"CAF": [
+8.55675944653119,
+"2024"
+],
+"TCD": [
+16.1206504129606,
+"2024"
+],
+"CHI": [
+842.126262626263,
+"2021"
+],
+"CHL": [
+26.6360096771031,
+"2024"
+],
+"CHN": [
+150.079195075526,
+"2024"
+],
+"COL": [
+47.6668436232537,
+"2024"
+],
+"COM": [
+463.511793335829,
+"2024"
+],
+"COD": [
+48.2019651088419,
+"2024"
+],
+"COG": [
+18.544541727672,
+"2024"
+],
+"CRI": [
+101.461827531646,
+"2024"
+],
+"CIV": [
+100.422106918239,
+"2024"
+],
+"HRV": [
+69.0886347390994,
+"2024"
+],
+"CUB": [
+105.778256262042,
+"2024"
+],
+"CUW": [
+351.277027027027,
+"2024"
+],
+"CYP": [
+147.000216450216,
+"2024"
+],
+"CZE": [
+141.338237020958,
+"2024"
+],
+"DNK": [
+149.4248,
+"2024"
+],
+"DJI": [
+50.4194132873167,
+"2024"
+],
+"DMA": [
+88.155792276964,
+"2024"
+],
+"DOM": [
+237.095984440855,
+"2024"
+],
+"ECU": [
+73.020929296183,
+"2024"
+],
+"EGY": [
+117.070930734844,
+"2024"
+],
+"SLV": [
+305.897345559846,
+"2024"
+],
+"GNQ": [
+67.4657683189847,
+"2024"
+],
+"ERI": [
+29.2682367549669,
+"2024"
+],
+"EST": [
+32.1165691551603,
+"2024"
+],
+"SWZ": [
+72.2570930232558,
+"2024"
+],
+"ETH": [
+117.686187969574,
+"2024"
+],
+"FRO": [
+39.8832116788321,
+"2024"
+],
+"FJI": [
+50.6618665793924,
+"2024"
+],
+"FIN": [
+18.4865493421053,
+"2024"
+],
+"FRA": [
+127.194828833844,
+"2024"
+],
+"PYF": [
+80.0360692984948,
+"2024"
+],
+"GAB": [
+9.8535025420111,
+"2024"
+],
+"GMB": [
+272.726086956522,
+"2024"
+],
+"GEO": [
+66.70138913188,
+"2024"
+],
+"DEU": [
+239.008078871305,
+"2024"
+],
+"GHA": [
+151.30734442916,
+"2024"
+],
+"GIB": [
+3932.9,
+"2024"
+],
+"GRC": [
+80.7225290923196,
+"2024"
+],
+"GRL": [
+0.13847274570044,
+"2024"
+],
+"GRD": [
+340.718023255814,
+"2024"
+],
+"GUM": [
+310.123844731978,
+"2024"
+],
+"GTM": [
+171.765201567749,
+"2024"
+],
+"GIN": [
+60.0471471593684,
+"2024"
+],
+"GNB": [
+78.2842105263158,
+"2024"
+],
+"GUY": [
+3.93618925831202,
+"2024"
+],
+"HTI": [
+427.160994194485,
+"2024"
+],
+"HND": [
+96.7530878541425,
+"2024"
+],
+"HKG": [
+7165.80952380952,
+"2024"
+],
+"HUN": [
+104.778270874425,
+"2024"
+],
+"ISL": [
+3.83324407418427,
+"2024"
+],
+"IND": [
+488.006414322664,
+"2024"
+],
+"IDN": [
+149.802588244483,
+"2024"
+],
+"IRN": [
+56.4362021571649,
+"2024"
+],
+"IRQ": [
+106.055824292263,
+"2024"
+],
+"IRL": [
+78.3247205690231,
+"2024"
+],
+"IMN": [
+147.033388249558,
+"2024"
+],
+"ISR": [
+462.20887245841,
+"2024"
+],
+"ITA": [
+199.353117814149,
+"2024"
+],
+"JAM": [
+262.158356417359,
+"2024"
+],
+"JPN": [
+340.124474622771,
+"2024"
+],
+"JOR": [
+130.108746086447,
+"2024"
+],
+"KAZ": [
+7.62772567322295,
+"2024"
+],
+"KEN": [
+97.1507781297342,
+"2024"
+],
+"KIR": [
+165.86683107275,
+"2024"
+],
+"PRK": [
+220.071613653351,
+"2024"
+],
+"KOR": [
+530.236321721311,
+"2024"
+],
+"KWT": [
+274.81835016835,
+"2024"
+],
+"KGZ": [
+37.653117831074,
+"2024"
+],
+"LAO": [
+33.6647270363951,
+"2024"
+],
+"LVA": [
+29.9875301301623,
+"2024"
+],
+"LBN": [
+567.542717497556,
+"2024"
+],
+"LSO": [
+76.9902173913043,
+"2024"
+],
+"LBR": [
+58.272601744186,
+"2024"
+],
+"LBY": [
+4.1948594519022,
+"2024"
+],
+"LIE": [
+252.8125,
+"2024"
+],
+"LTU": [
+46.145997763221,
+"2024"
+],
+"LUX": [
+262.972429169612,
+"2024"
+],
+"MAC": [
+20630.6306306306,
+"2024"
+],
+"MDG": [
+54.9414850464077,
+"2024"
+],
+"MWI": [
+229.691196436148,
+"2024"
+],
+"MYS": [
+108.226063004109,
+"2024"
+],
+"MDV": [
+1771.13758389262,
+"2024"
+],
+"MLI": [
+20.0612978306657,
+"2024"
+],
+"MLT": [
+1805.00396636522,
+"2024"
+],
+"MHL": [
+207.447513812155,
+"2024"
+],
+"MRT": [
+5.01542155816435,
+"2024"
+],
+"MUS": [
+622.8895,
+"2024"
+],
+"MEX": [
+67.3170642249029,
+"2024"
+],
+"FSM": [
+161.426533523538,
+"2024"
+],
+"MDA": [
+83.5090902770536,
+"2024"
+],
+"MCO": [
+18536.9481765835,
+"2024"
+],
+"MNG": [
+2.26165292694361,
+"2024"
+],
+"MNE": [
+46.3587360594796,
+"2024"
+],
+"MAR": [
+85.3264015236388,
+"2024"
+],
+"MOZ": [
+44.0394796408861,
+"2024"
+],
+"MMR": [
+83.5032880322368,
+"2024"
+],
+"NAM": [
+3.68051476393494,
+"2024"
+],
+"NRU": [
+568.904761904762,
+"2024"
+],
+"NPL": [
+206.843767003837,
+"2024"
+],
+"NLD": [
+534.407038907039,
+"2024"
+],
+"NCL": [
+15.7536068044789,
+"2024"
+],
+"NZL": [
+20.0903877558771,
+"2024"
+],
+"NIC": [
+56.702783779292,
+"2023"
+],
+"NER": [
+21.340816294308,
+"2024"
+],
+"NGA": [
+255.47556243618,
+"2024"
+],
+"MKD": [
+72.3377874702617,
+"2024"
+],
+"MNP": [
+96.8884026258206,
+"2024"
+],
+"NOR": [
+15.2971120322837,
+"2024"
+],
+"OMN": [
+17.0647431340872,
+"2024"
+],
+"PAK": [
+325.951074097136,
+"2024"
+],
+"PLW": [
+38.4673913043478,
+"2024"
+],
+"PAN": [
+60.873240765705,
+"2024"
+],
+"PNG": [
+23.3549043854613,
+"2024"
+],
+"PRY": [
+17.4973295634479,
+"2024"
+],
+"PER": [
+26.73269375,
+"2024"
+],
+"PHL": [
+388.515511285508,
+"2024"
+],
+"POL": [
+119.447293102885,
+"2024"
+],
+"PRT": [
+116.747022016121,
+"2024"
+],
+"PRI": [
+361.050845546787,
+"2024"
+],
+"QAT": [
+248.722541340296,
+"2024"
+],
+"ROU": [
+82.805128650904,
+"2024"
+],
+"RUS": [
+8.77271713092917,
+"2024"
+],
+"RWA": [
+599.948415578041,
+"2024"
+],
+"WSM": [
+78.4241007194245,
+"2024"
+],
+"SMR": [
+555.179738562092,
+"2024"
+],
+"STP": [
+245.35,
+"2024"
+],
+"SAU": [
+16.421102577581,
+"2024"
+],
+"SEN": [
+96.0992260946346,
+"2024"
+],
+"SRB": [
+75.1977823623367,
+"2024"
+],
+"SYC": [
+265.544857768053,
+"2024"
+],
+"SLE": [
+119.728761429759,
+"2024"
+],
+"SGP": [
+8329.00110375276,
+"2024"
+],
+"SXM": [
+1275,
+"2024"
+],
+"SVK": [
+112.771817803661,
+"2024"
+],
+"SVN": [
+105.659440264223,
+"2024"
+],
+"SLB": [
+29.2675241157556,
+"2024"
+],
+"SOM": [
+30.3011939299264,
+"2024"
+],
+"ZAF": [
+52.7637578415451,
+"2024"
+],
+"SSD": [
+18.8998908106911,
+"2024"
+],
+"ESP": [
+97.7591687574834,
+"2024"
+],
+"LKA": [
+354.283866795991,
+"2024"
+],
+"KNA": [
+179.475095785441,
+"2024"
+],
+"LCA": [
+294.662295081967,
+"2024"
+],
+"MAF": [
+493,
+"2024"
+],
+"VCT": [
+258.652956298201,
+"2024"
+],
+"SDN": [
+27.0069395074946,
+"2024"
+],
+"SUR": [
+3.95265370906713,
+"2024"
+],
+"SWE": [
+25.9525842806983,
+"2024"
+],
+"CHE": [
+227.933848026418,
+"2024"
+],
+"SYR": [
+134.361269944998,
+"2024"
+],
+"TJK": [
+76.3090064125658,
+"2024"
+],
+"TZA": [
+77.5567386877828,
+"2024"
+],
+"THA": [
+140.280708175928,
+"2024"
+],
+"TLS": [
+94.1921990585071,
+"2024"
+],
+"TGO": [
+154.560728075014,
+"2024"
+],
+"TON": [
+144.6875,
+"2024"
+],
+"TTO": [
+266.835608424337,
+"2024"
+],
+"TUN": [
+79.0236161174047,
+"2024"
+],
+"TUR": [
+111.116589789899,
+"2024"
+],
+"TKM": [
+15.9481156768029,
+"2024"
+],
+"TCA": [
+49.07564620398,
+"2024"
+],
+"TUV": [
+371,
+"2024"
+],
+"UGA": [
+249.426949930182,
+"2024"
+],
+"UKR": [
+65.343840179496,
+"2024"
+],
+"ARE": [
+154.694452266967,
+"2024"
+],
+"GBR": [
+286.367957673707,
+"2024"
+],
+"USA": [
+37.1693654604249,
+"2024"
+],
+"URY": [
+19.3501622708781,
+"2024"
+],
+"UZB": [
+82.9213906182299,
+"2024"
+],
+"VUT": [
+26.8912133891213,
+"2024"
+],
+"VEN": [
+32.2040054418684,
+"2024"
+],
+"VNM": [
+322.202750862237,
+"2024"
+],
+"VIR": [
+299.933908045977,
+"2024"
+],
+"PSE": [
+877.86755186722,
+"2024"
+],
+"YEM": [
+76.866711618886,
+"2024"
+],
+"ZMB": [
+28.6726428926943,
+"2024"
+],
+"ZWE": [
+42.9995424583172,
+"2024"
+]
+},
+"SP.URB.TOTL.IN.ZS": {
+"AFG": [
+25.2622103446137,
+"2020"
+],
+"ALB": [
+57.1408592155544,
+"2020"
+],
+"DZA": [
+73.0541126293395,
+"2020"
+],
+"ASM": [
+82.6240780620716,
+"2020"
+],
+"AND": [
+88.5907780427517,
+"2020"
+],
+"AGO": [
+67.4568270208187,
+"2020"
+],
+"ATG": [
+24.6406156275043,
+"2020"
+],
+"ARG": [
+91.9439026594897,
+"2020"
+],
+"ARM": [
+65.174217253699,
+"2020"
+],
+"ABW": [
+62.0028837566365,
+"2020"
+],
+"AUS": [
+87.2713470458985,
+"2020"
+],
+"AUT": [
+68.5410177924001,
+"2020"
+],
+"AZE": [
+58.2934691761937,
+"2020"
+],
+"BHS": [
+81.6642600232849,
+"2020"
+],
+"BHR": [
+100,
+"2020"
+],
+"BGD": [
+31.1168927321524,
+"2020"
+],
+"BRB": [
+59.3014583324011,
+"2020"
+],
+"BLR": [
+77.7890385790408,
+"2020"
+],
+"BEL": [
+87.2964994991269,
+"2020"
+],
+"BLZ": [
+42.649842440311,
+"2020"
+],
+"BEN": [
+49.4461567219896,
+"2020"
+],
+"BMU": [
+100,
+"2020"
+],
+"BTN": [
+39.6888839873439,
+"2020"
+],
+"BOL": [
+70.0442635528254,
+"2020"
+],
+"BIH": [
+49.9710852122997,
+"2020"
+],
+"BWA": [
+66.4488166494554,
+"2020"
+],
+"BRA": [
+86.9112186503004,
+"2020"
+],
+"VGB": [
+53.1709074822645,
+"2020"
+],
+"BRN": [
+74.7748108912151,
+"2020"
+],
+"BGR": [
+73.3239898681641,
+"2020"
+],
+"BFA": [
+26.3578373628627,
+"2020"
+],
+"BDI": [
+19.9309984273971,
+"2020"
+],
+"CPV": [
+72.8838521558784,
+"2020"
+],
+"KHM": [
+39.832658030922,
+"2020"
+],
+"CMR": [
+54.2557949164174,
+"2020"
+],
+"CAN": [
+81.9509888710566,
+"2020"
+],
+"CYM": [
+100,
+"2020"
+],
+"CAF": [
+42.3050785933463,
+"2020"
+],
+"TCD": [
+24.7341921795416,
+"2020"
+],
+"CHI": [
+32.8247184979451,
+"2020"
+],
+"CHL": [
+88.2953490438375,
+"2020"
+],
+"CHN": [
+63.5234230266258,
+"2020"
+],
+"COL": [
+77.6382533537045,
+"2020"
+],
+"COM": [
+32.0638072194881,
+"2020"
+],
+"COD": [
+43.2528602500115,
+"2020"
+],
+"COG": [
+63.5760904494257,
+"2020"
+],
+"CRI": [
+77.5211537281257,
+"2020"
+],
+"CIV": [
+51.8357660823651,
+"2020"
+],
+"HRV": [
+56.5284863367411,
+"2020"
+],
+"CUB": [
+77.1080322265625,
+"2020"
+],
+"CUW": [
+91.3820881678218,
+"2020"
+],
+"CYP": [
+66.7180443478713,
+"2020"
+],
+"CZE": [
+72.7254901604208,
+"2020"
+],
+"DNK": [
+88.2394485473632,
+"2020"
+],
+"DJI": [
+71.9990170519895,
+"2020"
+],
+"DMA": [
+71.846576780589,
+"2020"
+],
+"DOM": [
+73.2643793773663,
+"2020"
+],
+"ECU": [
+63.0773897782521,
+"2020"
+],
+"EGY": [
+42.5181534630674,
+"2020"
+],
+"SLV": [
+73.0570220947266,
+"2020"
+],
+"GNQ": [
+70.3853314193247,
+"2020"
+],
+"ERI": [
+35.116138458252,
+"2020"
+],
+"EST": [
+69.8815778947665,
+"2020"
+],
+"SWZ": [
+24.6652798922192,
+"2020"
+],
+"ETH": [
+21.6260051727295,
+"2020"
+],
+"FRO": [
+38.6689987182617,
+"2020"
+],
+"FJI": [
+57.186684691874,
+"2020"
+],
+"FIN": [
+73.0849439791673,
+"2020"
+],
+"FRA": [
+78.7119131765249,
+"2020"
+],
+"PYF": [
+61.7673100921,
+"2020"
+],
+"GAB": [
+90.3480750410147,
+"2020"
+],
+"GMB": [
+62.2069251698555,
+"2020"
+],
+"GEO": [
+58.9990552763878,
+"2020"
+],
+"DEU": [
+81.4700055002738,
+"2020"
+],
+"GHA": [
+56.2171613974837,
+"2020"
+],
+"GIB": [
+100,
+"2020"
+],
+"GRC": [
+78.3066842455552,
+"2020"
+],
+"GRL": [
+87.2840881978115,
+"2020"
+],
+"GRD": [
+36.2050502515788,
+"2020"
+],
+"GUM": [
+94.0804991087801,
+"2020"
+],
+"GTM": [
+54.5483167911628,
+"2020"
+],
+"GIN": [
+36.4802208060551,
+"2020"
+],
+"GNB": [
+44.3038330078125,
+"2020"
+],
+"GUY": [
+26.4340397353676,
+"2020"
+],
+"HTI": [
+52.6307476732151,
+"2020"
+],
+"HND": [
+56.8691654042685,
+"2020"
+],
+"HKG": [
+100,
+"2020"
+],
+"HUN": [
+70.2917327880859,
+"2020"
+],
+"ISL": [
+94.1367102874722,
+"2020"
+],
+"IND": [
+34.1286726088333,
+"2020"
+],
+"IDN": [
+56.2785287648768,
+"2020"
+],
+"IRN": [
+75.5986404418945,
+"2020"
+],
+"IRQ": [
+69.8683166503906,
+"2020"
+],
+"IRL": [
+63.4713366724915,
+"2020"
+],
+"IMN": [
+52.1909519786866,
+"2020"
+],
+"ISR": [
+91.5788453228939,
+"2020"
+],
+"ITA": [
+69.5187492370606,
+"2020"
+],
+"JAM": [
+57.1103647563627,
+"2020"
+],
+"JPN": [
+91.7809926267889,
+"2020"
+],
+"JOR": [
+91.8216722992319,
+"2020"
+],
+"KAZ": [
+59.9871193541692,
+"2020"
+],
+"KEN": [
+31.2063494632616,
+"2020"
+],
+"KIR": [
+58.4123714112748,
+"2020"
+],
+"PRK": [
+62.6355140538495,
+"2020"
+],
+"KOR": [
+81.1759595622913,
+"2020"
+],
+"XKX": [
+45.2268625263391,
+"2020"
+],
+"KWT": [
+100,
+"2020"
+],
+"KGZ": [
+34.8174315392111,
+"2020"
+],
+"LAO": [
+36.6185033569111,
+"2020"
+],
+"LVA": [
+68.1211222872228,
+"2020"
+],
+"LBN": [
+89.729499798117,
+"2020"
+],
+"LSO": [
+39.6329305425532,
+"2020"
+],
+"LBR": [
+53.3878685572381,
+"2020"
+],
+"LBY": [
+87.8278267096263,
+"2020"
+],
+"LIE": [
+14.6666622853765,
+"2020"
+],
+"LTU": [
+67.4254608154297,
+"2020"
+],
+"LUX": [
+93.8600689970981,
+"2020"
+],
+"MAC": [
+100,
+"2020"
+],
+"MDG": [
+30.7019474167548,
+"2020"
+],
+"MWI": [
+16.2961471756409,
+"2020"
+],
+"MYS": [
+75.0511895575672,
+"2020"
+],
+"MDV": [
+40.3985147902839,
+"2020"
+],
+"MLI": [
+29.0205972994693,
+"2020"
+],
+"MLT": [
+95.1841082280263,
+"2020"
+],
+"MHL": [
+77.285864607515,
+"2020"
+],
+"MRT": [
+56.9836701058893,
+"2020"
+],
+"MUS": [
+39.1607039074325,
+"2020"
+],
+"MEX": [
+78.677960602824,
+"2020"
+],
+"FSM": [
+22.3752060036598,
+"2020"
+],
+"MDA": [
+41.3368530273438,
+"2020"
+],
+"MCO": [
+100,
+"2020"
+],
+"MNG": [
+68.0894771770775,
+"2020"
+],
+"MNE": [
+65.2490688418027,
+"2020"
+],
+"MAR": [
+62.0933436005366,
+"2020"
+],
+"MOZ": [
+33.9044006416285,
+"2020"
+],
+"MMR": [
+30.1593049968842,
+"2020"
+],
+"NAM": [
+48.547381745659,
+"2020"
+],
+"NRU": [
+100,
+"2020"
+],
+"NPL": [
+66.1050886088505,
+"2020"
+],
+"NLD": [
+94.2532277765935,
+"2020"
+],
+"NCL": [
+67.2747261065933,
+"2020"
+],
+"NZL": [
+83.8138977095908,
+"2020"
+],
+"NIC": [
+58.7045922689128,
+"2020"
+],
+"NER": [
+17.0081420003794,
+"2020"
+],
+"NGA": [
+59.7659654848781,
+"2020"
+],
+"MKD": [
+61.1593302746435,
+"2020"
+],
+"MNP": [
+91.6908367362908,
+"2020"
+],
+"NOR": [
+82.7029885700532,
+"2020"
+],
+"OMN": [
+80.0176378922722,
+"2020"
+],
+"PAK": [
+37.5080192948099,
+"2020"
+],
+"PLW": [
+79.0796884006264,
+"2020"
+],
+"PAN": [
+65.7862999591993,
+"2020"
+],
+"PNG": [
+14.1703677185729,
+"2020"
+],
+"PRY": [
+66.116520986009,
+"2020"
+],
+"PER": [
+83.5267437189637,
+"2020"
+],
+"PHL": [
+54.1077719895977,
+"2020"
+],
+"POL": [
+59.8738141138092,
+"2020"
+],
+"PRT": [
+61.1042566768691,
+"2020"
+],
+"PRI": [
+94.0116144995587,
+"2020"
+],
+"QAT": [
+99.1617913833034,
+"2020"
+],
+"ROU": [
+52.611947245178,
+"2020"
+],
+"RUS": [
+74.6932216791674,
+"2020"
+],
+"RWA": [
+24.5029761132966,
+"2020"
+],
+"WSM": [
+18.0516608994722,
+"2020"
+],
+"SMR": [
+97.0999984741211,
+"2020"
+],
+"STP": [
+68.0436706542969,
+"2020"
+],
+"SAU": [
+83.8064352851942,
+"2020"
+],
+"SEN": [
+51.0562950093282,
+"2020"
+],
+"SRB": [
+61.223201751709,
+"2020"
+],
+"SYC": [
+44.2936147152263,
+"2020"
+],
+"SLE": [
+43.2129659123546,
+"2020"
+],
+"SGP": [
+100,
+"2020"
+],
+"SXM": [
+100,
+"2020"
+],
+"SVK": [
+53.2481998906526,
+"2020"
+],
+"SVN": [
+55.384391784668,
+"2020"
+],
+"SLB": [
+28.0327555150022,
+"2020"
+],
+"SOM": [
+52.286318011754,
+"2020"
+],
+"ZAF": [
+63.4373088310982,
+"2020"
+],
+"SSD": [
+20.1914565476286,
+"2020"
+],
+"ESP": [
+79.6955674617799,
+"2020"
+],
+"LKA": [
+19.6621898312161,
+"2020"
+],
+"KNA": [
+31.4716289738952,
+"2020"
+],
+"LCA": [
+25.7524386560998,
+"2020"
+],
+"MAF": [
+100,
+"2020"
+],
+"VCT": [
+47.3255171858432,
+"2020"
+],
+"SDN": [
+34.5594433789246,
+"2020"
+],
+"SUR": [
+66.00830078125,
+"2020"
+],
+"SWE": [
+87.9424046895699,
+"2020"
+],
+"CHE": [
+82.3416838515457,
+"2020"
+],
+"SYR": [
+73.4125031102512,
+"2020"
+],
+"TJK": [
+26.1925442328719,
+"2020"
+],
+"TZA": [
+33.8547246036273,
+"2020"
+],
+"THA": [
+57.2358779907227,
+"2020"
+],
+"TLS": [
+28.9619049897647,
+"2020"
+],
+"TGO": [
+41.8781527268075,
+"2020"
+],
+"TON": [
+21.8766206823411,
+"2020"
+],
+"TTO": [
+53.9377689584806,
+"2020"
+],
+"TUN": [
+69.1043166438476,
+"2020"
+],
+"TUR": [
+88.9303114965222,
+"2020"
+],
+"TKM": [
+47.0546961907259,
+"2020"
+],
+"TCA": [
+93.1960408439605,
+"2020"
+],
+"TUV": [
+61.9212610534937,
+"2020"
+],
+"UGA": [
+28.5399752271502,
+"2020"
+],
+"UKR": [
+69.3839100516745,
+"2020"
+],
+"ARE": [
+85.1955255681984,
+"2020"
+],
+"GBR": [
+82.9000015258789,
+"2020"
+],
+"USA": [
+79.997451762548,
+"2020"
+],
+"URY": [
+95.3997650146484,
+"2020"
+],
+"UZB": [
+50.7670402526855,
+"2020"
+],
+"VUT": [
+22.4186852094794,
+"2020"
+],
+"VEN": [
+89.1399056567545,
+"2020"
+],
+"VNM": [
+35.5706676299742,
+"2020"
+],
+"VIR": [
+95.0974024521293,
+"2020"
+],
+"PSE": [
+86.0741183743925,
+"2020"
+],
+"YEM": [
+35.7025604580302,
+"2020"
+],
+"ZMB": [
+43.8644489410157,
+"2020"
+],
+"ZWE": [
+37.0097671560802,
+"2020"
+]
+},
+"EG.ELC.RNEW.ZS": {
+"AFG": [
+78.2344746063241,
+"2021"
+],
+"ALB": [
+98.6105941302792,
+"2011"
+],
+"DZA": [
+0.912964610055238,
+"2021"
+],
+"ASM": [
+3.8725406815218,
+"2021"
+],
+"AND": [
+93.3403907227408,
+"2021"
+],
+"AGO": [
+91.1643122192566,
+"2021"
+],
+"ATG": [
+5.65579264886605,
+"2021"
+],
+"ARG": [
+25.5361113468556,
+"2021"
+],
+"ARM": [
+30.0380758979566,
+"2021"
+],
+"ABW": [
+14.7971787957078,
+"2021"
+],
+"AUS": [
+26.6608674695166,
+"2021"
+],
+"AUT": [
+79.9114280061055,
+"2021"
+],
+"AZE": [
+5.79875927851687,
+"2021"
+],
+"BHS": [
+0.480875807854305,
+"2021"
+],
+"BHR": [
+0.0374420435657423,
+"2021"
+],
+"BGD": [
+1.50700412377625,
+"2021"
+],
+"BRB": [
+7.32507956609401,
+"2021"
+],
+"BLR": [
+3.1465360459759,
+"2021"
+],
+"BEL": [
+23.5431574128442,
+"2021"
+],
+"BLZ": [
+92.8601757887138,
+"2021"
+],
+"BEN": [
+0.257548845470693,
+"2021"
+],
+"BTN": [
+100,
+"2021"
+],
+"BOL": [
+38.2375964718853,
+"2021"
+],
+"BIH": [
+39.3396633577902,
+"2021"
+],
+"BWA": [
+0.248679398618448,
+"2021"
+],
+"BRA": [
+77.3753492178891,
+"2021"
+],
+"VGB": [
+2.2534386889084,
+"2021"
+],
+"BRN": [
+0.0196525706264257,
+"2021"
+],
+"BGR": [
+22.1918096199125,
+"2021"
+],
+"BFA": [
+13.9238095238095,
+"2021"
+],
+"BDI": [
+61.3041849395068,
+"2021"
+],
+"CPV": [
+18.2655949281105,
+"2021"
+],
+"KHM": [
+56.368745716244,
+"2021"
+],
+"CMR": [
+65.8110510046368,
+"2021"
+],
+"CAN": [
+67.0163805768966,
+"2021"
+],
+"CYM": [
+2.93933111462709,
+"2021"
+],
+"CAF": [
+96.473071423708,
+"2021"
+],
+"TCD": [
+5.71810089020772,
+"2021"
+],
+"CHL": [
+48.0821990956395,
+"2021"
+],
+"CHN": [
+28.4280012326943,
+"2021"
+],
+"COL": [
+76.1979606612767,
+"2021"
+],
+"COM": [
+0,
+"2021"
+],
+"COD": [
+90.4325595509028,
+"2021"
+],
+"COG": [
+31.7064705882353,
+"2021"
+],
+"CRI": [
+99.3668053701814,
+"2021"
+],
+"CIV": [
+22.7950471902329,
+"2021"
+],
+"HRV": [
+69.8809993425378,
+"2021"
+],
+"CUB": [
+4.77073999691024,
+"2021"
+],
+"CUW": [
+18.2624113475177,
+"2021"
+],
+"CYP": [
+15.1349873022075,
+"2021"
+],
+"CZE": [
+14.0234899723578,
+"2021"
+],
+"DNK": [
+78.958880484115,
+"2021"
+],
+"DJI": [
+35.3535353535354,
+"2021"
+],
+"DMA": [
+20.2875714004333,
+"2021"
+],
+"DOM": [
+17.0566127087997,
+"2021"
+],
+"ECU": [
+80.9483764822748,
+"2021"
+],
+"EGY": [
+12.1959401781537,
+"2021"
+],
+"SLV": [
+95.5593380614657,
+"2021"
+],
+"GNQ": [
+8.82316227461859,
+"2021"
+],
+"ERI": [
+5.02727272727273,
+"2021"
+],
+"EST": [
+39.9573847862299,
+"2021"
+],
+"SWZ": [
+83.072202166065,
+"2021"
+],
+"ETH": [
+95.2654699450098,
+"2020"
+],
+"FRO": [
+38.0840018876829,
+"2021"
+],
+"FJI": [
+60.0656085236255,
+"2021"
+],
+"FIN": [
+52.9302986606029,
+"2021"
+],
+"FRA": [
+22.8074034074034,
+"2021"
+],
+"PYF": [
+23.7317475837087,
+"2021"
+],
+"GAB": [
+32.963496316142,
+"2021"
+],
+"GMB": [
+1.60250694249828,
+"2021"
+],
+"GEO": [
+81.3667062079873,
+"2021"
+],
+"DEU": [
+39.832111961348,
+"2021"
+],
+"GHA": [
+34.867098938968,
+"2021"
+],
+"GIB": [
+0,
+"2015"
+],
+"GRC": [
+40.5640135246276,
+"2021"
+],
+"GRL": [
+77.0421783235451,
+"2021"
+],
+"GRD": [
+1.96573875802998,
+"2021"
+],
+"GUM": [
+4.80077087647049,
+"2021"
+],
+"GTM": [
+60.6103116732271,
+"2021"
+],
+"GIN": [
+88.1321934987129,
+"2021"
+],
+"GNB": [
+7.08661417322835,
+"2021"
+],
+"GUY": [
+7.1061714531072,
+"2021"
+],
+"HTI": [
+20.5416248746239,
+"2021"
+],
+"HND": [
+64.94215996385,
+"2021"
+],
+"HKG": [
+0.83554469273743,
+"2021"
+],
+"HUN": [
+19.1445182724252,
+"2021"
+],
+"ISL": [
+99.9936388140162,
+"2016"
+],
+"IND": [
+19.1298662811444,
+"2021"
+],
+"IDN": [
+15.4607636838472,
+"2021"
+],
+"IRN": [
+4.23813256684958,
+"2021"
+],
+"IRQ": [
+3.77958595889556,
+"2021"
+],
+"IRL": [
+37.1541775946047,
+"2021"
+],
+"ISR": [
+7.63056263212098,
+"2021"
+],
+"ITA": [
+40.9735703240403,
+"2021"
+],
+"JAM": [
+12.7547999074717,
+"2021"
+],
+"JPN": [
+21.1013762201952,
+"2021"
+],
+"JOR": [
+24.917033224146,
+"2021"
+],
+"KAZ": [
+10.9976885243053,
+"2021"
+],
+"KEN": [
+78.0821751777634,
+"2021"
+],
+"KIR": [
+16.3652802893309,
+"2021"
+],
+"PRK": [
+63.0792789980882,
+"2021"
+],
+"KOR": [
+6.65144502708922,
+"2021"
+],
+"XKX": [
+6.37447655640132,
+"2021"
+],
+"KWT": [
+0.265012812418762,
+"2021"
+],
+"KGZ": [
+85.5934733782534,
+"2021"
+],
+"LAO": [
+63.2882872854376,
+"2021"
+],
+"LVA": [
+63.5961341087923,
+"2021"
+],
+"LBN": [
+5.08959002824033,
+"2021"
+],
+"LSO": [
+99.7862526718416,
+"2021"
+],
+"LBR": [
+57.4209245742092,
+"2021"
+],
+"LBY": [
+0.0213928708738397,
+"2021"
+],
+"LTU": [
+65.6144151240646,
+"2021"
+],
+"LUX": [
+89.0447963800905,
+"2021"
+],
+"MDG": [
+34.08316752885,
+"2021"
+],
+"MWI": [
+80.0551584735492,
+"2021"
+],
+"MYS": [
+16.9995110757999,
+"2021"
+],
+"MDV": [
+5.82133253659994,
+"2021"
+],
+"MLI": [
+62.2933606249605,
+"2021"
+],
+"MLT": [
+11.8897922312556,
+"2021"
+],
+"MHL": [
+2.4256748351785,
+"2021"
+],
+"MRT": [
+19.3554142491133,
+"2021"
+],
+"MUS": [
+21.682820855615,
+"2021"
+],
+"MEX": [
+23.3762297959545,
+"2021"
+],
+"FSM": [
+4.94750949296404,
+"2021"
+],
+"MDA": [
+6.50390625,
+"2021"
+],
+"MNG": [
+10.9483384905153,
+"2021"
+],
+"MNE": [
+61.7770127118644,
+"2021"
+],
+"MAR": [
+19.319165433143,
+"2021"
+],
+"MOZ": [
+82.7092499337397,
+"2021"
+],
+"MMR": [
+50.8374750664894,
+"2021"
+],
+"NAM": [
+93.3683473389356,
+"2021"
+],
+"NRU": [
+9.82367758186398,
+"2021"
+],
+"NPL": [
+83.9765900145018,
+"2021"
+],
+"NLD": [
+33.1271998035524,
+"2021"
+],
+"NCL": [
+22.4774047218117,
+"2021"
+],
+"NZL": [
+81.4752517437036,
+"2021"
+],
+"NIC": [
+69.5093757417517,
+"2021"
+],
+"NER": [
+6.24525745257453,
+"2021"
+],
+"NGA": [
+21.9775686385508,
+"2021"
+],
+"MKD": [
+30.9676369553426,
+"2021"
+],
+"NOR": [
+99.1038297387318,
+"2021"
+],
+"OMN": [
+1.9199645882184,
+"2021"
+],
+"PAK": [
+28.2763877589336,
+"2021"
+],
+"PLW": [
+4.59829235675342,
+"2021"
+],
+"PAN": [
+68.9667265540783,
+"2021"
+],
+"PNG": [
+39.9588024788339,
+"2021"
+],
+"PRY": [
+99.9973769403171,
+"2012"
+],
+"PER": [
+61.7794528000562,
+"2021"
+],
+"PHL": [
+22.6363285151612,
+"2021"
+],
+"POL": [
+17.4599985525884,
+"2021"
+],
+"PRT": [
+64.9061770532965,
+"2021"
+],
+"PRI": [
+4.57841328319192,
+"2021"
+],
+"QAT": [
+0.276277845516654,
+"2021"
+],
+"ROU": [
+44.8574239112157,
+"2021"
+],
+"RUS": [
+19.1544751840582,
+"2021"
+],
+"RWA": [
+59.8933601609658,
+"2021"
+],
+"WSM": [
+49.1406825435797,
+"2021"
+],
+"STP": [
+6.05617320070216,
+"2021"
+],
+"SAU": [
+0.0652981651937175,
+"2021"
+],
+"SEN": [
+13.2915360501567,
+"2021"
+],
+"SRB": [
+34.9821890937623,
+"2021"
+],
+"SYC": [
+4.51403741810568,
+"2021"
+],
+"SLE": [
+75.2819403676811,
+"2021"
+],
+"SGP": [
+4.02215992761209,
+"2021"
+],
+"SXM": [
+0,
+"2021"
+],
+"SVK": [
+23.5607675906183,
+"2021"
+],
+"SVN": [
+36.1126858150668,
+"2021"
+],
+"SLB": [
+6.5551580779271,
+"2021"
+],
+"SOM": [
+11.2132448947616,
+"2021"
+],
+"ZAF": [
+6.44786393924166,
+"2021"
+],
+"SSD": [
+0.354898336414048,
+"2021"
+],
+"ESP": [
+47.0149136749395,
+"2021"
+],
+"LKA": [
+49.2380351199357,
+"2021"
+],
+"KNA": [
+4.52674897119342,
+"2021"
+],
+"LCA": [
+2.54489148622662,
+"2021"
+],
+"MAF": [
+0.811168745171615,
+"2021"
+],
+"VCT": [
+15.0174216027875,
+"2021"
+],
+"SDN": [
+61.1182782806786,
+"2021"
+],
+"SUR": [
+41.9336561743341,
+"2021"
+],
+"SWE": [
+67.3919370423404,
+"2021"
+],
+"CHE": [
+67.8762344840083,
+"2021"
+],
+"SYR": [
+3.39200288473096,
+"2021"
+],
+"TJK": [
+93.3827887446305,
+"2021"
+],
+"TZA": [
+37.1995633187773,
+"2021"
+],
+"THA": [
+19.9307401392503,
+"2021"
+],
+"TLS": [
+0.371447028423773,
+"2021"
+],
+"TGO": [
+25.3008,
+"2021"
+],
+"TON": [
+14.2006227155814,
+"2021"
+],
+"TTO": [
+0.067595292085088,
+"2021"
+],
+"TUN": [
+2.82000913659205,
+"2021"
+],
+"TUR": [
+35.4189464124067,
+"2021"
+],
+"TKM": [
+0.0110915492957746,
+"2021"
+],
+"TCA": [
+1.48336829487564,
+"2021"
+],
+"TUV": [
+15.8385093167702,
+"2021"
+],
+"UGA": [
+90.0085291887794,
+"2021"
+],
+"UKR": [
+11.9895911673439,
+"2021"
+],
+"ARE": [
+4.20134583903604,
+"2021"
+],
+"GBR": [
+40.1999760236135,
+"2021"
+],
+"USA": [
+20.2733089261925,
+"2021"
+],
+"URY": [
+84.3537980618944,
+"2021"
+],
+"UZB": [
+7.07677648080938,
+"2021"
+],
+"VUT": [
+25.154847680445,
+"2021"
+],
+"VEN": [
+81.7220757524342,
+"2021"
+],
+"VNM": [
+41.1893989640579,
+"2021"
+],
+"VIR": [
+2.50440255203672,
+"2021"
+],
+"PSE": [
+24.4633507853403,
+"2021"
+],
+"YEM": [
+10.2535559678417,
+"2021"
+],
+"ZMB": [
+92.0219476416159,
+"2021"
+],
+"ZWE": [
+87.5385806814982,
+"2021"
+]
+},
+"AG.LND.FRST.ZS": {
+"AFG": [
+1.85431519555985,
+"2024"
+],
+"ALB": [
+34.3430656934307,
+"2024"
+],
+"DZA": [
+0.710417593859951,
+"2024"
+],
+"ASM": [
+79.6482412060301,
+"2024"
+],
+"AND": [
+38.9102564102564,
+"2024"
+],
+"AGO": [
+51.152931739793,
+"2024"
+],
+"ATG": [
+17.851545998392,
+"2024"
+],
+"ARG": [
+17.0927361155264,
+"2024"
+],
+"ARM": [
+11.8470605757569,
+"2024"
+],
+"ABW": [
+2.72222222222222,
+"2024"
+],
+"AUS": [
+17.3650515387888,
+"2024"
+],
+"AUT": [
+47.2744789142026,
+"2024"
+],
+"AZE": [
+14.5574107683001,
+"2024"
+],
+"BHS": [
+50.9350649350649,
+"2024"
+],
+"BHR": [
+4.8625,
+"2024"
+],
+"BGD": [
+14.399708074057,
+"2024"
+],
+"BRB": [
+14.6171693735499,
+"2024"
+],
+"BLR": [
+44.0886114614536,
+"2024"
+],
+"BEL": [
+21.9884292826641,
+"2024"
+],
+"BLZ": [
+57.9824638316528,
+"2024"
+],
+"BEN": [
+28.1185704150408,
+"2024"
+],
+"BMU": [
+14.4444444444444,
+"2024"
+],
+"BTN": [
+70.3518615626639,
+"2024"
+],
+"BOL": [
+50.194932893704,
+"2024"
+],
+"BIH": [
+42.2078125,
+"2024"
+],
+"BWA": [
+27.7560743211053,
+"2024"
+],
+"BRA": [
+58.5468405650061,
+"2024"
+],
+"VGB": [
+66.0264900662252,
+"2024"
+],
+"BRN": [
+72.1062618595825,
+"2024"
+],
+"BGR": [
+36.3522476050111,
+"2024"
+],
+"BFA": [
+12.269115497076,
+"2024"
+],
+"BDI": [
+10.8894080996885,
+"2024"
+],
+"CPV": [
+12.5161290322581,
+"2024"
+],
+"KHM": [
+37.6268978019488,
+"2024"
+],
+"CMR": [
+40.7441771910897,
+"2024"
+],
+"CAN": [
+41.9662373274773,
+"2024"
+],
+"CYM": [
+53,
+"2024"
+],
+"CAF": [
+72.4604160647212,
+"2024"
+],
+"TCD": [
+2.96952827191868,
+"2024"
+],
+"CHI": [
+5.15151515151515,
+"2021"
+],
+"CHL": [
+24.4824758091963,
+"2024"
+],
+"CHN": [
+24.0239619693211,
+"2024"
+],
+"COL": [
+53.709004055881,
+"2024"
+],
+"COM": [
+17.7942985505696,
+"2024"
+],
+"COD": [
+61.5213338920624,
+"2024"
+],
+"COG": [
+63.9525622254758,
+"2024"
+],
+"CRI": [
+59.060917721519,
+"2024"
+],
+"CIV": [
+12.1224842767296,
+"2024"
+],
+"HRV": [
+34.7548248749107,
+"2024"
+],
+"CUB": [
+34.8765895953757,
+"2024"
+],
+"CUW": [
+0.157657657657658,
+"2024"
+],
+"CYP": [
+18.6006493506494,
+"2024"
+],
+"CZE": [
+38.3552496683971,
+"2024"
+],
+"DNK": [
+16.01475,
+"2024"
+],
+"DJI": [
+0.255392579810181,
+"2024"
+],
+"DMA": [
+76.4181091877497,
+"2024"
+],
+"DOM": [
+46.6998436865249,
+"2024"
+],
+"ECU": [
+49.6878321790949,
+"2024"
+],
+"EGY": [
+0.0041187402682204,
+"2024"
+],
+"SLV": [
+33.011583011583,
+"2024"
+],
+"GNQ": [
+86.0909398784379,
+"2024"
+],
+"ERI": [
+11.9867549668874,
+"2024"
+],
+"EST": [
+57.2471331617131,
+"2024"
+],
+"SWZ": [
+25.2656976744186,
+"2024"
+],
+"ETH": [
+23.8393996870964,
+"2024"
+],
+"FRO": [
+0.0583941605839416,
+"2024"
+],
+"FJI": [
+61.7449408171058,
+"2024"
+],
+"FIN": [
+74.1546052631579,
+"2024"
+],
+"FRA": [
+32.8520270897115,
+"2024"
+],
+"PYF": [
+42.4481681340528,
+"2024"
+],
+"GAB": [
+91.4426980246051,
+"2024"
+],
+"GMB": [
+21.3438735177866,
+"2024"
+],
+"GEO": [
+44.6179306375018,
+"2024"
+],
+"DEU": [
+32.8437741464671,
+"2024"
+],
+"GHA": [
+30.8554803039559,
+"2024"
+],
+"GIB": [
+0,
+"2023"
+],
+"GRC": [
+36.9495733126455,
+"2024"
+],
+"GRL": [
+0.000535998382259428,
+"2024"
+],
+"GRD": [
+51.453488372093,
+"2024"
+],
+"GUM": [
+52.2550831792976,
+"2024"
+],
+"GTM": [
+33.1172079134005,
+"2024"
+],
+"GIN": [
+20.0403304574312,
+"2024"
+],
+"GNB": [
+74.8161450924609,
+"2024"
+],
+"GUY": [
+87.0740740740741,
+"2024"
+],
+"HTI": [
+13.4506531204644,
+"2024"
+],
+"HND": [
+52.8335865582268,
+"2024"
+],
+"HUN": [
+22.8062678062678,
+"2024"
+],
+"ISL": [
+0.600218189031042,
+"2024"
+],
+"IND": [
+24.436043441556,
+"2024"
+],
+"IDN": [
+50.6696830671111,
+"2024"
+],
+"IRN": [
+6.62619414483821,
+"2024"
+],
+"IRQ": [
+1.61046230391818,
+"2024"
+],
+"IRL": [
+11.9747423428654,
+"2024"
+],
+"IMN": [
+6.41174589919058,
+"2024"
+],
+"ISR": [
+6.83918669131238,
+"2024"
+],
+"ITA": [
+31.8188489111322,
+"2024"
+],
+"JAM": [
+56.5484764542936,
+"2024"
+],
+"JPN": [
+68.3407407407407,
+"2024"
+],
+"JOR": [
+0.796224970155641,
+"2024"
+],
+"KAZ": [
+1.29888876541838,
+"2024"
+],
+"KEN": [
+6.62673874122022,
+"2024"
+],
+"KIR": [
+1.3193588162762,
+"2024"
+],
+"PRK": [
+64.0857902167594,
+"2024"
+],
+"KOR": [
+64.3739754098361,
+"2024"
+],
+"KWT": [
+0.353535353535354,
+"2024"
+],
+"KGZ": [
+6.54546402502607,
+"2024"
+],
+"LAO": [
+56.6350519930676,
+"2024"
+],
+"LVA": [
+55.6064599067974,
+"2024"
+],
+"LBN": [
+13.8044965786901,
+"2024"
+],
+"LSO": [
+1.13702239789196,
+"2024"
+],
+"LBR": [
+66.1036129568106,
+"2024"
+],
+"LBY": [
+0.116882821646567,
+"2024"
+],
+"LIE": [
+36.8125,
+"2024"
+],
+"LTU": [
+35.3652340629494,
+"2024"
+],
+"LUX": [
+34.4538272103664,
+"2024"
+],
+"MDG": [
+17.2677208662771,
+"2024"
+],
+"MWI": [
+21.9951209164192,
+"2024"
+],
+"MYS": [
+57.6616648911886,
+"2024"
+],
+"MDV": [
+12.4832214765101,
+"2024"
+],
+"MLI": [
+8.67061687114302,
+"2024"
+],
+"MLT": [
+1.49135332381406,
+"2024"
+],
+"MHL": [
+53.646408839779,
+"2024"
+],
+"MRT": [
+0.986222955273115,
+"2024"
+],
+"MUS": [
+19.145,
+"2024"
+],
+"MEX": [
+34.1538414053859,
+"2024"
+],
+"FSM": [
+92.0684736091298,
+"2024"
+],
+"MDA": [
+11.2626784087458,
+"2024"
+],
+"MCO": [
+0,
+"2023"
+],
+"MNG": [
+9.09741565838072,
+"2024"
+],
+"MNE": [
+61.4869888475836,
+"2024"
+],
+"MAR": [
+12.760542236164,
+"2024"
+],
+"MOZ": [
+41.3412472341616,
+"2024"
+],
+"MMR": [
+41.9584629291985,
+"2024"
+],
+"NAM": [
+9.7700688700215,
+"2024"
+],
+"NRU": [
+0,
+"2023"
+],
+"NPL": [
+43.5972793861179,
+"2024"
+],
+"NLD": [
+10.955746955747,
+"2024"
+],
+"NCL": [
+48.0517872523686,
+"2024"
+],
+"NZL": [
+38.8723557783601,
+"2024"
+],
+"NIC": [
+25.8229183978727,
+"2023"
+],
+"NER": [
+0.836835872740191,
+"2024"
+],
+"NGA": [
+18.9475279159393,
+"2024"
+],
+"MKD": [
+40.8144329896907,
+"2024"
+],
+"MNP": [
+53.3041575492341,
+"2024"
+],
+"NOR": [
+33.2475087160623,
+"2024"
+],
+"OMN": [
+0.00516962843295638,
+"2024"
+],
+"PAK": [
+4.114349833956,
+"2024"
+],
+"PLW": [
+90.8260869565217,
+"2024"
+],
+"PAN": [
+62.2488541385818,
+"2024"
+],
+"PNG": [
+75.150620500817,
+"2024"
+],
+"PRY": [
+36.5168199562018,
+"2024"
+],
+"PER": [
+52.702421875,
+"2024"
+],
+"PHL": [
+24.80527886776,
+"2024"
+],
+"POL": [
+31.0021890417225,
+"2024"
+],
+"PRT": [
+36.6460129075078,
+"2024"
+],
+"PRI": [
+49.7485907553551,
+"2024"
+],
+"QAT": [
+0.121845082680592,
+"2024"
+],
+"ROU": [
+30.2134474965229,
+"2024"
+],
+"RUS": [
+50.7905588796882,
+"2024"
+],
+"RWA": [
+26.0939407114964,
+"2024"
+],
+"WSM": [
+57.6402877697842,
+"2024"
+],
+"SMR": [
+16.3398692810458,
+"2024"
+],
+"STP": [
+57.5520833333333,
+"2024"
+],
+"SAU": [
+1.29044187766608,
+"2024"
+],
+"SEN": [
+45.0052459356983,
+"2024"
+],
+"SRB": [
+39.2233244699373,
+"2024"
+],
+"SYC": [
+58.5120350109409,
+"2024"
+],
+"SLE": [
+34.0260459961208,
+"2024"
+],
+"SGP": [
+21.7991169977925,
+"2024"
+],
+"SXM": [
+8.82352941176471,
+"2024"
+],
+"SVK": [
+40.3211314475874,
+"2024"
+],
+"SVN": [
+61.765129504085,
+"2024"
+],
+"SLB": [
+89.8413719185423,
+"2024"
+],
+"SOM": [
+7.81984250964389,
+"2024"
+],
+"ZAF": [
+18.7899084156988,
+"2024"
+],
+"SSD": [
+11.3279951893406,
+"2024"
+],
+"ESP": [
+38.2293255576479,
+"2024"
+],
+"LKA": [
+34.3619463304235,
+"2024"
+],
+"KNA": [
+42.1455938697318,
+"2024"
+],
+"LCA": [
+53.7540983606557,
+"2024"
+],
+"MAF": [
+23.3962264150943,
+"2024"
+],
+"VCT": [
+73.4190231362468,
+"2024"
+],
+"SDN": [
+11.8600321199143,
+"2024"
+],
+"SUR": [
+91.5374043635688,
+"2024"
+],
+"SWE": [
+68.5884057259312,
+"2024"
+],
+"CHE": [
+32.0223196218238,
+"2024"
+],
+"SYR": [
+2.87414910417688,
+"2024"
+],
+"TJK": [
+3.05641616831184,
+"2024"
+],
+"TZA": [
+49.6255656108597,
+"2024"
+],
+"THA": [
+38.7275147291981,
+"2024"
+],
+"TLS": [
+70.960322797579,
+"2024"
+],
+"TGO": [
+22.4567015995587,
+"2024"
+],
+"TON": [
+12.125,
+"2024"
+],
+"TTO": [
+44.1634165366615,
+"2024"
+],
+"TUN": [
+4.43994593202884,
+"2024"
+],
+"TUR": [
+29.4799838883619,
+"2024"
+],
+"TKM": [
+4.95818526163471,
+"2024"
+],
+"TCA": [
+11.0943547451568,
+"2024"
+],
+"TUV": [
+39.6153846153846,
+"2024"
+],
+"UGA": [
+11.9477857570317,
+"2024"
+],
+"UKR": [
+17.3489817052123,
+"2024"
+],
+"ARE": [
+4.56547451422135,
+"2024"
+],
+"GBR": [
+13.4972926052991,
+"2024"
+],
+"USA": [
+33.7764090858406,
+"2024"
+],
+"URY": [
+11.4595808383234,
+"2024"
+],
+"UZB": [
+8.78691477959454,
+"2024"
+],
+"VUT": [
+74.6427106407417,
+"2024"
+],
+"VEN": [
+53.4408820361657,
+"2024"
+],
+"VNM": [
+47.115965657294,
+"2024"
+],
+"VIR": [
+58.9367816091954,
+"2024"
+],
+"PSE": [
+1.84232365145228,
+"2024"
+],
+"YEM": [
+1.03983574762107,
+"2024"
+],
+"ZMB": [
+60.4950967863436,
+"2024"
+],
+"ZWE": [
+35.7218818663565,
+"2024"
+]
+},
+"SP.DYN.TFRT.IN": {
+"AFG": [
+4.761,
+"2024"
+],
+"ALB": [
+1.341,
+"2024"
+],
+"DZA": [
+2.723,
+"2024"
+],
+"ASM": [
+2.267,
+"2024"
+],
+"AND": [
+1.087,
+"2024"
+],
+"AGO": [
+5.048,
+"2024"
+],
+"ATG": [
+1.582,
+"2024"
+],
+"ARG": [
+1.504,
+"2024"
+],
+"ARM": [
+1.7,
+"2024"
+],
+"ABW": [
+1.606,
+"2024"
+],
+"AUS": [
+1.481,
+"2024"
+],
+"AUT": [
+1.31,
+"2024"
+],
+"AZE": [
+1.43,
+"2024"
+],
+"BHS": [
+1.374,
+"2024"
+],
+"BHR": [
+1.805,
+"2024"
+],
+"BGD": [
+2.138,
+"2024"
+],
+"BRB": [
+1.708,
+"2024"
+],
+"BLR": [
+1.217,
+"2024"
+],
+"BEL": [
+1.44,
+"2024"
+],
+"BLZ": [
+2.021,
+"2024"
+],
+"BEN": [
+4.48,
+"2024"
+],
+"BMU": [
+1.405,
+"2024"
+],
+"BTN": [
+1.449,
+"2024"
+],
+"BOL": [
+2.523,
+"2024"
+],
+"BIH": [
+1.492,
+"2024"
+],
+"BWA": [
+2.703,
+"2024"
+],
+"BRA": [
+1.614,
+"2024"
+],
+"VGB": [
+1.048,
+"2024"
+],
+"BRN": [
+1.731,
+"2024"
+],
+"BGR": [
+1.72,
+"2024"
+],
+"BFA": [
+4.11,
+"2024"
+],
+"BDI": [
+4.789,
+"2024"
+],
+"CPV": [
+1.511,
+"2024"
+],
+"KHM": [
+2.548,
+"2024"
+],
+"CMR": [
+4.261,
+"2024"
+],
+"CAN": [
+1.25,
+"2024"
+],
+"CYM": [
+1.525,
+"2024"
+],
+"CAF": [
+5.954,
+"2024"
+],
+"TCD": [
+6.028,
+"2024"
+],
+"CHI": [
+1.37,
+"2024"
+],
+"CHL": [
+1.14,
+"2024"
+],
+"CHN": [
+1.013,
+"2024"
+],
+"COL": [
+1.634,
+"2024"
+],
+"COM": [
+3.822,
+"2024"
+],
+"COD": [
+5.981,
+"2024"
+],
+"COG": [
+4.109,
+"2024"
+],
+"CRI": [
+1.318,
+"2024"
+],
+"CIV": [
+4.23,
+"2024"
+],
+"HRV": [
+1.46,
+"2024"
+],
+"CUB": [
+1.445,
+"2024"
+],
+"CUW": [
+1.4,
+"2024"
+],
+"CYP": [
+1.38,
+"2024"
+],
+"CZE": [
+1.36,
+"2024"
+],
+"DNK": [
+1.47,
+"2024"
+],
+"DJI": [
+2.618,
+"2024"
+],
+"DMA": [
+1.48,
+"2024"
+],
+"DOM": [
+2.222,
+"2024"
+],
+"ECU": [
+1.806,
+"2024"
+],
+"EGY": [
+2.735,
+"2024"
+],
+"SLV": [
+1.768,
+"2024"
+],
+"GNQ": [
+4.116,
+"2024"
+],
+"ERI": [
+3.68,
+"2024"
+],
+"EST": [
+1.18,
+"2024"
+],
+"SWZ": [
+2.718,
+"2024"
+],
+"ETH": [
+3.909,
+"2024"
+],
+"FRO": [
+1.9129,
+"2024"
+],
+"FJI": [
+2.27,
+"2024"
+],
+"FIN": [
+1.25,
+"2024"
+],
+"FRA": [
+1.61,
+"2024"
+],
+"PYF": [
+1.491,
+"2024"
+],
+"GAB": [
+3.592,
+"2024"
+],
+"GMB": [
+3.907,
+"2024"
+],
+"GEO": [
+1.802,
+"2024"
+],
+"DEU": [
+1.36,
+"2024"
+],
+"GHA": [
+3.344,
+"2024"
+],
+"GIB": [
+1.885,
+"2024"
+],
+"GRC": [
+1.24,
+"2024"
+],
+"GRL": [
+1.706,
+"2024"
+],
+"GRD": [
+1.472,
+"2024"
+],
+"GUM": [
+2.748,
+"2024"
+],
+"GTM": [
+2.287,
+"2024"
+],
+"GIN": [
+4.131,
+"2024"
+],
+"GNB": [
+3.757,
+"2024"
+],
+"GUY": [
+2.395,
+"2024"
+],
+"HTI": [
+2.625,
+"2024"
+],
+"HND": [
+2.476,
+"2024"
+],
+"HKG": [
+0.841,
+"2024"
+],
+"HUN": [
+1.41,
+"2024"
+],
+"ISL": [
+1.56,
+"2024"
+],
+"IND": [
+1.962,
+"2024"
+],
+"IDN": [
+2.115,
+"2024"
+],
+"IRN": [
+1.684,
+"2024"
+],
+"IRQ": [
+3.221,
+"2024"
+],
+"IRL": [
+1.47,
+"2024"
+],
+"IMN": [
+1.544,
+"2024"
+],
+"ISR": [
+2.87,
+"2024"
+],
+"ITA": [
+1.18,
+"2024"
+],
+"JAM": [
+1.351,
+"2024"
+],
+"JPN": [
+1.15,
+"2024"
+],
+"JOR": [
+2.604,
+"2024"
+],
+"KAZ": [
+2.984,
+"2024"
+],
+"KEN": [
+3.167,
+"2024"
+],
+"KIR": [
+3.124,
+"2024"
+],
+"PRK": [
+1.784,
+"2024"
+],
+"KOR": [
+0.748,
+"2024"
+],
+"XKX": [
+1.538,
+"2024"
+],
+"KWT": [
+1.56,
+"2024"
+],
+"KGZ": [
+2.6,
+"2024"
+],
+"LAO": [
+2.397,
+"2024"
+],
+"LVA": [
+1.24,
+"2024"
+],
+"LBN": [
+2.227,
+"2024"
+],
+"LSO": [
+2.664,
+"2024"
+],
+"LBR": [
+3.864,
+"2024"
+],
+"LBY": [
+2.298,
+"2024"
+],
+"LIE": [
+1.37,
+"2024"
+],
+"LTU": [
+1.11,
+"2024"
+],
+"LUX": [
+1.25,
+"2024"
+],
+"MAC": [
+0.582,
+"2024"
+],
+"MDG": [
+3.912,
+"2024"
+],
+"MWI": [
+3.59,
+"2024"
+],
+"MYS": [
+1.543,
+"2024"
+],
+"MDV": [
+1.56,
+"2024"
+],
+"MLI": [
+5.51,
+"2024"
+],
+"MLT": [
+1.01,
+"2024"
+],
+"MHL": [
+2.864,
+"2024"
+],
+"MRT": [
+4.625,
+"2024"
+],
+"MUS": [
+1.44,
+"2024"
+],
+"MEX": [
+1.892,
+"2024"
+],
+"FSM": [
+2.743,
+"2024"
+],
+"MDA": [
+1.726,
+"2024"
+],
+"MCO": [
+2.102,
+"2024"
+],
+"MNG": [
+2.5,
+"2024"
+],
+"MNE": [
+1.8,
+"2024"
+],
+"MAR": [
+2.208,
+"2024"
+],
+"MOZ": [
+4.69,
+"2024"
+],
+"MMR": [
+2.098,
+"2024"
+],
+"NAM": [
+3.211,
+"2024"
+],
+"NRU": [
+3.29,
+"2024"
+],
+"NPL": [
+1.961,
+"2024"
+],
+"NLD": [
+1.43,
+"2024"
+],
+"NCL": [
+1.964,
+"2024"
+],
+"NZL": [
+1.57,
+"2024"
+],
+"NIC": [
+2.206,
+"2024"
+],
+"NER": [
+5.935,
+"2024"
+],
+"NGA": [
+4.382,
+"2024"
+],
+"MKD": [
+1.4,
+"2024"
+],
+"MNP": [
+2.324,
+"2024"
+],
+"NOR": [
+1.45,
+"2024"
+],
+"OMN": [
+2.508,
+"2024"
+],
+"PAK": [
+3.547,
+"2024"
+],
+"PLW": [
+1.883,
+"2024"
+],
+"PAN": [
+2.106,
+"2024"
+],
+"PNG": [
+3.072,
+"2024"
+],
+"PRY": [
+2.416,
+"2024"
+],
+"PER": [
+1.965,
+"2024"
+],
+"PHL": [
+1.894,
+"2024"
+],
+"POL": [
+1.14,
+"2024"
+],
+"PRT": [
+1.41,
+"2024"
+],
+"PRI": [
+0.92,
+"2024"
+],
+"QAT": [
+1.717,
+"2024"
+],
+"ROU": [
+1.39,
+"2024"
+],
+"RUS": [
+1.418,
+"2024"
+],
+"RWA": [
+3.645,
+"2024"
+],
+"WSM": [
+3.801,
+"2024"
+],
+"SMR": [
+1.158,
+"2024"
+],
+"STP": [
+3.596,
+"2024"
+],
+"SAU": [
+2.308,
+"2024"
+],
+"SEN": [
+3.765,
+"2024"
+],
+"SRB": [
+1.64,
+"2024"
+],
+"SYC": [
+1.85,
+"2024"
+],
+"SLE": [
+3.703,
+"2024"
+],
+"SGP": [
+0.97,
+"2024"
+],
+"SXM": [
+1.44,
+"2024"
+],
+"SVK": [
+1.46,
+"2024"
+],
+"SVN": [
+1.52,
+"2024"
+],
+"SLB": [
+3.513,
+"2024"
+],
+"SOM": [
+6.013,
+"2024"
+],
+"ZAF": [
+2.205,
+"2024"
+],
+"SSD": [
+3.785,
+"2024"
+],
+"ESP": [
+1.1,
+"2024"
+],
+"LKA": [
+1.952,
+"2024"
+],
+"KNA": [
+1.526,
+"2024"
+],
+"LCA": [
+1.385,
+"2024"
+],
+"MAF": [
+2.673,
+"2024"
+],
+"VCT": [
+1.761,
+"2024"
+],
+"SDN": [
+4.264,
+"2024"
+],
+"SUR": [
+2.231,
+"2024"
+],
+"SWE": [
+1.43,
+"2024"
+],
+"CHE": [
+1.29,
+"2024"
+],
+"SYR": [
+2.7,
+"2024"
+],
+"TJK": [
+3.036,
+"2024"
+],
+"TZA": [
+4.541,
+"2024"
+],
+"THA": [
+1.204,
+"2024"
+],
+"TLS": [
+2.627,
+"2024"
+],
+"TGO": [
+4.121673,
+"2024"
+],
+"TON": [
+3.1,
+"2024"
+],
+"TTO": [
+1.536,
+"2024"
+],
+"TUN": [
+1.818,
+"2024"
+],
+"TUR": [
+1.48,
+"2024"
+],
+"TKM": [
+2.661,
+"2024"
+],
+"TCA": [
+1.452,
+"2024"
+],
+"TUV": [
+3.174,
+"2024"
+],
+"UGA": [
+4.165,
+"2024"
+],
+"UKR": [
+0.988,
+"2024"
+],
+"ARE": [
+1.213,
+"2024"
+],
+"GBR": [
+1.551,
+"2024"
+],
+"USA": [
+1.6265,
+"2024"
+],
+"URY": [
+1.397,
+"2024"
+],
+"UZB": [
+3.486,
+"2024"
+],
+"VUT": [
+3.569,
+"2024"
+],
+"VEN": [
+2.077,
+"2024"
+],
+"VNM": [
+1.895,
+"2024"
+],
+"VIR": [
+1.97,
+"2024"
+],
+"PSE": [
+3.25,
+"2024"
+],
+"YEM": [
+4.499,
+"2024"
+],
+"ZMB": [
+4.036,
+"2024"
+],
+"ZWE": [
+3.674,
+"2024"
+]
+},
+"SP.POP.65UP.TO.ZS": {
+"AFG": [
+2.42557886023075,
+"2025"
+],
+"ALB": [
+17.6221063807332,
+"2025"
+],
+"DZA": [
+6.80593085174533,
+"2025"
+],
+"ASM": [
+8.53818829638159,
+"2025"
+],
+"AND": [
+16.5624302661496,
+"2025"
+],
+"AGO": [
+2.89492414306917,
+"2025"
+],
+"ATG": [
+12.3369971923977,
+"2025"
+],
+"ARG": [
+12.634433938217,
+"2025"
+],
+"ARM": [
+14.4428643549941,
+"2025"
+],
+"ABW": [
+17.7604660301903,
+"2025"
+],
+"AUS": [
+18.0930147394386,
+"2025"
+],
+"AUT": [
+21.094709934873,
+"2025"
+],
+"AZE": [
+9.16837192948103,
+"2025"
+],
+"BHS": [
+12.094434071694,
+"2025"
+],
+"BHR": [
+4.01595782713348,
+"2025"
+],
+"BGD": [
+6.66842350416686,
+"2025"
+],
+"BRB": [
+17.0865126219157,
+"2025"
+],
+"BLR": [
+18.2845697904208,
+"2025"
+],
+"BEL": [
+20.9608828531757,
+"2025"
+],
+"BLZ": [
+5.22800786902611,
+"2025"
+],
+"BEN": [
+3.15305462207379,
+"2025"
+],
+"BMU": [
+22.6095779535121,
+"2025"
+],
+"BTN": [
+6.62730338284496,
+"2025"
+],
+"BOL": [
+5.74004562527309,
+"2025"
+],
+"BIH": [
+22.8598779877873,
+"2025"
+],
+"BWA": [
+4.08292423233554,
+"2025"
+],
+"BRA": [
+11.4803394567154,
+"2025"
+],
+"VGB": [
+10.1077217356287,
+"2025"
+],
+"BRN": [
+7.23853575950962,
+"2025"
+],
+"BGR": [
+22.2355986271326,
+"2025"
+],
+"BFA": [
+2.68420882108847,
+"2025"
+],
+"BDI": [
+2.54810935578364,
+"2025"
+],
+"CPV": [
+7.15393054195179,
+"2025"
+],
+"KHM": [
+6.37709648006975,
+"2025"
+],
+"CMR": [
+2.81759096595751,
+"2025"
+],
+"CAN": [
+20.2603673865917,
+"2025"
+],
+"CYM": [
+9.51366959594428,
+"2025"
+],
+"CAF": [
+2.19798298001082,
+"2025"
+],
+"TCD": [
+2.11894758567596,
+"2025"
+],
+"CHI": [
+20.4143293859259,
+"2025"
+],
+"CHL": [
+14.5897458504493,
+"2025"
+],
+"CHN": [
+14.9114314271952,
+"2025"
+],
+"COL": [
+10.2001032818786,
+"2025"
+],
+"COM": [
+4.45428004270273,
+"2025"
+],
+"COD": [
+3.08388348450007,
+"2025"
+],
+"COG": [
+3.06138374079353,
+"2025"
+],
+"CRI": [
+12.7519673196907,
+"2025"
+],
+"CIV": [
+2.65345754900338,
+"2025"
+],
+"HRV": [
+23.6095692486799,
+"2025"
+],
+"CUB": [
+17.0350080804476,
+"2025"
+],
+"CUW": [
+17.3006733625537,
+"2025"
+],
+"CYP": [
+14.9323292144324,
+"2025"
+],
+"CZE": [
+21.1800713896599,
+"2025"
+],
+"DNK": [
+21.1189674580971,
+"2025"
+],
+"DJI": [
+4.97206050453666,
+"2025"
+],
+"DMA": [
+13.1984242047016,
+"2025"
+],
+"DOM": [
+8.1878526489375,
+"2025"
+],
+"ECU": [
+8.59643215029763,
+"2025"
+],
+"EGY": [
+5.27119509818337,
+"2025"
+],
+"SLV": [
+8.30913126582456,
+"2025"
+],
+"GNQ": [
+3.76410096619379,
+"2025"
+],
+"ERI": [
+4.2581056905137,
+"2025"
+],
+"EST": [
+21.8016309684638,
+"2025"
+],
+"SWZ": [
+4.34585495321508,
+"2025"
+],
+"ETH": [
+3.2957318380591,
+"2025"
+],
+"FRO": [
+17.7816665625028,
+"2025"
+],
+"FJI": [
+6.63486057239182,
+"2025"
+],
+"FIN": [
+24.2018896456272,
+"2025"
+],
+"FRA": [
+22.5418906984086,
+"2025"
+],
+"PYF": [
+11.9487370116652,
+"2025"
+],
+"GAB": [
+4.13008683137499,
+"2025"
+],
+"GMB": [
+3.18495882311462,
+"2025"
+],
+"GEO": [
+15.9913346858712,
+"2025"
+],
+"DEU": [
+23.7031981458429,
+"2025"
+],
+"GHA": [
+3.78769586621254,
+"2025"
+],
+"GIB": [
+17.8350695309774,
+"2025"
+],
+"GRC": [
+24.3998585549859,
+"2025"
+],
+"GRL": [
+11.5302854990178,
+"2025"
+],
+"GRD": [
+12.6253692345071,
+"2025"
+],
+"GUM": [
+13.0950866427809,
+"2025"
+],
+"GTM": [
+4.9632752647752,
+"2025"
+],
+"GIN": [
+3.47302636663564,
+"2025"
+],
+"GNB": [
+3.23723113648942,
+"2025"
+],
+"GUY": [
+6.98073891189565,
+"2025"
+],
+"HTI": [
+4.79172202171568,
+"2025"
+],
+"HND": [
+4.54210281541647,
+"2025"
+],
+"HKG": [
+23.667320346627,
+"2025"
+],
+"HUN": [
+21.1574623970403,
+"2025"
+],
+"ISL": [
+15.9770103398231,
+"2025"
+],
+"IND": [
+7.37657146047502,
+"2025"
+],
+"IDN": [
+7.542769252795,
+"2025"
+],
+"IRN": [
+8.58114314727287,
+"2025"
+],
+"IRQ": [
+3.44918716140232,
+"2025"
+],
+"IRL": [
+16.2081043488942,
+"2025"
+],
+"IMN": [
+23.609550812247,
+"2025"
+],
+"ISR": [
+12.6916264748788,
+"2025"
+],
+"ITA": [
+25.0981380733118,
+"2025"
+],
+"JAM": [
+8.57907476972342,
+"2025"
+],
+"JPN": [
+29.9940966737423,
+"2025"
+],
+"JOR": [
+4.75359341712725,
+"2025"
+],
+"KAZ": [
+9.00270150466414,
+"2025"
+],
+"KEN": [
+3.02095116077232,
+"2025"
+],
+"KIR": [
+4.37509387237753,
+"2025"
+],
+"PRK": [
+12.7100800151323,
+"2025"
+],
+"KOR": [
+20.3304188408974,
+"2025"
+],
+"XKX": [
+10.5099678936758,
+"2025"
+],
+"KWT": [
+3.17490130225807,
+"2025"
+],
+"KGZ": [
+5.96557151306138,
+"2025"
+],
+"LAO": [
+4.80805045518916,
+"2025"
+],
+"LVA": [
+22.1950582635891,
+"2025"
+],
+"LBN": [
+10.4430002937898,
+"2025"
+],
+"LSO": [
+3.88046584377219,
+"2025"
+],
+"LBR": [
+3.33493509045042,
+"2025"
+],
+"LBY": [
+5.19156895615632,
+"2025"
+],
+"LIE": [
+21.3753488835726,
+"2025"
+],
+"LTU": [
+20.7219454695688,
+"2025"
+],
+"LUX": [
+15.8123957037476,
+"2025"
+],
+"MAC": [
+15.0947982498785,
+"2025"
+],
+"MDG": [
+3.47289998087395,
+"2025"
+],
+"MWI": [
+2.58857988227872,
+"2025"
+],
+"MYS": [
+8.03318142685505,
+"2025"
+],
+"MDV": [
+4.95821974187994,
+"2025"
+],
+"MLI": [
+2.36307876540972,
+"2025"
+],
+"MLT": [
+20.5407907884966,
+"2025"
+],
+"MHL": [
+4.87569593737942,
+"2025"
+],
+"MRT": [
+3.24673388253332,
+"2025"
+],
+"MUS": [
+14.1145544022434,
+"2025"
+],
+"MEX": [
+8.52143438004228,
+"2025"
+],
+"FSM": [
+6.18298250398037,
+"2025"
+],
+"MDA": [
+16.8576673952236,
+"2025"
+],
+"MCO": [
+36.0110586578337,
+"2025"
+],
+"MNG": [
+5.43106536635296,
+"2025"
+],
+"MNE": [
+18.2940089675043,
+"2025"
+],
+"MAR": [
+8.45030687649506,
+"2025"
+],
+"MOZ": [
+2.73388102426795,
+"2025"
+],
+"MMR": [
+7.52222015681565,
+"2025"
+],
+"NAM": [
+3.79304753450455,
+"2025"
+],
+"NRU": [
+3.01026984324976,
+"2025"
+],
+"NPL": [
+6.62418872502616,
+"2025"
+],
+"NLD": [
+20.8687702211484,
+"2025"
+],
+"NCL": [
+11.7777220967518,
+"2025"
+],
+"NZL": [
+17.6093066526984,
+"2025"
+],
+"NIC": [
+5.69755099606108,
+"2025"
+],
+"NER": [
+2.61799886961133,
+"2025"
+],
+"NGA": [
+3.06953631021894,
+"2025"
+],
+"MKD": [
+18.5237163487965,
+"2025"
+],
+"MNP": [
+10.7888058244623,
+"2025"
+],
+"NOR": [
+19.080223244558,
+"2025"
+],
+"OMN": [
+2.6870391801832,
+"2025"
+],
+"PAK": [
+4.36186248416949,
+"2025"
+],
+"PLW": [
+11.8329794762916,
+"2025"
+],
+"PAN": [
+9.65704983976816,
+"2025"
+],
+"PNG": [
+3.58807085542753,
+"2025"
+],
+"PRY": [
+6.71858395975233,
+"2025"
+],
+"PER": [
+9.46656075708863,
+"2025"
+],
+"PHL": [
+5.72400622201301,
+"2025"
+],
+"POL": [
+20.75382733073,
+"2025"
+],
+"PRT": [
+24.9426193763087,
+"2025"
+],
+"PRI": [
+25.2728697076413,
+"2025"
+],
+"QAT": [
+1.70081503237359,
+"2025"
+],
+"ROU": [
+20.1384043774039,
+"2025"
+],
+"RUS": [
+17.7917873832619,
+"2025"
+],
+"RWA": [
+4.02416636497719,
+"2025"
+],
+"WSM": [
+6.06890356646976,
+"2025"
+],
+"SMR": [
+23.1484101571226,
+"2025"
+],
+"STP": [
+3.94457532444829,
+"2025"
+],
+"SAU": [
+3.05678115419144,
+"2025"
+],
+"SEN": [
+3.64616639269883,
+"2025"
+],
+"SRB": [
+23.050411277315,
+"2025"
+],
+"SYC": [
+8.74539176146741,
+"2025"
+],
+"SLE": [
+3.28364812148674,
+"2025"
+],
+"SGP": [
+14.2110377720053,
+"2025"
+],
+"SXM": [
+14.4798852537395,
+"2025"
+],
+"SVK": [
+19.0363041680723,
+"2025"
+],
+"SVN": [
+22.2111482273631,
+"2025"
+],
+"SLB": [
+3.66871341943646,
+"2025"
+],
+"SOM": [
+2.61747052453864,
+"2025"
+],
+"ZAF": [
+6.88503097027824,
+"2025"
+],
+"SSD": [
+3.07528935608692,
+"2025"
+],
+"ESP": [
+21.64208099744,
+"2025"
+],
+"LKA": [
+12.4747139630238,
+"2025"
+],
+"KNA": [
+11.720639791993,
+"2025"
+],
+"LCA": [
+9.963696717717,
+"2025"
+],
+"MAF": [
+19.6547783725266,
+"2025"
+],
+"VCT": [
+12.2502489379482,
+"2025"
+],
+"SDN": [
+3.38701560944597,
+"2025"
+],
+"SUR": [
+8.19129483472689,
+"2025"
+],
+"SWE": [
+20.9127967529707,
+"2025"
+],
+"CHE": [
+20.4321204316855,
+"2025"
+],
+"SYR": [
+4.83918173649451,
+"2025"
+],
+"TJK": [
+4.06783017305471,
+"2025"
+],
+"TZA": [
+3.04176368097549,
+"2025"
+],
+"THA": [
+16.017421033045,
+"2025"
+],
+"TLS": [
+5.22929748839898,
+"2025"
+],
+"TGO": [
+3.4768505984781,
+"2025"
+],
+"TON": [
+6.85064872472094,
+"2025"
+],
+"TTO": [
+12.9254775320864,
+"2025"
+],
+"TUN": [
+9.9376502855836,
+"2025"
+],
+"TUR": [
+10.5709408311479,
+"2025"
+],
+"TKM": [
+4.80778752954433,
+"2025"
+],
+"TCA": [
+11.6787074880748,
+"2025"
+],
+"TUV": [
+7.04277286135693,
+"2025"
+],
+"UGA": [
+2.22850221312123,
+"2025"
+],
+"UKR": [
+18.9717382539904,
+"2025"
+],
+"ARE": [
+1.79231447206064,
+"2025"
+],
+"GBR": [
+19.7026932546935,
+"2025"
+],
+"USA": [
+18.387224828496,
+"2025"
+],
+"URY": [
+16.2818995428825,
+"2025"
+],
+"UZB": [
+6.06931428854572,
+"2025"
+],
+"VUT": [
+4.3788357515164,
+"2025"
+],
+"VEN": [
+10.0182554931645,
+"2025"
+],
+"VNM": [
+9.49453578200007,
+"2025"
+],
+"VIR": [
+23.1237780564189,
+"2025"
+],
+"PSE": [
+3.85167300191802,
+"2025"
+],
+"YEM": [
+2.54534547337627,
+"2025"
+],
+"ZMB": [
+2.00005028777659,
+"2025"
+],
+"ZWE": [
+3.56147602516578,
+"2025"
+]
+},
+"IS.AIR.PSGR": {
+"AFG": [
+1031379,
+"2023"
+],
+"ALB": [
+374800,
+"2023"
+],
+"DZA": [
+7160662.35,
+"2023"
+],
+"ASM": [
+76944,
+"2014"
+],
+"AGO": [
+1321412,
+"2023"
+],
+"ATG": [
+35515.2,
+"2022"
+],
+"ARG": [
+21057811,
+"2023"
+],
+"ARM": [
+1311506,
+"2023"
+],
+"ABW": [
+274280,
+"2018"
+],
+"AUS": [
+68958577,
+"2023"
+],
+"AUT": [
+46040215,
+"2023"
+],
+"AZE": [
+2581841,
+"2023"
+],
+"BHS": [
+1465432.189,
+"2023"
+],
+"BHR": [
+5734420,
+"2023"
+],
+"BGD": [
+6628497,
+"2023"
+],
+"BRB": [
+0,
+"1991"
+],
+"BLR": [
+1322490,
+"2023"
+],
+"BEL": [
+11390665.4189623,
+"2023"
+],
+"BLZ": [
+776197.788,
+"2023"
+],
+"BEN": [
+899,
+"2016"
+],
+"BTN": [
+189878,
+"2023"
+],
+"BOL": [
+5601302.305,
+"2023"
+],
+"BIH": [
+1593,
+"2020"
+],
+"BWA": [
+172720,
+"2023"
+],
+"BRA": [
+95398485,
+"2023"
+],
+"BRN": [
+820886,
+"2023"
+],
+"BGR": [
+723825,
+"2023"
+],
+"BFA": [
+103592,
+"2023"
+],
+"BDI": [
+12000,
+"1998"
+],
+"CPV": [
+71784.4,
+"2023"
+],
+"KHM": [
+675283,
+"2023"
+],
+"CMR": [
+331025,
+"2023"
+],
+"CAN": [
+88618000,
+"2023"
+],
+"CAF": [
+46364,
+"2001"
+],
+"TCD": [
+28332,
+"2014"
+],
+"CHL": [
+21323388,
+"2023"
+],
+"CHN": [
+619215886,
+"2023"
+],
+"COL": [
+42399044,
+"2023"
+],
+"COM": [
+27300,
+"1996"
+],
+"COD": [
+1150169.673,
+"2023"
+],
+"COG": [
+147084,
+"2023"
+],
+"CRI": [
+1971057,
+"2023"
+],
+"CIV": [
+716233,
+"2023"
+],
+"HRV": [
+1670012,
+"2023"
+],
+"CUB": [
+136998,
+"2023"
+],
+"CYP": [
+724062,
+"2023"
+],
+"CZE": [
+2175763.454,
+"2023"
+],
+"DNK": [
+6428701,
+"2004"
+],
+"DJI": [
+130500,
+"1991"
+],
+"DOM": [
+996238,
+"2023"
+],
+"ECU": [
+4567423,
+"2023"
+],
+"EGY": [
+16672111.302,
+"2023"
+],
+"SLV": [
+3263923,
+"2023"
+],
+"GNQ": [
+118426.998,
+"2023"
+],
+"ERI": [
+45104.031,
+"2020"
+],
+"EST": [
+857,
+"2019"
+],
+"SWZ": [
+34663.2,
+"2023"
+],
+"ETH": [
+15273254,
+"2023"
+],
+"FJI": [
+2154560,
+"2023"
+],
+"FIN": [
+10794518,
+"2023"
+],
+"FRA": [
+64644716,
+"2023"
+],
+"GAB": [
+77320,
+"2016"
+],
+"GMB": [
+109542.145080475,
+"2019"
+],
+"GEO": [
+320810,
+"2023"
+],
+"DEU": [
+80199572,
+"2023"
+],
+"GHA": [
+440680,
+"2023"
+],
+"GRC": [
+19090513,
+"2023"
+],
+"GUM": [
+1172372,
+"2009"
+],
+"GTM": [
+221478,
+"2023"
+],
+"GIN": [
+58500,
+"1999"
+],
+"GNB": [
+20400,
+"1998"
+],
+"GUY": [
+7512,
+"2021"
+],
+"HTI": [
+74542,
+"2023"
+],
+"HND": [
+428443,
+"2023"
+],
+"HKG": [
+25704485,
+"2023"
+],
+"HUN": [
+55613579,
+"2023"
+],
+"ISL": [
+4342330.8,
+"2023"
+],
+"IND": [
+180415784.228,
+"2023"
+],
+"IDN": [
+97045784.754,
+"2023"
+],
+"IRN": [
+18067403,
+"2023"
+],
+"IRQ": [
+3756178,
+"2023"
+],
+"IRL": [
+192528432,
+"2023"
+],
+"ISR": [
+7377778,
+"2023"
+],
+"ITA": [
+20264734,
+"2023"
+],
+"JAM": [
+180951.272,
+"2018"
+],
+"JPN": [
+120305972,
+"2023"
+],
+"JOR": [
+3731345,
+"2023"
+],
+"KAZ": [
+11884241.039,
+"2023"
+],
+"KEN": [
+5138290,
+"2023"
+],
+"KIR": [
+58879.1,
+"2023"
+],
+"PRK": [
+3690,
+"2023"
+],
+"KOR": [
+76272453.877,
+"2023"
+],
+"KWT": [
+9499895,
+"2023"
+],
+"KGZ": [
+804478.2,
+"2023"
+],
+"LAO": [
+842280.306,
+"2023"
+],
+"LVA": [
+4475904,
+"2023"
+],
+"LBN": [
+2693218,
+"2023"
+],
+"LSO": [
+1300,
+"1999"
+],
+"LBR": [
+32000,
+"1992"
+],
+"LBY": [
+1094579.418,
+"2023"
+],
+"LTU": [
+29256,
+"2022"
+],
+"LUX": [
+2457682.909,
+"2023"
+],
+"MAC": [
+2053176,
+"2023"
+],
+"MDG": [
+313313,
+"2023"
+],
+"MWI": [
+3506.999,
+"2023"
+],
+"MYS": [
+46698381,
+"2023"
+],
+"MDV": [
+1414193.945,
+"2023"
+],
+"MLI": [
+0,
+"2014"
+],
+"MLT": [
+2387400.4,
+"2023"
+],
+"MHL": [
+29502.164,
+"2023"
+],
+"MRT": [
+328992,
+"2023"
+],
+"MUS": [
+1504656,
+"2023"
+],
+"MEX": [
+78763320,
+"2023"
+],
+"MDA": [
+827604.333,
+"2023"
+],
+"MCO": [
+316,
+"2019"
+],
+"MNG": [
+773702,
+"2023"
+],
+"MNE": [
+379068,
+"2023"
+],
+"MAR": [
+9354197,
+"2023"
+],
+"MOZ": [
+680108,
+"2023"
+],
+"MMR": [
+3541244,
+"2023"
+],
+"NAM": [
+60304,
+"2023"
+],
+"NRU": [
+39104,
+"2023"
+],
+"NPL": [
+4289298,
+"2023"
+],
+"NLD": [
+41436802.2,
+"2023"
+],
+"NZL": [
+15033154.913,
+"2023"
+],
+"NIC": [
+61031,
+"2000"
+],
+"NER": [
+5775,
+"2023"
+],
+"NGA": [
+5269403.776,
+"2023"
+],
+"MKD": [
+86868,
+"2009"
+],
+"NOR": [
+12277222,
+"2004"
+],
+"OMN": [
+8697025,
+"2023"
+],
+"PAK": [
+7153419,
+"2023"
+],
+"PAN": [
+15750293,
+"2023"
+],
+"PNG": [
+1547502,
+"2023"
+],
+"PRY": [
+407865,
+"2023"
+],
+"PER": [
+17717402.523,
+"2023"
+],
+"PHL": [
+41501834,
+"2023"
+],
+"POL": [
+8782362,
+"2023"
+],
+"PRT": [
+18288977,
+"2023"
+],
+"QAT": [
+37714348.363,
+"2023"
+],
+"ROU": [
+2806654.333,
+"2023"
+],
+"RUS": [
+98872628,
+"2023"
+],
+"RWA": [
+1537007.678,
+"2023"
+],
+"WSM": [
+42120,
+"2023"
+],
+"STP": [
+38767,
+"2023"
+],
+"SAU": [
+47979994,
+"2023"
+],
+"SEN": [
+1070960.665,
+"2023"
+],
+"SRB": [
+3868570,
+"2023"
+],
+"SYC": [
+236917,
+"2023"
+],
+"SLE": [
+50193,
+"2012"
+],
+"SGP": [
+47502833.593,
+"2023"
+],
+"SVK": [
+1925.454,
+"2022"
+],
+"SVN": [
+1866,
+"2022"
+],
+"SLB": [
+157418.179,
+"2023"
+],
+"SOM": [
+34065.5568461863,
+"2019"
+],
+"ZAF": [
+15454595.699,
+"2023"
+],
+"ESP": [
+94101520.461,
+"2023"
+],
+"LKA": [
+3866001,
+"2023"
+],
+"SDN": [
+911089.799,
+"2023"
+],
+"SUR": [
+149672,
+"2023"
+],
+"SWE": [
+19554551,
+"2023"
+],
+"CHE": [
+27725233.09,
+"2023"
+],
+"SYR": [
+610744.721,
+"2023"
+],
+"TJK": [
+690677.377,
+"2023"
+],
+"TZA": [
+1911063,
+"2023"
+],
+"THA": [
+51920692,
+"2023"
+],
+"TGO": [
+2175165.332,
+"2023"
+],
+"TON": [
+75416,
+"2004"
+],
+"TTO": [
+2028649,
+"2023"
+],
+"TUN": [
+4110265,
+"2023"
+],
+"TUR": [
+125940241,
+"2023"
+],
+"TKM": [
+1078118.391,
+"2023"
+],
+"UGA": [
+21650.2,
+"2023"
+],
+"UKR": [
+452343.767,
+"2022"
+],
+"ARE": [
+91062293,
+"2023"
+],
+"GBR": [
+118945920,
+"2023"
+],
+"USA": [
+941557000,
+"2023"
+],
+"URY": [
+563632,
+"2009"
+],
+"UZB": [
+4849939,
+"2023"
+],
+"VUT": [
+359289.984,
+"2023"
+],
+"VEN": [
+1783667,
+"2023"
+],
+"VNM": [
+55114832,
+"2023"
+],
+"YEM": [
+618613.038,
+"2023"
+],
+"ZMB": [
+321738.797,
+"2023"
+],
+"ZWE": [
+92494.376,
+"2023"
+]
+}
+}
+}
