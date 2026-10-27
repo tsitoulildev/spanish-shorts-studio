@@ -1,0 +1,3 @@
+project number: 447564865103
+scopes: https://www.googleapis.com/auth/youtube.upload
+channel: not readable with these scopes ( HTTP Error 403: Forbidden )
