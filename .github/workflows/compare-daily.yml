@@ -1,11 +1,8 @@
 name: Country comparison Shorts (3 per day)
+# Started 3 times a day by a scheduled task (GitHub's own cron proved unreliable; every start uploads the next pair, so only one starter).
 # One Short per run: pick the slot's pair, synthesise the Spanish voice lines, render, upload to the channel (YT_* secrets), record it.
 # A push to the branch cmp-preview only renders samples and stores them on the branch cmp-previews (no upload).
 on:
-  schedule:
-    - cron: "10 7 * * *"
-    - cron: "10 13 * * *"
-    - cron: "10 18 * * *"
   workflow_dispatch:
     inputs:
       pair: { description: "Optional pair override, e.g. 'ESP MEX' (empty = next from the research ranking)", default: "" }
